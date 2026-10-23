@@ -1,0 +1,22 @@
+files: 3206  bytes: 55.1 MB
+  largest: 2.4 MB  bitcoin-core/src/secp256k1/src/precomputed_ecmult.c
+  largest: 1.6 MB  bitcoin-core/src/node/data/ip_asn.dat
+  largest: 1.0 MB  bitcoin-core/src/bench/data/block413567.raw
+branch main: base commit f4befe6697b4 tree 3a4ccd7050f6
+  blobs 250/3206 (250 cached)
+  blobs 500/3206 (500 cached)
+  blobs 750/3206 (750 cached)
+  blobs 1000/3206 (1000 cached)
+  blobs 1250/3206 (1250 cached)
+  blobs 1500/3206 (1500 cached)
+  blobs 1750/3206 (1750 cached)
+  blobs 2000/3206 (2000 cached)
+  blobs 2250/3206 (2250 cached)
+  blobs 2500/3206 (2500 cached)
+  blobs 2750/3206 (2750 cached)
+  blobs 3000/3206 (3000 cached)
+blobs done: 3206 (3201 from cache)
+tree: b75dca6ad67b (built from 236 directory trees)
+commit: a861c6b0c53a
+ref updated -> https://github.com/muteebdeva/treeneesu/tree/main
+PUSH_EXIT:0

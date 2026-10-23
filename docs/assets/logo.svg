@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 96" width="460" height="96" role="img" aria-label="Treeneesu">
+  <!-- Treeneesu horizontal lockup: mark + wordmark. For dark backgrounds. -->
+  <rect x="2" y="2" width="92" height="92" rx="18" fill="#0d1319"/>
+  <g fill="#10b981">
+    <rect x="16" y="16" width="18" height="18" rx="3"/>
+    <rect x="39" y="16" width="18" height="18" rx="3"/>
+    <rect x="62" y="16" width="18" height="18" rx="3" fill="#34d399"/>
+    <rect x="39" y="39" width="18" height="18" rx="3" fill="#0e9f6e"/>
+    <rect x="39" y="62" width="18" height="18" rx="3" fill="#0b7a55"/>
+  </g>
+  <g stroke="#34d399" stroke-width="2" opacity="0.55">
+    <line x1="34" y1="25" x2="39" y2="25"/>
+    <line x1="57" y1="25" x2="62" y2="25"/>
+    <line x1="48" y1="34" x2="48" y2="39"/>
+    <line x1="48" y1="57" x2="48" y2="62"/>
+  </g>
+  <text x="112" y="52" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="34" font-weight="700" letter-spacing="4" fill="#e6edf3">TREENEESU</text>
+  <text x="114" y="76" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" letter-spacing="2.6" fill="#8b98a5">PROOF-OF-WORK BLOCKCHAIN · TNSU</text>
+</svg>
