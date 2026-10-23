@@ -97,9 +97,9 @@
   },
   "readiness_phase_2026_10_23": {
     "ubsan_full_f05": "COMPLETE 2026-10-24 - full unit suite under UBSan on the F-05 tree, exit 0, all suites passed (logs/ubsan-full-f05.log). Exactly ONE runtime report: src/streams.cpp:99 AutoFile::write passing an empty span's null data pointer to std::fwrite, raised in net_tests/initial_advertise_from_version_message (suite still 19/19 passed; halt_on_error=false as configured). Triage: streams.cpp is byte-identical to upstream v32.0 (not in the Treeneesu production diff); a size-0 fwrite reads/writes nothing; classified benign upstream behaviour - recorded here, not suppressed.",
-    "asan_full_f05": "IN PROGRESS - F-05 build exit 0; full suite executing (logs/asan-full-f05.log).",
+    "asan_full_f05": "COMPLETE 2026-10-24 - full unit suite under AddressSanitizer on the F-05 tree, exit 0, test module passed, ZERO AddressSanitizer errors (logs/asan-full-f05.log; ASAN_OPTIONS=detect_leaks=0 as disclosed for the subset runs).",
     "f03_min_chain_work_tool": "LIVE-TESTED - bug found and fixed during the test (getblockhash returns a bare hash, not JSON); derivation verified by hand: anchor height 17 chainwork 0x9000480 == 18 blocks x 0x800040 (logs/f03-minchainwork-test.log).",
     "f05_isolation": "DONE - source commit 2ecd619; unit 151/152 + contention-flake suite re-passed standalone; functional subset re-run ALL PASSED.",
-    "retarget_soak": "IN PROGRESS - grind ~2200/8070 blocks at this snapshot (retarget-test/blocks.txt)."
+    "retarget_soak": "IN PROGRESS - grind 3229/8070 blocks at this snapshot (retarget-test/blocks.txt); assertion phase runs on completion."
   }
 }
