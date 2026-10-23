@@ -231,11 +231,11 @@ public:
         consensus.nMinimumChainWork = uint256{"0000000000000000000000000000000000000000000017f49f702147f10c0eb6"};
         consensus.defaultAssumeValid = uint256{"00000000b318a3703d14a844c55ef507f4c2fc8f8766e24271fd43c180c51637"}; // 5128859
 
-        pchMessageStart[0] = 0x0b;
-        pchMessageStart[1] = 0x11;
-        pchMessageStart[2] = 0x09;
-        pchMessageStart[3] = 0x07;
-        nDefaultPort = 18333;
+        pchMessageStart[0] = 0xb7; // Treeneesu F-05 isolation (2026-10-23): network identity separated from Bitcoin; chain parameters below remain inherited upstream values in an UNSUPPORTED legacy class (see BLOCKERS.md B2/F-05).
+        pchMessageStart[1] = 0x4e;
+        pchMessageStart[2] = 0x6c;
+        pchMessageStart[3] = 0xa1;
+        nDefaultPort = 39333;
         nPruneAfterHeight = 1000;
         m_assumed_blockchain_size = 245;
         m_assumed_chain_state_size = 19;
@@ -247,11 +247,9 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        // nodes with support for servicebits filtering should be at the top
-        vSeeds.emplace_back("testnet-seed.bitcoin.jonasschnelli.ch.");
-        vSeeds.emplace_back("seed.tbtc.petertodd.net.");
-        vSeeds.emplace_back("testnet-seed.bluematt.me."); // Just a static list of stable node(s), only supports x9
-        vSeeds.emplace_back("seed.testnet.achownodes.xyz."); // Ava Chow, only supports x1, x5, x9, x49, x809, x849, xd, x400, x404, x408, x448, xc08, xc48, x40c
+        // Treeneesu F-05: Bitcoin testnet DNS seeds deleted (same policy as main:
+        // no seeds; peers are introduced explicitly). This binary must never
+        // join Bitcoin's testnet.
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,111);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,196);
@@ -261,7 +259,7 @@ public:
 
         bech32_hrp = "tb";
 
-        vFixedSeeds = std::vector<uint8_t>(std::begin(chainparams_seed_test), std::end(chainparams_seed_test));
+        // Treeneesu F-05: Bitcoin fixed seeds deleted (vFixedSeeds stays empty).
 
         fDefaultConsistencyChecks = false;
         m_is_mockable_chain = false;
@@ -338,11 +336,11 @@ public:
         consensus.nMinimumChainWork = uint256{"000000000000000000000000000000000000000000000e346a558455ade8eca9"};
         consensus.defaultAssumeValid = uint256{"0000000021df65b91665a342e26ceb05e54826ad7d8fcd40316230058fa3b865"}; // 151604
 
-        pchMessageStart[0] = 0x1c;
-        pchMessageStart[1] = 0x16;
-        pchMessageStart[2] = 0x3f;
-        pchMessageStart[3] = 0x28;
-        nDefaultPort = 48333;
+        pchMessageStart[0] = 0xc7; // Treeneesu F-05 isolation (2026-10-23): network identity separated from Bitcoin; chain parameters below remain inherited upstream values in an UNSUPPORTED legacy class (see BLOCKERS.md B2/F-05).
+        pchMessageStart[1] = 0x5e;
+        pchMessageStart[2] = 0x7c;
+        pchMessageStart[3] = 0xb1;
+        nDefaultPort = 49333;
         nPruneAfterHeight = 1000;
         m_assumed_blockchain_size = 31;
         m_assumed_chain_state_size = 2;
@@ -362,9 +360,7 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        // nodes with support for servicebits filtering should be at the top
-        vSeeds.emplace_back("seed.testnet4.bitcoin.sprovoost.nl."); // Sjors Provoost
-        vSeeds.emplace_back("seed.testnet4.wiz.biz."); // Jason Maurice
+        // Treeneesu F-05: Bitcoin testnet4 DNS seeds deleted (no seeds; explicit peers only).
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,111);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,196);
@@ -374,7 +370,7 @@ public:
 
         bech32_hrp = "tb";
 
-        vFixedSeeds = std::vector<uint8_t>(std::begin(chainparams_seed_testnet4), std::end(chainparams_seed_testnet4));
+        // Treeneesu F-05: Bitcoin fixed seeds deleted (vFixedSeeds stays empty).
 
         fDefaultConsistencyChecks = false;
         m_is_mockable_chain = false;
@@ -428,9 +424,11 @@ public:
 
         if (!options.challenge) {
             bin = "512103ad5e0edad18cb1f0fc0d28a3d4f1f3e445640337489abb10404f2d1e086be430210359ef5021964fe22d6f8e05b2463c9540ce96883fe3b278760f048f5189f2e6c452ae"_hex_v_u8;
-            vFixedSeeds = std::vector<uint8_t>(std::begin(chainparams_seed_signet), std::end(chainparams_seed_signet));
-            vSeeds.emplace_back("seed.signet.bitcoin.sprovoost.nl.");
-            vSeeds.emplace_back("seed.signet.achownodes.xyz."); // Ava Chow, only supports x1, x5, x9, x49, x809, x849, xd, x400, x404, x408, x448, xc08, xc48, x40c
+            // Treeneesu F-05: Bitcoin signet fixed + DNS seeds deleted. With no
+            // -signetseednode and no seeds, a default signet instance has no
+            // Bitcoin network to join. The signet magic stays derived from the
+            // challenge (upstream design); the default challenge is inherited
+            // and this class is UNSUPPORTED legacy (BLOCKERS.md B2/F-05).
 
             consensus.nMinimumChainWork = uint256{"00000000000000000000000000000000000000000000000000001090e9dc1520"};
             consensus.defaultAssumeValid = uint256{"00000002a5e0ba0498f1e9f4591af0b66b63c654665efe65206fd0ae7bbaf923"}; // 321295
@@ -492,7 +490,7 @@ public:
         uint256 hash = h.GetHash();
         std::copy_n(hash.begin(), 4, pchMessageStart.begin());
 
-        nDefaultPort = 38333;
+        nDefaultPort = 39433; // Treeneesu F-05 isolation port
         nPruneAfterHeight = 1000;
 
         genesis = CreateGenesisBlock(1598918400, 52613770, 0x1e0377ae, 1, 50 * COIN);
@@ -577,11 +575,11 @@ public:
         consensus.nMinimumChainWork = uint256{};
         consensus.defaultAssumeValid = uint256{};
 
-        pchMessageStart[0] = 0xfa;
-        pchMessageStart[1] = 0xbf;
-        pchMessageStart[2] = 0xb5;
-        pchMessageStart[3] = 0xda;
-        nDefaultPort = 18444;
+        pchMessageStart[0] = 0xe7; // Treeneesu F-05 isolation: regtest magic separated from Bitcoin regtest (framework copy: test_framework/messages.py MAGIC_BYTES)
+        pchMessageStart[1] = 0x7e;
+        pchMessageStart[2] = 0x9c;
+        pchMessageStart[3] = 0xd1;
+        nDefaultPort = 39555;
         nPruneAfterHeight = opts.fastprune ? 100 : 1000;
         m_assumed_blockchain_size = 0;
         m_assumed_chain_state_size = 0;

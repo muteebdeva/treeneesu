@@ -1,0 +1,167 @@
+[  0%] Generating bitcoin-build-info.h
+[  2%] Built target bitcoin_consensus
+[  3%] Built target univalue
+[  2%] Built target generate_build_info
+[  3%] Built target secp256k1_precomputed
+[  7%] Built target bitcoin_crypto
+[  8%] Built target crc32c
+[ 13%] Built target bitcoin_util
+[ 17%] Built target minisketch
+[ 23%] Built target leveldb
+[ 23%] Built target bitcoin_ipc
+[ 23%] Built target bitcoin_cli
+[ 23%] Generating test/round7.json.h
+[ 23%] Generating test/fail1.json.h
+[ 23%] Generating test/fail10.json.h
+[ 24%] Generating test/fail11.json.h
+[ 24%] Generating test/fail12.json.h
+[ 41%] Built target bitcoin_node
+[ 41%] Generating test/fail13.json.h
+[ 41%] Building CXX object src/univalue/CMakeFiles/object.dir/test/object.cpp.o
+[ 41%] Generating test/fail14.json.h
+[ 41%] Generating test/fail15.json.h
+[ 41%] Generating test/fail16.json.h
+[ 42%] Generating test/fail17.json.h
+[ 42%] Generating test/fail18.json.h
+[ 42%] Generating test/fail19.json.h
+[ 42%] Generating test/fail2.json.h
+[ 42%] Generating test/fail20.json.h
+[ 42%] Generating test/fail21.json.h
+[ 43%] Generating test/fail22.json.h
+[ 43%] Generating test/fail23.json.h
+[ 43%] Generating test/fail24.json.h
+[ 43%] Generating test/fail25.json.h
+[ 43%] Generating test/fail26.json.h
+[ 43%] Generating test/fail27.json.h
+[ 44%] Generating test/fail28.json.h
+[ 44%] Generating test/fail29.json.h
+[ 44%] Generating test/fail3.json.h
+[ 44%] Generating test/fail30.json.h
+[ 44%] Generating test/fail31.json.h
+[ 44%] Generating test/fail32.json.h
+[ 45%] Generating test/fail33.json.h
+[ 45%] Generating test/fail34.json.h
+[ 45%] Generating test/fail35.json.h
+[ 45%] Generating test/fail36.json.h
+[ 45%] Generating test/fail37.json.h
+[ 45%] Generating test/fail38.json.h
+[ 46%] Generating test/fail39.json.h
+[ 46%] Generating test/fail4.json.h
+[ 46%] Generating test/fail40.json.h
+[ 46%] Generating test/fail41.json.h
+[ 46%] Generating test/fail42.json.h
+[ 46%] Generating test/fail44.json.h
+[ 47%] Generating test/fail45.json.h
+[ 47%] Generating test/fail5.json.h
+[ 47%] Generating test/fail6.json.h
+[ 47%] Generating test/fail7.json.h
+[ 47%] Generating test/fail8.json.h
+[ 47%] Generating test/fail9.json.h
+[ 48%] Generating test/pass1.json.h
+[ 48%] Generating test/pass2.json.h
+[ 48%] Generating test/pass3.json.h
+[ 48%] Generating test/pass4.json.h
+[ 48%] Generating test/round1.json.h
+[ 48%] Generating test/round2.json.h
+[ 49%] Generating test/round3.json.h
+[ 49%] Generating test/round4.json.h
+[ 49%] Generating test/round5.json.h
+[ 49%] Generating test/round6.json.h
+[ 49%] Building CXX object src/univalue/CMakeFiles/unitester.dir/test/unitester.cpp.o
+[ 49%] Linking CXX executable object
+[ 50%] Linking CXX executable unitester
+[ 50%] Built target unitester
+[ 50%] Built target object
+[ 50%] Building C object src/secp256k1/src/CMakeFiles/noverify_tests.dir/tests.c.o
+[ 50%] Building C object src/secp256k1/src/CMakeFiles/tests.dir/tests.c.o
+[ 50%] Linking C executable ../bin/tests
+[ 50%] Built target tests
+[ 50%] Building C object src/secp256k1/src/CMakeFiles/exhaustive_tests.dir/tests_exhaustive.c.o
+[ 50%] Linking C executable ../bin/noverify_tests
+[ 50%] Built target noverify_tests
+[ 53%] Built target test_util
+[ 53%] Building CXX object src/CMakeFiles/bitcoin_clientversion.dir/clientversion.cpp.o
+[ 54%] Linking CXX static library ../lib/libbitcoin_clientversion.a
+[ 54%] Built target bitcoin_clientversion
+[ 54%] Linking C executable ../bin/exhaustive_tests
+[ 59%] Built target bitcoin_wallet
+[ 59%] Built target exhaustive_tests
+[ 60%] Built target secp256k1
+[ 61%] Building CXX object src/CMakeFiles/bitcoin_common.dir/chainparamsbase.cpp.o
+[ 61%] Building CXX object src/CMakeFiles/bitcoin_common.dir/kernel/chainparams.cpp.o
+/home/hatch/workspace/treeneesu/bitcoin-core/src/chainparamsbase.cpp: In function 'std::unique_ptr<CBaseChainParams> CreateBaseChainParams(ChainType)':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/chainparamsbase.cpp:46:69: error: expected ';' before 'case'
+   46 |         return std::make_unique<CBaseChainParams>("testnet3", 39332) // Treeneesu F-05 isolation RPC port;
+      |                                                                     ^
+      |                                                                     ;
+   47 |     case ChainType::TESTNET4:
+      |     ~~~~                                                             
+/home/hatch/workspace/treeneesu/bitcoin-core/src/chainparamsbase.cpp:48:69: error: expected ';' before 'case'
+   48 |         return std::make_unique<CBaseChainParams>("testnet4", 49332) // Treeneesu F-05 isolation RPC port;
+      |                                                                     ^
+      |                                                                     ;
+   49 |     case ChainType::SIGNET:
+      |     ~~~~                                                             
+/home/hatch/workspace/treeneesu/bitcoin-core/src/chainparamsbase.cpp:50:67: error: expected ';' before 'case'
+   50 |         return std::make_unique<CBaseChainParams>("signet", 39432) // Treeneesu F-05 isolation RPC port;
+      |                                                                   ^
+      |                                                                   ;
+   51 |     case ChainType::REGTEST:
+      |     ~~~~                                                           
+/home/hatch/workspace/treeneesu/bitcoin-core/src/chainparamsbase.cpp:52:68: error: expected ';' before '}' token
+   52 |         return std::make_unique<CBaseChainParams>("regtest", 39554) // Treeneesu F-05 isolation RPC port;
+      |                                                                    ^
+      |                                                                    ;
+   53 |     }
+      |     ~                                                               
+gmake[2]: *** [src/CMakeFiles/bitcoin_common.dir/build.make:146: src/CMakeFiles/bitcoin_common.dir/chainparamsbase.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:558: src/CMakeFiles/bitcoin_common.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
+F05_BUILD_EXIT:2
+[  0%] Generating bitcoin-build-info.h
+[  2%] Built target bitcoin_consensus
+[  3%] Built target univalue
+[  3%] Built target generate_build_info
+[  3%] Built target secp256k1_precomputed
+[  7%] Built target bitcoin_crypto
+[ 12%] Built target bitcoin_util
+[ 13%] Built target crc32c
+[ 19%] Built target leveldb
+[ 23%] Built target minisketch
+[ 23%] Built target bitcoin_ipc
+[ 23%] Built target bitcoin_cli
+[ 33%] Built target unitester
+[ 33%] Built target object
+[ 50%] Built target bitcoin_node
+[ 50%] Built target tests
+[ 50%] Built target noverify_tests
+[ 50%] Built target exhaustive_tests
+[ 53%] Built target test_util
+[ 54%] Built target bitcoin_clientversion
+[ 59%] Built target bitcoin_wallet
+[ 60%] Built target secp256k1
+[ 61%] Building CXX object src/CMakeFiles/bitcoin_common.dir/chainparamsbase.cpp.o
+[ 61%] Linking CXX static library ../lib/libbitcoin_common.a
+[ 68%] Built target bitcoin_common
+[ 68%] Building CXX object src/CMakeFiles/bitcoin.dir/bitcoin.cpp.o
+[ 68%] Building CXX object src/CMakeFiles/bitcoin-wallet.dir/bitcoin-wallet.cpp.o
+[ 68%] Linking CXX executable ../bin/bitcoin
+[ 68%] Built target bitcoin
+[ 68%] Linking CXX executable ../bin/bitcoind
+[ 68%] Building CXX object src/CMakeFiles/bitcoin-wallet.dir/init/bitcoin-wallet.cpp.o
+[ 69%] Built target bitcoind
+[ 69%] Linking CXX executable ../bin/bitcoin-cli
+[ 69%] Built target bitcoin-cli
+[ 70%] Building CXX object src/CMakeFiles/bitcoin-tx.dir/bitcoin-tx.cpp.o
+[ 71%] Building CXX object src/CMakeFiles/bitcoin-wallet.dir/wallet/wallettool.cpp.o
+[ 71%] Linking CXX executable ../bin/bitcoin-tx
+[ 71%] Built target bitcoin-tx
+[ 71%] Building CXX object src/CMakeFiles/bitcoin-util.dir/bitcoin-util.cpp.o
+[ 71%] Linking CXX executable ../bin/bitcoin-wallet
+[ 71%] Built target bitcoin-wallet
+[ 71%] Linking CXX executable ../bin/bitcoin-util
+[ 71%] Built target bitcoin-util
+[ 71%] Linking CXX executable ../../bin/test_bitcoin
+[100%] Built target test_bitcoin
+F05_BUILD2_EXIT:0

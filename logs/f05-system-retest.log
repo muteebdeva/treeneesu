@@ -1,0 +1,14 @@
+Running 1 test case...
+
+Test module "Bitcoin Core Test Suite" has passed with:
+  1 test case out of 827 passed
+  826 test cases out of 827 skipped
+  14 assertions out of 14 passed
+
+  Test suite "system_tests" has passed with:
+    1 test case out of 1 passed
+    14 assertions out of 14 passed
+
+    Test case "system_tests/run_command" has passed with:
+      14 assertions out of 14 passed
+

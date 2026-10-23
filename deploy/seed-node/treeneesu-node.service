@@ -1,0 +1,24 @@
+[Unit]
+Description=Treeneesu seed node (experimental testnet — no monetary value)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=forking
+# Adjust paths: build install prefix and dedicated unprivileged user.
+ExecStart=/usr/local/bin/bitcoind -datadir=/var/lib/treeneesu -daemon -pid=/run/treeneesu/bitcoind.pid
+ExecStop=/usr/local/bin/bitcoin-cli -datadir=/var/lib/treeneesu stop
+PIDFile=/run/treeneesu/bitcoind.pid
+RuntimeDirectory=treeneesu
+User=treeneesu
+Group=treeneesu
+Restart=on-failure
+RestartSec=30
+# Hardening (upstream-recommended posture for coin daemons):
+PrivateTmp=true
+ProtectSystem=full
+NoNewPrivileges=true
+MemoryMax=768M
+
+[Install]
+WantedBy=multi-user.target

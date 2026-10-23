@@ -7,15 +7,29 @@ Owner chose Option A: powLimit bits 0x1e01ffff. Implemented in commit
 three-way verified (source / independent recomputation / compiled
 daemon). pow_tests fully green; full suite 152/152.
 
-## B2. Patch 2b / 2c scope — OWNER DECISION (unchanged)
+## B2. Patch 2b / 2c scope — PARTIALLY MITIGATED (F-05, 2026-10-23); full replacement still OWNER DECISION
 Replacing the regtest class with a Treeneesu test chain (2b) and deleting
 upstream testnet/testnet4/signet classes (2c) remain undone by design
-freeze. The retained upstream chain classes still carry Bitcoin
-parameters; nothing in the Treeneesu main network depends on them, but a
-future public testnet should be built as 2b rather than reusing them.
-Consequence to know: the binary still answers -chain=test etc. with
-Bitcoin-parameter chains. This is a scope limitation, not a defect in
-the Treeneesu main chain.
+freeze. The retained upstream chain classes still carry Bitcoin chain
+parameters (genesis, monetary, PoW) — that part is unchanged.
+
+What changed (audit F-05, source commit 2ecd619): every auxiliary class
+now has a Treeneesu-separated **network identity**. testnet/testnet4 got
+new message-start bytes and ports (39333/49333) and their Bitcoin DNS +
+fixed seeds were deleted; signet's default Bitcoin seeds were deleted
+and its port moved to 39433 (its magic remains derived from the
+inherited signet challenge, upstream design); regtest got new
+message-start bytes and port 39555, with the functional framework's
+MAGIC_BYTES updated in lockstep; base RPC ports moved too
+(39332/49332/39432/39554). Consequence: this binary can no longer join
+Bitcoin's testnet/testnet4/signet/regtest networks by accident — the
+remaining hazard is operator *confusion* (Bitcoin monetary parameters
+under a Treeneesu datadir), not silent cross-network peering. These
+classes are UNSUPPORTED legacy; a future public testnet should still be
+built as 2b rather than reusing them. Verification: full unit suite
+151/152 on the patched build (sole failure system_tests/run_command
+aborted under 3-way CPU contention, passed standalone, exit 0);
+functional subset re-run ALL PASSED (exit 0), logs/f05-*.log.
 
 ## B3. Clean-checkout rebuild — ✅ CLOSED (2026-10-23)
 Fresh build-final tree compiled from committed source (exit 0) and ran

@@ -1,0 +1,3 @@
+7fa8ea621571444d68e2d0e07c5698b11c049a4b474148bd47955cb9461e209f  build-final/bin/bitcoind
+35ffbf00ddd59181d96832354d6a5b0c6ffe478310d7bf3410e55bc6caf8512c  build-final/bin/bitcoin-cli
+9d3daed2fddc3df7ed1fe0fac14a0e4e5a747d5c61aef22f91bdcfd058d77e74  build-final/bin/test_bitcoin

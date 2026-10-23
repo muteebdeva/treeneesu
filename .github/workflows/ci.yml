@@ -1,0 +1,41 @@
+# Treeneesu CI — builds the fork from the repository layout (source in
+# bitcoin-core/) and runs the full unit test suite.
+#
+# Trigger is MANUAL (workflow_dispatch) on purpose: this repository is
+# private, and a full Bitcoin Core-class build burns a large block of
+# Actions minutes. Run it deliberately for release candidates. To run
+# it, the owner enables Actions on the repository and dispatches this
+# workflow from the Actions tab.
+name: treeneesu-ci
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build-and-unit-test:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install build dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y build-essential cmake pkg-config \
+            libboost-all-dev libsqlite3-dev libevent-dev libzmq3-dev \
+            systemtap-sdt-dev python3
+      - name: Configure
+        working-directory: bitcoin-core
+        run: cmake -B build -DCMAKE_BUILD_TYPE=Release -DBUILD_GUI=OFF
+      - name: Build
+        working-directory: bitcoin-core
+        run: cmake --build build -j 4
+      - name: Full unit test suite
+        working-directory: bitcoin-core
+        run: ./build/bin/test_bitcoin --log_level=test_suite --report_level=detailed
+      - name: Genesis smoke check
+        working-directory: bitcoin-core
+        run: |
+          ./build/bin/bitcoind -datadir=/tmp/tnsu-ci -daemon -server -listen=0 -dnsseed=0
+          sleep 5
+          H=$(./build/bin/bitcoin-cli -datadir=/tmp/tnsu-ci getblockhash 0)
+          ./build/bin/bitcoin-cli -datadir=/tmp/tnsu-ci stop
+          test "$H" = "00000091bddca562e9b5a2c98b31e5e5c831ffc015c6fd8853ef18d6df22dfee"
