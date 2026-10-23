@@ -1,0 +1,762 @@
+Running 827 test cases...
+[1;34;49mEntering test module "Bitcoin Core Test Suite"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(53): Entering test suite "addrman_tests"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(55): Entering test case "addrman_simple"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(55): Leaving test case "addrman_simple"; testing time: 47819us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(100): Entering test case "addrman_terrible_many_failures"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(100): Leaving test case "addrman_terrible_many_failures"; testing time: 21795us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(134): Entering test case "addrman_penalty_self_announcement"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(134): Leaving test case "addrman_penalty_self_announcement"; testing time: 18196us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(173): Entering test case "addrman_ports"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(173): Leaving test case "addrman_ports"; testing time: 26731us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(201): Entering test case "addrman_select"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(201): Leaving test case "addrman_select"; testing time: 223394us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(260): Entering test case "addrman_select_by_network"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(260): Leaving test case "addrman_select_by_network"; testing time: 143721us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(328): Entering test case "addrman_select_special"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(328): Leaving test case "addrman_select_special"; testing time: 27640us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(351): Entering test case "addrman_new_collisions"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(351): Leaving test case "addrman_new_collisions"; testing time: 74618us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(380): Entering test case "addrman_new_multiplicity"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(380): Leaving test case "addrman_new_multiplicity"; testing time: 50574us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(412): Entering test case "addrman_tried_collisions"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(412): Leaving test case "addrman_tried_collisions"; testing time: 53123us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(443): Entering test case "addrman_getaddr"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(443): Leaving test case "addrman_getaddr"; testing time: 2447006us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(502): Entering test case "getaddr_unfiltered"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(502): Leaving test case "getaddr_unfiltered"; testing time: 24114us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(538): Entering test case "caddrinfo_get_tried_bucket_legacy"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(538): Leaving test case "caddrinfo_get_tried_bucket_legacy"; testing time: 63034us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(589): Entering test case "caddrinfo_get_new_bucket_legacy"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(589): Leaving test case "caddrinfo_get_new_bucket_legacy"; testing time: 160420us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(663): Entering test case "caddrinfo_get_tried_bucket"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(663): Leaving test case "caddrinfo_get_tried_bucket"; testing time: 121880us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(716): Entering test case "caddrinfo_get_new_bucket"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(716): Leaving test case "caddrinfo_get_new_bucket"; testing time: 601570us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(793): Entering test case "addrman_serialization"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(793): Leaving test case "addrman_serialization"; testing time: 76679us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(857): Entering test case "remove_invalid"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(857): Leaving test case "remove_invalid"; testing time: 63966us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(898): Entering test case "addrman_selecttriedcollision"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(898): Leaving test case "addrman_selecttriedcollision"; testing time: 38642us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(931): Entering test case "addrman_noevict"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(931): Leaving test case "addrman_noevict"; testing time: 109953us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(983): Entering test case "addrman_evictionworks"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(983): Leaving test case "addrman_evictionworks"; testing time: 22175us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(1054): Entering test case "load_addrman"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(1054): Leaving test case "load_addrman"; testing time: 9192us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(1125): Entering test case "load_addrman_corrupted"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(1125): Leaving test case "load_addrman_corrupted"; testing time: 6429us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(1146): Entering test case "addrman_update_address"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(1146): Leaving test case "addrman_update_address"; testing time: 13074us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(1203): Entering test case "addrman_size"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(1203): Leaving test case "addrman_size"; testing time: 18282us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(53): Leaving test suite "addrman_tests"; testing time: 4542062us
+[0;39;49m[1;34;49m./test/allocator_tests.cpp(18): Entering test suite "allocator_tests"
+[0;39;49m[1;34;49m./test/allocator_tests.cpp(20): Entering test case "arena_tests"
+[0;39;49m[1;34;49m./test/allocator_tests.cpp(20): Leaving test case "arena_tests"; testing time: 63097us
+[0;39;49m[1;34;49m./test/allocator_tests.cpp(163): Entering test case "lockedpool_tests_mock"
+[0;39;49m[1;34;49m./test/allocator_tests.cpp(163): Leaving test case "lockedpool_tests_mock"; testing time: 1783us
+[0;39;49m[1;34;49m./test/allocator_tests.cpp(212): Entering test case "lockedpool_tests_live"
+[0;39;49m[1;34;49m./test/allocator_tests.cpp(212): Leaving test case "lockedpool_tests_live"; testing time: 413us
+[0;39;49m[1;34;49m./test/allocator_tests.cpp(18): Leaving test suite "allocator_tests"; testing time: 65849us
+[0;39;49m[1;34;49m./test/amount_tests.cpp(12): Entering test suite "amount_tests"
+[0;39;49m[1;34;49m./test/amount_tests.cpp(14): Entering test case "MoneyRangeTest"
+[0;39;49m[1;34;49m./test/amount_tests.cpp(14): Leaving test case "MoneyRangeTest"; testing time: 317us
+[0;39;49m[1;34;49m./test/amount_tests.cpp(23): Entering test case "GetFeeTest"
+[0;39;49m[1;34;49m./test/amount_tests.cpp(23): Leaving test case "GetFeeTest"; testing time: 415us
+[0;39;49m[1;34;49m./test/amount_tests.cpp(123): Entering test case "BinaryOperatorTest"
+[0;39;49m[1;34;49m./test/amount_tests.cpp(123): Leaving test case "BinaryOperatorTest"; testing time: 223us
+[0;39;49m[1;34;49m./test/amount_tests.cpp(140): Entering test case "ToStringTest"
+[0;39;49m[1;34;49m./test/amount_tests.cpp(140): Leaving test case "ToStringTest"; testing time: 2062us
+[0;39;49m[1;34;49m./test/amount_tests.cpp(12): Leaving test suite "amount_tests"; testing time: 3756us
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(25): Entering test suite "argsman_tests"
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(27): Entering test case "util_datadir"
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(27): Leaving test case "util_datadir"; testing time: 9632us
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(155): Entering test case "util_CheckValue"
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(155): Leaving test case "util_CheckValue"; testing time: 1836719us
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(186): Entering test case "util_NoIncludeConf"
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(186): Leaving test case "util_NoIncludeConf"; testing time: 387us
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(193): Entering test case "util_ParseParameters"
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(193): Leaving test case "util_ParseParameters"; testing time: 6997us
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(244): Entering test case "util_ParseInvalidParameters"
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(244): Leaving test case "util_ParseInvalidParameters"; testing time: 6828us
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(280): Entering test case "util_ArgParsing"
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(280): Leaving test case "util_ArgParsing"; testing time: 9922us
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(319): Entering test case "util_GetBoolArg"
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(319): Leaving test case "util_GetBoolArg"; testing time: 12284us
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(361): Entering test case "util_GetBoolArgEdgeCases"
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(361): Leaving test case "util_GetBoolArgEdgeCases"; testing time: 6453us
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(414): Entering test case "util_ReadConfigStream"
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(414): Leaving test case "util_ReadConfigStream"; testing time: 19180us
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(607): Entering test case "util_GetArg"
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(607): Leaving test case "util_GetArg"; testing time: 11656us
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(647): Entering test case "util_AddCommand"
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(647): Leaving test case "util_AddCommand"; testing time: 24572us
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(702): Entering test case "util_AddCommand_clearargs_replaces_command_options"
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(702): Leaving test case "util_AddCommand_clearargs_replaces_command_options"; testing time: 11208us
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(723): Entering test case "util_GetChainTypeString"
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(723): Leaving test case "util_GetChainTypeString"; testing time: 10449us
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(886): Entering test case "util_ArgsMerge"
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(886): Leaving test case "util_ArgsMerge"; testing time: 11902878us
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(1021): Entering test case "util_ChainMerge"
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(1021): Leaving test case "util_ChainMerge"; testing time: 170640us
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(1104): Entering test case "util_ReadWriteSettings"
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(1104): Leaving test case "util_ReadWriteSettings"; testing time: 9740us
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(25): Leaving test suite "argsman_tests"; testing time: 14063143us
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(19): Entering test suite "arith_uint256_tests"
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(66): Entering test case "basics"
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(66): Leaving test case "basics"; testing time: 10976us
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(154): Entering test case "shifts"
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(154): Leaving test case "shifts"; testing time: 19198us
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(197): Entering test case "unaryOperators"
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(197): Leaving test case "unaryOperators"; testing time: 3106us
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(221): Entering test case "bitwiseOperators"
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(221): Leaving test case "bitwiseOperators"; testing time: 313us
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(265): Entering test case "comparison"
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(265): Leaving test case "comparison"; testing time: 37282us
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(288): Entering test case "plusMinus"
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(288): Leaving test case "plusMinus"; testing time: 13742us
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(332): Entering test case "multiply"
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(332): Leaving test case "multiply"; testing time: 7431us
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(353): Entering test case "divide"
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(353): Leaving test case "divide"; testing time: 625us
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(377): Entering test case "methods"
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(377): Leaving test case "methods"; testing time: 3577us
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(415): Entering test case "bignum_SetCompact"
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(415): Leaving test case "bignum_SetCompact"; testing time: 488us
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(544): Entering test case "getmaxcoverage"
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(544): Leaving test case "getmaxcoverage"; testing time: 269us
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(570): Entering test case "conversion"
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(570): Leaving test case "conversion"; testing time: 1934us
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(587): Entering test case "operator_with_self"
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(587): Leaving test case "operator_with_self"; testing time: 192us
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(19): Leaving test suite "arith_uint256_tests"; testing time: 102947us
+[0;39;49m[1;34;49m./test/banman_tests.cpp(16): Entering test suite "banman_tests"
+[0;39;49m[1;34;49m./test/banman_tests.cpp(18): Entering test case "file"
+[0;39;49m[1;34;49m./test/banman_tests.cpp(18): Leaving test case "file"; testing time: 9939us
+[0;39;49m[1;34;49m./test/banman_tests.cpp(16): Leaving test suite "banman_tests"; testing time: 10ms
+[0;39;49m[1;34;49m./test/base32_tests.cpp(14): Entering test suite "base32_tests"
+[0;39;49m[1;34;49m./test/base32_tests.cpp(16): Entering test case "base32_testvectors"
+[0;39;49m[1;34;49m./test/base32_tests.cpp(16): Leaving test case "base32_testvectors"; testing time: 1393us
+[0;39;49m[1;34;49m./test/base32_tests.cpp(40): Entering test case "base32_padding"
+[0;39;49m[1;34;49m./test/base32_tests.cpp(40): Leaving test case "base32_padding"; testing time: 223us
+[0;39;49m[1;34;49m./test/base32_tests.cpp(14): Leaving test suite "base32_tests"; testing time: 1729us
+[0;39;49m[1;34;49m./test/base58_tests.cpp(22): Entering test suite "base58_tests"
+[0;39;49m[1;34;49m./test/base58_tests.cpp(25): Entering test case "base58_EncodeBase58"
+[0;39;49m[1;34;49m./test/base58_tests.cpp(25): Leaving test case "base58_EncodeBase58"; testing time: 9659us
+[0;39;49m[1;34;49m./test/base58_tests.cpp(45): Entering test case "base58_DecodeBase58"
+[0;39;49m[1;34;49m./test/base58_tests.cpp(45): Leaving test case "base58_DecodeBase58"; testing time: 9227us
+[0;39;49m[1;34;49m./test/base58_tests.cpp(22): Leaving test suite "base58_tests"; testing time: 19050us
+[0;39;49m[1;34;49m./test/base64_tests.cpp(14): Entering test suite "base64_tests"
+[0;39;49m[1;34;49m./test/base64_tests.cpp(16): Entering test case "base64_testvectors"
+[0;39;49m[1;34;49m./test/base64_tests.cpp(16): Leaving test case "base64_testvectors"; testing time: 1738us
+[0;39;49m[1;34;49m./test/base64_tests.cpp(47): Entering test case "base64_padding"
+[0;39;49m[1;34;49m./test/base64_tests.cpp(47): Leaving test case "base64_padding"; testing time: 191us
+[0;39;49m[1;34;49m./test/base64_tests.cpp(14): Leaving test suite "base64_tests"; testing time: 2035us
+[0;39;49m[1;34;49m./test/baseindex_tests.cpp(62): Entering test suite "baseindex_tests"
+[0;39;49m[1;34;49m./test/baseindex_tests.cpp(68): Entering test case "baseindex_no_commit_ahead_of_flush"
+[0;39;49m[1;34;49m./test/baseindex_tests.cpp(68): Leaving test case "baseindex_no_commit_ahead_of_flush"; testing time: 4292210us
+[0;39;49m[1;34;49m./test/baseindex_tests.cpp(116): Entering test case "index_unclean_shutdown"
+[0;39;49m[1;34;49m./test/baseindex_tests.cpp(116): Leaving test case "index_unclean_shutdown"; testing time: 2706678us
+[0;39;49m[1;34;49m./test/baseindex_tests.cpp(197): Entering test case "index_reorg_crash"
+[0;39;49m[1;34;49m./test/baseindex_tests.cpp(197): Leaving test case "index_reorg_crash"; testing time: 1515594us
+[0;39;49m[1;34;49m./test/baseindex_tests.cpp(62): Leaving test suite "baseindex_tests"; testing time: 8527432us
+[0;39;49m[1;34;49m./test/bech32_tests.cpp(13): Entering test suite "bech32_tests"
+[0;39;49m[1;34;49m./test/bech32_tests.cpp(15): Entering test case "bech32_testvectors_valid"
+[0;39;49m[1;34;49m./test/bech32_tests.cpp(15): Leaving test case "bech32_testvectors_valid"; testing time: 497us
+[0;39;49m[1;34;49m./test/bech32_tests.cpp(35): Entering test case "bech32m_testvectors_valid"
+[0;39;49m[1;34;49m./test/bech32_tests.cpp(35): Leaving test case "bech32m_testvectors_valid"; testing time: 362us
+[0;39;49m[1;34;49m./test/bech32_tests.cpp(55): Entering test case "bech32_testvectors_invalid"
+[0;39;49m[1;34;49m./test/bech32_tests.cpp(55): Leaving test case "bech32_testvectors_invalid"; testing time: 12155us
+[0;39;49m[1;34;49m./test/bech32_tests.cpp(109): Entering test case "bech32m_testvectors_invalid"
+[0;39;49m[1;34;49m./test/bech32_tests.cpp(109): Leaving test case "bech32m_testvectors_invalid"; testing time: 1112us
+[0;39;49m[1;34;49m./test/bech32_tests.cpp(13): Leaving test suite "bech32_tests"; testing time: 20981us
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(161): Entering test suite "bip32_tests"
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(163): Entering test case "bip32_test1"
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(163): Leaving test case "bip32_test1"; testing time: 45292us
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(167): Entering test case "bip32_test2"
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(167): Leaving test case "bip32_test2"; testing time: 15321us
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(171): Entering test case "bip32_test3"
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(171): Leaving test case "bip32_test3"; testing time: 9228us
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(175): Entering test case "bip32_test4"
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(175): Leaving test case "bip32_test4"; testing time: 11598us
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(179): Entering test case "bip32_test5"
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(179): Leaving test case "bip32_test5"; testing time: 10137us
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(188): Entering test case "bip32_derive_ext_key"
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(188): Leaving test case "bip32_derive_ext_key"; testing time: 75102us
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(216): Entering test case "bip32_has_hardened_derivation"
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(216): Leaving test case "bip32_has_hardened_derivation"; testing time: 14163us
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(228): Entering test case "bip32_max_depth"
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(228): Leaving test case "bip32_max_depth"; testing time: 190767us
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(247): Entering test case "parse_hd_keypath"
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(247): Leaving test case "parse_hd_keypath"; testing time: 7026us
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(161): Leaving test suite "bip32_tests"; testing time: 392877us
+[0;39;49m[1;34;49m./test/bip324_tests.cpp(164): Entering test suite "bip324_tests"
+[0;39;49m[1;34;49m./test/bip324_tests.cpp(166): Entering test case "packet_test_vectors"
+[0;39;49m[1;34;49m./test/bip324_tests.cpp(166): Leaving test case "packet_test_vectors"; testing time: 5235119us
+[0;39;49m[1;34;49m./test/bip324_tests.cpp(164): Leaving test suite "bip324_tests"; testing time: 5237179us
+[0;39;49m[1;34;49m./test/blockchain_tests.cpp(54): Entering test suite "blockchain_tests"
+[0;39;49m[1;34;49m./test/blockchain_tests.cpp(56): Entering test case "get_difficulty_for_very_low_target"
+[0;39;49m[1;34;49m./test/blockchain_tests.cpp(56): Leaving test case "get_difficulty_for_very_low_target"; testing time: 5232us
+[0;39;49m[1;34;49m./test/blockchain_tests.cpp(61): Entering test case "get_difficulty_for_low_target"
+[0;39;49m[1;34;49m./test/blockchain_tests.cpp(61): Leaving test case "get_difficulty_for_low_target"; testing time: 4713us
+[0;39;49m[1;34;49m./test/blockchain_tests.cpp(66): Entering test case "get_difficulty_for_mid_target"
+[0;39;49m[1;34;49m./test/blockchain_tests.cpp(66): Leaving test case "get_difficulty_for_mid_target"; testing time: 4601us
+[0;39;49m[1;34;49m./test/blockchain_tests.cpp(71): Entering test case "get_difficulty_for_high_target"
+[0;39;49m[1;34;49m./test/blockchain_tests.cpp(71): Leaving test case "get_difficulty_for_high_target"; testing time: 4499us
+[0;39;49m[1;34;49m./test/blockchain_tests.cpp(76): Entering test case "get_difficulty_for_very_high_target"
+[0;39;49m[1;34;49m./test/blockchain_tests.cpp(76): Leaving test case "get_difficulty_for_very_high_target"; testing time: 4429us
+[0;39;49m[1;34;49m./test/blockchain_tests.cpp(98): Entering test case "get_prune_height"
+[0;39;49m[1;34;49m./test/blockchain_tests.cpp(98): Leaving test case "get_prune_height"; testing time: 915096us
+[0;39;49m[1;34;49m./test/blockchain_tests.cpp(113): Entering test case "num_chain_tx_max"
+[0;39;49m[1;34;49m./test/blockchain_tests.cpp(113): Leaving test case "num_chain_tx_max"; testing time: 5136us
+[0;39;49m[1;34;49m./test/blockchain_tests.cpp(120): Entering test case "invalidate_block"
+[0;39;49m[1;36;49mTest case blockchain_tests/invalidate_block did not check any assertions[0;39;49m
+[1;34;49m./test/blockchain_tests.cpp(120): Leaving test case "invalidate_block"; testing time: 2298268us
+[0;39;49m[1;34;49m./test/blockchain_tests.cpp(54): Leaving test suite "blockchain_tests"; testing time: 3272238us
+[0;39;49m[1;34;49m./test/blockencodings_tests.cpp(20): Entering test suite "blockencodings_tests"
+[0;39;49m[1;34;49m./test/blockencodings_tests.cpp(63): Entering test case "SimpleRoundTripTest"
+[0;39;49m[1;34;49m./test/blockencodings_tests.cpp(63): Leaving test case "SimpleRoundTripTest"; testing time: 256925us
+[0;39;49m[1;34;49m./test/blockencodings_tests.cpp(154): Entering test case "NonCoinbasePreforwardRTTest"
+[0;39;49m[1;34;49m./test/blockencodings_tests.cpp(154): Leaving test case "NonCoinbasePreforwardRTTest"; testing time: 290554us
+[0;39;49m[1;34;49m./test/blockencodings_tests.cpp(225): Entering test case "SufficientPreforwardRTTest"
+[0;39;49m[1;34;49m./test/blockencodings_tests.cpp(225): Leaving test case "SufficientPreforwardRTTest"; testing time: 402380us
+[0;39;49m[1;34;49m./test/blockencodings_tests.cpp(277): Entering test case "EmptyBlockRoundTripTest"
+[0;39;49m[1;34;49m./test/blockencodings_tests.cpp(277): Leaving test case "EmptyBlockRoundTripTest"; testing time: 281376us
+[0;39;49m[1;34;49m./test/blockencodings_tests.cpp(318): Entering test case "ReceiveWithExtraTransactions"
+[0;39;49m[1;34;49m./test/blockencodings_tests.cpp(318): Leaving test case "ReceiveWithExtraTransactions"; testing time: 307437us
+[0;39;49m[1;34;49m./test/blockencodings_tests.cpp(400): Entering test case "TransactionsRequestSerializationTest"
+[0;39;49m[1;34;49m./test/blockencodings_tests.cpp(400): Leaving test case "TransactionsRequestSerializationTest"; testing time: 320130us
+[0;39;49m[1;34;49m./test/blockencodings_tests.cpp(423): Entering test case "TransactionsRequestDeserializationMaxTest"
+[0;39;49m[1;34;49m./test/blockencodings_tests.cpp(423): Leaving test case "TransactionsRequestDeserializationMaxTest"; testing time: 335395us
+[0;39;49m[1;34;49m./test/blockencodings_tests.cpp(438): Entering test case "TransactionsRequestDeserializationOverflowTest"
+[0;39;49m[1;34;49m./test/blockencodings_tests.cpp(438): Leaving test case "TransactionsRequestDeserializationOverflowTest"; testing time: 186116us
+[0;39;49m[1;34;49m./test/blockencodings_tests.cpp(20): Leaving test suite "blockencodings_tests"; testing time: 2401605us
+[0;39;49m[1;34;49m./test/blockfilter_index_tests.cpp(37): Entering test suite "blockfilter_index_tests"
+[0;39;49m[1;34;49m./test/blockfilter_index_tests.cpp(73): Entering test case "blockfilter_index_initial_sync"
+[0;39;49m[1;34;49m./test/blockfilter_index_tests.cpp(73): Leaving test case "blockfilter_index_initial_sync"; testing time: 2309237us
+[0;39;49m[1;34;49m./test/blockfilter_index_tests.cpp(229): Entering test case "blockfilter_index_init_destroy"
+[0;39;49m[1;34;49m./test/blockfilter_index_tests.cpp(229): Leaving test case "blockfilter_index_init_destroy"; testing time: 19458us
+[0;39;49m[1;34;49m./test/blockfilter_index_tests.cpp(37): Leaving test suite "blockfilter_index_tests"; testing time: 2331636us
+[0;39;49m[1;34;49m./test/blockfilter_tests.cpp(19): Entering test suite "blockfilter_tests"
+[0;39;49m[1;34;49m./test/blockfilter_tests.cpp(21): Entering test case "gcsfilter_test"
+[0;39;49m[1;34;49m./test/blockfilter_tests.cpp(21): Leaving test case "gcsfilter_test"; testing time: 14993us
+[0;39;49m[1;34;49m./test/blockfilter_tests.cpp(44): Entering test case "gcsfilter_default_constructor"
+[0;39;49m[1;34;49m./test/blockfilter_tests.cpp(44): Leaving test case "gcsfilter_default_constructor"; testing time: 1599us
+[0;39;49m[1;34;49m./test/blockfilter_tests.cpp(57): Entering test case "blockfilter_basic_test"
+[0;39;49m[1;34;49m./test/blockfilter_tests.cpp(57): Leaving test case "blockfilter_basic_test"; testing time: 1800us
+[0;39;49m[1;34;49m./test/blockfilter_tests.cpp(130): Entering test case "blockfilters_json_test"
+[0;39;49m[1;34;49m./test/blockfilter_tests.cpp(130): Leaving test case "blockfilters_json_test"; testing time: 5121us
+[0;39;49m[1;34;49m./test/blockfilter_tests.cpp(179): Entering test case "blockfilter_type_names"
+[0;39;49m[1;34;49m./test/blockfilter_tests.cpp(179): Leaving test case "blockfilter_type_names"; testing time: 344us
+[0;39;49m[1;34;49m./test/blockfilter_tests.cpp(19): Leaving test suite "blockfilter_tests"; testing time: 34062us
+[0;39;49m[1;34;49m./test/blockmanager_tests.cpp(28): Entering test suite "blockmanager_tests"
+[0;39;49m[1;34;49m./test/blockmanager_tests.cpp(30): Entering test case "blockmanager_find_block_pos"
+[0;39;49m[1;34;49m./test/blockmanager_tests.cpp(30): Leaving test case "blockmanager_find_block_pos"; testing time: 51246us
+[0;39;49m[1;34;49m./test/blockmanager_tests.cpp(63): Entering test case "blockmanager_scan_unlink_already_pruned_files"
+[0;39;49m[1;34;49m./test/blockmanager_tests.cpp(63): Leaving test case "blockmanager_scan_unlink_already_pruned_files"; testing time: 1583462us
+[0;39;49m[1;34;49m./test/blockmanager_tests.cpp(104): Entering test case "blockmanager_block_data_availability"
+[0;39;49m[1;34;49m./test/blockmanager_tests.cpp(104): Leaving test case "blockmanager_block_data_availability"; testing time: 1320598us
+[0;39;49m[1;34;49m./test/blockmanager_tests.cpp(157): Entering test case "blockmanager_block_data_part"
+[0;39;49m[1;34;49m./test/blockmanager_tests.cpp(157): Leaving test case "blockmanager_block_data_part"; testing time: 3268568us
+[0;39;49m[1;34;49m./test/blockmanager_tests.cpp(185): Entering test case "blockmanager_block_data_part_error"
+[0;39;49m[1;34;49m./test/blockmanager_tests.cpp(185): Leaving test case "blockmanager_block_data_part_error"; testing time: 1404845us
+[0;39;49m[1;34;49m./test/blockmanager_tests.cpp(219): Entering test case "blockmanager_readblock_hash_mismatch"
+[0;39;49m[1;34;49m./test/blockmanager_tests.cpp(219): Leaving test case "blockmanager_readblock_hash_mismatch"; testing time: 210011us
+[0;39;49m[1;34;49m./test/blockmanager_tests.cpp(235): Entering test case "blockmanager_flush_block_file"
+[0;39;49m[1;34;49m./test/blockmanager_tests.cpp(235): Leaving test case "blockmanager_flush_block_file"; testing time: 54879us
+[0;39;49m[1;34;49m./test/blockmanager_tests.cpp(305): Entering test case "prune_lock_update_and_delete"
+[0;39;49m[1;34;49m./test/blockmanager_tests.cpp(305): Leaving test case "prune_lock_update_and_delete"; testing time: 332446us
+[0;39;49m[1;34;49m./test/blockmanager_tests.cpp(28): Leaving test suite "blockmanager_tests"; testing time: 8233107us
+[0;39;49m[1;34;49m./test/blockpolicyestimator_tests.cpp(17): Entering test suite "blockpolicyestimator_tests"
+[0;39;49m[1;34;49m./test/blockpolicyestimator_tests.cpp(19): Entering test case "BlockPolicyEstimates"
+[0;39;49m[1;34;49m./test/blockpolicyestimator_tests.cpp(19): Leaving test case "BlockPolicyEstimates"; testing time: 2739111us
+[0;39;49m[1;34;49m./test/blockpolicyestimator_tests.cpp(17): Leaving test suite "blockpolicyestimator_tests"; testing time: 2741910us
+[0;39;49m[1;34;49m./test/bloom_tests.cpp(34): Entering test suite "bloom_tests"
+[0;39;49m[1;34;49m./test/bloom_tests.cpp(36): Entering test case "bloom_create_insert_serialize"
+[0;39;49m[1;34;49m./test/bloom_tests.cpp(36): Leaving test case "bloom_create_insert_serialize"; testing time: 17235us
+[0;39;49m[1;34;49m./test/bloom_tests.cpp(61): Entering test case "bloom_create_insert_serialize_with_tweak"
+[0;39;49m[1;34;49m./test/bloom_tests.cpp(61): Leaving test case "bloom_create_insert_serialize_with_tweak"; testing time: 9059us
+[0;39;49m[1;34;49m./test/bloom_tests.cpp(84): Entering test case "bloom_create_insert_key"
+[0;39;49m[1;34;49m./test/bloom_tests.cpp(84): Leaving test case "bloom_create_insert_key"; testing time: 8820us
+[0;39;49m[1;34;49m./test/bloom_tests.cpp(103): Entering test case "bloom_match"
+[0;39;49m[1;34;49m./test/bloom_tests.cpp(103): Leaving test case "bloom_match"; testing time: 22332us
+[0;39;49m[1;34;49m./test/bloom_tests.cpp(174): Entering test case "merkle_block_1"
+[0;39;49m[1;34;49m./test/bloom_tests.cpp(174): Leaving test case "merkle_block_1"; testing time: 11486us
+[0;39;49m[1;34;49m./test/bloom_tests.cpp(215): Entering test case "merkle_block_2"
+[0;39;49m[1;34;49m./test/bloom_tests.cpp(215): Leaving test case "merkle_block_2"; testing time: 8816us
+[0;39;49m[1;34;49m./test/bloom_tests.cpp(272): Entering test case "merkle_block_2_with_update_none"
+[0;39;49m[1;34;49m./test/bloom_tests.cpp(272): Leaving test case "merkle_block_2_with_update_none"; testing time: 7733us
+[0;39;49m[1;34;49m./test/bloom_tests.cpp(326): Entering test case "merkle_block_3_and_serialize"
+[0;39;49m[1;34;49m./test/bloom_tests.cpp(326): Leaving test case "merkle_block_3_and_serialize"; testing time: 6527us
+[0;39;49m[1;34;49m./test/bloom_tests.cpp(362): Entering test case "merkle_block_4"
+[0;39;49m[1;34;49m./test/bloom_tests.cpp(362): Leaving test case "merkle_block_4"; testing time: 10511us
+[0;39;49m[1;34;49m./test/bloom_tests.cpp(410): Entering test case "merkle_block_4_test_p2pubkey_only"
+[0;39;49m[1;34;49m./test/bloom_tests.cpp(410): Leaving test case "merkle_block_4_test_p2pubkey_only"; testing time: 16972us
+[0;39;49m[1;34;49m./test/bloom_tests.cpp(435): Entering test case "merkle_block_4_test_update_none"
+[0;39;49m[1;34;49m./test/bloom_tests.cpp(435): Leaving test case "merkle_block_4_test_update_none"; testing time: 10603us
+[0;39;49m[1;34;49m./test/bloom_tests.cpp(465): Entering test case "rolling_bloom"
+[0;39;49m[1;34;49m./test/bloom_tests.cpp(465): Leaving test case "rolling_bloom"; testing time: 56847us
+[0;39;49m[1;34;49m./test/bloom_tests.cpp(34): Leaving test suite "bloom_tests"; testing time: 192410us
+[0;39;49m[1;34;49m./test/bswap_tests.cpp(9): Entering test suite "bswap_tests"
+[0;39;49m[1;34;49m./test/bswap_tests.cpp(11): Entering test case "bswap_tests"
+[0;39;49m[1;34;49m./test/bswap_tests.cpp(11): Leaving test case "bswap_tests"; testing time: 335us
+[0;39;49m[1;34;49m./test/bswap_tests.cpp(9): Leaving test suite "bswap_tests"; testing time: 674us
+[0;39;49m[1;34;49m./test/btcsignals_tests.cpp(35): Entering test suite "btcsignals_tests"
+[0;39;49m[1;34;49m./test/btcsignals_tests.cpp(39): Entering test case "callback_order"
+[0;39;49m[1;34;49m./test/btcsignals_tests.cpp(39): Leaving test case "callback_order"; testing time: 12313us
+[0;39;49m[1;34;49m./test/btcsignals_tests.cpp(50): Entering test case "disconnects"
+[0;39;49m[1;34;49m./test/btcsignals_tests.cpp(50): Leaving test case "disconnects"; testing time: 32777us
+[0;39;49m[1;34;49m./test/btcsignals_tests.cpp(84): Entering test case "any_of_combiner"
+[0;39;49m[1;34;49m./test/btcsignals_tests.cpp(84): Leaving test case "any_of_combiner"; testing time: 24259us
+[0;39;49m[1;34;49m./test/btcsignals_tests.cpp(120): Entering test case "thread_safety"
+[0;39;49m[1;34;49m./test/btcsignals_tests.cpp(120): Leaving test case "thread_safety"; testing time: 110660us
+[0;39;49m[1;34;49m./test/btcsignals_tests.cpp(172): Entering test case "recursion_safety"
+[0;39;49m[1;34;49m./test/btcsignals_tests.cpp(172): Leaving test case "recursion_safety"; testing time: 9794us
+[0;39;49m[1;34;49m./test/btcsignals_tests.cpp(232): Entering test case "disconnect_thread_safety"
+[0;39;49m[1;34;49m./test/btcsignals_tests.cpp(232): Leaving test case "disconnect_thread_safety"; testing time: 11937us
+[0;39;49m[1;34;49m./test/btcsignals_tests.cpp(35): Leaving test suite "btcsignals_tests"; testing time: 210038us
+[0;39;49m[1;34;49m./test/caches_tests.cpp(23): Entering test suite "caches_tests"
+[0;39;49m[1;34;49m./test/caches_tests.cpp(25): Entering test case "oversized_dbcache_warning"
+[0;39;49m[1;34;49m./test/caches_tests.cpp(25): Leaving test case "oversized_dbcache_warning"; testing time: 258us
+[0;39;49m[1;34;49m./test/caches_tests.cpp(23): Leaving test suite "caches_tests"; testing time: 332us
+[0;39;49m[1;34;49m./test/chain_tests.cpp(13): Entering test suite "chain_tests"
+[0;39;49m[1;34;49m./test/chain_tests.cpp(45): Entering test case "basic_tests"
+[0;39;49m[1;34;49m./test/chain_tests.cpp(45): Leaving test case "basic_tests"; testing time: 13404us
+[0;39;49m[1;34;49m./test/chain_tests.cpp(87): Entering test case "findfork_tests"
+[0;39;49m[1;34;49m./test/chain_tests.cpp(87): Leaving test case "findfork_tests"; testing time: 9001us
+[0;39;49m[1;34;49m./test/chain_tests.cpp(145): Entering test case "chain_test"
+[0;39;49m[1;34;49m./test/chain_tests.cpp(145): Leaving test case "chain_test"; testing time: 35351026us
+[0;39;49m[1;34;49m./test/chain_tests.cpp(13): Leaving test suite "chain_tests"; testing time: 35385055us
+[0;39;49m[1;34;49m./test/chainstate_write_tests.cpp(18): Entering test suite "chainstate_write_tests"
+[0;39;49m[1;34;49m./test/chainstate_write_tests.cpp(20): Entering test case "chainstate_write_interval"
+[0;39;49m[1;34;49m./test/chainstate_write_tests.cpp(20): Leaving test case "chainstate_write_interval"; testing time: 294164us
+[0;39;49m[1;34;49m./test/chainstate_write_tests.cpp(56): Entering test case "write_during_multiblock_activation"
+[0;39;49m[1;34;49m./test/chainstate_write_tests.cpp(56): Leaving test case "write_during_multiblock_activation"; testing time: 1620194us
+[0;39;49m[1;34;49m./test/chainstate_write_tests.cpp(18): Leaving test suite "chainstate_write_tests"; testing time: 1917802us
+[0;39;49m[1;34;49m./test/checkqueue_tests.cpp(180): Entering test suite "checkqueue_tests"
+[0;39;49m[1;34;49m./test/checkqueue_tests.cpp(184): Entering test case "test_CheckQueue_Correct_Zero"
+[0;39;49m[1;34;49m./test/checkqueue_tests.cpp(184): Leaving test case "test_CheckQueue_Correct_Zero"; testing time: 13291us
+[0;39;49m[1;34;49m./test/checkqueue_tests.cpp(192): Entering test case "test_CheckQueue_Correct_One"
+[0;39;49m[1;34;49m./test/checkqueue_tests.cpp(192): Leaving test case "test_CheckQueue_Correct_One"; testing time: 12251us
+[0;39;49m[1;34;49m./test/checkqueue_tests.cpp(200): Entering test case "test_CheckQueue_Correct_Max"
+[0;39;49m[1;34;49m./test/checkqueue_tests.cpp(200): Leaving test case "test_CheckQueue_Correct_Max"; testing time: 46899us
+[0;39;49m[1;34;49m./test/checkqueue_tests.cpp(208): Entering test case "test_CheckQueue_Correct_Random"
+[0;39;49m[1;34;49m./test/checkqueue_tests.cpp(208): Leaving test case "test_CheckQueue_Correct_Random"; testing time: 5042784us
+[0;39;49m[1;34;49m./test/checkqueue_tests.cpp(219): Entering test case "test_CheckQueue_Catches_Failure"
+[0;39;49m[1;34;49m./test/checkqueue_tests.cpp(219): Leaving test case "test_CheckQueue_Catches_Failure"; testing time: 636928us
+[0;39;49m[1;34;49m./test/checkqueue_tests.cpp(245): Entering test case "test_CheckQueue_Recovers_From_Failure"
+[0;39;49m[1;34;49m./test/checkqueue_tests.cpp(245): Leaving test case "test_CheckQueue_Recovers_From_Failure"; testing time: 10864us
+[0;39;49m[1;34;49m./test/checkqueue_tests.cpp(266): Entering test case "test_CheckQueue_UniqueCheck"
+[0;39;49m[1;34;49m./test/checkqueue_tests.cpp(266): Leaving test case "test_CheckQueue_UniqueCheck"; testing time: 146456us
+[0;39;49m[1;34;49m./test/checkqueue_tests.cpp(298): Entering test case "test_CheckQueue_Memory"
+[0;39;49m[1;34;49m./test/checkqueue_tests.cpp(298): Leaving test case "test_CheckQueue_Memory"; testing time: 1213182us
+[0;39;49m[1;34;49m./test/checkqueue_tests.cpp(323): Entering test case "test_CheckQueue_FrozenCleanup"
+[0;39;49m[1;34;49m./test/checkqueue_tests.cpp(323): Leaving test case "test_CheckQueue_FrozenCleanup"; testing time: 9772us
+[0;39;49m[1;34;49m./test/checkqueue_tests.cpp(357): Entering test case "test_CheckQueueControl_Locks"
+[0;39;49m[1;34;49m./test/checkqueue_tests.cpp(357): Leaving test case "test_CheckQueueControl_Locks"; testing time: 62398us
+[0;39;49m[1;34;49m./test/checkqueue_tests.cpp(180): Leaving test suite "checkqueue_tests"; testing time: 7208994us
+[0;39;49m[1;34;49m./test/cluster_linearize_tests.cpp(15): Entering test suite "cluster_linearize_tests"
+[0;39;49m[1;34;49m./test/cluster_linearize_tests.cpp(125): Entering test case "depgraph_ser_tests"
+[0;39;49m[1;34;49m./test/cluster_linearize_tests.cpp(125): Leaving test case "depgraph_ser_tests"; testing time: 24312us
+[0;39;49m[1;34;49m./test/cluster_linearize_tests.cpp(245): Entering test case "depgraph_optimal_tests"
+[0;39;49m[1;34;49m./test/cluster_linearize_tests.cpp(245): Leaving test case "depgraph_optimal_tests"; testing time: 55731975us
+[0;39;49m[1;34;49m./test/cluster_linearize_tests.cpp(15): Leaving test suite "cluster_linearize_tests"; testing time: 55763133us
+[0;39;49m[1;34;49m./test/coins_tests.cpp(279): Entering test suite "coins_tests_base"
+[0;39;49m[1;34;49m./test/coins_tests.cpp(282): Entering test case "coins_cache_base_simulation_test"
+[0;39;49m[1;34;49m./test/coins_tests.cpp(282): Leaving test case "coins_cache_base_simulation_test"; testing time: 29602599us
+[0;39;49m[1;34;49m./test/coins_tests.cpp(279): Leaving test suite "coins_tests_base"; testing time: 29607447us
+[0;39;49m[1;34;49m./test/coins_tests.cpp(290): Entering test suite "coins_tests_dbbase"
+[0;39;49m[1;34;49m./test/coins_tests.cpp(292): Entering test case "coins_cache_dbbase_simulation_test"
+[0;39;49m[1;34;49m./test/coins_tests.cpp(292): Leaving test case "coins_cache_dbbase_simulation_test"; testing time: 143479197us
+[0;39;49m[1;34;49m./test/coins_tests.cpp(290): Leaving test suite "coins_tests_dbbase"; testing time: 143479870us
+[0;39;49m[1;34;49m./test/coins_tests.cpp(300): Entering test suite "coins_tests"
+[0;39;49m[1;34;49m./test/coins_tests.cpp(325): Entering test case "updatecoins_simulation_test"
+[0;39;49m[1;34;49m./test/coins_tests.cpp(325): Leaving test case "updatecoins_simulation_test"; testing time: 22262642us
+[0;39;49m[1;34;49m./test/coins_tests.cpp(517): Entering test case "ccoins_serialization"
+[0;39;49m[1;34;49m./test/coins_tests.cpp(517): Leaving test case "ccoins_serialization"; testing time: 36559us
+[0;39;49m[1;34;49m./test/coins_tests.cpp(678): Entering test case "ccoins_access"
+[0;39;49m[1;34;49m./test/coins_tests.cpp(678): Leaving test case "ccoins_access"; testing time: 61379us
+[0;39;49m[1;34;49m./test/coins_tests.cpp(708): Entering test case "ccoins_spend"
+[0;39;49m[1;34;49m./test/coins_tests.cpp(708): Leaving test case "ccoins_spend"; testing time: 38844us
+[0;39;49m[1;34;49m./test/coins_tests.cpp(744): Entering test case "ccoins_add"
+[0;39;49m[1;34;49m./test/coins_tests.cpp(744): Leaving test case "ccoins_add"; testing time: 84516us
+[0;39;49m[1;34;49m./test/coins_tests.cpp(789): Entering test case "ccoins_write"
+[0;39;49m[1;34;49m./test/coins_tests.cpp(789): Leaving test case "ccoins_write"; testing time: 189066us
+[0;39;49m[1;34;49m./test/coins_tests.cpp(1033): Entering test case "ccoins_flush_behavior"
+[0;39;49m[1;34;49m./test/coins_tests.cpp(1033): Leaving test case "ccoins_flush_behavior"; testing time: 29888us
+[0;39;49m[1;34;49m./test/coins_tests.cpp(1047): Entering test case "coins_db_leveldb_layout"
+[0;39;49m[1;34;49m./test/coins_tests.cpp(1047): Leaving test case "coins_db_leveldb_layout"; testing time: 46637us
+[0;39;49m[1;34;49m./test/coins_tests.cpp(1071): Entering test case "coins_resource_is_used"
+[0;39;49m[1;34;49m./test/coins_tests.cpp(1071): Leaving test case "coins_resource_is_used"; testing time: 17130us
+[0;39;49m[1;34;49m./test/coins_tests.cpp(1096): Entering test case "ccoins_addcoin_exception_keeps_usage_balanced"
+[0;39;49m[1;34;49m./test/coins_tests.cpp(1096): Leaving test case "ccoins_addcoin_exception_keeps_usage_balanced"; testing time: 8146us
+[0;39;49m[1;34;49m./test/coins_tests.cpp(1113): Entering test case "ccoins_emplace_duplicate_keeps_usage_balanced"
+[0;39;49m[1;34;49m./test/coins_tests.cpp(1113): Leaving test case "ccoins_emplace_duplicate_keeps_usage_balanced"; testing time: 7751us
+[0;39;49m[1;34;49m./test/coins_tests.cpp(1130): Entering test case "ccoins_reset_guard"
+[0;39;49m[1;34;49m./test/coins_tests.cpp(1130): Leaving test case "ccoins_reset_guard"; testing time: 7954us
+[0;39;49m[1;34;49m./test/coins_tests.cpp(1181): Entering test case "ccoins_peekcoin"
+[0;39;49m[1;34;49m./test/coins_tests.cpp(1181): Leaving test case "ccoins_peekcoin"; testing time: 8007us
+[0;39;49m[1;34;49m./test/coins_tests.cpp(300): Leaving test suite "coins_tests"; testing time: 22799896us
+[0;39;49m[1;34;49m./test/coinscachepair_tests.cpp(11): Entering test suite "coinscachepair_tests"
+[0;39;49m[1;34;49m./test/coinscachepair_tests.cpp(37): Entering test case "linked_list_iteration"
+[0;39;49m[1;34;49m./test/coinscachepair_tests.cpp(37): Leaving test case "linked_list_iteration"; testing time: 382us
+[0;39;49m[1;34;49m./test/coinscachepair_tests.cpp(72): Entering test case "linked_list_iterate_erase"
+[0;39;49m[1;34;49m./test/coinscachepair_tests.cpp(72): Leaving test case "linked_list_iterate_erase"; testing time: 315us
+[0;39;49m[1;34;49m./test/coinscachepair_tests.cpp(93): Entering test case "linked_list_random_deletion"
+[0;39;49m[1;34;49m./test/coinscachepair_tests.cpp(93): Leaving test case "linked_list_random_deletion"; testing time: 1864us
+[0;39;49m[1;34;49m./test/coinscachepair_tests.cpp(148): Entering test case "linked_list_set_state"
+[0;39;49m[1;34;49m./test/coinscachepair_tests.cpp(148): Leaving test case "linked_list_set_state"; testing time: 317us
+[0;39;49m[1;34;49m./test/coinscachepair_tests.cpp(11): Leaving test suite "coinscachepair_tests"; testing time: 3077us
+[0;39;49m[1;34;49m./test/coinstatsindex_tests.cpp(25): Entering test suite "coinstatsindex_tests"
+[0;39;49m[1;34;49m./test/coinstatsindex_tests.cpp(27): Entering test case "coinstatsindex_initial_sync"
+[0;39;49m[1;34;49m./test/coinstatsindex_tests.cpp(27): Leaving test case "coinstatsindex_initial_sync"; testing time: 1767949us
+[0;39;49m[1;34;49m./test/coinstatsindex_tests.cpp(25): Leaving test suite "coinstatsindex_tests"; testing time: 1768503us
+[0;39;49m[1;34;49m./test/coinsviewoverlay_tests.cpp(101): Entering test suite "coinsviewoverlay_tests"
+[0;39;49m[1;34;49m./test/coinsviewoverlay_tests.cpp(103): Entering test case "fetch_inputs_from_db"
+[0;39;49m[1;34;49m./test/coinsviewoverlay_tests.cpp(103): Leaving test case "fetch_inputs_from_db"; testing time: 23183us
+[0;39;49m[1;34;49m./test/coinsviewoverlay_tests.cpp(131): Entering test case "fetch_inputs_from_cache"
+[0;39;49m[1;34;49m./test/coinsviewoverlay_tests.cpp(131): Leaving test case "fetch_inputs_from_cache"; testing time: 14532us
+[0;39;49m[1;34;49m./test/coinsviewoverlay_tests.cpp(150): Entering test case "fetch_no_double_spend"
+[0;39;49m[1;34;49m./test/coinsviewoverlay_tests.cpp(150): Leaving test case "fetch_no_double_spend"; testing time: 18947us
+[0;39;49m[1;34;49m./test/coinsviewoverlay_tests.cpp(172): Entering test case "fetch_no_inputs"
+[0;39;49m[1;34;49m./test/coinsviewoverlay_tests.cpp(172): Leaving test case "fetch_no_inputs"; testing time: 26699us
+[0;39;49m[1;34;49m./test/coinsviewoverlay_tests.cpp(191): Entering test case "access_non_input_coins"
+[0;39;49m[1;34;49m./test/coinsviewoverlay_tests.cpp(191): Leaving test case "access_non_input_coins"; testing time: 7171us
+[0;39;49m[1;34;49m./test/coinsviewoverlay_tests.cpp(221): Entering test case "fetch_out_of_order_input_uses_normal_lookup"
+[0;39;49m[1;34;49m./test/coinsviewoverlay_tests.cpp(221): Leaving test case "fetch_out_of_order_input_uses_normal_lookup"; testing time: 13587us
+[0;39;49m[1;34;49m./test/coinsviewoverlay_tests.cpp(253): Entering test case "fetch_state_is_reusable_after_teardown"
+[0;39;49m[1;34;49m./test/coinsviewoverlay_tests.cpp(253): Leaving test case "fetch_state_is_reusable_after_teardown"; testing time: 20553us
+[0;39;49m[1;34;49m./test/coinsviewoverlay_tests.cpp(101): Leaving test suite "coinsviewoverlay_tests"; testing time: 133655us
+[0;39;49m[1;34;49m./test/coinsviewoverlay_tests.cpp(277): Entering test suite "coinsviewoverlay_tests_noworkers"
+[0;39;49m[1;34;49m./test/coinsviewoverlay_tests.cpp(280): Entering test case "fetch_unstarted_thread_pool"
+[0;39;49m[1;34;49m./test/coinsviewoverlay_tests.cpp(280): Leaving test case "fetch_unstarted_thread_pool"; testing time: 12817us
+[0;39;49m[1;34;49m./test/coinsviewoverlay_tests.cpp(293): Entering test case "fetch_interrupted_thread_pool_uses_normal_lookup"
+[0;39;49m[1;34;49m./test/coinsviewoverlay_tests.cpp(293): Leaving test case "fetch_interrupted_thread_pool_uses_normal_lookup"; testing time: 11250us
+[0;39;49m[1;34;49m./test/coinsviewoverlay_tests.cpp(277): Leaving test suite "coinsviewoverlay_tests_noworkers"; testing time: 26556us
+[0;39;49m[1;34;49m./test/common_url_tests.cpp(12): Entering test suite "common_url_tests"
+[0;39;49m[1;34;49m./test/common_url_tests.cpp(17): Entering test case "encode_decode_test"
+[0;39;49m[1;34;49m./test/common_url_tests.cpp(17): Leaving test case "encode_decode_test"; testing time: 315us
+[0;39;49m[1;34;49m./test/common_url_tests.cpp(31): Entering test case "decode_malformed_test"
+[0;39;49m[1;34;49m./test/common_url_tests.cpp(31): Leaving test case "decode_malformed_test"; testing time: 1214us
+[0;39;49m[1;34;49m./test/common_url_tests.cpp(65): Entering test case "decode_lowercase_hex_test"
+[0;39;49m[1;34;49m./test/common_url_tests.cpp(65): Leaving test case "decode_lowercase_hex_test"; testing time: 1313us
+[0;39;49m[1;34;49m./test/common_url_tests.cpp(69): Entering test case "decode_internal_nulls_test"
+[0;39;49m[1;34;49m./test/common_url_tests.cpp(69): Leaving test case "decode_internal_nulls_test"; testing time: 271us
+[0;39;49m[1;34;49m./test/common_url_tests.cpp(76): Entering test case "url_encode"
+[0;39;49m[1;34;49m./test/common_url_tests.cpp(76): Leaving test case "url_encode"; testing time: 191us
+[0;39;49m[1;34;49m./test/common_url_tests.cpp(12): Leaving test suite "common_url_tests"; testing time: 5744us
+[0;39;49m[1;34;49m./test/compress_tests.cpp(26): Entering test suite "compress_tests"
+[0;39;49m[1;34;49m./test/compress_tests.cpp(41): Entering test case "compress_amounts"
+[0;39;49m[1;34;49m./test/compress_tests.cpp(41): Leaving test case "compress_amounts"; testing time: 3022578us
+[0;39;49m[1;34;49m./test/compress_tests.cpp(66): Entering test case "compress_script_to_ckey_id"
+[0;39;49m[1;34;49m./test/compress_tests.cpp(66): Leaving test case "compress_script_to_ckey_id"; testing time: 8963us
+[0;39;49m[1;34;49m./test/compress_tests.cpp(85): Entering test case "compress_script_to_cscript_id"
+[0;39;49m[1;34;49m./test/compress_tests.cpp(85): Leaving test case "compress_script_to_cscript_id"; testing time: 6607us
+[0;39;49m[1;34;49m./test/compress_tests.cpp(102): Entering test case "compress_script_to_compressed_pubkey_id"
+[0;39;49m[1;34;49m./test/compress_tests.cpp(102): Leaving test case "compress_script_to_compressed_pubkey_id"; testing time: 5356us
+[0;39;49m[1;34;49m./test/compress_tests.cpp(119): Entering test case "compress_script_to_uncompressed_pubkey_id"
+[0;39;49m[1;34;49m./test/compress_tests.cpp(119): Leaving test case "compress_script_to_uncompressed_pubkey_id"; testing time: 5601us
+[0;39;49m[1;34;49m./test/compress_tests.cpp(135): Entering test case "compress_p2pk_scripts_not_on_curve"
+[0;39;49m[1;34;49m./test/compress_tests.cpp(135): Leaving test case "compress_p2pk_scripts_not_on_curve"; testing time: 5414us
+[0;39;49m[1;34;49m./test/compress_tests.cpp(26): Leaving test suite "compress_tests"; testing time: 3060022us
+[0;39;49m[1;34;49m./test/crypto_tests.cpp(377): Entering test suite "crypto_tests"
+[0;39;49m[1;34;49m./test/crypto_tests.cpp(379): Entering test case "ripemd160_testvectors"
+[0;39;49m[1;34;49m./test/crypto_tests.cpp(379): Leaving test case "ripemd160_testvectors"; testing time: 405453us
+[0;39;49m[1;34;49m./test/crypto_tests.cpp(395): Entering test case "sha1_testvectors"
+[0;39;49m[1;34;49m./test/crypto_tests.cpp(395): Leaving test case "sha1_testvectors"; testing time: 364773us
+[0;39;49m[1;34;49m./test/crypto_tests.cpp(411): Entering test case "sha256_testvectors"
+[0;39;49m[1;34;49m./test/crypto_tests.cpp(411): Leaving test case "sha256_testvectors"; testing time: 267662us
+[0;39;49m[1;34;49m./test/crypto_tests.cpp(433): Entering test case "sha512_testvectors"
+[0;39;49m[1;34;49m./test/crypto_tests.cpp(433): Leaving test case "sha512_testvectors"; testing time: 625414us
+[0;39;49m[1;34;49m./test/crypto_tests.cpp(470): Entering test case "hmac_sha256_testvectors"
+[0;39;49m[1;34;49m./test/crypto_tests.cpp(470): Leaving test case "hmac_sha256_testvectors"; testing time: 28442us
+[0;39;49m[1;34;49m./test/crypto_tests.cpp(523): Entering test case "hmac_sha512_testvectors"
+[0;39;49m[1;34;49m./test/crypto_tests.cpp(523): Leaving test case "hmac_sha512_testvectors"; testing time: 62968us
+[0;39;49m[1;34;49m./test/crypto_tests.cpp(591): Entering test case "aes_testvectors"
+[0;39;49m[1;34;49m./test/crypto_tests.cpp(591): Leaving test case "aes_testvectors"; testing time: 7994us
+[0;39;49m[1;34;49m./test/crypto_tests.cpp(602): Entering test case "aes_cbc_testvectors"
+[0;39;49m[1;34;49m./test/crypto_tests.cpp(602): Leaving test case "aes_cbc_testvectors"; testing time: 11229us
+[0;39;49m[1;34;49m./test/crypto_tests.cpp(633): Entering test case "chacha20_testvector"
+[0;39;49m[1;34;49m./test/crypto_tests.cpp(633): Leaving test case "chacha20_testvector"; testing time: 66573us
+[0;39;49m[1;34;49m./test/crypto_tests.cpp(834): Entering test case "chacha20_midblock"
+[0;39;49m[1;34;49m./test/crypto_tests.cpp(834): Leaving test case "chacha20_midblock"; testing time: 10037us
+[0;39;49m[1;34;49m./test/crypto_tests.cpp(852): Entering test case "poly1305_testvector"
+[0;39;49m[1;34;49m./test/crypto_tests.cpp(852): Leaving test case "poly1305_testvector"; testing time: 23307us
+[0;39;49m[1;34;49m./test/crypto_tests.cpp(973): Entering test case "chacha20poly1305_testvectors"
+[0;39;49m[1;34;49m./test/crypto_tests.cpp(973): Leaving test case "chacha20poly1305_testvectors"; testing time: 2768519us
+[0;39;49m[1;34;49m./test/crypto_tests.cpp(1054): Entering test case "hkdf_hmac_sha256_l32_tests"
+[0;39;49m[1;34;49m./test/crypto_tests.cpp(1054): Leaving test case "hkdf_hmac_sha256_l32_tests"; testing time: 4854us
+[0;39;49m[1;34;49m./test/crypto_tests.cpp(1074): Entering test case "sha256d64"
+[0;39;49m[1;34;49m./test/crypto_tests.cpp(1074): Leaving test case "sha256d64"; testing time: 6109us
+[0;39;49m[1;34;49m./test/crypto_tests.cpp(1112): Entering test case "keccak_tests"
+[0;39;49m[1;34;49m./test/crypto_tests.cpp(1112): Leaving test case "keccak_tests"; testing time: 862917us
+[0;39;49m[1;34;49m./test/crypto_tests.cpp(1132): Entering test case "sha3_256_tests"
+[0;39;49m[1;34;49m./test/crypto_tests.cpp(1132): Leaving test case "sha3_256_tests"; testing time: 27306us
+[0;39;49m[1;34;49m./test/crypto_tests.cpp(1201): Entering test case "muhash_tests"
+[0;39;49m[1;34;49m./test/crypto_tests.cpp(1201): Leaving test case "muhash_tests"; testing time: 63336us
+[0;39;49m[1;34;49m./test/crypto_tests.cpp(377): Leaving test suite "crypto_tests"; testing time: 5644233us
+[0;39;49m[1;34;49m./test/cuckoocache_tests.cpp(33): Entering test suite "cuckoocache_tests"
+[0;39;49m[1;34;49m./test/cuckoocache_tests.cpp(39): Entering test case "test_cuckoocache_no_fakes"
+[0;39;49m[1;34;49m./test/cuckoocache_tests.cpp(39): Leaving test case "test_cuckoocache_no_fakes"; testing time: 857487us
+[0;39;49m[1;34;49m./test/cuckoocache_tests.cpp(110): Entering test case "cuckoocache_hit_rate_ok"
+[0;39;49m[1;34;49m./test/cuckoocache_tests.cpp(110): Leaving test case "cuckoocache_hit_rate_ok"; testing time: 827716us
+[0;39;49m[1;34;49m./test/cuckoocache_tests.cpp(183): Entering test case "cuckoocache_erase_ok"
+[0;39;49m[1;34;49m./test/cuckoocache_tests.cpp(183): Leaving test case "cuckoocache_erase_ok"; testing time: 486106us
+[0;39;49m[1;34;49m./test/cuckoocache_tests.cpp(273): Entering test case "cuckoocache_erase_parallel_ok"
+[0;39;49m[1;34;49m./test/cuckoocache_tests.cpp(273): Leaving test case "cuckoocache_erase_parallel_ok"; testing time: 582993us
+[0;39;49m[1;34;49m./test/cuckoocache_tests.cpp(370): Entering test case "cuckoocache_generations"
+[0;39;49m[1;34;49m./test/cuckoocache_tests.cpp(370): Leaving test case "cuckoocache_generations"; testing time: 5505726us
+[0;39;49m[1;34;49m./test/cuckoocache_tests.cpp(33): Leaving test suite "cuckoocache_tests"; testing time: 8261783us
+[0;39;49m[1;34;49m./test/dbwrapper_tests.cpp(21): Entering test suite "dbwrapper_tests"
+[0;39;49m[1;34;49m./test/dbwrapper_tests.cpp(23): Entering test case "dbwrapper"
+[0;39;49m[1;34;49m./test/dbwrapper_tests.cpp(23): Leaving test case "dbwrapper"; testing time: 48844us
+[0;39;49m[1;34;49m./test/dbwrapper_tests.cpp(74): Entering test case "dbwrapper_basic_data"
+[0;39;49m[1;34;49m./test/dbwrapper_tests.cpp(74): Leaving test case "dbwrapper_basic_data"; testing time: 18753us
+[0;39;49m[1;34;49m./test/dbwrapper_tests.cpp(155): Entering test case "dbwrapper_batch"
+[0;39;49m[1;34;49m./test/dbwrapper_tests.cpp(155): Leaving test case "dbwrapper_batch"; testing time: 14446us
+[0;39;49m[1;34;49m./test/dbwrapper_tests.cpp(200): Entering test case "dbwrapper_read_returns_false_on_deserialization_error"
+[0;39;49m[1;34;49m./test/dbwrapper_tests.cpp(200): Leaving test case "dbwrapper_read_returns_false_on_deserialization_error"; testing time: 21889us
+[0;39;49m[1;34;49m./test/dbwrapper_tests.cpp(221): Entering test case "dbwrapper_read_throws_on_db_error"
+[0;39;49m[1;34;49m./test/dbwrapper_tests.cpp(221): Leaving test case "dbwrapper_read_throws_on_db_error"; testing time: 24361us
+[0;39;49m[1;34;49m./test/dbwrapper_tests.cpp(260): Entering test case "dbwrapper_tryread"
+[0;39;49m[1;34;49m./test/dbwrapper_tests.cpp(260): Leaving test case "dbwrapper_tryread"; testing time: 17717us
+[0;39;49m[1;34;49m./test/dbwrapper_tests.cpp(302): Entering test case "dbwrapper_iterator"
+[0;39;49m[1;34;49m./test/dbwrapper_tests.cpp(302): Leaving test case "dbwrapper_iterator"; testing time: 11625us
+[0;39;49m[1;34;49m./test/dbwrapper_tests.cpp(365): Entering test case "existing_data_no_obfuscate"
+[0;39;49m[1;34;49m./test/dbwrapper_tests.cpp(365): Leaving test case "existing_data_no_obfuscate"; testing time: 20573us
+[0;39;49m[1;34;49m./test/dbwrapper_tests.cpp(406): Entering test case "existing_data_reindex"
+[0;39;49m[1;34;49m./test/dbwrapper_tests.cpp(406): Leaving test case "existing_data_reindex"; testing time: 22980us
+[0;39;49m[1;34;49m./test/dbwrapper_tests.cpp(442): Entering test case "iterator_ordering"
+[0;39;49m[1;34;49m./test/dbwrapper_tests.cpp(442): Leaving test case "iterator_ordering"; testing time: 34717us
+[0;39;49m[1;34;49m./test/dbwrapper_tests.cpp(510): Entering test case "iterator_string_ordering"
+[0;39;49m[1;34;49m./test/dbwrapper_tests.cpp(510): Leaving test case "iterator_string_ordering"; testing time: 28049us
+[0;39;49m[1;34;49m./test/dbwrapper_tests.cpp(548): Entering test case "unicodepath"
+[0;39;49m[1;34;49m./test/dbwrapper_tests.cpp(548): Leaving test case "unicodepath"; testing time: 106570us
+[0;39;49m[1;34;49m./test/dbwrapper_tests.cpp(21): Leaving test suite "dbwrapper_tests"; testing time: 382751us
+[0;39;49m[1;34;49m./test/denialofservice_tests.cpp(36): Entering test suite "denialofservice_tests"
+[0;39;49m[1;34;49m./test/denialofservice_tests.cpp(46): Entering test case "outbound_slow_chain_eviction"
+[0;39;49m[1;34;49m./test/denialofservice_tests.cpp(46): Leaving test case "outbound_slow_chain_eviction"; testing time: 469925us
+[0;39;49m[1;34;49m./test/denialofservice_tests.cpp(145): Entering test case "stale_tip_peer_management"
+[0;39;49m[1;34;49m./test/denialofservice_tests.cpp(145): Leaving test case "stale_tip_peer_management"; testing time: 223131us
+[0;39;49m[1;34;49m./test/denialofservice_tests.cpp(247): Entering test case "block_relay_only_eviction"
+[0;39;49m[1;34;49m./test/denialofservice_tests.cpp(247): Leaving test case "block_relay_only_eviction"; testing time: 209881us
+[0;39;49m[1;34;49m./test/denialofservice_tests.cpp(307): Entering test case "peer_discouragement"
+[0;39;49m[1;34;49m./test/denialofservice_tests.cpp(307): Leaving test case "peer_discouragement"; testing time: 210762us
+[0;39;49m[1;34;49m./test/denialofservice_tests.cpp(444): Entering test case "DoS_bantime"
+[0;39;49m[1;34;49m./test/denialofservice_tests.cpp(444): Leaving test case "DoS_bantime"; testing time: 216097us
+[0;39;49m[1;34;49m./test/denialofservice_tests.cpp(36): Leaving test suite "denialofservice_tests"; testing time: 1333719us
+[0;39;49m[1;34;49m./test/descriptor_tests.cpp(626): Entering test suite "descriptor_tests"
+[0;39;49m[1;34;49m./test/descriptor_tests.cpp(628): Entering test case "descriptor_test"
+[0;39;49m[1;34;49m./test/descriptor_tests.cpp(628): Leaving test case "descriptor_test"; testing time: 5841851us
+[0;39;49m[1;34;49m./test/descriptor_tests.cpp(1332): Entering test case "descriptor_literal_null_byte"
+[0;39;49m[1;34;49m./test/descriptor_tests.cpp(1332): Leaving test case "descriptor_literal_null_byte"; testing time: 11433us
+[0;39;49m[1;34;49m./test/descriptor_tests.cpp(1341): Entering test case "descriptor_older_warnings"
+[0;39;49m[1;34;49m./test/descriptor_tests.cpp(1341): Leaving test case "descriptor_older_warnings"; testing time: 12352us
+[0;39;49m[1;34;49m./test/descriptor_tests.cpp(1433): Entering test case "unused_descriptor_test"
+[0;39;49m[1;34;49m./test/descriptor_tests.cpp(1433): Leaving test case "unused_descriptor_test"; testing time: 13660us
+[0;39;49m[1;34;49m./test/descriptor_tests.cpp(626): Leaving test suite "descriptor_tests"; testing time: 5882525us
+[0;39;49m[1;34;49m./test/disconnected_transactions.cpp(10): Entering test suite "disconnected_transactions"
+[0;39;49m[1;34;49m./test/disconnected_transactions.cpp(13): Entering test case "disconnectpool_memory_limits"
+[0;39;49m[1;34;49m./test/disconnected_transactions.cpp(13): Leaving test case "disconnectpool_memory_limits"; testing time: 1456187us
+[0;39;49m[1;34;49m./test/disconnected_transactions.cpp(10): Leaving test suite "disconnected_transactions"; testing time: 1457533us
+[0;39;49m[1;34;49m./test/fees_util_tests.cpp(9): Entering test suite "fees_util_tests"
+[0;39;49m[1;34;49m./test/fees_util_tests.cpp(11): Entering test case "fee_rate_estimator_type_to_string"
+[0;39;49m[1;34;49m./test/fees_util_tests.cpp(11): Leaving test case "fee_rate_estimator_type_to_string"; testing time: 346us
+[0;39;49m[1;34;49m./test/fees_util_tests.cpp(18): Entering test case "fee_rate_estimator_type_from_string"
+[0;39;49m[1;34;49m./test/fees_util_tests.cpp(18): Leaving test case "fee_rate_estimator_type_from_string"; testing time: 257us
+[0;39;49m[1;34;49m./test/fees_util_tests.cpp(9): Leaving test suite "fees_util_tests"; testing time: 5336us
+[0;39;49m[1;34;49m./test/feefrac_tests.cpp(10): Entering test suite "feefrac_tests"
+[0;39;49m[1;34;49m./test/feefrac_tests.cpp(12): Entering test case "feefrac_operators"
+[0;39;49m[1;34;49m./test/feefrac_tests.cpp(12): Leaving test case "feefrac_operators"; testing time: 618us
+[0;39;49m[1;34;49m./test/feefrac_tests.cpp(10): Leaving test suite "feefrac_tests"; testing time: 1435us
+[0;39;49m[1;34;49m./test/feerounder_tests.cpp(12): Entering test suite "feerounder_tests"
+[0;39;49m[1;34;49m./test/feerounder_tests.cpp(14): Entering test case "FeeRounder"
+[0;39;49m[1;34;49m./test/feerounder_tests.cpp(14): Leaving test case "FeeRounder"; testing time: 718us
+[0;39;49m[1;34;49m./test/feerounder_tests.cpp(12): Leaving test suite "feerounder_tests"; testing time: 1272us
+[0;39;49m[1;34;49m./test/flatfile_tests.cpp(13): Entering test suite "flatfile_tests"
+[0;39;49m[1;34;49m./test/flatfile_tests.cpp(15): Entering test case "flatfile_filename"
+[0;39;49m[1;34;49m./test/flatfile_tests.cpp(15): Leaving test case "flatfile_filename"; testing time: 24502us
+[0;39;49m[1;34;49m./test/flatfile_tests.cpp(31): Entering test case "flatfile_open"
+[0;39;49m[1;34;49m./test/flatfile_tests.cpp(31): Leaving test case "flatfile_open"; testing time: 14893us
+[0;39;49m[1;34;49m./test/flatfile_tests.cpp(96): Entering test case "flatfile_allocate"
+[0;39;49m[1;34;49m./test/flatfile_tests.cpp(96): Leaving test case "flatfile_allocate"; testing time: 16400us
+[0;39;49m[1;34;49m./test/flatfile_tests.cpp(116): Entering test case "flatfile_flush"
+[0;39;49m[1;34;49m./test/flatfile_tests.cpp(116): Leaving test case "flatfile_flush"; testing time: 9314us
+[0;39;49m[1;34;49m./test/flatfile_tests.cpp(13): Leaving test suite "flatfile_tests"; testing time: 68250us
+[0;39;49m[1;34;49m./test/fs_tests.cpp(15): Entering test suite "fs_tests"
+[0;39;49m[1;34;49m./test/fs_tests.cpp(17): Entering test case "fsbridge_pathtostring"
+[0;39;49m[1;34;49m./test/fs_tests.cpp(17): Leaving test case "fsbridge_pathtostring"; testing time: 9900us
+[0;39;49m[1;34;49m./test/fs_tests.cpp(40): Entering test case "fsbridge_stem"
+[0;39;49m[1;34;49m./test/fs_tests.cpp(40): Leaving test case "fsbridge_stem"; testing time: 9ms
+[0;39;49m[1;34;49m./test/fs_tests.cpp(47): Entering test case "fsbridge_fstream"
+[0;39;49m[1;34;49m./test/fs_tests.cpp(47): Leaving test case "fsbridge_fstream"; testing time: 12411us
+[0;39;49m[1;34;49m./test/fs_tests.cpp(108): Entering test case "rename"
+[0;39;49m[1;34;49m./test/fs_tests.cpp(108): Leaving test case "rename"; testing time: 9702us
+[0;39;49m[1;34;49m./test/fs_tests.cpp(15): Leaving test suite "fs_tests"; testing time: 44819us
+[0;39;49m[1;34;49m./test/getarg_tests.cpp(22): Entering test suite "getarg_tests"
+[0;39;49m[1;34;49m./test/getarg_tests.cpp(58): Entering test case "setting_args"
+[0;39;49m[1;34;49m./test/getarg_tests.cpp(58): Leaving test case "setting_args"; testing time: 13364us
+[0;39;49m[1;34;49m./test/getarg_tests.cpp(161): Entering test case "boolarg"
+[0;39;49m[1;34;49m./test/getarg_tests.cpp(161): Leaving test case "boolarg"; testing time: 11220us
+[0;39;49m[1;34;49m./test/getarg_tests.cpp(216): Entering test case "stringarg"
+[0;39;49m[1;34;49m./test/getarg_tests.cpp(216): Leaving test case "stringarg"; testing time: 25323us
+[0;39;49m[1;34;49m./test/getarg_tests.cpp(244): Entering test case "intarg"
+[0;39;49m[1;34;49m./test/getarg_tests.cpp(244): Leaving test case "intarg"; testing time: 13791us
+[0;39;49m[1;34;49m./test/getarg_tests.cpp(288): Entering test case "patharg"
+[0;39;49m[1;34;49m./test/getarg_tests.cpp(288): Leaving test case "patharg"; testing time: 5424us
+[0;39;49m[1;34;49m./test/getarg_tests.cpp(400): Entering test case "doubledash"
+[0;39;49m[1;34;49m./test/getarg_tests.cpp(400): Leaving test case "doubledash"; testing time: 6048us
+[0;39;49m[1;34;49m./test/getarg_tests.cpp(415): Entering test case "boolargno"
+[0;39;49m[1;34;49m./test/getarg_tests.cpp(415): Leaving test case "boolargno"; testing time: 5785us
+[0;39;49m[1;34;49m./test/getarg_tests.cpp(443): Entering test case "logargs"
+[0;39;49m[1;34;49m./test/getarg_tests.cpp(443): Leaving test case "logargs"; testing time: 7076us
+[0;39;49m[1;34;49m./test/getarg_tests.cpp(22): Leaving test suite "getarg_tests"; testing time: 93936us
+[0;39;49m[1;34;49m./test/hash_tests.cpp(16): Entering test suite "hash_tests"
+[0;39;49m[1;34;49m./test/hash_tests.cpp(56): Entering test case "murmurhash3"
+[0;39;49m[1;34;49m./test/hash_tests.cpp(56): Leaving test case "murmurhash3"; testing time: 5668us
+[0;39;49m[1;34;49m./test/hash_tests.cpp(121): Entering test case "siphash"
+[0;39;49m[1;34;49m./test/hash_tests.cpp(121): Leaving test case "siphash"; testing time: 5353us
+[0;39;49m[1;34;49m./test/hash_tests.cpp(172): Entering test case "siphash_test_vectors"
+[0;39;49m[1;34;49m./test/hash_tests.cpp(172): Leaving test case "siphash_test_vectors"; testing time: 27153us
+[0;39;49m[1;34;49m./test/hash_tests.cpp(16): Leaving test suite "hash_tests"; testing time: 40954us
+[0;39;49m[1;34;49m./test/headers_sync_chainwork_tests.cpp(143): Entering test suite "headers_sync_chainwork_tests"
+[0;39;49m[1;34;49m./test/headers_sync_chainwork_tests.cpp(145): Entering test case "sneaky_redownload"
+[0;39;49m[1;34;49m./test/headers_sync_chainwork_tests.cpp(145): Leaving test case "sneaky_redownload"; testing time: 453457us
+[0;39;49m[1;34;49m./test/headers_sync_chainwork_tests.cpp(184): Entering test case "happy_path"
+[0;39;49m[1;34;49m./test/headers_sync_chainwork_tests.cpp(184): Leaving test case "happy_path"; testing time: 508320us
+[0;39;49m[1;34;49m./test/headers_sync_chainwork_tests.cpp(227): Entering test case "too_little_work"
+[0;39;49m[1;34;49m./test/headers_sync_chainwork_tests.cpp(227): Leaving test case "too_little_work"; testing time: 278331us
+[0;39;49m[1;34;49m./test/headers_sync_chainwork_tests.cpp(256): Entering test case "system_clock_lagging_behind_chain_start"
+[0;39;49m[1;34;49m./test/headers_sync_chainwork_tests.cpp(256): Leaving test case "system_clock_lagging_behind_chain_start"; testing time: 206089us
+[0;39;49m[1;34;49m./test/headers_sync_chainwork_tests.cpp(143): Leaving test suite "headers_sync_chainwork_tests"; testing time: 1451180us
+[0;39;49m[1;34;49m./test/httpserver_tests.cpp(28): Entering test suite "httpserver_tests"
+[0;39;49m[1;34;49m./test/httpserver_tests.cpp(30): Entering test case "test_query_parameters"
+[0;39;49m[1;34;49m./test/httpserver_tests.cpp(30): Leaving test case "test_query_parameters"; testing time: 5346us
+[0;39;49m[1;34;49m./test/httpserver_tests.cpp(76): Entering test case "http_headers_tests"
+[0;39;49m[1;34;49m./test/httpserver_tests.cpp(76): Leaving test case "http_headers_tests"; testing time: 5820us
+[0;39;49m[1;34;49m./test/httpserver_tests.cpp(175): Entering test case "http_response_tests"
+[0;39;49m[1;34;49m./test/httpserver_tests.cpp(175): Leaving test case "http_response_tests"; testing time: 4268us
+[0;39;49m[1;34;49m./test/httpserver_tests.cpp(194): Entering test case "http_request_tests"
+[0;39;49m[1;34;49m./test/httpserver_tests.cpp(194): Leaving test case "http_request_tests"; testing time: 398152us
+[0;39;49m[1;34;49m./test/httpserver_tests.cpp(479): Entering test case "http_request_state_tests"
+[0;39;49m[1;34;49m./test/httpserver_tests.cpp(479): Leaving test case "http_request_state_tests"; testing time: 89826us
+[0;39;49m[1;34;49m./test/httpserver_tests.cpp(780): Entering test case "http_server_socket_tests"
+[0;39;49m[1;34;49m./test/httpserver_tests.cpp(780): Leaving test case "http_server_socket_tests"; testing time: 121678us
+[0;39;49m[1;34;49m./test/httpserver_tests.cpp(906): Entering test case "http_socket_error_tests"
+[0;39;49m[1;34;49m./test/httpserver_tests.cpp(906): Leaving test case "http_socket_error_tests"; testing time: 1190537us
+[0;39;49m[1;34;49m./test/httpserver_tests.cpp(1063): Entering test case "http_server_rejects_disallowed_client_before_read"
+[0;39;49m[1;34;49m./test/httpserver_tests.cpp(1063): Leaving test case "http_server_rejects_disallowed_client_before_read"; testing time: 69426us
+[0;39;49m[1;34;49m./test/httpserver_tests.cpp(28): Leaving test suite "httpserver_tests"; testing time: 1890336us
+[0;39;49m[1;34;49m./test/i2p_tests.cpp(46): Entering test suite "i2p_tests"
+[0;39;49m[1;34;49m./test/i2p_tests.cpp(48): Entering test case "unlimited_recv"
+[0;39;49m[1;34;49m./test/i2p_tests.cpp(48): Leaving test case "unlimited_recv"; testing time: 7360us
+[0;39;49m[1;34;49m./test/i2p_tests.cpp(69): Entering test case "listen_ok_accept_fail"
+[0;39;49m[1;34;49m./test/i2p_tests.cpp(69): Leaving test case "listen_ok_accept_fail"; testing time: 16508us
+[0;39;49m[1;34;49m./test/i2p_tests.cpp(134): Entering test case "damaged_private_key"
+[0;39;49m[1;34;49m./test/i2p_tests.cpp(134): Leaving test case "damaged_private_key"; testing time: 12370us
+[0;39;49m[1;34;49m./test/i2p_tests.cpp(46): Leaving test suite "i2p_tests"; testing time: 39132us
+[0;39;49m[1;34;49m./test/interfaces_tests.cpp(17): Entering test suite "interfaces_tests"
+[0;39;49m[1;34;49m./test/interfaces_tests.cpp(19): Entering test case "findBlock"
+[0;39;49m[1;34;49m./test/interfaces_tests.cpp(19): Leaving test case "findBlock"; testing time: 1073399us
+[0;39;49m[1;34;49m./test/interfaces_tests.cpp(64): Entering test case "findFirstBlockWithTimeAndHeight"
+[0;39;49m[1;34;49m./test/interfaces_tests.cpp(64): Leaving test case "findFirstBlockWithTimeAndHeight"; testing time: 1159109us
+[0;39;49m[1;34;49m./test/interfaces_tests.cpp(77): Entering test case "findAncestorByHeight"
+[0;39;49m[1;34;49m./test/interfaces_tests.cpp(77): Leaving test case "findAncestorByHeight"; testing time: 1966116us
+[0;39;49m[1;34;49m./test/interfaces_tests.cpp(88): Entering test case "findAncestorByHash"
+[0;39;49m[1;34;49m./test/interfaces_tests.cpp(88): Leaving test case "findAncestorByHash"; testing time: 2046543us
+[0;39;49m[1;34;49m./test/interfaces_tests.cpp(99): Entering test case "findCommonAncestor"
+[0;39;49m[1;34;49m./test/interfaces_tests.cpp(99): Leaving test case "findCommonAncestor"; testing time: 1687205us
+[0;39;49m[1;34;49m./test/interfaces_tests.cpp(129): Entering test case "hasBlocks"
+[0;39;49m[1;34;49m./test/interfaces_tests.cpp(129): Leaving test case "hasBlocks"; testing time: 1358867us
+[0;39;49m[1;34;49m./test/interfaces_tests.cpp(17): Leaving test suite "interfaces_tests"; testing time: 9293853us
+[0;39;49m[1;34;49m./test/key_io_tests.cpp(21): Entering test suite "key_io_tests"
+[0;39;49m[1;34;49m./test/key_io_tests.cpp(24): Entering test case "key_io_valid_parse"
+[0;39;49m[1;34;49m./test/key_io_tests.cpp(24): Leaving test case "key_io_valid_parse"; testing time: 87063us
+[0;39;49m[1;34;49m./test/key_io_tests.cpp(85): Entering test case "key_io_valid_gen"
+[0;39;49m[1;34;49m./test/key_io_tests.cpp(85): Leaving test case "key_io_valid_gen"; testing time: 45344us
+[0;39;49m[1;34;49m./test/key_io_tests.cpp(123): Entering test case "key_io_invalid"
+[0;39;49m[1;34;49m./test/key_io_tests.cpp(123): Leaving test case "key_io_invalid"; testing time: 73540us
+[0;39;49m[1;34;49m./test/key_io_tests.cpp(21): Leaving test suite "key_io_tests"; testing time: 212250us
+[0;39;49m[1;34;49m./test/key_tests.cpp(39): Entering test suite "key_tests"
+[0;39;49m[1;34;49m./test/key_tests.cpp(41): Entering test case "key_test1"
+[0;39;49m[1;34;49m./test/key_tests.cpp(41): Leaving test case "key_test1"; testing time: 180280us
+[0;39;49m[1;34;49m./test/key_tests.cpp(170): Entering test case "key_signature_tests"
+[0;39;49m[1;34;49m./test/key_tests.cpp(170): Leaving test case "key_signature_tests"; testing time: 125882us
+[0;39;49m[1;34;49m./test/key_tests.cpp(243): Entering test case "pubkey_unserialize"
+[0;39;49m[1;34;49m./test/key_tests.cpp(243): Leaving test case "pubkey_unserialize"; testing time: 15490us
+[0;39;49m[1;34;49m./test/key_tests.cpp(259): Entering test case "bip340_test_vectors"
+[0;39;49m[1;34;49m./test/key_tests.cpp(259): Leaving test case "bip340_test_vectors"; testing time: 63347us
+[0;39;49m[1;34;49m./test/key_tests.cpp(342): Entering test case "key_ellswift"
+[0;39;49m[1;34;49m./test/key_tests.cpp(342): Leaving test case "key_ellswift"; testing time: 10962us
+[0;39;49m[1;34;49m./test/key_tests.cpp(362): Entering test case "bip341_test_h"
+[0;39;49m[1;34;49m./test/key_tests.cpp(362): Leaving test case "bip341_test_h"; testing time: 9107us
+[0;39;49m[1;34;49m./test/key_tests.cpp(371): Entering test case "key_schnorr_tweak_smoke_test"
+[0;39;49m[1;34;49m./test/key_tests.cpp(371): Leaving test case "key_schnorr_tweak_smoke_test"; testing time: 7882us
+[0;39;49m[1;34;49m./test/key_tests.cpp(39): Leaving test suite "key_tests"; testing time: 427232us
+[0;39;49m[1;34;49m./test/logging_tests.cpp(33): Entering test suite "logging_tests"
+[0;39;49m[1;34;49m./test/logging_tests.cpp(106): Entering test case "logging_timer"
+[0;39;49m[1;34;49m./test/logging_tests.cpp(106): Leaving test case "logging_timer"; testing time: 10739us
+[0;39;49m[1;34;49m./test/logging_tests.cpp(113): Entering test case "logging_LogPrint"
+[0;39;49m[1;34;49m./test/logging_tests.cpp(113): Leaving test case "logging_LogPrint"; testing time: 13973us
+[0;39;49m[1;34;49m./test/logging_tests.cpp(143): Entering test case "logging_LogPrintMacros"
+[0;39;49m[1;34;49m./test/logging_tests.cpp(143): Leaving test case "logging_LogPrintMacros"; testing time: 12815us
+[0;39;49m[1;34;49m./test/logging_tests.cpp(161): Entering test case "logging_LogPrintMacros_CategoryName"
+[0;39;49m[1;34;49m./test/logging_tests.cpp(161): Leaving test case "logging_LogPrintMacros_CategoryName"; testing time: 19144us
+[0;39;49m[1;34;49m./test/logging_tests.cpp(186): Entering test case "logging_SeverityLevels"
+[0;39;49m[1;34;49m./test/logging_tests.cpp(186): Leaving test case "logging_SeverityLevels"; testing time: 13490us
+[0;39;49m[1;34;49m./test/logging_tests.cpp(212): Entering test case "logging_Conf"
+[0;39;49m[1;34;49m./test/logging_tests.cpp(212): Leaving test case "logging_Conf"; testing time: 9933us
+[0;39;49m[1;34;49m./test/logging_tests.cpp(307): Entering test case "logging_log_rate_limiter"
+[0;39;49m[1;34;49m./test/logging_tests.cpp(307): Leaving test case "logging_log_rate_limiter"; testing time: 13104us
+[0;39;49m[1;34;49m./test/logging_tests.cpp(348): Entering test case "logging_log_limit_stats"
+[0;39;49m[1;34;49m./test/logging_tests.cpp(348): Leaving test case "logging_log_limit_stats"; testing time: 12211us
+[0;39;49m[1;34;49m./test/logging_tests.cpp(433): Entering test case "logging_filesize_rate_limit"
+[0;39;49m[1;34;49m./test/logging_tests.cpp(433): Leaving test case "logging_filesize_rate_limit"; testing time: 74857us
+[0;39;49m[1;34;49m./test/logging_tests.cpp(33): Leaving test suite "logging_tests"; testing time: 194353us
+[0;39;49m[1;34;49m./test/mempool_tests.cpp(17): Entering test suite "mempool_tests"
+[0;39;49m[1;34;49m./test/mempool_tests.cpp(27): Entering test case "MempoolLookupTest"
+[0;39;49m[1;34;49m./test/mempool_tests.cpp(27): Leaving test case "MempoolLookupTest"; testing time: 279725us
+[0;39;49m[1;34;49m./test/mempool_tests.cpp(53): Entering test case "MempoolRemoveTest"
+[0;39;49m[1;34;49m./test/mempool_tests.cpp(53): Leaving test case "MempoolRemoveTest"; testing time: 288887us
+[0;39;49m[1;34;49m./test/mempool_tests.cpp(145): Entering test case "MempoolSizeLimitTest"
+[0;39;49m[1;34;49m./test/mempool_tests.cpp(145): Leaving test case "MempoolSizeLimitTest"; testing time: 234554us
+[0;39;49m[1;34;49m./test/mempool_tests.cpp(325): Entering test case "MempoolAncestryTests"
+[0;39;49m[1;34;49m./test/mempool_tests.cpp(325): Leaving test case "MempoolAncestryTests"; testing time: 230205us
+[0;39;49m[1;34;49m./test/mempool_tests.cpp(484): Entering test case "MempoolAncestryTestsDiamond"
+[0;39;49m[1;34;49m./test/mempool_tests.cpp(484): Leaving test case "MempoolAncestryTestsDiamond"; testing time: 213840us
+[0;39;49m[1;34;49m./test/mempool_tests.cpp(17): Leaving test suite "mempool_tests"; testing time: 1257517us
+[0;39;49m[1;34;49m./test/mempool_fee_estimator_tests.cpp(24): Entering test suite "mempool_fee_estimator_tests"
+[0;39;49m[1;34;49m./test/mempool_fee_estimator_tests.cpp(65): Entering test case "calculate_max_weight_percentiles"
+[0;39;49m[1;34;49m./test/mempool_fee_estimator_tests.cpp(65): Leaving test case "calculate_max_weight_percentiles"; testing time: 196672us
+[0;39;49m[1;34;49m./test/mempool_fee_estimator_tests.cpp(106): Entering test case "mempool_fee_rate_estimator_cache"
+[0;39;49m[1;34;49m./test/mempool_fee_estimator_tests.cpp(106): Leaving test case "mempool_fee_rate_estimator_cache"; testing time: 210003us
+[0;39;49m[1;34;49m./test/mempool_fee_estimator_tests.cpp(131): Entering test case "MempoolFeeRateEstimator"
+[0;39;49m[1;34;49m./test/mempool_fee_estimator_tests.cpp(131): Leaving test case "MempoolFeeRateEstimator"; testing time: 10221984us
+[0;39;49m[1;34;49m./test/mempool_fee_estimator_tests.cpp(24): Leaving test suite "mempool_fee_estimator_tests"; testing time: 10649388us
+[0;39;49m[1;34;49m./test/merkle_tests.cpp(12): Entering test suite "merkle_tests"
+[0;39;49m[1;34;49m./test/merkle_tests.cpp(80): Entering test case "merkle_test"
+[0;39;49m[1;34;49m./test/merkle_tests.cpp(80): Leaving test case "merkle_test"; testing time: 1326451us
+[0;39;49m[1;34;49m./test/merkle_tests.cpp(150): Entering test case "merkle_test_empty_block"
+[0;39;49m[1;34;49m./test/merkle_tests.cpp(150): Leaving test case "merkle_test_empty_block"; testing time: 11228us
+[0;39;49m[1;34;49m./test/merkle_tests.cpp(165): Entering test case "merkle_test_oneTx_block"
+[0;39;49m[1;34;49m./test/merkle_tests.cpp(165): Leaving test case "merkle_test_oneTx_block"; testing time: 31897us
+[0;39;49m[1;34;49m./test/merkle_tests.cpp(179): Entering test case "merkle_test_OddTxWithRepeatedLastTx_block"
+[0;39;49m[1;34;49m./test/merkle_tests.cpp(179): Leaving test case "merkle_test_OddTxWithRepeatedLastTx_block"; testing time: 27798us
+[0;39;49m[1;34;49m./test/merkle_tests.cpp(203): Entering test case "merkle_test_mutated_return_value"
+[0;39;49m[1;34;49m./test/merkle_tests.cpp(203): Leaving test case "merkle_test_mutated_return_value"; testing time: 19523us
+[0;39;49m[1;34;49m./test/merkle_tests.cpp(223): Entering test case "merkle_test_LeftSubtreeRightSubtree"
+[0;39;49m[1;34;49m./test/merkle_tests.cpp(223): Leaving test case "merkle_test_LeftSubtreeRightSubtree"; testing time: 16436us
+[0;39;49m[1;34;49m./test/merkle_tests.cpp(252): Entering test case "merkle_test_BlockWitness"
+[0;39;49m[1;34;49m./test/merkle_tests.cpp(252): Leaving test case "merkle_test_BlockWitness"; testing time: 20602us
+[0;39;49m[1;34;49m./test/merkle_tests.cpp(12): Leaving test suite "merkle_tests"; testing time: 1460020us
+[0;39;49m[1;34;49m./test/merkleblock_tests.cpp(15): Entering test suite "merkleblock_tests"
+[0;39;49m[1;34;49m./test/merkleblock_tests.cpp(21): Entering test case "merkleblock_construct_from_txids_found"
+[0;39;49m[1;34;49m./test/merkleblock_tests.cpp(21): Leaving test case "merkleblock_construct_from_txids_found"; testing time: 21076us
+[0;39;49m[1;34;49m./test/merkleblock_tests.cpp(62): Entering test case "merkleblock_construct_from_txids_not_found"
+[0;39;49m[1;34;49m./test/merkleblock_tests.cpp(62): Leaving test case "merkleblock_construct_from_txids_not_found"; testing time: 546us
+[0;39;49m[1;34;49m./test/merkleblock_tests.cpp(15): Leaving test suite "merkleblock_tests"; testing time: 21825us
+[0;39;49m[1;34;49m./test/miner_tests.cpp(107): Entering test suite "miner_tests"
+[0;39;49m[1;34;49m./test/miner_tests.cpp(836): Entering test case "CreateNewBlock_validity"
+[0;39;49mError: The -testactivationheight option may not be used on mainnet.

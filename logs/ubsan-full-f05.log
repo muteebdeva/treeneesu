@@ -2089,3 +2089,3122 @@ Check that all connected peers are correctly detected as connected[0;39;49m
 [0;39;49m[1;34;49m./wallet/test/wallet_tests.cpp(581): Entering test case "wallet_descriptor_test"
 [0;39;49m[1;34;49m./wallet/test/wallet_tests.cpp(581): Leaving test case "wallet_descriptor_test"; testing time: 5946us
 [0;39;49m[1;34;49m./wallet/test/wallet_tests.cpp(614): Entering test case "CreateWallet"
+[0;39;49m[1;34;49m./wallet/test/wallet_tests.cpp(614): Leaving test case "CreateWallet"; testing time: 20677967us
+[0;39;49m[1;34;49m./wallet/test/wallet_tests.cpp(714): Entering test case "CreateWalletWithoutChain"
+[0;39;49m[1;34;49m./wallet/test/wallet_tests.cpp(714): Leaving test case "CreateWalletWithoutChain"; testing time: 5437377us
+[0;39;49m[1;34;49m./wallet/test/wallet_tests.cpp(723): Entering test case "RemoveTxs"
+[0;39;49m[1;34;49m./wallet/test/wallet_tests.cpp(723): Leaving test case "RemoveTxs"; testing time: 7696929us
+[0;39;49m[1;34;49m./wallet/test/wallet_tests.cpp(46): Leaving test suite "wallet_tests"; testing time: 52984292us
+[0;39;49m[1;34;49m./wallet/test/wallet_transaction_tests.cpp(16): Entering test suite "wallet_transaction_tests"
+[0;39;49m[1;34;49m./wallet/test/wallet_transaction_tests.cpp(18): Entering test case "roundtrip"
+[0;39;49m[1;34;49m./wallet/test/wallet_transaction_tests.cpp(18): Leaving test case "roundtrip"; testing time: 56363us
+[0;39;49m[1;34;49m./wallet/test/wallet_transaction_tests.cpp(29): Entering test case "deserialize_rejects_mismatched_variant_txid"
+[0;39;49m[1;34;49m./wallet/test/wallet_transaction_tests.cpp(29): Leaving test case "deserialize_rejects_mismatched_variant_txid"; testing time: 109134us
+[0;39;49m[1;34;49m./wallet/test/wallet_transaction_tests.cpp(16): Leaving test suite "wallet_transaction_tests"; testing time: 169699us
+[0;39;49m[1;34;49m./wallet/test/walletdb_tests.cpp(15): Entering test suite "walletdb_tests"
+[0;39;49m[1;34;49m./wallet/test/walletdb_tests.cpp(17): Entering test case "walletdb_readkeyvalue"
+[0;39;49m[1;34;49m./wallet/test/walletdb_tests.cpp(17): Leaving test case "walletdb_readkeyvalue"; testing time: 9123us
+[0;39;49m[1;34;49m./wallet/test/walletdb_tests.cpp(15): Leaving test suite "walletdb_tests"; testing time: 9182us
+[0;39;49m[1;34;49m./wallet/test/walletload_tests.cpp(15): Entering test suite "walletload_tests"
+[0;39;49m[1;34;49m./wallet/test/walletload_tests.cpp(48): Entering test case "wallet_load_descriptors"
+[0;39;49m[1;34;49m./wallet/test/walletload_tests.cpp(48): Leaving test case "wallet_load_descriptors"; testing time: 66192us
+[0;39;49m[1;34;49m./wallet/test/walletload_tests.cpp(15): Leaving test suite "walletload_tests"; testing time: 66289us
+[0;39;49m[1;34;49mLeaving test module "Bitcoin Core Test Suite"; testing time: 615946925us
+[0;39;49m
+Test module "Bitcoin Core Test Suite" has passed with:
+  826 test cases out of 827 passed
+  1 test case out of 827 passed with warnings
+  26708616 assertions out of 26708616 passed
+  1 failed warning
+
+  Test suite "addrman_tests" has passed with:
+    25 test cases out of 25 passed
+    14121 assertions out of 14121 passed
+
+    Test case "addrman_tests/addrman_simple" has passed with:
+      17 assertions out of 17 passed
+
+    Test case "addrman_tests/addrman_terrible_many_failures" has passed with:
+      10 assertions out of 10 passed
+
+    Test case "addrman_tests/addrman_penalty_self_announcement" has passed with:
+      11 assertions out of 11 passed
+
+    Test case "addrman_tests/addrman_ports" has passed with:
+      11 assertions out of 11 passed
+
+    Test case "addrman_tests/addrman_select" has passed with:
+      33 assertions out of 33 passed
+
+    Test case "addrman_tests/addrman_select_by_network" has passed with:
+      31 assertions out of 31 passed
+
+    Test case "addrman_tests/addrman_select_special" has passed with:
+      6 assertions out of 6 passed
+
+    Test case "addrman_tests/addrman_new_collisions" has passed with:
+      74 assertions out of 74 passed
+
+    Test case "addrman_tests/addrman_new_multiplicity" has passed with:
+      423 assertions out of 423 passed
+
+    Test case "addrman_tests/addrman_tried_collisions" has passed with:
+      113 assertions out of 113 passed
+
+    Test case "addrman_tests/addrman_getaddr" has passed with:
+      4114 assertions out of 4114 passed
+
+    Test case "addrman_tests/getaddr_unfiltered" has passed with:
+      10 assertions out of 10 passed
+
+    Test case "addrman_tests/caddrinfo_get_tried_bucket_legacy" has passed with:
+      1029 assertions out of 1029 passed
+
+    Test case "addrman_tests/caddrinfo_get_new_bucket_legacy" has passed with:
+      3071 assertions out of 3071 passed
+
+    Test case "addrman_tests/caddrinfo_get_tried_bucket" has passed with:
+      1029 assertions out of 1029 passed
+
+    Test case "addrman_tests/caddrinfo_get_new_bucket" has passed with:
+      3582 assertions out of 3582 passed
+
+    Test case "addrman_tests/addrman_serialization" has passed with:
+      15 assertions out of 15 passed
+
+    Test case "addrman_tests/remove_invalid" has passed with:
+      10 assertions out of 10 passed
+
+    Test case "addrman_tests/addrman_selecttriedcollision" has passed with:
+      157 assertions out of 157 passed
+
+    Test case "addrman_tests/addrman_noevict" has passed with:
+      185 assertions out of 185 passed
+
+    Test case "addrman_tests/addrman_evictionworks" has passed with:
+      123 assertions out of 123 passed
+
+    Test case "addrman_tests/load_addrman" has passed with:
+      13 assertions out of 13 passed
+
+    Test case "addrman_tests/load_addrman_corrupted" has passed with:
+      8 assertions out of 8 passed
+
+    Test case "addrman_tests/addrman_update_address" has passed with:
+      23 assertions out of 23 passed
+
+    Test case "addrman_tests/addrman_size" has passed with:
+      23 assertions out of 23 passed
+
+  Test suite "allocator_tests" has passed with:
+    3 test cases out of 3 passed
+    49 assertions out of 49 passed
+
+    Test case "allocator_tests/arena_tests" has passed with:
+      25 assertions out of 25 passed
+
+    Test case "allocator_tests/lockedpool_tests_mock" has passed with:
+      19 assertions out of 19 passed
+
+    Test case "allocator_tests/lockedpool_tests_live" has passed with:
+      5 assertions out of 5 passed
+
+  Test suite "amount_tests" has passed with:
+    4 test cases out of 4 passed
+    79 assertions out of 79 passed
+
+    Test case "amount_tests/MoneyRangeTest" has passed with:
+      5 assertions out of 5 passed
+
+    Test case "amount_tests/GetFeeTest" has passed with:
+      53 assertions out of 53 passed
+
+    Test case "amount_tests/BinaryOperatorTest" has passed with:
+      8 assertions out of 8 passed
+
+    Test case "amount_tests/ToStringTest" has passed with:
+      13 assertions out of 13 passed
+
+  Test suite "argsman_tests" has passed with:
+    16 test cases out of 16 passed
+    220547 assertions out of 220547 passed
+
+    Test case "argsman_tests/util_datadir" has passed with:
+      4 assertions out of 4 passed
+
+    Test case "argsman_tests/util_CheckValue" has passed with:
+      125 assertions out of 125 passed
+
+    Test case "argsman_tests/util_NoIncludeConf" has passed with:
+      3 assertions out of 3 passed
+
+    Test case "argsman_tests/util_ParseParameters" has passed with:
+      25 assertions out of 25 passed
+
+    Test case "argsman_tests/util_ParseInvalidParameters" has passed with:
+      6 assertions out of 6 passed
+
+    Test case "argsman_tests/util_ArgParsing" has passed with:
+      155 assertions out of 155 passed
+
+    Test case "argsman_tests/util_GetBoolArg" has passed with:
+      19 assertions out of 19 passed
+
+    Test case "argsman_tests/util_GetBoolArgEdgeCases" has passed with:
+      20 assertions out of 20 passed
+
+    Test case "argsman_tests/util_ReadConfigStream" has passed with:
+      117 assertions out of 117 passed
+
+    Test case "argsman_tests/util_GetArg" has passed with:
+      13 assertions out of 13 passed
+
+    Test case "argsman_tests/util_AddCommand" has passed with:
+      16 assertions out of 16 passed
+
+    Test case "argsman_tests/util_AddCommand_clearargs_replaces_command_options" has passed with:
+      3 assertions out of 3 passed
+
+    Test case "argsman_tests/util_GetChainTypeString" has passed with:
+      42 assertions out of 42 passed
+
+    Test case "argsman_tests/util_ArgsMerge" has passed with:
+      214521 assertions out of 214521 passed
+
+    Test case "argsman_tests/util_ChainMerge" has passed with:
+      5477 assertions out of 5477 passed
+
+    Test case "argsman_tests/util_ReadWriteSettings" has passed with:
+      1 assertion out of 1 passed
+
+  Test suite "arith_uint256_tests" has passed with:
+    13 test cases out of 13 passed
+    12276 assertions out of 12276 passed
+
+    Test case "arith_uint256_tests/basics" has passed with:
+      1057 assertions out of 1057 passed
+
+    Test case "arith_uint256_tests/shifts" has passed with:
+      3328 assertions out of 3328 passed
+
+    Test case "arith_uint256_tests/unaryOperators" has passed with:
+      260 assertions out of 260 passed
+
+    Test case "arith_uint256_tests/bitwiseOperators" has passed with:
+      34 assertions out of 34 passed
+
+    Test case "arith_uint256_tests/comparison" has passed with:
+      4097 assertions out of 4097 passed
+
+    Test case "arith_uint256_tests/plusMinus" has passed with:
+      2818 assertions out of 2818 passed
+
+    Test case "arith_uint256_tests/multiply" has passed with:
+      15 assertions out of 15 passed
+
+    Test case "arith_uint256_tests/divide" has passed with:
+      12 assertions out of 12 passed
+
+    Test case "arith_uint256_tests/methods" has passed with:
+      527 assertions out of 527 passed
+
+    Test case "arith_uint256_tests/bignum_SetCompact" has passed with:
+      79 assertions out of 79 passed
+
+    Test case "arith_uint256_tests/getmaxcoverage" has passed with:
+      20 assertions out of 20 passed
+
+    Test case "arith_uint256_tests/conversion" has passed with:
+      25 assertions out of 25 passed
+
+    Test case "arith_uint256_tests/operator_with_self" has passed with:
+      4 assertions out of 4 passed
+
+  Test suite "banman_tests" has passed with:
+    1 test case out of 1 passed
+    2 assertions out of 2 passed
+
+    Test case "banman_tests/file" has passed with:
+      2 assertions out of 2 passed
+
+  Test suite "base32_tests" has passed with:
+    2 test cases out of 2 passed
+    41 assertions out of 41 passed
+
+    Test case "base32_tests/base32_testvectors" has passed with:
+      32 assertions out of 32 passed
+
+    Test case "base32_tests/base32_padding" has passed with:
+      9 assertions out of 9 passed
+
+  Test suite "base58_tests" has passed with:
+    2 test cases out of 2 passed
+    77 assertions out of 77 passed
+
+    Test case "base58_tests/base58_EncodeBase58" has passed with:
+      21 assertions out of 21 passed
+
+    Test case "base58_tests/base58_DecodeBase58" has passed with:
+      56 assertions out of 56 passed
+
+  Test suite "base64_tests" has passed with:
+    2 test cases out of 2 passed
+    33 assertions out of 33 passed
+
+    Test case "base64_tests/base64_testvectors" has passed with:
+      28 assertions out of 28 passed
+
+    Test case "base64_tests/base64_padding" has passed with:
+      5 assertions out of 5 passed
+
+  Test suite "baseindex_tests" has passed with:
+    3 test cases out of 3 passed
+    83 assertions out of 83 passed
+
+    Test case "baseindex_tests/baseindex_no_commit_ahead_of_flush" has passed with:
+      48 assertions out of 48 passed
+
+    Test case "baseindex_tests/index_unclean_shutdown" has passed with:
+      28 assertions out of 28 passed
+
+    Test case "baseindex_tests/index_reorg_crash" has passed with:
+      7 assertions out of 7 passed
+
+  Test suite "bech32_tests" has passed with:
+    4 test cases out of 4 passed
+    141 assertions out of 141 passed
+
+    Test case "bech32_tests/bech32_testvectors_valid" has passed with:
+      21 assertions out of 21 passed
+
+    Test case "bech32_tests/bech32m_testvectors_valid" has passed with:
+      21 assertions out of 21 passed
+
+    Test case "bech32_tests/bech32_testvectors_invalid" has passed with:
+      51 assertions out of 51 passed
+
+    Test case "bech32_tests/bech32m_testvectors_invalid" has passed with:
+      48 assertions out of 48 passed
+
+  Test suite "bip32_tests" has passed with:
+    9 test cases out of 9 passed
+    983 assertions out of 983 passed
+
+    Test case "bip32_tests/bip32_test1" has passed with:
+      38 assertions out of 38 passed
+
+    Test case "bip32_tests/bip32_test2" has passed with:
+      38 assertions out of 38 passed
+
+    Test case "bip32_tests/bip32_test3" has passed with:
+      12 assertions out of 12 passed
+
+    Test case "bip32_tests/bip32_test4" has passed with:
+      17 assertions out of 17 passed
+
+    Test case "bip32_tests/bip32_test5" has passed with:
+      32 assertions out of 32 passed
+
+    Test case "bip32_tests/bip32_derive_ext_key" has passed with:
+      262 assertions out of 262 passed
+
+    Test case "bip32_tests/bip32_has_hardened_derivation" has passed with:
+      4 assertions out of 4 passed
+
+    Test case "bip32_tests/bip32_max_depth" has passed with:
+      514 assertions out of 514 passed
+
+    Test case "bip32_tests/parse_hd_keypath" has passed with:
+      66 assertions out of 66 passed
+
+  Test suite "bip324_tests" has passed with:
+    1 test case out of 1 passed
+    697 assertions out of 697 passed
+
+    Test case "bip324_tests/packet_test_vectors" has passed with:
+      697 assertions out of 697 passed
+
+  Test suite "blockchain_tests" has passed with:
+    8 test cases out of 8 passed
+    13 assertions out of 13 passed
+
+    Test case "blockchain_tests/get_difficulty_for_very_low_target" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "blockchain_tests/get_difficulty_for_low_target" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "blockchain_tests/get_difficulty_for_mid_target" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "blockchain_tests/get_difficulty_for_high_target" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "blockchain_tests/get_difficulty_for_very_high_target" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "blockchain_tests/get_prune_height" has passed with:
+      7 assertions out of 7 passed
+
+    Test case "blockchain_tests/num_chain_tx_max" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "blockchain_tests/invalidate_block" has passed
+
+  Test suite "blockencodings_tests" has passed with:
+    8 test cases out of 8 passed
+    85 assertions out of 85 passed
+
+    Test case "blockencodings_tests/SimpleRoundTripTest" has passed with:
+      13 assertions out of 13 passed
+
+    Test case "blockencodings_tests/NonCoinbasePreforwardRTTest" has passed with:
+      16 assertions out of 16 passed
+
+    Test case "blockencodings_tests/SufficientPreforwardRTTest" has passed with:
+      12 assertions out of 12 passed
+
+    Test case "blockencodings_tests/EmptyBlockRoundTripTest" has passed with:
+      6 assertions out of 6 passed
+
+    Test case "blockencodings_tests/ReceiveWithExtraTransactions" has passed with:
+      29 assertions out of 29 passed
+
+    Test case "blockencodings_tests/TransactionsRequestSerializationTest" has passed with:
+      6 assertions out of 6 passed
+
+    Test case "blockencodings_tests/TransactionsRequestDeserializationMaxTest" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "blockencodings_tests/TransactionsRequestDeserializationOverflowTest" has passed with:
+      1 assertion out of 1 passed
+
+  Test suite "blockfilter_index_tests" has passed with:
+    2 test cases out of 2 passed
+    1583 assertions out of 1583 passed
+
+    Test case "blockfilter_index_tests/blockfilter_index_initial_sync" has passed with:
+      1572 assertions out of 1572 passed
+
+    Test case "blockfilter_index_tests/blockfilter_index_init_destroy" has passed with:
+      11 assertions out of 11 passed
+
+  Test suite "blockfilter_tests" has passed with:
+    5 test cases out of 5 passed
+    266 assertions out of 266 passed
+
+    Test case "blockfilter_tests/gcsfilter_test" has passed with:
+      200 assertions out of 200 passed
+
+    Test case "blockfilter_tests/gcsfilter_default_constructor" has passed with:
+      6 assertions out of 6 passed
+
+    Test case "blockfilter_tests/blockfilter_basic_test" has passed with:
+      15 assertions out of 15 passed
+
+    Test case "blockfilter_tests/blockfilters_json_test" has passed with:
+      40 assertions out of 40 passed
+
+    Test case "blockfilter_tests/blockfilter_type_names" has passed with:
+      5 assertions out of 5 passed
+
+  Test suite "blockmanager_tests" has passed with:
+    8 test cases out of 8 passed
+    78 assertions out of 78 passed
+
+    Test case "blockmanager_tests/blockmanager_find_block_pos" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "blockmanager_tests/blockmanager_scan_unlink_already_pruned_files" has passed with:
+      4 assertions out of 4 passed
+
+    Test case "blockmanager_tests/blockmanager_block_data_availability" has passed with:
+      10 assertions out of 10 passed
+
+    Test case "blockmanager_tests/blockmanager_block_data_part" has passed with:
+      16 assertions out of 16 passed
+
+    Test case "blockmanager_tests/blockmanager_block_data_part_error" has passed with:
+      30 assertions out of 30 passed
+
+    Test case "blockmanager_tests/blockmanager_readblock_hash_mismatch" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "blockmanager_tests/blockmanager_flush_block_file" has passed with:
+      12 assertions out of 12 passed
+
+    Test case "blockmanager_tests/prune_lock_update_and_delete" has passed with:
+      3 assertions out of 3 passed
+
+  Test suite "blockpolicyestimator_tests" has passed with:
+    1 test case out of 1 passed
+    61 assertions out of 61 passed
+
+    Test case "blockpolicyestimator_tests/BlockPolicyEstimates" has passed with:
+      61 assertions out of 61 passed
+
+  Test suite "bloom_tests" has passed with:
+    12 test cases out of 12 passed
+    2313 assertions out of 2313 passed
+
+    Test case "bloom_tests/bloom_create_insert_serialize" has passed with:
+      7 assertions out of 7 passed
+
+    Test case "bloom_tests/bloom_create_insert_serialize_with_tweak" has passed with:
+      5 assertions out of 5 passed
+
+    Test case "bloom_tests/bloom_create_insert_key" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "bloom_tests/bloom_match" has passed with:
+      13 assertions out of 13 passed
+
+    Test case "bloom_tests/merkle_block_1" has passed with:
+      16 assertions out of 16 passed
+
+    Test case "bloom_tests/merkle_block_2" has passed with:
+      22 assertions out of 22 passed
+
+    Test case "bloom_tests/merkle_block_2_with_update_none" has passed with:
+      19 assertions out of 19 passed
+
+    Test case "bloom_tests/merkle_block_3_and_serialize" has passed with:
+      8 assertions out of 8 passed
+
+    Test case "bloom_tests/merkle_block_4" has passed with:
+      16 assertions out of 16 passed
+
+    Test case "bloom_tests/merkle_block_4_test_p2pubkey_only" has passed with:
+      3 assertions out of 3 passed
+
+    Test case "bloom_tests/merkle_block_4_test_update_none" has passed with:
+      3 assertions out of 3 passed
+
+    Test case "bloom_tests/rolling_bloom" has passed with:
+      2200 assertions out of 2200 passed
+
+  Test suite "bswap_tests" has passed with:
+    1 test case out of 1 passed
+    3 assertions out of 3 passed
+
+    Test case "bswap_tests/bswap_tests" has passed with:
+      3 assertions out of 3 passed
+
+  Test suite "btcsignals_tests" has passed with:
+    6 test cases out of 6 passed
+    2051 assertions out of 2051 passed
+
+    Test case "btcsignals_tests/callback_order" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "btcsignals_tests/disconnects" has passed with:
+      11 assertions out of 11 passed
+
+    Test case "btcsignals_tests/any_of_combiner" has passed with:
+      6 assertions out of 6 passed
+
+    Test case "btcsignals_tests/thread_safety" has passed with:
+      2003 assertions out of 2003 passed
+
+    Test case "btcsignals_tests/recursion_safety" has passed with:
+      28 assertions out of 28 passed
+
+    Test case "btcsignals_tests/disconnect_thread_safety" has passed with:
+      1 assertion out of 1 passed
+
+  Test suite "caches_tests" has passed with:
+    1 test case out of 1 passed
+    13 assertions out of 13 passed
+
+    Test case "caches_tests/oversized_dbcache_warning" has passed with:
+      13 assertions out of 13 passed
+
+  Test suite "chain_tests" has passed with:
+    3 test cases out of 3 passed
+    5994355 assertions out of 5994355 passed
+
+    Test case "chain_tests/basic_tests" has passed with:
+      16 assertions out of 16 passed
+
+    Test case "chain_tests/findfork_tests" has passed with:
+      53 assertions out of 53 passed
+
+    Test case "chain_tests/chain_test" has passed with:
+      5994286 assertions out of 5994286 passed
+
+  Test suite "chainstate_write_tests" has passed with:
+    2 test cases out of 2 passed
+    8 assertions out of 8 passed
+
+    Test case "chainstate_write_tests/chainstate_write_interval" has passed with:
+      3 assertions out of 3 passed
+
+    Test case "chainstate_write_tests/write_during_multiblock_activation" has passed with:
+      5 assertions out of 5 passed
+
+  Test suite "checkqueue_tests" has passed with:
+    10 test cases out of 10 passed
+    3432 assertions out of 3432 passed
+
+    Test case "checkqueue_tests/test_CheckQueue_Correct_Zero" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "checkqueue_tests/test_CheckQueue_Correct_One" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "checkqueue_tests/test_CheckQueue_Correct_Max" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "checkqueue_tests/test_CheckQueue_Correct_Random" has passed with:
+      400 assertions out of 400 passed
+
+    Test case "checkqueue_tests/test_CheckQueue_Catches_Failure" has passed with:
+      2001 assertions out of 2001 passed
+
+    Test case "checkqueue_tests/test_CheckQueue_Recovers_From_Failure" has passed with:
+      20 assertions out of 20 passed
+
+    Test case "checkqueue_tests/test_CheckQueue_UniqueCheck" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "checkqueue_tests/test_CheckQueue_Memory" has passed with:
+      1000 assertions out of 1000 passed
+
+    Test case "checkqueue_tests/test_CheckQueue_FrozenCleanup" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "checkqueue_tests/test_CheckQueueControl_Locks" has passed with:
+      2 assertions out of 2 passed
+
+  Test suite "cluster_linearize_tests" has passed with:
+    2 test cases out of 2 passed
+    558614 assertions out of 558614 passed
+
+    Test case "cluster_linearize_tests/depgraph_ser_tests" has passed with:
+      14 assertions out of 14 passed
+
+    Test case "cluster_linearize_tests/depgraph_optimal_tests" has passed with:
+      558600 assertions out of 558600 passed
+
+  Test suite "coins_tests_base" has passed with:
+    1 test case out of 1 passed
+    580363 assertions out of 580363 passed
+
+    Test case "coins_tests_base/coins_cache_base_simulation_test" has passed with:
+      580363 assertions out of 580363 passed
+
+  Test suite "coins_tests_dbbase" has passed with:
+    1 test case out of 1 passed
+    542921 assertions out of 542921 passed
+
+    Test case "coins_tests_dbbase/coins_cache_dbbase_simulation_test" has passed with:
+      542921 assertions out of 542921 passed
+
+  Test suite "coins_tests" has passed with:
+    13 test cases out of 13 passed
+    1217334 assertions out of 1217334 passed
+
+    Test case "coins_tests/updatecoins_simulation_test" has passed with:
+      1216264 assertions out of 1216264 passed
+
+    Test case "coins_tests/ccoins_serialization" has passed with:
+      15 assertions out of 15 passed
+
+    Test case "coins_tests/ccoins_access" has passed with:
+      135 assertions out of 135 passed
+
+    Test case "coins_tests/ccoins_spend" has passed with:
+      108 assertions out of 108 passed
+
+    Test case "coins_tests/ccoins_add" has passed with:
+      192 assertions out of 192 passed
+
+    Test case "coins_tests/ccoins_write" has passed with:
+      426 assertions out of 426 passed
+
+    Test case "coins_tests/ccoins_flush_behavior" has passed with:
+      156 assertions out of 156 passed
+
+    Test case "coins_tests/coins_db_leveldb_layout" has passed with:
+      4 assertions out of 4 passed
+
+    Test case "coins_tests/coins_resource_is_used" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "coins_tests/ccoins_addcoin_exception_keeps_usage_balanced" has passed with:
+      6 assertions out of 6 passed
+
+    Test case "coins_tests/ccoins_emplace_duplicate_keeps_usage_balanced" has passed with:
+      5 assertions out of 5 passed
+
+    Test case "coins_tests/ccoins_reset_guard" has passed with:
+      18 assertions out of 18 passed
+
+    Test case "coins_tests/ccoins_peekcoin" has passed with:
+      3 assertions out of 3 passed
+
+  Test suite "coinscachepair_tests" has passed with:
+    4 test cases out of 4 passed
+    148 assertions out of 148 passed
+
+    Test case "coinscachepair_tests/linked_list_iteration" has passed with:
+      42 assertions out of 42 passed
+
+    Test case "coinscachepair_tests/linked_list_iterate_erase" has passed with:
+      29 assertions out of 29 passed
+
+    Test case "coinscachepair_tests/linked_list_random_deletion" has passed with:
+      41 assertions out of 41 passed
+
+    Test case "coinscachepair_tests/linked_list_set_state" has passed with:
+      36 assertions out of 36 passed
+
+  Test suite "coinstatsindex_tests" has passed with:
+    1 test case out of 1 passed
+    8 assertions out of 8 passed
+
+    Test case "coinstatsindex_tests/coinstatsindex_initial_sync" has passed with:
+      8 assertions out of 8 passed
+
+  Test suite "coinsviewoverlay_tests" has passed with:
+    7 test cases out of 7 passed
+    1922 assertions out of 1922 passed
+
+    Test case "coinsviewoverlay_tests/fetch_inputs_from_db" has passed with:
+      305 assertions out of 305 passed
+
+    Test case "coinsviewoverlay_tests/fetch_inputs_from_cache" has passed with:
+      202 assertions out of 202 passed
+
+    Test case "coinsviewoverlay_tests/fetch_no_double_spend" has passed with:
+      301 assertions out of 301 passed
+
+    Test case "coinsviewoverlay_tests/fetch_no_inputs" has passed with:
+      301 assertions out of 301 passed
+
+    Test case "coinsviewoverlay_tests/access_non_input_coins" has passed with:
+      3 assertions out of 3 passed
+
+    Test case "coinsviewoverlay_tests/fetch_out_of_order_input_uses_normal_lookup" has passed with:
+      204 assertions out of 204 passed
+
+    Test case "coinsviewoverlay_tests/fetch_state_is_reusable_after_teardown" has passed with:
+      606 assertions out of 606 passed
+
+  Test suite "coinsviewoverlay_tests_noworkers" has passed with:
+    2 test cases out of 2 passed
+    400 assertions out of 400 passed
+
+    Test case "coinsviewoverlay_tests_noworkers/fetch_unstarted_thread_pool" has passed with:
+      200 assertions out of 200 passed
+
+    Test case "coinsviewoverlay_tests_noworkers/fetch_interrupted_thread_pool_uses_normal_lookup" has passed with:
+      200 assertions out of 200 passed
+
+  Test suite "common_url_tests" has passed with:
+    5 test cases out of 5 passed
+    37 assertions out of 37 passed
+
+    Test case "common_url_tests/encode_decode_test" has passed with:
+      9 assertions out of 9 passed
+
+    Test case "common_url_tests/decode_malformed_test" has passed with:
+      23 assertions out of 23 passed
+
+    Test case "common_url_tests/decode_lowercase_hex_test" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "common_url_tests/decode_internal_nulls_test" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "common_url_tests/url_encode" has passed with:
+      2 assertions out of 2 passed
+
+  Test suite "compress_tests" has passed with:
+    6 test cases out of 6 passed
+    640030 assertions out of 640030 passed
+
+    Test case "compress_tests/compress_amounts" has passed with:
+      640006 assertions out of 640006 passed
+
+    Test case "compress_tests/compress_script_to_ckey_id" has passed with:
+      5 assertions out of 5 passed
+
+    Test case "compress_tests/compress_script_to_cscript_id" has passed with:
+      5 assertions out of 5 passed
+
+    Test case "compress_tests/compress_script_to_compressed_pubkey_id" has passed with:
+      5 assertions out of 5 passed
+
+    Test case "compress_tests/compress_script_to_uncompressed_pubkey_id" has passed with:
+      5 assertions out of 5 passed
+
+    Test case "compress_tests/compress_p2pk_scripts_not_on_curve" has passed with:
+      4 assertions out of 4 passed
+
+  Test suite "crypto_tests" has passed with:
+    17 test cases out of 17 passed
+    28331 assertions out of 28331 passed
+
+    Test case "crypto_tests/ripemd160_testvectors" has passed with:
+      3245 assertions out of 3245 passed
+
+    Test case "crypto_tests/sha1_testvectors" has passed with:
+      3234 assertions out of 3234 passed
+
+    Test case "crypto_tests/sha256_testvectors" has passed with:
+      3885 assertions out of 3885 passed
+
+    Test case "crypto_tests/sha512_testvectors" has passed with:
+      4078 assertions out of 4078 passed
+
+    Test case "crypto_tests/hmac_sha256_testvectors" has passed with:
+      3358 assertions out of 3358 passed
+
+    Test case "crypto_tests/hmac_sha512_testvectors" has passed with:
+      3430 assertions out of 3430 passed
+
+    Test case "crypto_tests/aes_testvectors" has passed with:
+      10 assertions out of 10 passed
+
+    Test case "crypto_tests/aes_cbc_testvectors" has passed with:
+      168 assertions out of 168 passed
+
+    Test case "crypto_tests/chacha20_testvector" has passed with:
+      4605 assertions out of 4605 passed
+
+    Test case "crypto_tests/chacha20_midblock" has passed with:
+      3 assertions out of 3 passed
+
+    Test case "crypto_tests/poly1305_testvector" has passed with:
+      1516 assertions out of 1516 passed
+
+    Test case "crypto_tests/chacha20poly1305_testvectors" has passed with:
+      607 assertions out of 607 passed
+
+    Test case "crypto_tests/hkdf_hmac_sha256_l32_tests" has passed with:
+      3 assertions out of 3 passed
+
+    Test case "crypto_tests/sha256d64" has passed with:
+      33 assertions out of 33 passed
+
+    Test case "crypto_tests/keccak_tests" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "crypto_tests/sha3_256_tests" has passed with:
+      110 assertions out of 110 passed
+
+    Test case "crypto_tests/muhash_tests" has passed with:
+      45 assertions out of 45 passed
+
+  Test suite "cuckoocache_tests" has passed with:
+    5 test cases out of 5 passed
+    134088 assertions out of 134088 passed
+
+    Test case "cuckoocache_tests/test_cuckoocache_no_fakes" has passed with:
+      100000 assertions out of 100000 passed
+
+    Test case "cuckoocache_tests/cuckoocache_hit_rate_ok" has passed with:
+      5 assertions out of 5 passed
+
+    Test case "cuckoocache_tests/cuckoocache_erase_ok" has passed with:
+      32770 assertions out of 32770 passed
+
+    Test case "cuckoocache_tests/cuckoocache_erase_parallel_ok" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "cuckoocache_tests/cuckoocache_generations" has passed with:
+      1311 assertions out of 1311 passed
+
+  Test suite "dbwrapper_tests" has passed with:
+    12 test cases out of 12 passed
+    2459 assertions out of 2459 passed
+
+    Test case "dbwrapper_tests/dbwrapper" has passed with:
+      50 assertions out of 50 passed
+
+    Test case "dbwrapper_tests/dbwrapper_basic_data" has passed with:
+      34 assertions out of 34 passed
+
+    Test case "dbwrapper_tests/dbwrapper_batch" has passed with:
+      14 assertions out of 14 passed
+
+    Test case "dbwrapper_tests/dbwrapper_read_returns_false_on_deserialization_error" has passed with:
+      4 assertions out of 4 passed
+
+    Test case "dbwrapper_tests/dbwrapper_read_throws_on_db_error" has passed with:
+      4 assertions out of 4 passed
+
+    Test case "dbwrapper_tests/dbwrapper_tryread" has passed with:
+      16 assertions out of 16 passed
+
+    Test case "dbwrapper_tests/dbwrapper_iterator" has passed with:
+      38 assertions out of 38 passed
+
+    Test case "dbwrapper_tests/existing_data_no_obfuscate" has passed with:
+      8 assertions out of 8 passed
+
+    Test case "dbwrapper_tests/existing_data_reindex" has passed with:
+      6 assertions out of 6 passed
+
+    Test case "dbwrapper_tests/iterator_ordering" has passed with:
+      1532 assertions out of 1532 passed
+
+    Test case "dbwrapper_tests/iterator_string_ordering" has passed with:
+      752 assertions out of 752 passed
+
+    Test case "dbwrapper_tests/unicodepath" has passed with:
+      1 assertion out of 1 passed
+
+  Test suite "denialofservice_tests" has passed with:
+    5 test cases out of 5 passed
+    94 assertions out of 94 passed
+
+    Test case "denialofservice_tests/outbound_slow_chain_eviction" has passed with:
+      8 assertions out of 8 passed
+
+    Test case "denialofservice_tests/stale_tip_peer_management" has passed with:
+      47 assertions out of 47 passed
+
+    Test case "denialofservice_tests/block_relay_only_eviction" has passed with:
+      11 assertions out of 11 passed
+
+    Test case "denialofservice_tests/peer_discouragement" has passed with:
+      26 assertions out of 26 passed
+
+    Test case "denialofservice_tests/DoS_bantime" has passed with:
+      2 assertions out of 2 passed
+
+  Test suite "descriptor_tests" has passed with:
+    4 test cases out of 4 passed
+    32424 assertions out of 32424 passed
+
+    Test case "descriptor_tests/descriptor_test" has passed with:
+      32369 assertions out of 32369 passed
+
+    Test case "descriptor_tests/descriptor_literal_null_byte" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "descriptor_tests/descriptor_older_warnings" has passed with:
+      10 assertions out of 10 passed
+
+    Test case "descriptor_tests/unused_descriptor_test" has passed with:
+      44 assertions out of 44 passed
+
+  Test suite "disconnected_transactions" has passed with:
+    1 test case out of 1 passed
+    109 assertions out of 109 passed
+
+    Test case "disconnected_transactions/disconnectpool_memory_limits" has passed with:
+      109 assertions out of 109 passed
+
+  Test suite "fees_util_tests" has passed with:
+    2 test cases out of 2 passed
+    10 assertions out of 10 passed
+
+    Test case "fees_util_tests/fee_rate_estimator_type_to_string" has passed with:
+      3 assertions out of 3 passed
+
+    Test case "fees_util_tests/fee_rate_estimator_type_from_string" has passed with:
+      7 assertions out of 7 passed
+
+  Test suite "feefrac_tests" has passed with:
+    1 test case out of 1 passed
+    99 assertions out of 99 passed
+
+    Test case "feefrac_tests/feefrac_operators" has passed with:
+      99 assertions out of 99 passed
+
+  Test suite "feerounder_tests" has passed with:
+    1 test case out of 1 passed
+    5 assertions out of 5 passed
+
+    Test case "feerounder_tests/FeeRounder" has passed with:
+      5 assertions out of 5 passed
+
+  Test suite "flatfile_tests" has passed with:
+    4 test cases out of 4 passed
+    22 assertions out of 22 passed
+
+    Test case "flatfile_tests/flatfile_filename" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "flatfile_tests/flatfile_open" has passed with:
+      9 assertions out of 9 passed
+
+    Test case "flatfile_tests/flatfile_allocate" has passed with:
+      9 assertions out of 9 passed
+
+    Test case "flatfile_tests/flatfile_flush" has passed with:
+      2 assertions out of 2 passed
+
+  Test suite "fs_tests" has passed with:
+    4 test cases out of 4 passed
+    22 assertions out of 22 passed
+
+    Test case "fs_tests/fsbridge_pathtostring" has passed with:
+      8 assertions out of 8 passed
+
+    Test case "fs_tests/fsbridge_stem" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "fs_tests/fsbridge_fstream" has passed with:
+      10 assertions out of 10 passed
+
+    Test case "fs_tests/rename" has passed with:
+      3 assertions out of 3 passed
+
+  Test suite "getarg_tests" has passed with:
+    8 test cases out of 8 passed
+    221 assertions out of 221 passed
+
+    Test case "getarg_tests/setting_args" has passed with:
+      65 assertions out of 65 passed
+
+    Test case "getarg_tests/boolarg" has passed with:
+      34 assertions out of 34 passed
+
+    Test case "getarg_tests/stringarg" has passed with:
+      15 assertions out of 15 passed
+
+    Test case "getarg_tests/intarg" has passed with:
+      29 assertions out of 29 passed
+
+    Test case "getarg_tests/patharg" has passed with:
+      52 assertions out of 52 passed
+
+    Test case "getarg_tests/doubledash" has passed with:
+      5 assertions out of 5 passed
+
+    Test case "getarg_tests/boolargno" has passed with:
+      15 assertions out of 15 passed
+
+    Test case "getarg_tests/logargs" has passed with:
+      6 assertions out of 6 passed
+
+  Test suite "hash_tests" has passed with:
+    3 test cases out of 3 passed
+    810 assertions out of 810 passed
+
+    Test case "hash_tests/murmurhash3" has passed with:
+      14 assertions out of 14 passed
+
+    Test case "hash_tests/siphash" has passed with:
+      82 assertions out of 82 passed
+
+    Test case "hash_tests/siphash_test_vectors" has passed with:
+      714 assertions out of 714 passed
+
+  Test suite "headers_sync_chainwork_tests" has passed with:
+    4 test cases out of 4 passed
+    81 assertions out of 81 passed
+
+    Test case "headers_sync_chainwork_tests/sneaky_redownload" has passed with:
+      18 assertions out of 18 passed
+
+    Test case "headers_sync_chainwork_tests/happy_path" has passed with:
+      48 assertions out of 48 passed
+
+    Test case "headers_sync_chainwork_tests/too_little_work" has passed with:
+      13 assertions out of 13 passed
+
+    Test case "headers_sync_chainwork_tests/system_clock_lagging_behind_chain_start" has passed with:
+      2 assertions out of 2 passed
+
+  Test suite "httpserver_tests" has passed with:
+    8 test cases out of 8 passed
+    259 assertions out of 259 passed
+
+    Test case "httpserver_tests/test_query_parameters" has passed with:
+      14 assertions out of 14 passed
+
+    Test case "httpserver_tests/http_headers_tests" has passed with:
+      23 assertions out of 23 passed
+
+    Test case "httpserver_tests/http_response_tests" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "httpserver_tests/http_request_tests" has passed with:
+      80 assertions out of 80 passed
+
+    Test case "httpserver_tests/http_request_state_tests" has passed with:
+      108 assertions out of 108 passed
+
+    Test case "httpserver_tests/http_server_socket_tests" has passed with:
+      22 assertions out of 22 passed
+
+    Test case "httpserver_tests/http_socket_error_tests" has passed with:
+      4 assertions out of 4 passed
+
+    Test case "httpserver_tests/http_server_rejects_disallowed_client_before_read" has passed with:
+      7 assertions out of 7 passed
+
+  Test suite "i2p_tests" has passed with:
+    3 test cases out of 3 passed
+    21 assertions out of 21 passed
+
+    Test case "i2p_tests/unlimited_recv" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "i2p_tests/listen_ok_accept_fail" has passed with:
+      10 assertions out of 10 passed
+
+    Test case "i2p_tests/damaged_private_key" has passed with:
+      10 assertions out of 10 passed
+
+  Test suite "interfaces_tests" has passed with:
+    6 test cases out of 6 passed
+    64 assertions out of 64 passed
+
+    Test case "interfaces_tests/findBlock" has passed with:
+      21 assertions out of 21 passed
+
+    Test case "interfaces_tests/findFirstBlockWithTimeAndHeight" has passed with:
+      4 assertions out of 4 passed
+
+    Test case "interfaces_tests/findAncestorByHeight" has passed with:
+      3 assertions out of 3 passed
+
+    Test case "interfaces_tests/findAncestorByHash" has passed with:
+      3 assertions out of 3 passed
+
+    Test case "interfaces_tests/findCommonAncestor" has passed with:
+      10 assertions out of 10 passed
+
+    Test case "interfaces_tests/hasBlocks" has passed with:
+      23 assertions out of 23 passed
+
+  Test suite "key_io_tests" has passed with:
+    3 test cases out of 3 passed
+    996 assertions out of 996 passed
+
+    Test case "key_io_tests/key_io_valid_parse" has passed with:
+      312 assertions out of 312 passed
+
+    Test case "key_io_tests/key_io_valid_gen" has passed with:
+      124 assertions out of 124 passed
+
+    Test case "key_io_tests/key_io_invalid" has passed with:
+      560 assertions out of 560 passed
+
+  Test suite "key_tests" has passed with:
+    7 test cases out of 7 passed
+    842 assertions out of 842 passed
+
+    Test case "key_tests/key_test1" has passed with:
+      557 assertions out of 557 passed
+
+    Test case "key_tests/key_signature_tests" has passed with:
+      5 assertions out of 5 passed
+
+    Test case "key_tests/pubkey_unserialize" has passed with:
+      24 assertions out of 24 passed
+
+    Test case "key_tests/bip340_test_vectors" has passed with:
+      243 assertions out of 243 passed
+
+    Test case "key_tests/key_ellswift" has passed with:
+      8 assertions out of 8 passed
+
+    Test case "key_tests/bip341_test_h" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "key_tests/key_schnorr_tweak_smoke_test" has passed with:
+      4 assertions out of 4 passed
+
+  Test suite "logging_tests" has passed with:
+    9 test cases out of 9 passed
+    164 assertions out of 164 passed
+
+    Test case "logging_tests/logging_timer" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "logging_tests/logging_LogPrint" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "logging_tests/logging_LogPrintMacros" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "logging_tests/logging_LogPrintMacros_CategoryName" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "logging_tests/logging_SeverityLevels" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "logging_tests/logging_Conf" has passed with:
+      18 assertions out of 18 passed
+
+    Test case "logging_tests/logging_log_rate_limiter" has passed with:
+      15 assertions out of 15 passed
+
+    Test case "logging_tests/logging_log_limit_stats" has passed with:
+      11 assertions out of 11 passed
+
+    Test case "logging_tests/logging_filesize_rate_limit" has passed with:
+      115 assertions out of 115 passed
+
+  Test suite "mempool_tests" has passed with:
+    5 test cases out of 5 passed
+    94 assertions out of 94 passed
+
+    Test case "mempool_tests/MempoolLookupTest" has passed with:
+      4 assertions out of 4 passed
+
+    Test case "mempool_tests/MempoolRemoveTest" has passed with:
+      9 assertions out of 9 passed
+
+    Test case "mempool_tests/MempoolSizeLimitTest" has passed with:
+      23 assertions out of 23 passed
+
+    Test case "mempool_tests/MempoolAncestryTests" has passed with:
+      50 assertions out of 50 passed
+
+    Test case "mempool_tests/MempoolAncestryTestsDiamond" has passed with:
+      8 assertions out of 8 passed
+
+  Test suite "mempool_fee_estimator_tests" has passed with:
+    3 test cases out of 3 passed
+    83 assertions out of 83 passed
+
+    Test case "mempool_fee_estimator_tests/calculate_max_weight_percentiles" has passed with:
+      13 assertions out of 13 passed
+
+    Test case "mempool_fee_estimator_tests/mempool_fee_rate_estimator_cache" has passed with:
+      9 assertions out of 9 passed
+
+    Test case "mempool_fee_estimator_tests/MempoolFeeRateEstimator" has passed with:
+      61 assertions out of 61 passed
+
+  Test suite "merkle_tests" has passed with:
+    7 test cases out of 7 passed
+    1319 assertions out of 1319 passed
+
+    Test case "merkle_tests/merkle_test" has passed with:
+      1304 assertions out of 1304 passed
+
+    Test case "merkle_tests/merkle_test_empty_block" has passed with:
+      3 assertions out of 3 passed
+
+    Test case "merkle_tests/merkle_test_oneTx_block" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "merkle_tests/merkle_test_OddTxWithRepeatedLastTx_block" has passed with:
+      3 assertions out of 3 passed
+
+    Test case "merkle_tests/merkle_test_mutated_return_value" has passed with:
+      5 assertions out of 5 passed
+
+    Test case "merkle_tests/merkle_test_LeftSubtreeRightSubtree" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "merkle_tests/merkle_test_BlockWitness" has passed with:
+      1 assertion out of 1 passed
+
+  Test suite "merkleblock_tests" has passed with:
+    2 test cases out of 2 passed
+    13 assertions out of 13 passed
+
+    Test case "merkleblock_tests/merkleblock_construct_from_txids_found" has passed with:
+      8 assertions out of 8 passed
+
+    Test case "merkleblock_tests/merkleblock_construct_from_txids_not_found" has passed with:
+      5 assertions out of 5 passed
+
+  Test suite "miner_tests" has passed with:
+    1 test case out of 1 passed
+    1057 assertions out of 1057 passed
+
+    Test case "miner_tests/CreateNewBlock_validity" has passed with:
+      1057 assertions out of 1057 passed
+
+  Test suite "miniminer_tests" has passed with:
+    5 test cases out of 5 passed
+    1373 assertions out of 1373 passed
+
+    Test case "miniminer_tests/miniminer_negative" has passed with:
+      7 assertions out of 7 passed
+
+    Test case "miniminer_tests/miniminer_1p1c" has passed with:
+      504 assertions out of 504 passed
+
+    Test case "miniminer_tests/miniminer_overlap" has passed with:
+      92 assertions out of 92 passed
+
+    Test case "miniminer_tests/calculate_cluster" has passed with:
+      762 assertions out of 762 passed
+
+    Test case "miniminer_tests/manual_ctor" has passed with:
+      8 assertions out of 8 passed
+
+  Test suite "miniscript_tests" has passed with:
+    2 test cases out of 2 passed
+    10162 assertions out of 10162 passed
+
+    Test case "miniscript_tests/fixed_tests" has passed with:
+      10158 assertions out of 10158 passed
+
+    Test case "miniscript_tests/node_stress_stack" has passed with:
+      4 assertions out of 4 passed
+
+  Test suite "minisketch_tests" has passed with:
+    1 test case out of 1 passed
+    606 assertions out of 606 passed
+
+    Test case "minisketch_tests/minisketch_test" has passed with:
+      606 assertions out of 606 passed
+
+  Test suite "multisig_tests" has passed with:
+    3 test cases out of 3 passed
+    130 assertions out of 130 passed
+
+    Test case "multisig_tests/multisig_verify" has passed with:
+      110 assertions out of 110 passed
+
+    Test case "multisig_tests/multisig_IsStandard" has passed with:
+      13 assertions out of 13 passed
+
+    Test case "multisig_tests/multisig_Sign" has passed with:
+      7 assertions out of 7 passed
+
+  Test suite "bip328_tests" has passed with:
+    3 test cases out of 3 passed
+    11 assertions out of 11 passed
+
+    Test case "bip328_tests/valid_keys" has passed with:
+      9 assertions out of 9 passed
+
+    Test case "bip328_tests/empty_pubkey_list" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "bip328_tests/invalid_key" has passed with:
+      1 assertion out of 1 passed
+
+  Test suite "net_peer_connection_tests" has passed with:
+    1 test case out of 1 passed
+    41 assertions out of 41 passed
+
+    Test case "net_peer_connection_tests/test_addnode_getaddednodeinfo_and_connection_detection" has passed with:
+      41 assertions out of 41 passed
+
+  Test suite "net_peer_eviction_tests" has passed with:
+    2 test cases out of 2 passed
+    1656 assertions out of 1656 passed
+
+    Test case "net_peer_eviction_tests/peer_protection_test" has passed with:
+      64 assertions out of 64 passed
+
+    Test case "net_peer_eviction_tests/peer_eviction_test" has passed with:
+      1592 assertions out of 1592 passed
+
+  Test suite "net_tests" has passed with:
+    19 test cases out of 19 passed
+    154261 assertions out of 154261 passed
+
+    Test case "net_tests/cnode_listen_port" has passed with:
+      3 assertions out of 3 passed
+
+    Test case "net_tests/cnode_simple_test" has passed with:
+      32 assertions out of 32 passed
+
+    Test case "net_tests/cnetaddr_basic" has passed with:
+      60 assertions out of 60 passed
+
+    Test case "net_tests/cnetaddr_tostring_canonical_ipv6" has passed with:
+      80 assertions out of 80 passed
+
+    Test case "net_tests/cnetaddr_serialize_v1" has passed with:
+      7 assertions out of 7 passed
+
+    Test case "net_tests/cnetaddr_serialize_v2" has passed with:
+      8 assertions out of 8 passed
+
+    Test case "net_tests/cnetaddr_unserialize_v2" has passed with:
+      58 assertions out of 58 passed
+
+    Test case "net_tests/ipv4_peer_with_ipv6_addrMe_test" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "net_tests/get_local_addr_for_peer_port" has passed with:
+      4 assertions out of 4 passed
+
+    Test case "net_tests/LimitedAndReachable_Network" has passed with:
+      15 assertions out of 15 passed
+
+    Test case "net_tests/LimitedAndReachable_NetworkCaseUnroutableAndInternal" has passed with:
+      4 assertions out of 4 passed
+
+    Test case "net_tests/LimitedAndReachable_CNetAddr" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "net_tests/LocalAddress_BasicLifecycle" has passed with:
+      4 assertions out of 4 passed
+
+    Test case "net_tests/LocalAddress_nScore_Overflow" has passed with:
+      12 assertions out of 12 passed
+
+    Test case "net_tests/initial_advertise_from_version_message" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "net_tests/advertise_local_address" has passed with:
+      39 assertions out of 39 passed
+
+    Test case "net_tests/v2transport_test" has passed with:
+      153918 assertions out of 153918 passed
+
+    Test case "net_tests/private_broadcast_version_does_not_update_addrman_services" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "net_tests/addlocal_onlynet_externalip" has passed with:
+      11 assertions out of 11 passed
+
+  Test suite "netbase_tests" has passed with:
+    16 test cases out of 16 passed
+    318 assertions out of 318 passed
+
+    Test case "netbase_tests/netbase_networks" has passed with:
+      6 assertions out of 6 passed
+
+    Test case "netbase_tests/netbase_properties" has passed with:
+      29 assertions out of 29 passed
+
+    Test case "netbase_tests/netbase_splithost" has passed with:
+      32 assertions out of 32 passed
+
+    Test case "netbase_tests/netbase_lookupnumeric" has passed with:
+      9 assertions out of 9 passed
+
+    Test case "netbase_tests/embedded_test" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "netbase_tests/subnet_test" has passed with:
+      100 assertions out of 100 passed
+
+    Test case "netbase_tests/netbase_getgroup" has passed with:
+      12 assertions out of 12 passed
+
+    Test case "netbase_tests/netbase_parsenetwork" has passed with:
+      14 assertions out of 14 passed
+
+    Test case "netbase_tests/netpermissions_test" has passed with:
+      71 assertions out of 71 passed
+
+    Test case "netbase_tests/netbase_dont_resolve_strings_with_embedded_nul_characters" has passed with:
+      12 assertions out of 12 passed
+
+    Test case "netbase_tests/caddress_serialize_v1" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "netbase_tests/caddress_unserialize_v1" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "netbase_tests/caddress_serialize_v2" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "netbase_tests/caddress_unserialize_v2" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "netbase_tests/isbadport" has passed with:
+      7 assertions out of 7 passed
+
+    Test case "netbase_tests/asmap_test_vectors" has passed with:
+      20 assertions out of 20 passed
+
+  Test suite "node_init_tests" has passed with:
+    1 test case out of 1 passed
+    4 assertions out of 4 passed
+
+    Test case "node_init_tests/init_test" has passed with:
+      4 assertions out of 4 passed
+
+  Test suite "node_warnings_tests" has passed with:
+    1 test case out of 1 passed
+    13 assertions out of 13 passed
+
+    Test case "node_warnings_tests/warnings" has passed with:
+      13 assertions out of 13 passed
+
+  Test suite "orphanage_tests" has passed with:
+    8 test cases out of 8 passed
+    504 assertions out of 504 passed
+
+    Test case "orphanage_tests/peer_dos_limits" has passed with:
+      327 assertions out of 327 passed
+
+    Test case "orphanage_tests/DoS_mapOrphans" has passed with:
+      75 assertions out of 75 passed
+
+    Test case "orphanage_tests/same_txid_diff_witness" has passed with:
+      17 assertions out of 17 passed
+
+    Test case "orphanage_tests/get_children" has passed with:
+      27 assertions out of 27 passed
+
+    Test case "orphanage_tests/too_large_orphan_tx" has passed with:
+      4 assertions out of 4 passed
+
+    Test case "orphanage_tests/process_block" has passed with:
+      11 assertions out of 11 passed
+
+    Test case "orphanage_tests/multiple_announcers" has passed with:
+      26 assertions out of 26 passed
+
+    Test case "orphanage_tests/peer_worksets" has passed with:
+      17 assertions out of 17 passed
+
+  Test suite "pcp_tests" has passed with:
+    10 test cases out of 10 passed
+    208 assertions out of 208 passed
+
+    Test case "pcp_tests/natpmp_ipv4" has passed with:
+      31 assertions out of 31 passed
+
+    Test case "pcp_tests/pcp_ipv4" has passed with:
+      20 assertions out of 20 passed
+
+    Test case "pcp_tests/pcp_ipv6" has passed with:
+      20 assertions out of 20 passed
+
+    Test case "pcp_tests/pcp_timeout" has passed with:
+      6 assertions out of 6 passed
+
+    Test case "pcp_tests/pcp_connrefused" has passed with:
+      15 assertions out of 15 passed
+
+    Test case "pcp_tests/pcp_ipv6_timeout_success" has passed with:
+      24 assertions out of 24 passed
+
+    Test case "pcp_tests/pcp_ipv4_fail_no_resources" has passed with:
+      17 assertions out of 17 passed
+
+    Test case "pcp_tests/pcp_ipv4_fail_unsupported_version" has passed with:
+      17 assertions out of 17 passed
+
+    Test case "pcp_tests/natpmp_protocol_error" has passed with:
+      41 assertions out of 41 passed
+
+    Test case "pcp_tests/pcp_protocol_error" has passed with:
+      17 assertions out of 17 passed
+
+  Test suite "peerman_tests" has passed with:
+    1 test case out of 1 passed
+    9 assertions out of 9 passed
+
+    Test case "peerman_tests/connections_desirable_service_flags" has passed with:
+      9 assertions out of 9 passed
+
+  Test suite "pmt_tests" has passed with:
+    2 test cases out of 2 passed
+    1345 assertions out of 1345 passed
+
+    Test case "pmt_tests/pmt_test1" has passed with:
+      1344 assertions out of 1344 passed
+
+    Test case "pmt_tests/pmt_malleability" has passed with:
+      1 assertion out of 1 passed
+
+  Test suite "pool_tests" has passed with:
+    4 test cases out of 4 passed
+    21649 assertions out of 21649 passed
+
+    Test case "pool_tests/basic_allocating" has passed with:
+      22 assertions out of 22 passed
+
+    Test case "pool_tests/allocate_any_byte" has passed with:
+      20100 assertions out of 20100 passed
+
+    Test case "pool_tests/random_allocations" has passed with:
+      1524 assertions out of 1524 passed
+
+    Test case "pool_tests/memusage_test" has passed with:
+      3 assertions out of 3 passed
+
+  Test suite "pow_tests" has passed with:
+    15 test cases out of 15 passed
+    1049 assertions out of 1049 passed
+
+    Test case "pow_tests/get_next_work" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "pow_tests/get_next_work_pow_limit" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "pow_tests/get_next_work_lower_limit_actual" has passed with:
+      3 assertions out of 3 passed
+
+    Test case "pow_tests/get_next_work_upper_limit_actual" has passed with:
+      3 assertions out of 3 passed
+
+    Test case "pow_tests/CheckProofOfWork_test_negative_target" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "pow_tests/CheckProofOfWork_test_overflow_target" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "pow_tests/CheckProofOfWork_test_too_easy_target" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "pow_tests/CheckProofOfWork_test_biger_hash_than_target" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "pow_tests/CheckProofOfWork_test_zero_target" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "pow_tests/GetBlockProofEquivalentTime_test" has passed with:
+      1000 assertions out of 1000 passed
+
+    Test case "pow_tests/ChainParams_MAIN_sanity" has passed with:
+      7 assertions out of 7 passed
+
+    Test case "pow_tests/ChainParams_REGTEST_sanity" has passed with:
+      6 assertions out of 6 passed
+
+    Test case "pow_tests/ChainParams_TESTNET_sanity" has passed with:
+      7 assertions out of 7 passed
+
+    Test case "pow_tests/ChainParams_TESTNET4_sanity" has passed with:
+      7 assertions out of 7 passed
+
+    Test case "pow_tests/ChainParams_SIGNET_sanity" has passed with:
+      7 assertions out of 7 passed
+
+  Test suite "prevector_tests" has passed with:
+    1 test case out of 1 passed
+    64 assertions out of 64 passed
+
+    Test case "prevector_tests/PrevectorTestInt" has passed with:
+      64 assertions out of 64 passed
+
+  Test suite "private_broadcast_tests" has passed with:
+    6 test cases out of 6 passed
+    20125 assertions out of 20125 passed
+
+    Test case "private_broadcast_tests/basic" has passed with:
+      47 assertions out of 47 passed
+
+    Test case "private_broadcast_tests/complete_all_initial_sends" has passed with:
+      11 assertions out of 11 passed
+
+    Test case "private_broadcast_tests/stale_unpicked_tx" has passed with:
+      5 assertions out of 5 passed
+
+    Test case "private_broadcast_tests/send_attempt_limit" has passed with:
+      30 assertions out of 30 passed
+
+    Test case "private_broadcast_tests/reset_with_equivalent_transaction_reference" has passed with:
+      15 assertions out of 15 passed
+
+    Test case "private_broadcast_tests/rejection_at_cap" has passed with:
+      20017 assertions out of 20017 passed
+
+  Test suite "psbt_tests" has passed with:
+    9 test cases out of 9 passed
+    165 assertions out of 165 passed
+
+    Test case "psbt_tests/psbt2_timelock_test" has passed with:
+      51 assertions out of 51 passed
+
+    Test case "psbt_tests/psbt2_addinput" has passed with:
+      31 assertions out of 31 passed
+
+    Test case "psbt_tests/psbt2_addoutput" has passed with:
+      9 assertions out of 9 passed
+
+    Test case "psbt_tests/merge_proprietary_fields" has passed with:
+      10 assertions out of 10 passed
+
+    Test case "psbt_tests/update_psbt_output_keypaths" has passed with:
+      24 assertions out of 24 passed
+
+    Test case "psbt_tests/update_psbt_output_redeem_script" has passed with:
+      10 assertions out of 10 passed
+
+    Test case "psbt_tests/update_psbt_output_witness_script" has passed with:
+      10 assertions out of 10 passed
+
+    Test case "psbt_tests/update_psbt_output_miniscript_timelock" has passed with:
+      10 assertions out of 10 passed
+
+    Test case "psbt_tests/update_psbt_output_taproot" has passed with:
+      10 assertions out of 10 passed
+
+  Test suite "random_tests" has passed with:
+    8 test cases out of 8 passed
+    12478646 assertions out of 12478646 passed
+
+    Test case "random_tests/osrandom_tests" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "random_tests/fastrandom_tests_deterministic" has passed with:
+      32 assertions out of 32 passed
+
+    Test case "random_tests/fastrandom_tests_nondeterministic" has passed with:
+      15 assertions out of 15 passed
+
+    Test case "random_tests/fastrandom_randbits" has passed with:
+      126000 assertions out of 126000 passed
+
+    Test case "random_tests/randbits_test" has passed with:
+      12348142 assertions out of 12348142 passed
+
+    Test case "random_tests/stdrandom_test" has passed with:
+      1200 assertions out of 1200 passed
+
+    Test case "random_tests/shuffle_stat_test" has passed with:
+      3248 assertions out of 3248 passed
+
+    Test case "random_tests/xoroshiro128plusplus_reference_values" has passed with:
+      8 assertions out of 8 passed
+
+  Test suite "rbf_tests" has passed with:
+    5 test cases out of 5 passed
+    1200 assertions out of 1200 passed
+
+    Test case "rbf_tests/rbf_helper_functions" has passed with:
+      23 assertions out of 23 passed
+
+    Test case "rbf_tests/rbf_conflicts_calculator" has passed with:
+      1127 assertions out of 1127 passed
+
+    Test case "rbf_tests/improves_feerate" has passed with:
+      9 assertions out of 9 passed
+
+    Test case "rbf_tests/calc_feerate_diagram_rbf" has passed with:
+      21 assertions out of 21 passed
+
+    Test case "rbf_tests/feerate_chunks_utilities" has passed with:
+      20 assertions out of 20 passed
+
+  Test suite "rest_tests" has passed with:
+    1 test case out of 1 passed
+    12 assertions out of 12 passed
+
+    Test case "rest_tests/test_query_string" has passed with:
+      12 assertions out of 12 passed
+
+  Test suite "result_tests" has passed with:
+    2 test cases out of 2 passed
+    27 assertions out of 27 passed
+
+    Test case "result_tests/check_returned" has passed with:
+      21 assertions out of 21 passed
+
+    Test case "result_tests/check_value_or" has passed with:
+      6 assertions out of 6 passed
+
+  Test suite "reverselock_tests" has passed with:
+    3 test cases out of 3 passed
+    13 assertions out of 13 passed
+
+    Test case "reverselock_tests/reverselock_basics" has passed with:
+      3 assertions out of 3 passed
+
+    Test case "reverselock_tests/reverselock_multiple" has passed with:
+      4 assertions out of 4 passed
+
+    Test case "reverselock_tests/reverselock_errors" has passed with:
+      6 assertions out of 6 passed
+
+  Test suite "rpc_tests" has passed with:
+    15 test cases out of 15 passed
+    243 assertions out of 243 passed
+
+    Test case "rpc_tests/rpc_namedparams" has passed with:
+      17 assertions out of 17 passed
+
+    Test case "rpc_tests/rpc_namedonlyparams" has passed with:
+      12 assertions out of 12 passed
+
+    Test case "rpc_tests/rpc_remove_command_cleans_up_empty_entry" has passed with:
+      3 assertions out of 3 passed
+
+    Test case "rpc_tests/rpc_rawparams" has passed with:
+      23 assertions out of 23 passed
+
+    Test case "rpc_tests/rpc_togglenetwork" has passed with:
+      6 assertions out of 6 passed
+
+    Test case "rpc_tests/rpc_rawsign" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "rpc_tests/rpc_createraw_op_return" has passed with:
+      5 assertions out of 5 passed
+
+    Test case "rpc_tests/rpc_format_monetary_values" has passed with:
+      37 assertions out of 37 passed
+
+    Test case "rpc_tests/rpc_parse_monetary_values" has passed with:
+      29 assertions out of 29 passed
+
+    Test case "rpc_tests/rpc_ban" has passed with:
+      40 assertions out of 40 passed
+
+    Test case "rpc_tests/rpc_convert_values_generatetoaddress" has passed with:
+      14 assertions out of 14 passed
+
+    Test case "rpc_tests/rpc_getblockstats_calculate_percentiles_by_weight" has passed with:
+      20 assertions out of 20 passed
+
+    Test case "rpc_tests/check_dup_param_names" has passed with:
+      8 assertions out of 8 passed
+
+    Test case "rpc_tests/help_example" has passed with:
+      11 assertions out of 11 passed
+
+    Test case "rpc_tests/rpc_arg_helper" has passed with:
+      16 assertions out of 16 passed
+
+  Test suite "sanity_tests" has passed with:
+    1 test case out of 1 passed
+    1 assertion out of 1 passed
+
+    Test case "sanity_tests/basic_sanity" has passed with:
+      1 assertion out of 1 passed
+
+  Test suite "scheduler_tests" has passed with:
+    4 test cases out of 4 passed
+    28 assertions out of 28 passed
+
+    Test case "scheduler_tests/manythreads" has passed with:
+      15 assertions out of 15 passed
+
+    Test case "scheduler_tests/wait_until_past" has passed with:
+      6 assertions out of 6 passed
+
+    Test case "scheduler_tests/singlethreadedscheduler_ordered" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "scheduler_tests/mockforward" has passed with:
+      5 assertions out of 5 passed
+
+  Test suite "script_assets_tests" has passed with:
+    1 test case out of 1 passed with warnings
+    1 failed warning
+
+    Test case "script_assets_tests/script_assets_test" has passed with:
+      1 failed warning
+
+  Test suite "script_p2sh_tests" has passed with:
+    6 test cases out of 6 passed
+    158 assertions out of 158 passed
+
+    Test case "script_p2sh_tests/sign" has passed with:
+      81 assertions out of 81 passed
+
+    Test case "script_p2sh_tests/norecurse" has passed with:
+      4 assertions out of 4 passed
+
+    Test case "script_p2sh_tests/set" has passed with:
+      21 assertions out of 21 passed
+
+    Test case "script_p2sh_tests/is" has passed with:
+      9 assertions out of 9 passed
+
+    Test case "script_p2sh_tests/switchover" has passed with:
+      4 assertions out of 4 passed
+
+    Test case "script_p2sh_tests/ValidateInputsStandardness" has passed with:
+      39 assertions out of 39 passed
+
+  Test suite "script_parse_tests" has passed with:
+    1 test case out of 1 passed
+    28 assertions out of 28 passed
+
+    Test case "script_parse_tests/parse_script" has passed with:
+      28 assertions out of 28 passed
+
+  Test suite "script_segwit_tests" has passed with:
+    12 test cases out of 12 passed
+    26 assertions out of 26 passed
+
+    Test case "script_segwit_tests/IsPayToWitnessScriptHash_Valid" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "script_segwit_tests/IsPayToWitnessScriptHash_Invalid_NotOp0" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "script_segwit_tests/IsPayToWitnessScriptHash_Invalid_Size" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "script_segwit_tests/IsPayToWitnessScriptHash_Invalid_Nop" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "script_segwit_tests/IsPayToWitnessScriptHash_Invalid_EmptyScript" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "script_segwit_tests/IsPayToWitnessScriptHash_Invalid_Pushdata" has passed with:
+      3 assertions out of 3 passed
+
+    Test case "script_segwit_tests/IsWitnessProgram_Valid" has passed with:
+      9 assertions out of 9 passed
+
+    Test case "script_segwit_tests/IsWitnessProgram_Invalid_Version" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "script_segwit_tests/IsWitnessProgram_Invalid_Size" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "script_segwit_tests/IsWitnessProgram_Invalid_Nop" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "script_segwit_tests/IsWitnessProgram_Invalid_EmptyScript" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "script_segwit_tests/IsWitnessProgram_Invalid_Pushdata" has passed with:
+      3 assertions out of 3 passed
+
+  Test suite "script_standard_tests" has passed with:
+    7 test cases out of 7 passed
+    189 assertions out of 189 passed
+
+    Test case "script_standard_tests/dest_default_is_no_dest" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "script_standard_tests/script_standard_Solver_success" has passed with:
+      43 assertions out of 43 passed
+
+    Test case "script_standard_tests/script_standard_Solver_failure" has passed with:
+      15 assertions out of 15 passed
+
+    Test case "script_standard_tests/script_standard_ExtractDestination" has passed with:
+      20 assertions out of 20 passed
+
+    Test case "script_standard_tests/script_standard_GetScriptFor_" has passed with:
+      10 assertions out of 10 passed
+
+    Test case "script_standard_tests/script_standard_taproot_builder" has passed with:
+      54 assertions out of 54 passed
+
+    Test case "script_standard_tests/bip341_spk_test_vectors" has passed with:
+      46 assertions out of 46 passed
+
+  Test suite "script_tests" has passed with:
+    21 test cases out of 21 passed
+    506297 assertions out of 506297 passed
+
+    Test case "script_tests/script_build" has passed with:
+      27815 assertions out of 27815 passed
+
+    Test case "script_tests/script_json_test" has passed with:
+      275658 assertions out of 275658 passed
+
+    Test case "script_tests/script_PushData" has passed with:
+      17 assertions out of 17 passed
+
+    Test case "script_tests/script_cltv_truncated" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "script_tests/script_CHECKMULTISIG12" has passed with:
+      11 assertions out of 11 passed
+
+    Test case "script_tests/script_CHECKMULTISIG23" has passed with:
+      34 assertions out of 34 passed
+
+    Test case "script_tests/script_size_and_capacity_test" has passed with:
+      41 assertions out of 41 passed
+
+    Test case "script_tests/script_combineSigs" has passed with:
+      30 assertions out of 30 passed
+
+    Test case "script_tests/sign_invalid_miniscript" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "script_tests/sign_paytoanchor" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "script_tests/script_standard_push" has passed with:
+      202563 assertions out of 202563 passed
+
+    Test case "script_tests/script_IsPushOnly_on_invalid_scripts" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "script_tests/script_CheckMinimalPush_boundary" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "script_tests/script_GetScriptAsm" has passed with:
+      20 assertions out of 20 passed
+
+    Test case "script_tests/script_byte_array_u8_vector_equivalence" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "script_tests/script_FindAndDelete" has passed with:
+      32 assertions out of 32 passed
+
+    Test case "script_tests/script_HasValidOps" has passed with:
+      4 assertions out of 4 passed
+
+    Test case "script_tests/bip341_keypath_test_vectors" has passed with:
+      55 assertions out of 55 passed
+
+    Test case "script_tests/compute_tapbranch" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "script_tests/compute_tapleaf" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "script_tests/formatscriptflags" has passed with:
+      6 assertions out of 6 passed
+
+  Test suite "scriptnum_tests" has passed with:
+    2 test cases out of 2 passed
+    47313 assertions out of 47313 passed
+
+    Test case "scriptnum_tests/creation" has passed with:
+      2385 assertions out of 2385 passed
+
+    Test case "scriptnum_tests/operators" has passed with:
+      44928 assertions out of 44928 passed
+
+  Test suite "serfloat_tests" has passed with:
+    2 test cases out of 2 passed
+    1536729 assertions out of 1536729 passed
+
+    Test case "serfloat_tests/double_serfloat_tests" has passed with:
+      1535728 assertions out of 1535728 passed
+
+    Test case "serfloat_tests/doubles" has passed with:
+      1001 assertions out of 1001 passed
+
+  Test suite "serialize_tests" has passed with:
+    15 test cases out of 15 passed
+    200338 assertions out of 200338 passed
+
+    Test case "serialize_tests/sizes" has passed with:
+      22 assertions out of 22 passed
+
+    Test case "serialize_tests/varints" has passed with:
+      200202 assertions out of 200202 passed
+
+    Test case "serialize_tests/varints_bitpatterns" has passed with:
+      16 assertions out of 16 passed
+
+    Test case "serialize_tests/compactsize" has passed with:
+      52 assertions out of 52 passed
+
+    Test case "serialize_tests/vector_bool" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "serialize_tests/array" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "serialize_tests/noncanonical" has passed with:
+      7 assertions out of 7 passed
+
+    Test case "serialize_tests/string_view" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "serialize_tests/limited_vector" has passed with:
+      9 assertions out of 9 passed
+
+    Test case "serialize_tests/class_methods" has passed with:
+      8 assertions out of 8 passed
+
+    Test case "serialize_tests/with_params_multi" has passed with:
+      4 assertions out of 4 passed
+
+    Test case "serialize_tests/with_params_move" has passed with:
+      3 assertions out of 3 passed
+
+    Test case "serialize_tests/with_params_base" has passed with:
+      4 assertions out of 4 passed
+
+    Test case "serialize_tests/with_params_vector_of_base" has passed with:
+      6 assertions out of 6 passed
+
+    Test case "serialize_tests/with_params_derived" has passed with:
+      1 assertion out of 1 passed
+
+  Test suite "settings_tests" has passed with:
+    4 test cases out of 4 passed
+    20 assertions out of 20 passed
+
+    Test case "settings_tests/ReadWrite" has passed with:
+      13 assertions out of 13 passed
+
+    Test case "settings_tests/Simple" has passed with:
+      4 assertions out of 4 passed
+
+    Test case "settings_tests/NullOverride" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "settings_tests/Merge" has passed with:
+      1 assertion out of 1 passed
+
+  Test suite "sighash_tests" has passed with:
+    3 test cases out of 3 passed
+    51937 assertions out of 51937 passed
+
+    Test case "sighash_tests/sighash_test" has passed with:
+      50000 assertions out of 50000 passed
+
+    Test case "sighash_tests/sighash_from_data" has passed with:
+      1500 assertions out of 1500 passed
+
+    Test case "sighash_tests/sighash_caching" has passed with:
+      437 assertions out of 437 passed
+
+  Test suite "sigopcount_tests" has passed with:
+    2 test cases out of 2 passed
+    17 assertions out of 17 passed
+
+    Test case "sigopcount_tests/GetSigOpCount" has passed with:
+      11 assertions out of 11 passed
+
+    Test case "sigopcount_tests/GetTxSigOpCost" has passed with:
+      6 assertions out of 6 passed
+
+  Test suite "skiplist_tests" has passed with:
+    5 test cases out of 5 passed
+    1063386 assertions out of 1063386 passed
+
+    Test case "skiplist_tests/skiplist_test" has passed with:
+      602999 assertions out of 602999 passed
+
+    Test case "skiplist_tests/getlocator_test" has passed with:
+      302700 assertions out of 302700 passed
+
+    Test case "skiplist_tests/findearliestatleast_test" has passed with:
+      130000 assertions out of 130000 passed
+
+    Test case "skiplist_tests/findearliestatleast_edge_test" has passed with:
+      24 assertions out of 24 passed
+
+    Test case "skiplist_tests/build_skip_height_test" has passed with:
+      27663 assertions out of 27663 passed
+
+  Test suite "sock_tests" has passed with:
+    6 test cases out of 6 passed
+    53 assertions out of 53 passed
+
+    Test case "sock_tests/constructor_and_destructor" has passed with:
+      4 assertions out of 4 passed
+
+    Test case "sock_tests/move_constructor" has passed with:
+      4 assertions out of 4 passed
+
+    Test case "sock_tests/move_assignment" has passed with:
+      12 assertions out of 12 passed
+
+    Test case "sock_tests/send_and_receive" has passed with:
+      14 assertions out of 14 passed
+
+    Test case "sock_tests/wait" has passed with:
+      9 assertions out of 9 passed
+
+    Test case "sock_tests/recv_until_terminator_limit" has passed with:
+      10 assertions out of 10 passed
+
+  Test suite "span_tests" has passed with:
+    1 test case out of 1 passed
+    8 assertions out of 8 passed
+
+    Test case "span_tests/span_constructor_sfinae" has passed with:
+      8 assertions out of 8 passed
+
+  Test suite "streams_tests" has passed with:
+    20 test cases out of 20 passed
+    20351 assertions out of 20351 passed
+
+    Test case "streams_tests/xor_random_chunks" has passed with:
+      5109 assertions out of 5109 passed
+
+    Test case "streams_tests/obfuscation_hexkey" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "streams_tests/obfuscation_serialize" has passed with:
+      3 assertions out of 3 passed
+
+    Test case "streams_tests/obfuscation_empty" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "streams_tests/streams_scoped_data_stream_usage" has passed with:
+      4 assertions out of 4 passed
+
+    Test case "streams_tests/xor_file" has passed with:
+      17 assertions out of 17 passed
+
+    Test case "streams_tests/streams_vector_writer" has passed with:
+      14 assertions out of 14 passed
+
+    Test case "streams_tests/streams_span_writer" has passed with:
+      4 assertions out of 4 passed
+
+    Test case "streams_tests/streams_vector_reader" has passed with:
+      16 assertions out of 16 passed
+
+    Test case "streams_tests/streams_vector_reader_rvalue" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "streams_tests/bitstream_reader_writer" has passed with:
+      11 assertions out of 11 passed
+
+    Test case "streams_tests/streams_serializedata_xor" has passed with:
+      3 assertions out of 3 passed
+
+    Test case "streams_tests/streams_buffered_file" has passed with:
+      70 assertions out of 70 passed
+
+    Test case "streams_tests/streams_buffered_file_skip" has passed with:
+      9 assertions out of 9 passed
+
+    Test case "streams_tests/streams_buffered_file_rand" has passed with:
+      15062 assertions out of 15062 passed
+
+    Test case "streams_tests/buffered_reader_matches_autofile_random_content" has passed with:
+      8 assertions out of 8 passed
+
+    Test case "streams_tests/buffered_writer_matches_autofile_random_content" has passed with:
+      5 assertions out of 5 passed
+
+    Test case "streams_tests/buffered_writer_reader" has passed with:
+      5 assertions out of 5 passed
+
+    Test case "streams_tests/streams_hashed" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "streams_tests/size_preserves_position" has passed with:
+      4 assertions out of 4 passed
+
+  Test suite "sync_tests" has passed with:
+    2 test cases out of 2 passed
+    12 assertions out of 12 passed
+
+    Test case "sync_tests/potential_deadlock_detected" has passed with:
+      8 assertions out of 8 passed
+
+    Test case "sync_tests/inconsistent_lock_order_detected" has passed with:
+      4 assertions out of 4 passed
+
+  Test suite "system_ram_tests" has passed with:
+    1 test case out of 1 passed
+    3 assertions out of 3 passed
+
+    Test case "system_ram_tests/total_ram" has passed with:
+      3 assertions out of 3 passed
+
+  Test suite "system_tests" has passed with:
+    1 test case out of 1 passed
+    14 assertions out of 14 passed
+
+    Test case "system_tests/run_command" has passed with:
+      14 assertions out of 14 passed
+
+  Test suite "testnet4_miner_tests" has passed with:
+    1 test case out of 1 passed
+    6 assertions out of 6 passed
+
+    Test case "testnet4_miner_tests/MiningInterface" has passed with:
+      6 assertions out of 6 passed
+
+  Test suite "threadpool_tests" has passed with:
+    15 test cases out of 15 passed
+    333 assertions out of 333 passed
+
+    Test case "threadpool_tests/submit_fails_with_correct_error" has passed with:
+      13 assertions out of 13 passed
+
+    Test case "threadpool_tests/submit_tasks_complete_successfully" has passed with:
+      52 assertions out of 52 passed
+
+    Test case "threadpool_tests/single_available_worker_executes_all_tasks" has passed with:
+      18 assertions out of 18 passed
+
+    Test case "threadpool_tests/wait_for_task_to_finish" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "threadpool_tests/get_result_from_completed_task" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "threadpool_tests/task_exception_propagates_to_future" has passed with:
+      5 assertions out of 5 passed
+
+    Test case "threadpool_tests/process_tasks_manually_when_workers_busy" has passed with:
+      4 assertions out of 4 passed
+
+    Test case "threadpool_tests/recursive_task_submission" has passed
+
+    Test case "threadpool_tests/task_submitted_while_busy_completes" has passed with:
+      4 assertions out of 4 passed
+
+    Test case "threadpool_tests/congestion_more_workers_than_cores" has passed with:
+      201 assertions out of 201 passed
+
+    Test case "threadpool_tests/interrupt_blocks_new_submissions" has passed with:
+      7 assertions out of 7 passed
+
+    Test case "threadpool_tests/start_mid_stop_does_not_deadlock" has passed with:
+      3 assertions out of 3 passed
+
+    Test case "threadpool_tests/queued_tasks_complete_after_interrupt" has passed with:
+      13 assertions out of 13 passed
+
+    Test case "threadpool_tests/stop_active_wait_drains_queue" has passed with:
+      4 assertions out of 4 passed
+
+    Test case "threadpool_tests/submit_range_of_tasks_complete_successfully" has passed with:
+      5 assertions out of 5 passed
+
+  Test suite "timeoffsets_tests" has passed with:
+    2 test cases out of 2 passed
+    10 assertions out of 10 passed
+
+    Test case "timeoffsets_tests/timeoffsets" has passed with:
+      6 assertions out of 6 passed
+
+    Test case "timeoffsets_tests/timeoffsets_warning" has passed with:
+      4 assertions out of 4 passed
+
+  Test suite "torcontrol_tests" has passed with:
+    2 test cases out of 2 passed
+    108 assertions out of 108 passed
+
+    Test case "torcontrol_tests/util_SplitTorReplyLine" has passed with:
+      20 assertions out of 20 passed
+
+    Test case "torcontrol_tests/util_ParseTorReplyMapping" has passed with:
+      88 assertions out of 88 passed
+
+  Test suite "transaction_tests" has passed with:
+    16 test cases out of 16 passed
+    23731 assertions out of 23731 passed
+
+    Test case "transaction_tests/tx_valid" has passed with:
+      15704 assertions out of 15704 passed
+
+    Test case "transaction_tests/tx_invalid" has passed with:
+      7547 assertions out of 7547 passed
+
+    Test case "transaction_tests/tx_no_inputs" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "transaction_tests/tx_oversized" has passed with:
+      3 assertions out of 3 passed
+
+    Test case "transaction_tests/basic_transaction_tests" has passed with:
+      3 assertions out of 3 passed
+
+    Test case "transaction_tests/test_Get" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "transaction_tests/test_big_witness_transaction" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "transaction_tests/test_witness" has passed with:
+      21 assertions out of 21 passed
+
+    Test case "transaction_tests/test_IsStandard" has passed with:
+      307 assertions out of 307 passed
+
+    Test case "transaction_tests/max_standard_legacy_sigops" has passed with:
+      15 assertions out of 15 passed
+
+    Test case "transaction_tests/getlegacysigopcount_inaccurate_test" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "transaction_tests/checktxinputs_invalid_transactions_test" has passed with:
+      12 assertions out of 12 passed
+
+    Test case "transaction_tests/isfinaltx_sequences_test" has passed with:
+      3 assertions out of 3 passed
+
+    Test case "transaction_tests/calculatesequencelocks_tx_version_test" has passed with:
+      4 assertions out of 4 passed
+
+    Test case "transaction_tests/getvalueout_out_of_range_throws" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "transaction_tests/spends_witness_prog" has passed with:
+      105 assertions out of 105 passed
+
+  Test suite "translation_tests" has passed with:
+    1 test case out of 1 passed
+    4 assertions out of 4 passed
+
+    Test case "translation_tests/translation_namedparams" has passed with:
+      4 assertions out of 4 passed
+
+  Test suite "txdownload_tests" has passed with:
+    2 test cases out of 2 passed
+    453 assertions out of 453 passed
+
+    Test case "txdownload_tests/tx_rejection_types" has passed with:
+      408 assertions out of 408 passed
+
+    Test case "txdownload_tests/handle_missing_inputs" has passed with:
+      45 assertions out of 45 passed
+
+  Test suite "txgraph_tests" has passed with:
+    6 test cases out of 6 passed
+    373 assertions out of 373 passed
+
+    Test case "txgraph_tests/txgraph_trim_zigzag" has passed with:
+      104 assertions out of 104 passed
+
+    Test case "txgraph_tests/txgraph_trim_flower" has passed with:
+      105 assertions out of 105 passed
+
+    Test case "txgraph_tests/txgraph_trim_huge" has passed with:
+      7 assertions out of 7 passed
+
+    Test case "txgraph_tests/txgraph_trim_big_singletons" has passed with:
+      103 assertions out of 103 passed
+
+    Test case "txgraph_tests/txgraph_chunk_chain" has passed with:
+      39 assertions out of 39 passed
+
+    Test case "txgraph_tests/txgraph_staging" has passed with:
+      15 assertions out of 15 passed
+
+  Test suite "txindex_tests" has passed with:
+    7 test cases out of 7 passed
+    399 assertions out of 399 passed
+
+    Test case "txindex_tests/txindex_position_encoding" has passed with:
+      15 assertions out of 15 passed
+
+    Test case "txindex_tests/txindex_hash_prefix" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "txindex_tests/txindex_initial_sync" has passed with:
+      333 assertions out of 333 passed
+
+    Test case "txindex_tests/txindex_collision_scan_path" has passed with:
+      11 assertions out of 11 passed
+
+    Test case "txindex_tests/txindex_legacy_fallback" has passed with:
+      6 assertions out of 6 passed
+
+    Test case "txindex_tests/txindex_locator_upgrade" has passed with:
+      4 assertions out of 4 passed
+
+    Test case "txindex_tests/txindex_reorg_keeps_stale_entries" has passed with:
+      29 assertions out of 29 passed
+
+  Test suite "txospenderindex_tests" has passed with:
+    1 test case out of 1 passed
+    65 assertions out of 65 passed
+
+    Test case "txospenderindex_tests/txospenderindex_initial_sync" has passed with:
+      65 assertions out of 65 passed
+
+  Test suite "txpackage_tests" has passed with:
+    9 test cases out of 9 passed
+    232 assertions out of 232 passed
+
+    Test case "txpackage_tests/package_hash_tests" has passed with:
+      23 assertions out of 23 passed
+
+    Test case "txpackage_tests/package_sanitization_tests" has passed with:
+      18 assertions out of 18 passed
+
+    Test case "txpackage_tests/package_validation_tests" has passed with:
+      11 assertions out of 11 passed
+
+    Test case "txpackage_tests/noncontextual_package_tests" has passed with:
+      26 assertions out of 26 passed
+
+    Test case "txpackage_tests/package_submission_tests" has passed with:
+      35 assertions out of 35 passed
+
+    Test case "txpackage_tests/package_single_tx" has passed with:
+      17 assertions out of 17 passed
+
+    Test case "txpackage_tests/package_witness_swap_tests" has passed with:
+      23 assertions out of 23 passed
+
+    Test case "txpackage_tests/package_cpfp_tests" has passed with:
+      51 assertions out of 51 passed
+
+    Test case "txpackage_tests/package_rbf_tests" has passed with:
+      28 assertions out of 28 passed
+
+  Test suite "txreconciliation_tests" has passed with:
+    3 test cases out of 3 passed
+    23 assertions out of 23 passed
+
+    Test case "txreconciliation_tests/RegisterPeerTest" has passed with:
+      13 assertions out of 13 passed
+
+    Test case "txreconciliation_tests/ForgetPeerTest" has passed with:
+      5 assertions out of 5 passed
+
+    Test case "txreconciliation_tests/IsPeerRegisteredTest" has passed with:
+      5 assertions out of 5 passed
+
+  Test suite "txrequest_tests" has passed with:
+    1 test case out of 1 passed
+    118542 assertions out of 118542 passed
+
+    Test case "txrequest_tests/TxRequestTest" has passed with:
+      118542 assertions out of 118542 passed
+
+  Test suite "txvalidation_tests" has passed with:
+    3 test cases out of 3 passed
+    118 assertions out of 118 passed
+
+    Test case "txvalidation_tests/tx_mempool_reject_coinbase" has passed with:
+      6 assertions out of 6 passed
+
+    Test case "txvalidation_tests/ephemeral_tests" has passed with:
+      66 assertions out of 66 passed
+
+    Test case "txvalidation_tests/version3_tests" has passed with:
+      46 assertions out of 46 passed
+
+  Test suite "txvalidationcache_tests" has passed with:
+    2 test cases out of 2 passed
+    270034 assertions out of 270034 passed
+
+    Test case "txvalidationcache_tests/tx_mempool_block_doublespend" has passed with:
+      14 assertions out of 14 passed
+
+    Test case "txvalidationcache_tests/checkinputs_test" has passed with:
+      270020 assertions out of 270020 passed
+
+  Test suite "uint256_tests" has passed with:
+    7 test cases out of 7 passed
+    897 assertions out of 897 passed
+
+    Test case "uint256_tests/basics" has passed with:
+      38 assertions out of 38 passed
+
+    Test case "uint256_tests/comparison" has passed with:
+      432 assertions out of 432 passed
+
+    Test case "uint256_tests/methods" has passed with:
+      62 assertions out of 62 passed
+
+    Test case "uint256_tests/from_hex" has passed with:
+      340 assertions out of 340 passed
+
+    Test case "uint256_tests/from_user_hex" has passed with:
+      23 assertions out of 23 passed
+
+    Test case "uint256_tests/check_ONE" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "uint256_tests/FromHex_vs_uint256" has passed with:
+      1 assertion out of 1 passed
+
+  Test suite "util_check_tests" has passed with:
+    2 test cases out of 2 passed
+    3 assertions out of 3 passed
+
+    Test case "util_check_tests/check_pass" has passed
+
+    Test case "util_check_tests/check_fail" has passed with:
+      3 assertions out of 3 passed
+
+  Test suite "util_expected_tests" has passed with:
+    9 test cases out of 9 passed
+    27 assertions out of 27 passed
+
+    Test case "util_expected_tests/expected_value" has passed with:
+      9 assertions out of 9 passed
+
+    Test case "util_expected_tests/expected_value_rvalue" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "util_expected_tests/expected_deref_rvalue" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "util_expected_tests/expected_value_or" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "util_expected_tests/expected_value_throws" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "util_expected_tests/expected_error" has passed with:
+      5 assertions out of 5 passed
+
+    Test case "util_expected_tests/expected_error_rvalue" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "util_expected_tests/unexpected_error_accessors" has passed with:
+      3 assertions out of 3 passed
+
+    Test case "util_expected_tests/expected_swap" has passed with:
+      2 assertions out of 2 passed
+
+  Test suite "util_string_tests" has passed with:
+    3 test cases out of 3 passed
+    181 assertions out of 181 passed
+
+    Test case "util_string_tests/ConstevalFormatString_NumSpec" has passed with:
+      117 assertions out of 117 passed
+
+    Test case "util_string_tests/case_insensitive_equal_test" has passed with:
+      16 assertions out of 16 passed
+
+    Test case "util_string_tests/line_reader_test" has passed with:
+      48 assertions out of 48 passed
+
+  Test suite "util_tests" has passed with:
+    61 test cases out of 61 passed
+    1952 assertions out of 1952 passed
+
+    Test case "util_tests/util_check" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "util_tests/util_criticalsection" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "util_tests/parse_hex" has passed with:
+      25 assertions out of 25 passed
+
+    Test case "util_tests/consteval_hex_digit" has passed with:
+      4 assertions out of 4 passed
+
+    Test case "util_tests/util_HexStr" has passed with:
+      775 assertions out of 775 passed
+
+    Test case "util_tests/span_write_bytes" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "util_tests/util_Join" has passed with:
+      6 assertions out of 6 passed
+
+    Test case "util_tests/util_ReplaceAll" has passed with:
+      9 assertions out of 9 passed
+
+    Test case "util_tests/util_TrimString" has passed with:
+      12 assertions out of 12 passed
+
+    Test case "util_tests/util_ParseISO8601DateTime" has passed with:
+      38 assertions out of 38 passed
+
+    Test case "util_tests/util_FormatISO8601DateTime" has passed with:
+      9 assertions out of 9 passed
+
+    Test case "util_tests/util_FormatISO8601Date" has passed with:
+      4 assertions out of 4 passed
+
+    Test case "util_tests/util_FormatRFC1123DateTime" has passed with:
+      10 assertions out of 10 passed
+
+    Test case "util_tests/util_FormatMoney" has passed with:
+      28 assertions out of 28 passed
+
+    Test case "util_tests/util_ParseMoney" has passed with:
+      49 assertions out of 49 passed
+
+    Test case "util_tests/util_IsHex" has passed with:
+      10 assertions out of 10 passed
+
+    Test case "util_tests/util_seed_insecure_rand" has passed with:
+      18 assertions out of 18 passed
+
+    Test case "util_tests/util_TimingResistantEqual" has passed with:
+      7 assertions out of 7 passed
+
+    Test case "util_tests/strprintf_numbers" has passed with:
+      9 assertions out of 9 passed
+
+    Test case "util_tests/util_mocktime" has passed with:
+      16 assertions out of 16 passed
+
+    Test case "util_tests/util_ticksseconds" has passed with:
+      5 assertions out of 5 passed
+
+    Test case "util_tests/test_IsDigit" has passed with:
+      10 assertions out of 10 passed
+
+    Test case "util_tests/util_overflow" has passed with:
+      36 assertions out of 36 passed
+
+    Test case "util_tests/test_ToIntegral" has passed with:
+      233 assertions out of 233 passed
+
+    Test case "util_tests/test_LocaleIndependentAtoi" has passed with:
+      74 assertions out of 74 passed
+
+    Test case "util_tests/test_ToIntegralHex" has passed with:
+      16 assertions out of 16 passed
+
+    Test case "util_tests/test_FormatParagraph" has passed with:
+      16 assertions out of 16 passed
+
+    Test case "util_tests/test_FormatSubVersion" has passed with:
+      3 assertions out of 3 passed
+
+    Test case "util_tests/test_ParseFixedPoint" has passed with:
+      66 assertions out of 66 passed
+
+    Test case "util_tests/test_LockDirectory" has passed with:
+      28 assertions out of 28 passed
+
+    Test case "util_tests/test_ToLower" has passed with:
+      9 assertions out of 9 passed
+
+    Test case "util_tests/test_ToUpper" has passed with:
+      9 assertions out of 9 passed
+
+    Test case "util_tests/test_Capitalize" has passed with:
+      3 assertions out of 3 passed
+
+    Test case "util_tests/test_script_parsing" has passed with:
+      59 assertions out of 59 passed
+
+    Test case "util_tests/test_SplitString" has passed with:
+      24 assertions out of 24 passed
+
+    Test case "util_tests/test_LogEscapeMessage" has passed with:
+      4 assertions out of 4 passed
+
+    Test case "util_tests/test_tracked_vector" has passed with:
+      53 assertions out of 53 passed
+
+    Test case "util_tests/message_sign" has passed with:
+      5 assertions out of 5 passed
+
+    Test case "util_tests/message_verify" has passed with:
+      7 assertions out of 7 passed
+
+    Test case "util_tests/message_hash" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "util_tests/remove_prefix" has passed with:
+      9 assertions out of 9 passed
+
+    Test case "util_tests/util_ParseByteUnits" has passed with:
+      21 assertions out of 21 passed
+
+    Test case "util_tests/util_ReadBinaryFile" has passed with:
+      6 assertions out of 6 passed
+
+    Test case "util_tests/util_WriteBinaryFile" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "util_tests/clearshrink_test" has passed with:
+      5 assertions out of 5 passed
+
+    Test case "util_tests/checked_left_shift_test" has passed with:
+      64 assertions out of 64 passed
+
+    Test case "util_tests/saturating_left_shift_test" has passed with:
+      64 assertions out of 64 passed
+
+    Test case "util_tests/mib_string_literal_test" has passed with:
+      19 assertions out of 19 passed
+
+    Test case "util_tests/ceil_div_test" has passed with:
+      14 assertions out of 14 passed
+
+    Test case "util_tests/gib_string_literal_test" has passed with:
+      19 assertions out of 19 passed
+
+    Test case "util_tests/token_bucket_initial_value" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "util_tests/token_bucket_first_increment" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "util_tests/token_bucket_refill_caps" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "util_tests/token_bucket_time_backwards" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "util_tests/token_bucket_decrement_no_debt" has passed with:
+      6 assertions out of 6 passed
+
+    Test case "util_tests/token_bucket_decrement_with_debt" has passed with:
+      6 assertions out of 6 passed
+
+    Test case "util_tests/token_bucket_drain_and_refill" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "util_tests/token_bucket_first_increment_at_epoch" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "util_tests/token_bucket_at_cap_advances_baseline" has passed with:
+      5 assertions out of 5 passed
+
+    Test case "util_tests/token_bucket_fractional_refill" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "util_tests/token_bucket_refill_from_debt" has passed with:
+      4 assertions out of 4 passed
+
+  Test suite "util_threadnames_tests" has passed with:
+    1 test case out of 1 passed
+    101 assertions out of 101 passed
+
+    Test case "util_threadnames_tests/util_threadnames_test_rename_threaded" has passed with:
+      101 assertions out of 101 passed
+
+  Test suite "util_trace_tests" has passed with:
+    3 test cases out of 3 passed
+    3 assertions out of 3 passed
+
+    Test case "util_trace_tests/test_tracepoints" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "util_trace_tests/test_tracepoint_check_if_attached" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "util_trace_tests/test_tracepoint_manual_tracepoint_active_check" has passed with:
+      1 assertion out of 1 passed
+
+  Test suite "validation_block_tests" has passed with:
+    3 test cases out of 3 passed
+    2184 assertions out of 2184 passed
+
+    Test case "validation_block_tests/processnewblock_signals_ordering" has passed with:
+      261 assertions out of 261 passed
+
+    Test case "validation_block_tests/mempool_locks_reorg" has passed with:
+      1921 assertions out of 1921 passed
+
+    Test case "validation_block_tests/witness_commitment_index" has passed with:
+      2 assertions out of 2 passed
+
+  Test suite "validation_chainstate_tests" has passed with:
+    3 test cases out of 3 passed
+    22 assertions out of 22 passed
+
+    Test case "validation_chainstate_tests/validation_chainstate_resize_caches" has passed with:
+      4 assertions out of 4 passed
+
+    Test case "validation_chainstate_tests/connect_tip_does_not_cache_inputs_on_failed_connect" has passed with:
+      3 assertions out of 3 passed
+
+    Test case "validation_chainstate_tests/chainstate_update_tip" has passed with:
+      15 assertions out of 15 passed
+
+  Test suite "validation_chainstatemanager_tests" has passed with:
+    12 test cases out of 12 passed
+    1589 assertions out of 1589 passed
+
+    Test case "validation_chainstatemanager_tests/chainstatemanager" has passed with:
+      23 assertions out of 23 passed
+
+    Test case "validation_chainstatemanager_tests/chainstatemanager_delete_chainstate_no_mempool" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "validation_chainstatemanager_tests/chainstatemanager_rebalance_caches" has passed with:
+      6 assertions out of 6 passed
+
+    Test case "validation_chainstatemanager_tests/chainstatemanager_ibd_exit_after_loading_blocks" has passed with:
+      32 assertions out of 32 passed
+
+    Test case "validation_chainstatemanager_tests/chainstatemanager_activate_snapshot" has passed with:
+      349 assertions out of 349 passed
+
+    Test case "validation_chainstatemanager_tests/chainstatemanager_loadblockindex" has passed with:
+      16 assertions out of 16 passed
+
+    Test case "validation_chainstatemanager_tests/loadblockindex_invalid_descendants" has passed with:
+      3 assertions out of 3 passed
+
+    Test case "validation_chainstatemanager_tests/invalidate_block_and_reconsider_fork" has passed with:
+      20 assertions out of 20 passed
+
+    Test case "validation_chainstatemanager_tests/chainstatemanager_snapshot_init" has passed with:
+      369 assertions out of 369 passed
+
+    Test case "validation_chainstatemanager_tests/chainstatemanager_snapshot_completion" has passed with:
+      371 assertions out of 371 passed
+
+    Test case "validation_chainstatemanager_tests/chainstatemanager_snapshot_completion_hash_mismatch" has passed with:
+      364 assertions out of 364 passed
+
+    Test case "validation_chainstatemanager_tests/chainstatemanager_args" has passed with:
+      35 assertions out of 35 passed
+
+  Test suite "validation_flush_tests" has passed with:
+    1 test case out of 1 passed
+    57998 assertions out of 57998 passed
+
+    Test case "validation_flush_tests/getcoinscachesizestate" has passed with:
+      57998 assertions out of 57998 passed
+
+  Test suite "validation_tests" has passed with:
+    5 test cases out of 5 passed
+    28440 assertions out of 28440 passed
+
+    Test case "validation_tests/block_subsidy_test" has passed with:
+      390 assertions out of 390 passed
+
+    Test case "validation_tests/subsidy_limit_test" has passed with:
+      28001 assertions out of 28001 passed
+
+    Test case "validation_tests/signet_parse_tests" has passed with:
+      15 assertions out of 15 passed
+
+    Test case "validation_tests/test_assumeutxo" has passed with:
+      10 assertions out of 10 passed
+
+    Test case "validation_tests/block_malleation" has passed with:
+      24 assertions out of 24 passed
+
+  Test suite "validationinterface_tests" has passed with:
+    2 test cases out of 2 passed
+    7 assertions out of 7 passed
+
+    Test case "validationinterface_tests/unregister_validation_interface_race" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "validationinterface_tests/unregister_all_during_call" has passed with:
+      6 assertions out of 6 passed
+
+  Test suite "versionbits_tests" has passed with:
+    2 test cases out of 2 passed
+    58330 assertions out of 58330 passed
+
+    Test case "versionbits_tests/versionbits_test" has passed with:
+      54456 assertions out of 54456 passed
+
+    Test case "versionbits_tests/versionbits_computeblockversion" has passed with:
+      3874 assertions out of 3874 passed
+
+  Test suite "db_tests" has passed with:
+    7 test cases out of 7 passed
+    610 assertions out of 610 passed
+
+    Test case "db_tests/db_cursor_prefix_range_test" has passed with:
+      492 assertions out of 492 passed
+
+    Test case "db_tests/db_cursor_prefix_byte_test" has passed with:
+      68 assertions out of 68 passed
+
+    Test case "db_tests/db_availability_after_write_error" has passed with:
+      10 assertions out of 10 passed
+
+    Test case "db_tests/erase_prefix" has passed with:
+      22 assertions out of 22 passed
+
+    Test case "db_tests/txn_close_failure_dangling_txn" has passed with:
+      5 assertions out of 5 passed
+
+    Test case "db_tests/concurrent_txn_dont_interfere" has passed with:
+      12 assertions out of 12 passed
+
+    Test case "db_tests/in_memory_database_cannot_reopen" has passed with:
+      1 assertion out of 1 passed
+
+  Test suite "coinselector_tests" has passed with:
+    12 test cases out of 12 passed
+    10876 assertions out of 10876 passed
+
+    Test case "coinselector_tests/bnb_search_test" has passed with:
+      12 assertions out of 12 passed
+
+    Test case "coinselector_tests/bnb_sffo_restriction" has passed with:
+      4 assertions out of 4 passed
+
+    Test case "coinselector_tests/knapsack_solver_test" has passed with:
+      10600 assertions out of 10600 passed
+
+    Test case "coinselector_tests/ApproximateBestSubset" has passed with:
+      3 assertions out of 3 passed
+
+    Test case "coinselector_tests/SelectCoins_test" has passed with:
+      200 assertions out of 200 passed
+
+    Test case "coinselector_tests/waste_test" has passed with:
+      14 assertions out of 14 passed
+
+    Test case "coinselector_tests/bump_fee_test" has passed with:
+      4 assertions out of 4 passed
+
+    Test case "coinselector_tests/effective_value_test" has passed with:
+      5 assertions out of 5 passed
+
+    Test case "coinselector_tests/coin_grinder_tests" has passed with:
+      19 assertions out of 19 passed
+
+    Test case "coinselector_tests/check_max_selection_weight" has passed with:
+      11 assertions out of 11 passed
+
+    Test case "coinselector_tests/SelectCoins_effective_value_test" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "coinselector_tests/wallet_coinsresult_test" has passed with:
+      3 assertions out of 3 passed
+
+  Test suite "coinselection_tests" has passed with:
+    4 test cases out of 4 passed
+    1005 assertions out of 1005 passed
+
+    Test case "coinselection_tests/bnb_test" has passed with:
+      640 assertions out of 640 passed
+
+    Test case "coinselection_tests/bnb_exhaustion_with_solution_test" has passed with:
+      5 assertions out of 5 passed
+
+    Test case "coinselection_tests/bnb_feerate_sensitivity_test" has passed with:
+      20 assertions out of 20 passed
+
+    Test case "coinselection_tests/srd_test" has passed with:
+      340 assertions out of 340 passed
+
+  Test suite "feebumper_tests" has passed with:
+    1 test case out of 1 passed
+    8 assertions out of 8 passed
+
+    Test case "feebumper_tests/external_max_weight_test" has passed with:
+      8 assertions out of 8 passed
+
+  Test suite "group_outputs_tests" has passed with:
+    1 test case out of 1 passed
+    17 assertions out of 17 passed
+
+    Test case "group_outputs_tests/outputs_grouping_tests" has passed with:
+      17 assertions out of 17 passed
+
+  Test suite "init_tests" has passed with:
+    7 test cases out of 7 passed
+    11 assertions out of 11 passed
+
+    Test case "init_tests/walletinit_verify_walletdir_default" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "init_tests/walletinit_verify_walletdir_custom" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "init_tests/walletinit_verify_walletdir_does_not_exist" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "init_tests/walletinit_verify_walletdir_is_not_directory" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "init_tests/walletinit_verify_walletdir_is_not_relative" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "init_tests/walletinit_verify_walletdir_no_trailing" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "init_tests/walletinit_verify_walletdir_no_trailing2" has passed with:
+      2 assertions out of 2 passed
+
+  Test suite "ismine_tests" has passed with:
+    1 test case out of 1 passed
+    23 assertions out of 23 passed
+
+    Test case "ismine_tests/ismine_standard" has passed with:
+      23 assertions out of 23 passed
+
+  Test suite "psbt_wallet_tests" has passed with:
+    1 test case out of 1 passed
+    3 assertions out of 3 passed
+
+    Test case "psbt_wallet_tests/psbt_updater_test" has passed with:
+      3 assertions out of 3 passed
+
+  Test suite "scriptpubkeyman_tests" has passed with:
+    2 test cases out of 2 passed
+    5 assertions out of 5 passed
+
+    Test case "scriptpubkeyman_tests/DescriptorScriptPubKeyManTests" has passed with:
+      4 assertions out of 4 passed
+
+    Test case "scriptpubkeyman_tests/desc_spkm_topup_fail" has passed with:
+      1 assertion out of 1 passed
+
+  Test suite "spend_tests" has passed with:
+    3 test cases out of 3 passed
+    23 assertions out of 23 passed
+
+    Test case "spend_tests/max_signed_input_size_uses_external_outpoint" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "spend_tests/SubtractFee" has passed with:
+      19 assertions out of 19 passed
+
+    Test case "spend_tests/wallet_duplicated_preset_inputs_test" has passed with:
+      2 assertions out of 2 passed
+
+  Test suite "wallet_crypto_tests" has passed with:
+    4 test cases out of 4 passed
+    10075 assertions out of 10075 passed
+
+    Test case "wallet_crypto_tests/passphrase" has passed with:
+      72 assertions out of 72 passed
+
+    Test case "wallet_crypto_tests/passphrase_zero_rounds" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "wallet_crypto_tests/encrypt" has passed with:
+      10000 assertions out of 10000 passed
+
+    Test case "wallet_crypto_tests/decrypt" has passed with:
+      1 assertion out of 1 passed
+
+  Test suite "wallet_rpc_tests" has passed with:
+    1 test case out of 1 passed
+    9 assertions out of 9 passed
+
+    Test case "wallet_rpc_tests/ensure_unique_wallet_name" has passed with:
+      9 assertions out of 9 passed
+
+  Test suite "wallet_tests" has passed with:
+    14 test cases out of 14 passed
+    132 assertions out of 132 passed
+
+    Test case "wallet_tests/update_non_range_descriptor" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "wallet_tests/scan_for_wallet_transactions" has passed with:
+      26 assertions out of 26 passed
+
+    Test case "wallet_tests/scan_for_wallet_transactions_abort" has passed with:
+      6 assertions out of 6 passed
+
+    Test case "wallet_tests/write_wallet_settings_concurrently" has passed with:
+      3 assertions out of 3 passed
+
+    Test case "wallet_tests/ComputeTimeSmart" has passed with:
+      6 assertions out of 6 passed
+
+    Test case "wallet_tests/LoadReceiveRequests" has passed with:
+      19 assertions out of 19 passed
+
+    Test case "wallet_tests/ListCoinsTest" has passed with:
+      14 assertions out of 14 passed
+
+    Test case "wallet_tests/BasicOutputTypesTest" has passed with:
+      30 assertions out of 30 passed
+
+    Test case "wallet_tests/wallet_disableprivkeys" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "wallet_tests/dummy_input_size_test" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "wallet_tests/wallet_descriptor_test" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "wallet_tests/CreateWallet" has passed with:
+      15 assertions out of 15 passed
+
+    Test case "wallet_tests/CreateWalletWithoutChain" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "wallet_tests/RemoveTxs" has passed with:
+      6 assertions out of 6 passed
+
+  Test suite "wallet_transaction_tests" has passed with:
+    2 test cases out of 2 passed
+    52 assertions out of 52 passed
+
+    Test case "wallet_transaction_tests/roundtrip" has passed with:
+      50 assertions out of 50 passed
+
+    Test case "wallet_transaction_tests/deserialize_rejects_mismatched_variant_txid" has passed with:
+      2 assertions out of 2 passed
+
+  Test suite "walletdb_tests" has passed with:
+    1 test case out of 1 passed
+    1 assertion out of 1 passed
+
+    Test case "walletdb_tests/walletdb_readkeyvalue" has passed with:
+      1 assertion out of 1 passed
+
+  Test suite "walletload_tests" has passed with:
+    1 test case out of 1 passed
+    5 assertions out of 5 passed
+
+    Test case "walletload_tests/wallet_load_descriptors" has passed with:
+      5 assertions out of 5 passed
+
+UBSAN_FULL_EXIT:0

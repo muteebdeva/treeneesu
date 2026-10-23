@@ -1,97 +1,105 @@
 {
- "base": "Bitcoin Core v32.0 (commit 465dde277447e2f11e01bea09d2a094d7fb6ef45)",
- "clean_build": {
-  "directory": "bitcoin-core/build-final (fresh configure + full build from committed source 03727d8 lineage; test-only nonce commit does not affect production binaries)",
-  "result": "exit 0",
-  "targets": [
-   "bitcoind",
-   "bitcoin-cli",
-   "test_bitcoin"
-  ]
- },
- "date": "2026-10-23",
- "environment": {
-  "cmake": "3.28.3",
-  "compiler": "g++ 13.3",
-  "cpu_cores": 2,
-  "note": "VM restart on 2026-10-23 17:58 wiped apt-installed deps; builds were recovered against a workspace-local sysroot (~/workspace/sysroot) extracted from the same Ubuntu packages, so dependency state now survives VM replacement.",
-  "os": "Ubuntu 24.04.5 LTS",
-  "ram_gib": 7.7
- },
- "final_head": "03727d8f962af23fd9dd02822430acfb5473c997",
- "functional_tests": {
-  "log": "logs/functional-final.log",
-  "result": "ALL PASSED (exit 0): feature_help, rpc_net (v1+v2), wallet_basic, p2p_v2_transport, feature_segwit, rpc_blockchain",
-  "runner": "test/functional/test_runner.py against build-final binaries (config: build-final/test/config.ini)",
-  "tests": [
-   "feature_help.py",
-   "rpc_net.py",
-   "wallet_basic.py",
-   "p2p_v2_transport.py",
-   "feature_segwit.py",
-   "rpc_blockchain.py"
-  ]
- },
- "genesis": {
-  "bits": "0x1e01ffff",
-  "hash": "00000091bddca562e9b5a2c98b31e5e5c831ffc015c6fd8853ef18d6df22dfee",
-  "merkle_root": "9b242aa5c3f7c5478b6285a1f073f202994dc41dd58bcea70680102b6a2096cf",
-  "nonce": 26434925,
-  "verification": "three-way agreement: source values == independent Python recomputation == compiled daemon getblockhash 0 (AUDIT-REPORT.md)"
- },
- "project": "Treeneesu",
- "sanitizers": {
-  "address_sanitizer": {
-   "build": "bitcoin-core/build-asan (cmake -DSANITIZERS=address), exit 0, incrementally updated to final source",
-   "log": "logs/asan-subset.log",
-   "note": "ASAN_OPTIONS=detect_leaks=0 (leak reports from one-shot test processes are dominated by exit-time globals; memory-error detection was fully active)",
-   "result": "all 12 suites exit 0; zero AddressSanitizer reports",
-   "scope": "12 repaired/key suites: pow_tests, miner_tests, bip32_tests, bip324_tests, descriptor_tests, key_tests, key_io_tests, transaction_tests, validation_tests, denialofservice_tests, bloom_tests, coins_tests"
+  "base": "Bitcoin Core v32.0 (commit 465dde277447e2f11e01bea09d2a094d7fb6ef45)",
+  "clean_build": {
+    "directory": "bitcoin-core/build-final (fresh configure + full build from committed source 03727d8 lineage; test-only nonce commit does not affect production binaries)",
+    "result": "exit 0",
+    "targets": [
+      "bitcoind",
+      "bitcoin-cli",
+      "test_bitcoin"
+    ]
   },
-  "undefined_behavior_sanitizer": {
-   "build": "bitcoin-core/build-ubsan (cmake -DSANITIZERS=undefined -O1, workspace sysroot), exit 0. The build was interrupted once by a VM replacement at ~75% and completed incrementally from surviving objects after relaunch.",
-   "log": "logs/ubsan-subset.log (build: logs/ubsan-build.log)",
-   "note": "UBSAN_OPTIONS=halt_on_error=false:print_stacktrace=1, so any UB report would be printed with a stack trace without aborting the suite; none occurred.",
-   "result": "all 12 suites exit 0; zero UBSan runtime errors",
-   "scope": "same 12 repaired/key suites as the ASan run: pow_tests, miner_tests, bip32_tests, bip324_tests, descriptor_tests, key_tests, key_io_tests, transaction_tests, validation_tests, denialofservice_tests, bloom_tests, coins_tests",
-   "status": "RUN (2026-10-23, completion phase)"
-  }
- },
- "treeneesu_commits": [
-  "5790ce2 Patch 1: datadir/config/user-agent identity",
-  "eca8485 Patch 2a: main chain parameters + Mission 2 test repairs",
-  "35f49eb powLimit Option A fix (bits 0x1e01ffff, genesis regrind)",
-  "03727d8 miner_tests BLOCKINFO nonces re-ground for the Option A genesis"
- ],
- "two_node_demo": {
-  "checks": [
-   "both nodes on Treeneesu genesis 00000091bddca562e9b5a2c98b31e5e5c831ffc015c6fd8853ef18d6df22dfee",
-   "peer connection node2 -> node1 only (no seeds exist)",
-   "109 real-PoW blocks (bits 0x1e01ffff) mined on node1, synced to node2, tip hashes equal",
-   "25 TNSU transaction propagated and confirmed; node2 balance exactly 25.00000000",
-   "overspend transaction (999999 TNSU) rejected",
-   "nonce-mutated block submitted to node2 rejected with reason 'high-hash'; node2 tip unchanged",
-   "node2 restart recovery: height 109, genesis, and 25 TNSU balance preserved"
+  "date": "2026-10-23",
+  "environment": {
+    "cmake": "3.28.3",
+    "compiler": "g++ 13.3",
+    "cpu_cores": 2,
+    "note": "VM restart on 2026-10-23 17:58 wiped apt-installed deps; builds were recovered against a workspace-local sysroot (~/workspace/sysroot) extracted from the same Ubuntu packages, so dependency state now survives VM replacement.",
+    "os": "Ubuntu 24.04.5 LTS",
+    "ram_gib": 7.7
+  },
+  "final_head": "03727d8f962af23fd9dd02822430acfb5473c997",
+  "functional_tests": {
+    "log": "logs/functional-final.log",
+    "result": "ALL PASSED (exit 0): feature_help, rpc_net (v1+v2), wallet_basic, p2p_v2_transport, feature_segwit, rpc_blockchain",
+    "runner": "test/functional/test_runner.py against build-final binaries (config: build-final/test/config.ini)",
+    "tests": [
+      "feature_help.py",
+      "rpc_net.py",
+      "wallet_basic.py",
+      "p2p_v2_transport.py",
+      "feature_segwit.py",
+      "rpc_blockchain.py"
+    ]
+  },
+  "genesis": {
+    "bits": "0x1e01ffff",
+    "hash": "00000091bddca562e9b5a2c98b31e5e5c831ffc015c6fd8853ef18d6df22dfee",
+    "merkle_root": "9b242aa5c3f7c5478b6285a1f073f202994dc41dd58bcea70680102b6a2096cf",
+    "nonce": 26434925,
+    "verification": "three-way agreement: source values == independent Python recomputation == compiled daemon getblockhash 0 (AUDIT-REPORT.md)"
+  },
+  "project": "Treeneesu",
+  "sanitizers": {
+    "address_sanitizer": {
+      "build": "bitcoin-core/build-asan (cmake -DSANITIZERS=address), exit 0, incrementally updated to final source",
+      "log": "logs/asan-subset.log",
+      "note": "ASAN_OPTIONS=detect_leaks=0 (leak reports from one-shot test processes are dominated by exit-time globals; memory-error detection was fully active)",
+      "result": "all 12 suites exit 0; zero AddressSanitizer reports",
+      "scope": "12 repaired/key suites: pow_tests, miner_tests, bip32_tests, bip324_tests, descriptor_tests, key_tests, key_io_tests, transaction_tests, validation_tests, denialofservice_tests, bloom_tests, coins_tests"
+    },
+    "undefined_behavior_sanitizer": {
+      "build": "bitcoin-core/build-ubsan (cmake -DSANITIZERS=undefined -O1, workspace sysroot), exit 0. The build was interrupted once by a VM replacement at ~75% and completed incrementally from surviving objects after relaunch.",
+      "log": "logs/ubsan-subset.log (build: logs/ubsan-build.log)",
+      "note": "UBSAN_OPTIONS=halt_on_error=false:print_stacktrace=1, so any UB report would be printed with a stack trace without aborting the suite; none occurred.",
+      "result": "all 12 suites exit 0; zero UBSan runtime errors",
+      "scope": "same 12 repaired/key suites as the ASan run: pow_tests, miner_tests, bip32_tests, bip324_tests, descriptor_tests, key_tests, key_io_tests, transaction_tests, validation_tests, denialofservice_tests, bloom_tests, coins_tests",
+      "status": "RUN (2026-10-23, completion phase)"
+    }
+  },
+  "treeneesu_commits": [
+    "5790ce2 Patch 1: datadir/config/user-agent identity",
+    "eca8485 Patch 2a: main chain parameters + Mission 2 test repairs",
+    "35f49eb powLimit Option A fix (bits 0x1e01ffff, genesis regrind)",
+    "03727d8 miner_tests BLOCKINFO nonces re-ground for the Option A genesis",
+    "2ecd619 F-05: chain-class network isolation (aux classes: Treeneesu magic/ports, Bitcoin seeds deleted)"
   ],
-  "log": "logs/twonode-demo-final.log",
-  "result": "ALL CHECKS PASSED (exit 0)",
-  "script": "twonode-demo.sh (binaries: build-final)"
- },
- "unit_tests": {
-  "command": "./build-final/bin/test_bitcoin --log_level=test_suite --report_level=detailed",
-  "exit_code": 0,
-  "history": "First final-params run (logs/final-fullrun/full.log): 151/152, sole failure miner_tests (fixture nonces ground for the superseded genesis). Nonces re-ground with the test's own block construction, miner_tests verified standalone, then this full rerun passed.",
-  "log": "logs/final-fullrun/full2.log",
-  "suites_passed": 152,
-  "suites_total": 152,
-  "verdict": "Test module has passed: 826/827 test cases passed, 1 passed with warnings",
-  "warnings_case": "script_assets_tests self-skips with a warning because DIR_UNIT_TEST_DATA is unset (upstream optional data test; same behavior on stock Bitcoin Core)"
- },
- "version": "v0.1.0-rc1 (final parameters)",
- "completion_phase_2026_10_23": {
-  "ubsan": "DONE — see sanitizers.undefined_behavior_sanitizer (12/12 suites exit 0, zero runtime errors)",
-  "supply_rules": "VERIFIED — subsidy/halving/MAX_MONEY read from source and reproduced by an independent Python model: boundary subsidies 50 -> 25 -> 12.5 TNSU, last nonzero era 32 (1 sat), total issuance 4199999995380000 sats == validation_tests constant (AUDIT-REPORT.md addendum 2)",
-  "retarget_soak": "IN PROGRESS at the time of this update — independent grinder (retarget-test/grind_chain.cpp, cross-validated against the Python model and the daemon) building an 8,070-block chain, checkpointed in retarget-test/blocks.txt; assertion script retarget-test/submit_and_assert.sh checks bits 0x1e01ffff at 8063 and the model-predicted 0x1d7fffc0 at 8064 and 8070 on two fresh nodes. NOT yet a pass — no result is claimed until the run lands.",
-  "private_testnet": "DONE — PASSED (2026-10-23). The first attempt was killed mid-mining by a VM replacement (its /tmp datadirs were wiped); the re-run completed every check, exit 0: 3 nodes on the Treeneesu genesis, A mined 105 blocks and all nodes synced with equal tips, 10 TNSU A->B confirmed (txid 34f56c188a1add48dc01d3d7acf0c1d22d2dc5b4147e21e1d180489551a78cd1), B balance exactly 10.00000000, wallet backup restored with balance and tx history intact, all nodes restarted and recovered at height 106 with equal tips. Script testnet-run.sh, log logs/testnet-run.log, operator guide TESTNET-GUIDE.md. Disclosed detail: peer counts in the passing run were A=2 B=1 C=1 (B-C direct link did not form; sync completed through A). Network namespaces are unavailable on this VM (setns: Operation not permitted), documented in the guide."
- }
+  "two_node_demo": {
+    "checks": [
+      "both nodes on Treeneesu genesis 00000091bddca562e9b5a2c98b31e5e5c831ffc015c6fd8853ef18d6df22dfee",
+      "peer connection node2 -> node1 only (no seeds exist)",
+      "109 real-PoW blocks (bits 0x1e01ffff) mined on node1, synced to node2, tip hashes equal",
+      "25 TNSU transaction propagated and confirmed; node2 balance exactly 25.00000000",
+      "overspend transaction (999999 TNSU) rejected",
+      "nonce-mutated block submitted to node2 rejected with reason 'high-hash'; node2 tip unchanged",
+      "node2 restart recovery: height 109, genesis, and 25 TNSU balance preserved"
+    ],
+    "log": "logs/twonode-demo-final.log",
+    "result": "ALL CHECKS PASSED (exit 0)",
+    "script": "twonode-demo.sh (binaries: build-final)"
+  },
+  "unit_tests": {
+    "command": "./build-final/bin/test_bitcoin --log_level=test_suite --report_level=detailed",
+    "exit_code": 0,
+    "history": "First final-params run (logs/final-fullrun/full.log): 151/152, sole failure miner_tests (fixture nonces ground for the superseded genesis). Nonces re-ground with the test's own block construction, miner_tests verified standalone, then this full rerun passed.",
+    "log": "logs/final-fullrun/full2.log",
+    "suites_passed": 152,
+    "suites_total": 152,
+    "verdict": "Test module has passed: 826/827 test cases passed, 1 passed with warnings",
+    "warnings_case": "script_assets_tests self-skips with a warning because DIR_UNIT_TEST_DATA is unset (upstream optional data test; same behavior on stock Bitcoin Core)"
+  },
+  "version": "v0.1.0-rc1 (final parameters)",
+  "completion_phase_2026_10_23": {
+    "ubsan": "DONE \u2014 see sanitizers.undefined_behavior_sanitizer (12/12 suites exit 0, zero runtime errors)",
+    "supply_rules": "VERIFIED \u2014 subsidy/halving/MAX_MONEY read from source and reproduced by an independent Python model: boundary subsidies 50 -> 25 -> 12.5 TNSU, last nonzero era 32 (1 sat), total issuance 4199999995380000 sats == validation_tests constant (AUDIT-REPORT.md addendum 2)",
+    "retarget_soak": "IN PROGRESS at the time of this update \u2014 independent grinder (retarget-test/grind_chain.cpp, cross-validated against the Python model and the daemon) building an 8,070-block chain, checkpointed in retarget-test/blocks.txt; assertion script retarget-test/submit_and_assert.sh checks bits 0x1e01ffff at 8063 and the model-predicted 0x1d7fffc0 at 8064 and 8070 on two fresh nodes. NOT yet a pass \u2014 no result is claimed until the run lands.",
+    "private_testnet": "DONE \u2014 PASSED (2026-10-23). The first attempt was killed mid-mining by a VM replacement (its /tmp datadirs were wiped); the re-run completed every check, exit 0: 3 nodes on the Treeneesu genesis, A mined 105 blocks and all nodes synced with equal tips, 10 TNSU A->B confirmed (txid 34f56c188a1add48dc01d3d7acf0c1d22d2dc5b4147e21e1d180489551a78cd1), B balance exactly 10.00000000, wallet backup restored with balance and tx history intact, all nodes restarted and recovered at height 106 with equal tips. Script testnet-run.sh, log logs/testnet-run.log, operator guide TESTNET-GUIDE.md. Disclosed detail: peer counts in the passing run were A=2 B=1 C=1 (B-C direct link did not form; sync completed through A). Network namespaces are unavailable on this VM (setns: Operation not permitted), documented in the guide."
+  },
+  "readiness_phase_2026_10_23": {
+    "ubsan_full_f05": "COMPLETE 2026-10-24 - full unit suite under UBSan on the F-05 tree, exit 0, all suites passed (logs/ubsan-full-f05.log). Exactly ONE runtime report: src/streams.cpp:99 AutoFile::write passing an empty span's null data pointer to std::fwrite, raised in net_tests/initial_advertise_from_version_message (suite still 19/19 passed; halt_on_error=false as configured). Triage: streams.cpp is byte-identical to upstream v32.0 (not in the Treeneesu production diff); a size-0 fwrite reads/writes nothing; classified benign upstream behaviour - recorded here, not suppressed.",
+    "asan_full_f05": "IN PROGRESS - F-05 build exit 0; full suite executing (logs/asan-full-f05.log).",
+    "f03_min_chain_work_tool": "LIVE-TESTED - bug found and fixed during the test (getblockhash returns a bare hash, not JSON); derivation verified by hand: anchor height 17 chainwork 0x9000480 == 18 blocks x 0x800040 (logs/f03-minchainwork-test.log).",
+    "f05_isolation": "DONE - source commit 2ecd619; unit 151/152 + contention-flake suite re-passed standalone; functional subset re-run ALL PASSED.",
+    "retarget_soak": "IN PROGRESS - grind ~2200/8070 blocks at this snapshot (retarget-test/blocks.txt)."
+  }
 }

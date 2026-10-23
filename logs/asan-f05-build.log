@@ -1,0 +1,42 @@
+[  1%] Built target crc32c
+[  4%] Built target test_util
+[ 11%] Built target leveldb
+[ 11%] Generating bitcoin-build-info.h
+[ 16%] Built target minisketch
+[ 18%] Built target bitcoin_consensus
+[ 18%] Built target generate_build_info
+[ 18%] Built target bitcoin_cli
+[ 19%] Built target univalue
+[ 19%] Built target secp256k1_precomputed
+[ 24%] Built target bitcoin_crypto
+[ 30%] Built target bitcoin_util
+[ 30%] Building CXX object src/CMakeFiles/bitcoin_clientversion.dir/clientversion.cpp.o
+[ 36%] Built target bitcoin_wallet
+[ 37%] Building CXX object src/CMakeFiles/bitcoin_common.dir/chainparamsbase.cpp.o
+[ 38%] Linking CXX static library ../lib/libbitcoin_clientversion.a
+[ 38%] Built target bitcoin_clientversion
+[ 58%] Built target bitcoin_node
+[ 59%] Built target secp256k1
+[ 59%] Building CXX object src/CMakeFiles/bitcoin_common.dir/kernel/chainparams.cpp.o
+[ 59%] Linking CXX static library ../lib/libbitcoin_common.a
+[ 67%] Built target bitcoin_common
+[ 67%] Linking CXX executable ../../bin/test_bitcoin
+[100%] Built target test_bitcoin
+[  0%] Generating bitcoin-build-info.h
+[  1%] Built target crc32c
+[ 12%] Built target leveldb
+[ 12%] Built target generate_build_info
+[ 19%] Built target minisketch
+[ 23%] Built target bitcoin_consensus
+[ 53%] Built target bitcoin_node
+[ 55%] Built target univalue
+[ 55%] Built target secp256k1_precomputed
+[ 69%] Built target bitcoin_common
+[ 76%] Built target bitcoin_crypto
+[ 85%] Built target bitcoin_util
+[ 94%] Built target bitcoin_wallet
+[ 96%] Built target bitcoin_clientversion
+[ 98%] Built target secp256k1
+[ 98%] Linking CXX executable ../bin/bitcoind
+[100%] Built target bitcoind
+ASAN_F05_BUILD_EXIT:0
