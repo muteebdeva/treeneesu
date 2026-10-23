@@ -118,3 +118,28 @@ nMinimumChainWork updates, GENESIS-VERIFICATION refresh). pow_tests'
 historical-height expectations will be recomputed with an independent
 Python difficulty model (control-checked against Bitcoin's expected values)
 after the decision.
+
+---
+
+## Addendum — completion mission (2026-10-23, post-decision work)
+
+Every test modification below follows the same rule as the main log:
+nothing deleted, skipped, or weakened; intent preserved or strengthened.
+
+1. **pow_tests.cpp (commit 35f49eb)** — recomputed for Treeneesu
+   parameters with an independent Python model of
+   CalculateNextWorkRequired (pow_model.py), control-verified by
+   reproducing all four upstream Bitcoin expectations exactly AND the
+   exact failing value observed under the defective parameters
+   (0x1d01b304). Changes: get_next_work_pow_limit now starts AT the
+   Treeneesu powLimit (bits 0x1e01ffff, expected 0x1e01ffff) so the cap
+   branch is genuinely exercised; the two clamp cases moved their
+   synthetic heights to Treeneesu retarget boundaries (8064k−1: 72575,
+   48383) — expected values unchanged; ChainParams_MAIN_sanity now
+   passes because the powLimit defect itself was fixed in consensus
+   parameters, not in the test.
+2. **miner_tests.cpp BLOCKINFO nonces (commit 03727d8)** — the 110
+   fixture blocks were re-ground for the Option A genesis using the
+   test's own block construction (temporary grinding loop, removed
+   after use; identical method to the Mission 2 repair). Diff is nonce
+   values only; no test logic or assertions changed.

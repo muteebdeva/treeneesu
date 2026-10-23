@@ -95,3 +95,25 @@ upstream code with upstream test coverage, all passing.
   `logs/twonode-demo-final.log`, script `twonode-demo.sh`.
 - Functional subset (incl. BIP324 v2 transport, segwit, wallet): all pass.
 - ASan build + subset run: see logs/asan-* (in progress at time of writing).
+
+---
+
+## Addendum — completion mission, 2026-10-23 (post-powLimit-fix)
+
+- **Finding 1 (powLimit) CLOSED:** owner selected Option A; powLimit is now
+  bits 0x1e01ffff (chainparams.cpp), genesis re-ground (hash
+  00000091bddca562e9b5a2c98b31e5e5c831ffc015c6fd8853ef18d6df22dfee) and
+  three-way verified (source == independent Python recomputation ==
+  compiled daemon `getblockhash 0`). See AUDIT-REPORT.md.
+- **Secret scan of the pushed tree (2026-10-23):** patterns for GitHub PATs
+  (ghp_/github_pat_), AWS access keys, private-key blocks, Slack/Stripe
+  tokens across the full workspace (excluding .git and build trees and
+  upstream's public test-fixture directories): **zero hits** in
+  Treeneesu-authored files and production code.
+- **.gitignore verification:** upstream `/*build*` covers build/,
+  build-final/, build-asan/ (git check-ignore confirms). The generated
+  test/config.ini is NOT gitignored upstream; it was excluded from the
+  GitHub import explicitly and exists only locally.
+- Findings 2–4 (low absolute PoW by design, unregistered ext-key prefixes,
+  no seed nodes by design) are unchanged and remain documented limitations,
+  not defects.

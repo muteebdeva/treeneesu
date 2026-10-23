@@ -1,0 +1,29 @@
+Bitcoin Core starting
+Bitcoin Core starting
+== genesis identity ==
+node1 genesis: 00000091bddca562e9b5a2c98b31e5e5c831ffc015c6fd8853ef18d6df22dfee
+node2 genesis: 00000091bddca562e9b5a2c98b31e5e5c831ffc015c6fd8853ef18d6df22dfee
+== peer connection ==
+node1 addr: tnsu1qpn3y6k2mmyva48fv34txwszchq6htmr642jh24
+node2 addr: tnsu1qd2vndd6q9xg496fskw8vqdkjktfl9l6j50r2vh
+== mine 3 blocks on node1 (real PoW, target bits 0x1e01ffff) ==
+mined in 27s
+blocks: node1=3 node2=3
+tip hash match: 00000042d38f3a5b497a9e15babf93a82788862a6a5c54bac853aa63d0678009
+node1 balance after 3 blocks (coinbases immature): 0.00000000
+== mine 105 more so coinbases mature, then send 25 TNSU node1 -> node2 ==
+txid: b9dc8713041e694af5566711c7968f66de421c56a7da644426601bea680d5991
+tx visible on node2 (mempool)
+node2 confirmations: 1, node2 balance: 25.00000000
+== rejection tests: overspend tx and invalid-PoW block ==
+overspend tx (999999 TNSU) rejected by node1 wallet/mempool as expected
+submitblock (nonce-mutated) on node2 -> high-hash
+node2 tip unchanged after invalid block: 000000430f8a9fe379dd6c5d185a457928d06ac8b441826ed28890d09929dee1
+== restart node2: recovery check ==
+Bitcoin Core stopping
+Bitcoin Core starting
+after restart: blocks=109 balance=25.00000000 genesis=00000091bddca562e9b5a2c98b31e5e5c831ffc015c6fd8853ef18d6df22dfee
+Bitcoin Core stopping
+Bitcoin Core stopping
+DEMO RESULT: ALL CHECKS PASSED
+DEMO_EXIT:0

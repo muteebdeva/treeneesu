@@ -137,11 +137,13 @@ def main():
     tree = {"sha": tree_sha[""]}
     print(f"tree: {tree['sha'][:12]} (built from {len(tree_sha)} directory trees)")
     commit = api("POST", f"/repos/{REPO}/git/commits", {
-        "message": ("Treeneesu: full project import — patched Bitcoin Core v32.0 source, "
-                    "mission deliverables, docs, logs\n\n"
-                    "Includes the powLimit Option A fix (local commit 35f49eb): bits "
-                    "0x1e01ffff, genesis 00000091bddca562e9b5a2c98b31e5e5c831ffc015c6fd8853ef18d6df22dfee. "
-                    "Excluded: build trees, .git internals, generated test/config.ini."),
+        "message": ("Treeneesu: completion-mission final state — full suite 152/152, "
+                    "demo v2 passed, ASan subset clean\n\n"
+                    "Local source HEAD 03727d8 (miner_tests nonces re-ground for the "
+                    "Option A genesis). Adds README.md, FINAL-REPORT.md, refreshed "
+                    "TEST-SUMMARY.json/BLOCKERS.md, final test/demo/ASan/functional "
+                    "logs, and the refreshed history bundle. Excluded: build trees, "
+                    ".git internals, generated test/config.ini."),
         "tree": tree["sha"], "parents": [base_commit]})
     print(f"commit: {commit['sha'][:12]}")
     api("PATCH", f"/repos/{REPO}/git/refs/heads/{branch}", {"sha": commit["sha"]})

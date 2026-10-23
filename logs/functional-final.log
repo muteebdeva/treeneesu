@@ -1,0 +1,32 @@
+Temporary test directory at /tmp/test_runner_₿_🏃_20261023_201357
+1/9 - feature_help.py passed, Duration: 2 s
+2/9 - p2p_v2_transport.py passed, Duration: 12 s
+3/9 - feature_segwit.py --v2transport passed, Duration: 11 s
+4/9 - wallet_basic.py passed, Duration: 32 s
+5/9 - rpc_net.py --v2transport passed, Duration: 35 s
+6/9 - rpc_net.py --v1transport passed, Duration: 36 s
+7/9 - feature_segwit.py --v1transport passed, Duration: 9 s
+8/9 - rpc_blockchain.py --v1transport passed, Duration: 12 s
+9/9 - rpc_blockchain.py --v2transport passed, Duration: 11 s
+WARNING! There may be insufficient free space in /tmp/test_runner_₿_🏃_20261023_201357 to run the Bitcoin functional test suite. Running the test suite with fewer than 1426.0 MB of free space might cause tests to fail.
+Remaining jobs: [feature_segwit.py --v1transport, rpc_blockchain.py --v1transport, rpc_blockchain.py --v2transport, rpc_net.py --v1transport]
+Remaining jobs: [feature_segwit.py --v1transport, rpc_blockchain.py --v1transport, rpc_blockchain.py --v2transport]
+Remaining jobs: [rpc_blockchain.py --v1transport, rpc_blockchain.py --v2transport]
+Remaining jobs: [rpc_blockchain.py --v2transport]
+
+TEST                            | STATUS    | DURATION
+
+feature_help.py                 | ✓ Passed  | 2 s
+feature_segwit.py --v1transport | ✓ Passed  | 9 s
+feature_segwit.py --v2transport | ✓ Passed  | 11 s
+p2p_v2_transport.py             | ✓ Passed  | 12 s
+rpc_blockchain.py --v1transport | ✓ Passed  | 12 s
+rpc_blockchain.py --v2transport | ✓ Passed  | 11 s
+rpc_net.py --v1transport        | ✓ Passed  | 36 s
+rpc_net.py --v2transport        | ✓ Passed  | 35 s
+wallet_basic.py                 | ✓ Passed  | 32 s
+
+ALL                             | ✓ Passed  | 160 s (accumulated) 
+Runtime: 46 s
+
+FUNC_EXIT:0
