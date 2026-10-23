@@ -90,9 +90,17 @@ int main(int argc, char** argv) {
         put32(tx, 1); tx.push_back(1);
         for (int i = 0; i < 32; i++) tx.push_back(0);
         put32(tx, 0xffffffff);
-        // scriptSig: BIP34 height (CScriptNum minimal) + marker byte
+        // scriptSig: BIP34 height, serialized exactly as CScript() << height
+        // (validation compares against that prefix byte-for-byte). For
+        // heights 1..16 CScript uses the OP_1..OP_16 opcodes (0x51..0x60),
+        // NOT a data push — the v1 grinder pushed [len][bytes] for every
+        // height, so blocks 1..16 were rejected bad-cb-height at submission
+        // (soak run 2026-10-24). Heights >= 17 use the minimal CScriptNum
+        // data push, as before. Then a marker byte.
         std::vector<uint8_t> ss;
-        { uint32_t x = h; std::vector<uint8_t> num; while (x) { num.push_back(x & 0xff); x >>= 8; } if (!num.empty() && (num.back() & 0x80)) num.push_back(0); ss.push_back((uint8_t)num.size()); ss.insert(ss.end(), num.begin(), num.end()); ss.push_back(0x2a); }
+        if (h >= 1 && h <= 16) { ss.push_back((uint8_t)(0x50 + h)); }
+        else { uint32_t x = h; std::vector<uint8_t> num; while (x) { num.push_back(x & 0xff); x >>= 8; } if (!num.empty() && (num.back() & 0x80)) num.push_back(0); ss.push_back((uint8_t)num.size()); ss.insert(ss.end(), num.begin(), num.end()); }
+        ss.push_back(0x2a);
         tx.push_back((uint8_t)ss.size()); tx.insert(tx.end(), ss.begin(), ss.end());
         put32(tx, 0xffffffff);
         tx.push_back(1); put64(tx, subsidy);

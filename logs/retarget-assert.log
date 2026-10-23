@@ -1,0 +1,8 @@
+Bitcoin Core starting
+Bitcoin Core starting
+== submitting ground chain ==
+block 1 rejected: bad-cb-height
+RETARGET TEST FAIL: submission stopped at height 1
+Bitcoin Core stopping
+Bitcoin Core stopping
+RETARGET_EXIT:1

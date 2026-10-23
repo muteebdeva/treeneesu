@@ -100,6 +100,6 @@
     "asan_full_f05": "COMPLETE 2026-10-24 - full unit suite under AddressSanitizer on the F-05 tree, exit 0, test module passed, ZERO AddressSanitizer errors (logs/asan-full-f05.log; ASAN_OPTIONS=detect_leaks=0 as disclosed for the subset runs).",
     "f03_min_chain_work_tool": "LIVE-TESTED - bug found and fixed during the test (getblockhash returns a bare hash, not JSON); derivation verified by hand: anchor height 17 chainwork 0x9000480 == 18 blocks x 0x800040 (logs/f03-minchainwork-test.log).",
     "f05_isolation": "DONE - source commit 2ecd619; unit 151/152 + contention-flake suite re-passed standalone; functional subset re-run ALL PASSED.",
-    "retarget_soak": "IN PROGRESS - grind 3229/8070 blocks at this snapshot (retarget-test/blocks.txt); assertion phase runs on completion."
+    "retarget_soak": "FIRST ASSERTION RUN FAILED AT BLOCK 1 (2026-10-24, logs/retarget-assert.log): the ground chain's coinbases for heights 1..16 encoded the BIP34 height as a data push, but CScript() << height uses OP_1..OP_16 there - the node correctly rejected block 1 with bad-cb-height. Defect was in the test grinder (grind_chain.cpp), NOT in node code; validation worked as designed. Grinder fixed (OP_N for 1..16), fix PROVEN cheaply before re-grinding: a 20-block corrected chain submitted fully, node height 20 (logs/retarget-test20.log). v1 chain preserved as retarget-test/blocks-v1-bip34bug.txt; full corrected grind restarted 2026-10-24 (~3 h), assertions re-run on completion."
   }
 }
