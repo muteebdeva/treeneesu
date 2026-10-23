@@ -7,3 +7,24 @@ peer counts: A=2 B=1 C=1
 A addr: tnsu1q7g0l24c97wphu3uxxpdkxqqcna98dmc9tysu0z
 B addr: tnsu1qjjcwgwk5n748fmt9848568r7lv589z43ad5vly
 == mine 105 on A, all sync ==
+all nodes at height 105, tips equal
+== transfer 10 TNSU A -> B, confirm ==
+txid: 34f56c188a1add48dc01d3d7acf0c1d22d2dc5b4147e21e1d180489551a78cd1
+B balance: 10.00000000
+== wallet backup + restore on B ==
+Bitcoin Core stopping
+Bitcoin Core starting
+restored wallet balance: 10.00000000
+== restart all nodes: persistence ==
+Bitcoin Core stopping
+Bitcoin Core stopping
+Bitcoin Core stopping
+Bitcoin Core starting
+Bitcoin Core starting
+Bitcoin Core starting
+all nodes recovered at height 106 with equal tips
+Bitcoin Core stopping
+Bitcoin Core stopping
+Bitcoin Core stopping
+TESTNET RESULT: ALL CHECKS PASSED
+TESTNET_EXIT:0

@@ -77,6 +77,43 @@ coins have no monetary value.
   MAINNET-READINESS-GATES.md (B7). Publishing source does not create a
   network; no independent participants exist yet.
 
+## Addendum — completion phase (2026-10-23, later the same day)
+
+Work done under the owner's "complete the project properly" brief, after
+the report above was written:
+
+- **UBSan: run and clean.** build-ubsan (SANITIZERS=undefined) exit 0 —
+  interrupted once by a VM replacement at ~75%, completed incrementally.
+  The 12-suite repaired/key subset: all exit 0, **zero UBSan runtime
+  errors** (logs/ubsan-subset.log). BLOCKERS B4 is now fully closed
+  (ASan + UBSan), with the subset scope disclosed.
+- **Supply rules independently re-verified.** Subsidy, halving interval
+  and MAX_MONEY read from source and reproduced by a Python model:
+  boundary subsidies 50 → 25 → 12.5 TNSU, last nonzero era 32 (1 sat),
+  total issuance 41,999,999.9538 TNSU (AUDIT-REPORT.md addendum 2).
+- **Private testnet: PASSED.** testnet-run.sh (3 nodes, loopback IPs —
+  network namespaces are unavailable on this VM) completed every check:
+  genesis agreement, 105 blocks mined and synced with equal tips,
+  10 TNSU transfer confirmed with satoshi-exact balance, wallet
+  backup/restore with history intact, full restart recovery at
+  height 106 (logs/testnet-run.log). Operator guide: TESTNET-GUIDE.md.
+  The first attempt was killed mid-run by a VM replacement (its /tmp
+  datadirs were wiped) and re-run from scratch; that history is kept,
+  not hidden.
+- **Retarget soak: in progress.** An independent grinder
+  (retarget-test/grind_chain.cpp, cross-validated three ways) is
+  building an 8,070-block chain across the first retarget boundary;
+  blocks are checkpointed in retarget-test/blocks.txt and survive VM
+  replacements (the grinder resumes from its own output — it already
+  has, twice). submit_and_assert.sh will verify bits at heights
+  8063/8064/8070 (predicted 0x1e01ffff → 0x1d7fffc0) on two fresh
+  nodes. **No result is claimed until that run lands**; when it does,
+  this addendum and MAINNET-READINESS-GATES.md Gate 1 will be updated
+  and pushed.
+- **Pushes.** This phase's work was pushed to the private repo in commit
+  033e16ada192766977d8d46a4e6ab5b374fd3445 (on top of completion commit
+  bee9406417e4…), remote-verified blob by blob.
+
 ## Bottom line for a reviewer
 
 Clone `bitcoin-core/` from this repo, build with the README commands, run
