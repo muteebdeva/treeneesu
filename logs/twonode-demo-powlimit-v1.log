@@ -1,0 +1,24 @@
+Bitcoin Core starting
+Bitcoin Core starting
+== genesis identity ==
+node1 genesis: 000008c949ab6dfa087901003f3f05804bd550bb9a094fc57ecec54994c015b6
+node2 genesis: 000008c949ab6dfa087901003f3f05804bd550bb9a094fc57ecec54994c015b6
+== peer connection ==
+node1 addr: tnsu1qajapcg77zmac6uhgx702uxva4ceamxfptg94ad
+node2 addr: tnsu1qv3w4d9y9xymkl6rh4nlu3fpm42wfvpwgh8p2yz
+== mine 3 blocks on node1 (real PoW, target bits 0x1e0fffff) ==
+mined in 1s
+blocks: node1=3 node2=3
+tip hash match: 00000dcc15f5cadc9c6ad356c3fa64f201929db89044b1ac15f49891113d8486
+node1 balance after 3 blocks (coinbases immature): 0.00000000
+== mine 105 more so coinbases mature, then send 25 TNSU node1 -> node2 ==
+txid: ab9e9eff2d674e5428a8a6260539d1bc215738a10d7940f16700754de7c3626b
+tx visible on node2 (mempool)
+node2 confirmations: 1, node2 balance: 25.00000000
+== restart node2: recovery check ==
+Bitcoin Core stopping
+Bitcoin Core starting
+after restart: blocks=109 balance=25.00000000 genesis=000008c949ab6dfa087901003f3f05804bd550bb9a094fc57ecec54994c015b6
+Bitcoin Core stopping
+Bitcoin Core stopping
+DEMO RESULT: ALL CHECKS PASSED

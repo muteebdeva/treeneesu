@@ -1,0 +1,103 @@
+Running 9 test cases...
+[1;34;49mEntering test module "Bitcoin Core Test Suite"
+[0;39;49m[1;33;49m./test/addrman_tests.cpp(53): Test suite "addrman_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/allocator_tests.cpp(18): Test suite "allocator_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/amount_tests.cpp(12): Test suite "amount_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/argsman_tests.cpp(25): Test suite "argsman_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/arith_uint256_tests.cpp(19): Test suite "arith_uint256_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/banman_tests.cpp(16): Test suite "banman_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/base32_tests.cpp(14): Test suite "base32_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/base58_tests.cpp(22): Test suite "base58_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/base64_tests.cpp(14): Test suite "base64_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/baseindex_tests.cpp(62): Test suite "baseindex_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/bech32_tests.cpp(13): Test suite "bech32_tests" is skipped because disabled
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(161): Entering test suite "bip32_tests"
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(163): Entering test case "bip32_test1"
+[0;39;49m./test/bip32_tests.cpp(137): [1;31;49merror: in "bip32_tests/bip32_test1": check EncodeExtKey(key) == derive.prv has failed[0;39;49m
+./test/bip32_tests.cpp(138): [1;31;49merror: in "bip32_tests/bip32_test1": check DecodeExtKey(derive.prv) == key has failed[0;39;49m
+./test/bip32_tests.cpp(141): [1;31;49merror: in "bip32_tests/bip32_test1": check EncodeExtPubKey(pubkey) == derive.pub has failed[0;39;49m
+./test/bip32_tests.cpp(142): [1;31;49merror: in "bip32_tests/bip32_test1": check DecodeExtPubKey(derive.pub) == pubkey has failed[0;39;49m
+./test/bip32_tests.cpp(137): [1;31;49merror: in "bip32_tests/bip32_test1": check EncodeExtKey(key) == derive.prv has failed[0;39;49m
+./test/bip32_tests.cpp(138): [1;31;49merror: in "bip32_tests/bip32_test1": check DecodeExtKey(derive.prv) == key has failed[0;39;49m
+./test/bip32_tests.cpp(141): [1;31;49merror: in "bip32_tests/bip32_test1": check EncodeExtPubKey(pubkey) == derive.pub has failed[0;39;49m
+./test/bip32_tests.cpp(142): [1;31;49merror: in "bip32_tests/bip32_test1": check DecodeExtPubKey(derive.pub) == pubkey has failed[0;39;49m
+./test/bip32_tests.cpp(137): [1;31;49merror: in "bip32_tests/bip32_test1": check EncodeExtKey(key) == derive.prv has failed[0;39;49m
+./test/bip32_tests.cpp(138): [1;31;49merror: in "bip32_tests/bip32_test1": check DecodeExtKey(derive.prv) == key has failed[0;39;49m
+./test/bip32_tests.cpp(141): [1;31;49merror: in "bip32_tests/bip32_test1": check EncodeExtPubKey(pubkey) == derive.pub has failed[0;39;49m
+./test/bip32_tests.cpp(142): [1;31;49merror: in "bip32_tests/bip32_test1": check DecodeExtPubKey(derive.pub) == pubkey has failed[0;39;49m
+./test/bip32_tests.cpp(137): [1;31;49merror: in "bip32_tests/bip32_test1": check EncodeExtKey(key) == derive.prv has failed[0;39;49m
+./test/bip32_tests.cpp(138): [1;31;49merror: in "bip32_tests/bip32_test1": check DecodeExtKey(derive.prv) == key has failed[0;39;49m
+./test/bip32_tests.cpp(141): [1;31;49merror: in "bip32_tests/bip32_test1": check EncodeExtPubKey(pubkey) == derive.pub has failed[0;39;49m
+./test/bip32_tests.cpp(142): [1;31;49merror: in "bip32_tests/bip32_test1": check DecodeExtPubKey(derive.pub) == pubkey has failed[0;39;49m
+./test/bip32_tests.cpp(137): [1;31;49merror: in "bip32_tests/bip32_test1": check EncodeExtKey(key) == derive.prv has failed[0;39;49m
+./test/bip32_tests.cpp(138): [1;31;49merror: in "bip32_tests/bip32_test1": check DecodeExtKey(derive.prv) == key has failed[0;39;49m
+./test/bip32_tests.cpp(141): [1;31;49merror: in "bip32_tests/bip32_test1": check EncodeExtPubKey(pubkey) == derive.pub has failed[0;39;49m
+./test/bip32_tests.cpp(142): [1;31;49merror: in "bip32_tests/bip32_test1": check DecodeExtPubKey(derive.pub) == pubkey has failed[0;39;49m
+./test/bip32_tests.cpp(137): [1;31;49merror: in "bip32_tests/bip32_test1": check EncodeExtKey(key) == derive.prv has failed[0;39;49m
+./test/bip32_tests.cpp(138): [1;31;49merror: in "bip32_tests/bip32_test1": check DecodeExtKey(derive.prv) == key has failed[0;39;49m
+./test/bip32_tests.cpp(141): [1;31;49merror: in "bip32_tests/bip32_test1": check EncodeExtPubKey(pubkey) == derive.pub has failed[0;39;49m
+./test/bip32_tests.cpp(142): [1;31;49merror: in "bip32_tests/bip32_test1": check DecodeExtPubKey(derive.pub) == pubkey has failed[0;39;49m
+[1;34;49m./test/bip32_tests.cpp(163): Leaving test case "bip32_test1"; testing time: 3795us
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(167): Entering test case "bip32_test2"
+[0;39;49m./test/bip32_tests.cpp(137): [1;31;49merror: in "bip32_tests/bip32_test2": check EncodeExtKey(key) == derive.prv has failed[0;39;49m
+./test/bip32_tests.cpp(138): [1;31;49merror: in "bip32_tests/bip32_test2": check DecodeExtKey(derive.prv) == key has failed[0;39;49m
+./test/bip32_tests.cpp(141): [1;31;49merror: in "bip32_tests/bip32_test2": check EncodeExtPubKey(pubkey) == derive.pub has failed[0;39;49m
+./test/bip32_tests.cpp(142): [1;31;49merror: in "bip32_tests/bip32_test2": check DecodeExtPubKey(derive.pub) == pubkey has failed[0;39;49m
+./test/bip32_tests.cpp(137): [1;31;49merror: in "bip32_tests/bip32_test2": check EncodeExtKey(key) == derive.prv has failed[0;39;49m
+./test/bip32_tests.cpp(138): [1;31;49merror: in "bip32_tests/bip32_test2": check DecodeExtKey(derive.prv) == key has failed[0;39;49m
+./test/bip32_tests.cpp(141): [1;31;49merror: in "bip32_tests/bip32_test2": check EncodeExtPubKey(pubkey) == derive.pub has failed[0;39;49m
+./test/bip32_tests.cpp(142): [1;31;49merror: in "bip32_tests/bip32_test2": check DecodeExtPubKey(derive.pub) == pubkey has failed[0;39;49m
+./test/bip32_tests.cpp(137): [1;31;49merror: in "bip32_tests/bip32_test2": check EncodeExtKey(key) == derive.prv has failed[0;39;49m
+./test/bip32_tests.cpp(138): [1;31;49merror: in "bip32_tests/bip32_test2": check DecodeExtKey(derive.prv) == key has failed[0;39;49m
+./test/bip32_tests.cpp(141): [1;31;49merror: in "bip32_tests/bip32_test2": check EncodeExtPubKey(pubkey) == derive.pub has failed[0;39;49m
+./test/bip32_tests.cpp(142): [1;31;49merror: in "bip32_tests/bip32_test2": check DecodeExtPubKey(derive.pub) == pubkey has failed[0;39;49m
+./test/bip32_tests.cpp(137): [1;31;49merror: in "bip32_tests/bip32_test2": check EncodeExtKey(key) == derive.prv has failed[0;39;49m
+./test/bip32_tests.cpp(138): [1;31;49merror: in "bip32_tests/bip32_test2": check DecodeExtKey(derive.prv) == key has failed[0;39;49m
+./test/bip32_tests.cpp(141): [1;31;49merror: in "bip32_tests/bip32_test2": check EncodeExtPubKey(pubkey) == derive.pub has failed[0;39;49m
+./test/bip32_tests.cpp(142): [1;31;49merror: in "bip32_tests/bip32_test2": check DecodeExtPubKey(derive.pub) == pubkey has failed[0;39;49m
+./test/bip32_tests.cpp(137): [1;31;49merror: in "bip32_tests/bip32_test2": check EncodeExtKey(key) == derive.prv has failed[0;39;49m
+./test/bip32_tests.cpp(138): [1;31;49merror: in "bip32_tests/bip32_test2": check DecodeExtKey(derive.prv) == key has failed[0;39;49m
+./test/bip32_tests.cpp(141): [1;31;49merror: in "bip32_tests/bip32_test2": check EncodeExtPubKey(pubkey) == derive.pub has failed[0;39;49m
+./test/bip32_tests.cpp(142): [1;31;49merror: in "bip32_tests/bip32_test2": check DecodeExtPubKey(derive.pub) == pubkey has failed[0;39;49m
+./test/bip32_tests.cpp(137): [1;31;49merror: in "bip32_tests/bip32_test2": check EncodeExtKey(key) == derive.prv has failed[0;39;49m
+./test/bip32_tests.cpp(138): [1;31;49merror: in "bip32_tests/bip32_test2": check DecodeExtKey(derive.prv) == key has failed[0;39;49m
+./test/bip32_tests.cpp(141): [1;31;49merror: in "bip32_tests/bip32_test2": check EncodeExtPubKey(pubkey) == derive.pub has failed[0;39;49m
+./test/bip32_tests.cpp(142): [1;31;49merror: in "bip32_tests/bip32_test2": check DecodeExtPubKey(derive.pub) == pubkey has failed[0;39;49m
+[1;34;49m./test/bip32_tests.cpp(167): Leaving test case "bip32_test2"; testing time: 2794us
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(171): Entering test case "bip32_test3"
+[0;39;49m./test/bip32_tests.cpp(137): [1;31;49merror: in "bip32_tests/bip32_test3": check EncodeExtKey(key) == derive.prv has failed[0;39;49m
+./test/bip32_tests.cpp(138): [1;31;49merror: in "bip32_tests/bip32_test3": check DecodeExtKey(derive.prv) == key has failed[0;39;49m
+./test/bip32_tests.cpp(141): [1;31;49merror: in "bip32_tests/bip32_test3": check EncodeExtPubKey(pubkey) == derive.pub has failed[0;39;49m
+./test/bip32_tests.cpp(142): [1;31;49merror: in "bip32_tests/bip32_test3": check DecodeExtPubKey(derive.pub) == pubkey has failed[0;39;49m
+./test/bip32_tests.cpp(137): [1;31;49merror: in "bip32_tests/bip32_test3": check EncodeExtKey(key) == derive.prv has failed[0;39;49m
+./test/bip32_tests.cpp(138): [1;31;49merror: in "bip32_tests/bip32_test3": check DecodeExtKey(derive.prv) == key has failed[0;39;49m
+./test/bip32_tests.cpp(141): [1;31;49merror: in "bip32_tests/bip32_test3": check EncodeExtPubKey(pubkey) == derive.pub has failed[0;39;49m
+./test/bip32_tests.cpp(142): [1;31;49merror: in "bip32_tests/bip32_test3": check DecodeExtPubKey(derive.pub) == pubkey has failed[0;39;49m
+[1;34;49m./test/bip32_tests.cpp(171): Leaving test case "bip32_test3"; testing time: 1594us
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(175): Entering test case "bip32_test4"
+[0;39;49m./test/bip32_tests.cpp(137): [1;31;49merror: in "bip32_tests/bip32_test4": check EncodeExtKey(key) == derive.prv has failed[0;39;49m
+./test/bip32_tests.cpp(138): [1;31;49merror: in "bip32_tests/bip32_test4": check DecodeExtKey(derive.prv) == key has failed[0;39;49m
+./test/bip32_tests.cpp(141): [1;31;49merror: in "bip32_tests/bip32_test4": check EncodeExtPubKey(pubkey) == derive.pub has failed[0;39;49m
+./test/bip32_tests.cpp(142): [1;31;49merror: in "bip32_tests/bip32_test4": check DecodeExtPubKey(derive.pub) == pubkey has failed[0;39;49m
+./test/bip32_tests.cpp(137): [1;31;49merror: in "bip32_tests/bip32_test4": check EncodeExtKey(key) == derive.prv has failed[0;39;49m
+./test/bip32_tests.cpp(138): [1;31;49merror: in "bip32_tests/bip32_test4": check DecodeExtKey(derive.prv) == key has failed[0;39;49m
+./test/bip32_tests.cpp(141): [1;31;49merror: in "bip32_tests/bip32_test4": check EncodeExtPubKey(pubkey) == derive.pub has failed[0;39;49m
+./test/bip32_tests.cpp(142): [1;31;49merror: in "bip32_tests/bip32_test4": check DecodeExtPubKey(derive.pub) == pubkey has failed[0;39;49m
+./test/bip32_tests.cpp(137): [1;31;49merror: in "bip32_tests/bip32_test4": check EncodeExtKey(key) == derive.prv has failed[0;39;49m
+./test/bip32_tests.cpp(138): [1;31;49merror: in "bip32_tests/bip32_test4": check DecodeExtKey(derive.prv) == key has failed[0;39;49m
+./test/bip32_tests.cpp(141): [1;31;49merror: in "bip32_tests/bip32_test4": check EncodeExtPubKey(pubkey) == derive.pub has failed[0;39;49m
+./test/bip32_tests.cpp(142): [1;31;49merror: in "bip32_tests/bip32_test4": check DecodeExtPubKey(derive.pub) == pubkey has failed[0;39;49m
+[1;34;49m./test/bip32_tests.cpp(175): Leaving test case "bip32_test4"; testing time: 1694us
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(179): Entering test case "bip32_test5"
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(179): Leaving test case "bip32_test5"; testing time: 1456us
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(188): Entering test case "bip32_derive_ext_key"
+test_bitcoin: ./key.cpp:185: CPubKey CKey::GetPubKey() const: Assertion `keydata' failed.
+[0;39;49munknown location(0): [4;31;49mfatal error: in "bip32_tests/bip32_derive_ext_key": signal: SIGABRT (application abort requested)[0;39;49m
+./test/bip32_tests.cpp(188): [1;36;49mlast checkpoint: "bip32_derive_ext_key" test entry[0;39;49m
+[1;34;49m./test/bip32_tests.cpp(188): Leaving test case "bip32_derive_ext_key"; testing time: 1147us
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(216): Entering test case "bip32_has_hardened_derivation"
+./common/args.cpp:674 void ArgsManager::AddArg(const std::string&, const std::string&, unsigned int, const OptionsCategory&): Assertion `!arg_map.second.contains(arg_name)' failed.
+[0;39;49munknown location(0): [4;31;49mfatal error: in "bip32_tests/bip32_has_hardened_derivation": signal: SIGABRT (application abort requested)[0;39;49m
+./test/bip32_tests.cpp(216): [1;36;49mlast checkpoint: "bip32_has_hardened_derivation" fixture ctor[0;39;49m
+[1;34;49m./test/bip32_tests.cpp(216): Leaving test case "bip32_has_hardened_derivation"; testing time: 344us
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(228): Entering test case "bip32_max_depth"

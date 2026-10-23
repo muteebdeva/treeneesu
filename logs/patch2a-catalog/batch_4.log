@@ -1,0 +1,92 @@
+Running 90 test cases...
+[1;34;49mEntering test module "Bitcoin Core Test Suite"
+[0;39;49m[1;33;49m./test/addrman_tests.cpp(53): Test suite "addrman_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/allocator_tests.cpp(18): Test suite "allocator_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/amount_tests.cpp(12): Test suite "amount_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/argsman_tests.cpp(25): Test suite "argsman_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/arith_uint256_tests.cpp(19): Test suite "arith_uint256_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/banman_tests.cpp(16): Test suite "banman_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/base32_tests.cpp(14): Test suite "base32_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/base58_tests.cpp(22): Test suite "base58_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/base64_tests.cpp(14): Test suite "base64_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/baseindex_tests.cpp(62): Test suite "baseindex_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/bech32_tests.cpp(13): Test suite "bech32_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/bip32_tests.cpp(161): Test suite "bip32_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/bip324_tests.cpp(164): Test suite "bip324_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/blockchain_tests.cpp(54): Test suite "blockchain_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/blockencodings_tests.cpp(20): Test suite "blockencodings_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/blockfilter_index_tests.cpp(37): Test suite "blockfilter_index_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/blockfilter_tests.cpp(19): Test suite "blockfilter_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/blockmanager_tests.cpp(28): Test suite "blockmanager_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/blockpolicyestimator_tests.cpp(17): Test suite "blockpolicyestimator_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/bloom_tests.cpp(34): Test suite "bloom_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/bswap_tests.cpp(9): Test suite "bswap_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/btcsignals_tests.cpp(35): Test suite "btcsignals_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/caches_tests.cpp(23): Test suite "caches_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/chain_tests.cpp(13): Test suite "chain_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/chainstate_write_tests.cpp(18): Test suite "chainstate_write_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/checkqueue_tests.cpp(180): Test suite "checkqueue_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/cluster_linearize_tests.cpp(15): Test suite "cluster_linearize_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/coins_tests.cpp(279): Test suite "coins_tests_base" is skipped because disabled
+[0;39;49m[1;33;49m./test/coins_tests.cpp(290): Test suite "coins_tests_dbbase" is skipped because disabled
+[0;39;49m[1;33;49m./test/coins_tests.cpp(300): Test suite "coins_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/coinscachepair_tests.cpp(11): Test suite "coinscachepair_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/coinstatsindex_tests.cpp(25): Test suite "coinstatsindex_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/coinsviewoverlay_tests.cpp(101): Test suite "coinsviewoverlay_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/coinsviewoverlay_tests.cpp(277): Test suite "coinsviewoverlay_tests_noworkers" is skipped because disabled
+[0;39;49m[1;33;49m./test/common_url_tests.cpp(12): Test suite "common_url_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/compress_tests.cpp(26): Test suite "compress_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/crypto_tests.cpp(377): Test suite "crypto_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/cuckoocache_tests.cpp(33): Test suite "cuckoocache_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/dbwrapper_tests.cpp(21): Test suite "dbwrapper_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/denialofservice_tests.cpp(36): Test suite "denialofservice_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/descriptor_tests.cpp(606): Test suite "descriptor_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/disconnected_transactions.cpp(10): Test suite "disconnected_transactions" is skipped because disabled
+[0;39;49m[1;33;49m./test/fees_util_tests.cpp(9): Test suite "fees_util_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/feefrac_tests.cpp(10): Test suite "feefrac_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/feerounder_tests.cpp(12): Test suite "feerounder_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/flatfile_tests.cpp(13): Test suite "flatfile_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/fs_tests.cpp(15): Test suite "fs_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/getarg_tests.cpp(22): Test suite "getarg_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/hash_tests.cpp(16): Test suite "hash_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/headers_sync_chainwork_tests.cpp(143): Test suite "headers_sync_chainwork_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/httpserver_tests.cpp(28): Test suite "httpserver_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/i2p_tests.cpp(46): Test suite "i2p_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/interfaces_tests.cpp(17): Test suite "interfaces_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/key_io_tests.cpp(21): Test suite "key_io_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/key_tests.cpp(39): Test suite "key_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/logging_tests.cpp(33): Test suite "logging_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/mempool_tests.cpp(17): Test suite "mempool_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/mempool_fee_estimator_tests.cpp(24): Test suite "mempool_fee_estimator_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/merkle_tests.cpp(12): Test suite "merkle_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/merkleblock_tests.cpp(15): Test suite "merkleblock_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/miner_tests.cpp(95): Test suite "miner_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/miniminer_tests.cpp(16): Test suite "miniminer_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/miniscript_tests.cpp(499): Test suite "miniscript_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/minisketch_tests.cpp(18): Test suite "minisketch_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/multisig_tests.cpp(21): Test suite "multisig_tests" is skipped because disabled
+[0;39;49m[1;34;49m./test/bip328_tests.cpp(25): Entering test suite "bip328_tests"
+[0;39;49m[1;34;49m./test/bip328_tests.cpp(27): Entering test case "valid_keys"
+[0;39;49m./test/bip328_tests.cpp(88): [1;31;49merror: in "bip328_tests/valid_keys": Test vector 0: Synthetic xpub mismatch[0;39;49m
+./test/bip328_tests.cpp(88): [1;31;49merror: in "bip328_tests/valid_keys": Test vector 1: Synthetic xpub mismatch[0;39;49m
+./test/bip328_tests.cpp(88): [1;31;49merror: in "bip328_tests/valid_keys": Test vector 2: Synthetic xpub mismatch[0;39;49m
+[1;34;49m./test/bip328_tests.cpp(27): Leaving test case "valid_keys"; testing time: 11237us
+[0;39;49m[1;34;49m./test/bip328_tests.cpp(92): Entering test case "empty_pubkey_list"
+[0;39;49m[1;34;49m./test/bip328_tests.cpp(92): Leaving test case "empty_pubkey_list"; testing time: 2429us
+[0;39;49m[1;34;49m./test/bip328_tests.cpp(98): Entering test case "invalid_key"
+[0;39;49m[1;34;49m./test/bip328_tests.cpp(98): Leaving test case "invalid_key"; testing time: 1026us
+[0;39;49m[1;34;49m./test/bip328_tests.cpp(25): Leaving test suite "bip328_tests"; testing time: 14824us
+[0;39;49m[1;34;49m./test/net_peer_connection_tests.cpp(37): Entering test suite "net_peer_connection_tests"
+[0;39;49m[1;34;49m./test/net_peer_connection_tests.cpp(87): Entering test case "test_addnode_getaddednodeinfo_and_connection_detection"
+[0;39;49mFatal error: expected message not found in the debug log: 'Added connection to 127.0.0.1:8333 peer=1'
+unknown location(0): [4;31;49mfatal error: in "net_peer_connection_tests/test_addnode_getaddednodeinfo_and_connection_detection": signal: SIGABRT (application abort requested)[0;39;49m
+./test/net_peer_connection_tests.cpp(98): [1;36;49mlast checkpoint[0;39;49m
+[1;34;49m./test/net_peer_connection_tests.cpp(87): Leaving test case "test_addnode_getaddednodeinfo_and_connection_detection"; testing time: 55924us
+[0;39;49m[1;34;49m./test/net_peer_connection_tests.cpp(37): Leaving test suite "net_peer_connection_tests"; testing time: 55955us
+[0;39;49m[1;34;49m./test/net_peer_eviction_tests.cpp(18): Entering test suite "net_peer_eviction_tests"
+[0;39;49m[1;34;49m./test/net_peer_eviction_tests.cpp(62): Entering test case "peer_protection_test"
+./common/args.cpp:674 void ArgsManager::AddArg(const std::string&, const std::string&, unsigned int, const OptionsCategory&): Assertion `!arg_map.second.contains(arg_name)' failed.
+[0;39;49munknown location(0): [4;31;49mfatal error: in "net_peer_eviction_tests/peer_protection_test": signal: SIGABRT (application abort requested)[0;39;49m
+./test/net_peer_eviction_tests.cpp(62): [1;36;49mlast checkpoint: "peer_protection_test" fixture ctor[0;39;49m
+[1;34;49m./test/net_peer_eviction_tests.cpp(62): Leaving test case "peer_protection_test"; testing time: 339us
+[0;39;49m[1;34;49m./test/net_peer_eviction_tests.cpp(595): Entering test case "peer_eviction_test"

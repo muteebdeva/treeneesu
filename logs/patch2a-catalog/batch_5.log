@@ -1,0 +1,741 @@
+Running 96 test cases...
+[1;34;49mEntering test module "Bitcoin Core Test Suite"
+[0;39;49m[1;33;49m./test/addrman_tests.cpp(53): Test suite "addrman_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/allocator_tests.cpp(18): Test suite "allocator_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/amount_tests.cpp(12): Test suite "amount_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/argsman_tests.cpp(25): Test suite "argsman_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/arith_uint256_tests.cpp(19): Test suite "arith_uint256_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/banman_tests.cpp(16): Test suite "banman_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/base32_tests.cpp(14): Test suite "base32_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/base58_tests.cpp(22): Test suite "base58_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/base64_tests.cpp(14): Test suite "base64_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/baseindex_tests.cpp(62): Test suite "baseindex_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/bech32_tests.cpp(13): Test suite "bech32_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/bip32_tests.cpp(161): Test suite "bip32_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/bip324_tests.cpp(164): Test suite "bip324_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/blockchain_tests.cpp(54): Test suite "blockchain_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/blockencodings_tests.cpp(20): Test suite "blockencodings_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/blockfilter_index_tests.cpp(37): Test suite "blockfilter_index_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/blockfilter_tests.cpp(19): Test suite "blockfilter_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/blockmanager_tests.cpp(28): Test suite "blockmanager_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/blockpolicyestimator_tests.cpp(17): Test suite "blockpolicyestimator_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/bloom_tests.cpp(34): Test suite "bloom_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/bswap_tests.cpp(9): Test suite "bswap_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/btcsignals_tests.cpp(35): Test suite "btcsignals_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/caches_tests.cpp(23): Test suite "caches_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/chain_tests.cpp(13): Test suite "chain_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/chainstate_write_tests.cpp(18): Test suite "chainstate_write_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/checkqueue_tests.cpp(180): Test suite "checkqueue_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/cluster_linearize_tests.cpp(15): Test suite "cluster_linearize_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/coins_tests.cpp(279): Test suite "coins_tests_base" is skipped because disabled
+[0;39;49m[1;33;49m./test/coins_tests.cpp(290): Test suite "coins_tests_dbbase" is skipped because disabled
+[0;39;49m[1;33;49m./test/coins_tests.cpp(300): Test suite "coins_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/coinscachepair_tests.cpp(11): Test suite "coinscachepair_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/coinstatsindex_tests.cpp(25): Test suite "coinstatsindex_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/coinsviewoverlay_tests.cpp(101): Test suite "coinsviewoverlay_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/coinsviewoverlay_tests.cpp(277): Test suite "coinsviewoverlay_tests_noworkers" is skipped because disabled
+[0;39;49m[1;33;49m./test/common_url_tests.cpp(12): Test suite "common_url_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/compress_tests.cpp(26): Test suite "compress_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/crypto_tests.cpp(377): Test suite "crypto_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/cuckoocache_tests.cpp(33): Test suite "cuckoocache_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/dbwrapper_tests.cpp(21): Test suite "dbwrapper_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/denialofservice_tests.cpp(36): Test suite "denialofservice_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/descriptor_tests.cpp(606): Test suite "descriptor_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/disconnected_transactions.cpp(10): Test suite "disconnected_transactions" is skipped because disabled
+[0;39;49m[1;33;49m./test/fees_util_tests.cpp(9): Test suite "fees_util_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/feefrac_tests.cpp(10): Test suite "feefrac_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/feerounder_tests.cpp(12): Test suite "feerounder_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/flatfile_tests.cpp(13): Test suite "flatfile_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/fs_tests.cpp(15): Test suite "fs_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/getarg_tests.cpp(22): Test suite "getarg_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/hash_tests.cpp(16): Test suite "hash_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/headers_sync_chainwork_tests.cpp(143): Test suite "headers_sync_chainwork_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/httpserver_tests.cpp(28): Test suite "httpserver_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/i2p_tests.cpp(46): Test suite "i2p_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/interfaces_tests.cpp(17): Test suite "interfaces_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/key_io_tests.cpp(21): Test suite "key_io_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/key_tests.cpp(39): Test suite "key_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/logging_tests.cpp(33): Test suite "logging_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/mempool_tests.cpp(17): Test suite "mempool_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/mempool_fee_estimator_tests.cpp(24): Test suite "mempool_fee_estimator_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/merkle_tests.cpp(12): Test suite "merkle_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/merkleblock_tests.cpp(15): Test suite "merkleblock_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/miner_tests.cpp(95): Test suite "miner_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/miniminer_tests.cpp(16): Test suite "miniminer_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/miniscript_tests.cpp(499): Test suite "miniscript_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/minisketch_tests.cpp(18): Test suite "minisketch_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/multisig_tests.cpp(21): Test suite "multisig_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/bip328_tests.cpp(25): Test suite "bip328_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/net_peer_connection_tests.cpp(37): Test suite "net_peer_connection_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/net_peer_eviction_tests.cpp(18): Test suite "net_peer_eviction_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/net_tests.cpp(42): Test suite "net_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/netbase_tests.cpp(26): Test suite "netbase_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/node_init_tests.cpp(32): Test suite "node_init_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/node_warnings_tests.cpp(13): Test suite "node_warnings_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/orphanage_tests.cpp(24): Test suite "orphanage_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/pcp_tests.cpp(254): Test suite "pcp_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/peerman_tests.cpp(25): Test suite "peerman_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/pmt_tests.cpp(32): Test suite "pmt_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/pool_tests.cpp(18): Test suite "pool_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/pow_tests.cpp(15): Test suite "pow_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/prevector_tests.cpp(16): Test suite "prevector_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/private_broadcast_tests.cpp(25): Test suite "private_broadcast_tests" is skipped because disabled
+[0;39;49m[1;34;49m./test/psbt_tests.cpp(21): Entering test suite "psbt_tests"
+[0;39;49m[1;34;49m./test/psbt_tests.cpp(51): Entering test case "psbt2_timelock_test"
+[0;39;49m[1;34;49m./test/psbt_tests.cpp(51): Leaving test case "psbt2_timelock_test"; testing time: 13243us
+[0;39;49m[1;34;49m./test/psbt_tests.cpp(66): Entering test case "psbt2_addinput"
+[0;39;49m[1;34;49m./test/psbt_tests.cpp(66): Leaving test case "psbt2_addinput"; testing time: 1177us
+[0;39;49m[1;34;49m./test/psbt_tests.cpp(165): Entering test case "psbt2_addoutput"
+[0;39;49m[1;34;49m./test/psbt_tests.cpp(165): Leaving test case "psbt2_addoutput"; testing time: 1012us
+[0;39;49m[1;34;49m./test/psbt_tests.cpp(192): Entering test case "merge_proprietary_fields"
+[0;39;49m[1;34;49m./test/psbt_tests.cpp(192): Leaving test case "merge_proprietary_fields"; testing time: 1090us
+[0;39;49m[1;34;49m./test/psbt_tests.cpp(263): Entering test case "update_psbt_output_keypaths"
+[0;39;49m[1;34;49m./test/psbt_tests.cpp(263): Leaving test case "update_psbt_output_keypaths"; testing time: 2558us
+[0;39;49m[1;34;49m./test/psbt_tests.cpp(276): Entering test case "update_psbt_output_redeem_script"
+[0;39;49m[1;34;49m./test/psbt_tests.cpp(276): Leaving test case "update_psbt_output_redeem_script"; testing time: 1795us
+[0;39;49m[1;34;49m./test/psbt_tests.cpp(286): Entering test case "update_psbt_output_witness_script"
+[0;39;49m[1;34;49m./test/psbt_tests.cpp(286): Leaving test case "update_psbt_output_witness_script"; testing time: 1956us
+[0;39;49m[1;34;49m./test/psbt_tests.cpp(296): Entering test case "update_psbt_output_miniscript_timelock"
+[0;39;49m[1;34;49m./test/psbt_tests.cpp(296): Leaving test case "update_psbt_output_miniscript_timelock"; testing time: 1734us
+[0;39;49m[1;34;49m./test/psbt_tests.cpp(306): Entering test case "update_psbt_output_taproot"
+[0;39;49m[1;34;49m./test/psbt_tests.cpp(306): Leaving test case "update_psbt_output_taproot"; testing time: 1217us
+[0;39;49m[1;34;49m./test/psbt_tests.cpp(21): Leaving test suite "psbt_tests"; testing time: 26229us
+[0;39;49m[1;34;49m./test/random_tests.cpp(16): Entering test suite "random_tests"
+[0;39;49m[1;34;49m./test/random_tests.cpp(18): Entering test case "osrandom_tests"
+[0;39;49m[1;34;49m./test/random_tests.cpp(18): Leaving test case "osrandom_tests"; testing time: 2725us
+[0;39;49m[1;34;49m./test/random_tests.cpp(23): Entering test case "fastrandom_tests_deterministic"
+[0;39;49m[1;34;49m./test/random_tests.cpp(23): Leaving test case "fastrandom_tests_deterministic"; testing time: 1043us
+[0;39;49m[1;34;49m./test/random_tests.cpp(81): Entering test case "fastrandom_tests_nondeterministic"
+[0;39;49m[1;34;49m./test/random_tests.cpp(81): Leaving test case "fastrandom_tests_nondeterministic"; testing time: 975us
+[0;39;49m[1;34;49m./test/random_tests.cpp(115): Entering test case "fastrandom_randbits"
+[0;39;49m[1;34;49m./test/random_tests.cpp(115): Leaving test case "fastrandom_randbits"; testing time: 38549us
+[0;39;49m[1;34;49m./test/random_tests.cpp(131): Entering test case "randbits_test"
+[0;39;49m[1;34;49m./test/random_tests.cpp(131): Leaving test case "randbits_test"; testing time: 4691020us
+[0;39;49m[1;34;49m./test/random_tests.cpp(195): Entering test case "stdrandom_test"
+[0;39;49m[1;34;49m./test/random_tests.cpp(195): Leaving test case "stdrandom_test"; testing time: 1507us
+[0;39;49m[1;34;49m./test/random_tests.cpp(213): Entering test case "shuffle_stat_test"
+[0;39;49m[1;34;49m./test/random_tests.cpp(213): Leaving test case "shuffle_stat_test"; testing time: 2838us
+[0;39;49m[1;34;49m./test/random_tests.cpp(242): Entering test case "xoroshiro128plusplus_reference_values"
+[0;39;49m[1;34;49m./test/random_tests.cpp(242): Leaving test case "xoroshiro128plusplus_reference_values"; testing time: 1054us
+[0;39;49m[1;34;49m./test/random_tests.cpp(16): Leaving test suite "random_tests"; testing time: 4740137us
+[0;39;49m[1;34;49m./test/rbf_tests.cpp(17): Entering test suite "rbf_tests"
+[0;39;49m[1;34;49m./test/rbf_tests.cpp(58): Entering test case "rbf_helper_functions"
+[0;39;49m[1;34;49m./test/rbf_tests.cpp(58): Leaving test case "rbf_helper_functions"; testing time: 139616us
+[0;39;49m[1;34;49m./test/rbf_tests.cpp(159): Entering test case "rbf_conflicts_calculator"
+[0;39;49m[1;34;49m./test/rbf_tests.cpp(159): Leaving test case "rbf_conflicts_calculator"; testing time: 139838us
+[0;39;49m[1;34;49m./test/rbf_tests.cpp(244): Entering test case "improves_feerate"
+[0;39;49m[1;34;49m./test/rbf_tests.cpp(244): Leaving test case "improves_feerate"; testing time: 96731us
+[0;39;49m[1;34;49m./test/rbf_tests.cpp(334): Entering test case "calc_feerate_diagram_rbf"
+[0;39;49m[1;34;49m./test/rbf_tests.cpp(334): Leaving test case "calc_feerate_diagram_rbf"; testing time: 72574us
+[0;39;49m[1;34;49m./test/rbf_tests.cpp(481): Entering test case "feerate_chunks_utilities"
+[0;39;49m[1;34;49m./test/rbf_tests.cpp(481): Leaving test case "feerate_chunks_utilities"; testing time: 1393us
+[0;39;49m[1;34;49m./test/rbf_tests.cpp(17): Leaving test suite "rbf_tests"; testing time: 450475us
+[0;39;49m[1;34;49m./test/rest_tests.cpp(13): Entering test suite "rest_tests"
+[0;39;49m[1;34;49m./test/rest_tests.cpp(15): Entering test case "test_query_string"
+[0;39;49m[1;34;49m./test/rest_tests.cpp(15): Leaving test case "test_query_string"; testing time: 1136us
+[0;39;49m[1;34;49m./test/rest_tests.cpp(13): Leaving test suite "rest_tests"; testing time: 1178us
+[0;39;49m[1;34;49m./test/result_tests.cpp(19): Entering test suite "result_tests"
+[0;39;49m[1;34;49m./test/result_tests.cpp(77): Entering test case "check_returned"
+[0;39;49m[1;34;49m./test/result_tests.cpp(77): Leaving test case "check_returned"; testing time: 198us
+[0;39;49m[1;34;49m./test/result_tests.cpp(87): Entering test case "check_value_or"
+[0;39;49m[1;34;49m./test/result_tests.cpp(87): Leaving test case "check_value_or"; testing time: 166us
+[0;39;49m[1;34;49m./test/result_tests.cpp(19): Leaving test suite "result_tests"; testing time: 422us
+[0;39;49m[1;34;49m./test/reverselock_tests.cpp(12): Entering test suite "reverselock_tests"
+[0;39;49m[1;34;49m./test/reverselock_tests.cpp(14): Entering test case "reverselock_basics"
+[0;39;49m[1;34;49m./test/reverselock_tests.cpp(14): Leaving test case "reverselock_basics"; testing time: 184us
+[0;39;49m[1;34;49m./test/reverselock_tests.cpp(29): Entering test case "reverselock_multiple"
+[0;39;49m[1;34;49m./test/reverselock_tests.cpp(29): Leaving test case "reverselock_multiple"; testing time: 157us
+[0;39;49m[1;34;49m./test/reverselock_tests.cpp(47): Entering test case "reverselock_errors"
+[0;39;49m[1;34;49m./test/reverselock_tests.cpp(47): Leaving test case "reverselock_errors"; testing time: 338us
+[0;39;49m[1;34;49m./test/reverselock_tests.cpp(12): Leaving test suite "reverselock_tests"; testing time: 787us
+[0;39;49m[1;34;49m./test/rpc_tests.cpp(88): Entering test suite "rpc_tests"
+[0;39;49m[1;34;49m./test/rpc_tests.cpp(90): Entering test case "rpc_namedparams"
+[0;39;49m[1;34;49m./test/rpc_tests.cpp(90): Leaving test case "rpc_namedparams"; testing time: 19102us
+[0;39;49m[1;34;49m./test/rpc_tests.cpp(117): Entering test case "rpc_namedonlyparams"
+[0;39;49m[1;34;49m./test/rpc_tests.cpp(117): Leaving test case "rpc_namedonlyparams"; testing time: 18681us
+[0;39;49m[1;34;49m./test/rpc_tests.cpp(139): Entering test case "rpc_remove_command_cleans_up_empty_entry"
+[0;39;49m[1;34;49m./test/rpc_tests.cpp(139): Leaving test case "rpc_remove_command_cleans_up_empty_entry"; testing time: 18661us
+[0;39;49m[1;34;49m./test/rpc_tests.cpp(172): Entering test case "rpc_rawparams"
+[0;39;49m[1;34;49m./test/rpc_tests.cpp(172): Leaving test case "rpc_rawparams"; testing time: 22737us
+[0;39;49m[1;34;49m./test/rpc_tests.cpp(207): Entering test case "rpc_togglenetwork"
+[0;39;49m[1;34;49m./test/rpc_tests.cpp(207): Leaving test case "rpc_togglenetwork"; testing time: 19218us
+[0;39;49m[1;34;49m./test/rpc_tests.cpp(229): Entering test case "rpc_rawsign"
+[0;39;49munknown location(0): [4;31;49mfatal error: in "rpc_tests/rpc_rawsign": std::runtime_error: Invalid Bitcoin address: 3HqAe9LtNBjnsfM4CyYaWTnvCaUYT7v4oZ[0;39;49m
+./test/rpc_tests.cpp(229): [1;36;49mlast checkpoint: "rpc_rawsign" test entry[0;39;49m
+[1;34;49m./test/rpc_tests.cpp(229): Leaving test case "rpc_rawsign"; testing time: 18812us
+[0;39;49m[1;34;49m./test/rpc_tests.cpp(248): Entering test case "rpc_createraw_op_return"
+[0;39;49m[1;34;49m./test/rpc_tests.cpp(248): Leaving test case "rpc_createraw_op_return"; testing time: 18535us
+[0;39;49m[1;34;49m./test/rpc_tests.cpp(263): Entering test case "rpc_format_monetary_values"
+[0;39;49m[1;34;49m./test/rpc_tests.cpp(263): Leaving test case "rpc_format_monetary_values"; testing time: 18251us
+[0;39;49m[1;34;49m./test/rpc_tests.cpp(315): Entering test case "rpc_parse_monetary_values"
+[0;39;49m[1;34;49m./test/rpc_tests.cpp(315): Leaving test case "rpc_parse_monetary_values"; testing time: 18557us
+[0;39;49m[1;34;49m./test/rpc_tests.cpp(350): Entering test case "rpc_ban"
+[0;39;49m[1;34;49m./test/rpc_tests.cpp(350): Leaving test case "rpc_ban"; testing time: 19406us
+[0;39;49m[1;34;49m./test/rpc_tests.cpp(439): Entering test case "rpc_convert_values_generatetoaddress"
+[0;39;49m[1;34;49m./test/rpc_tests.cpp(439): Leaving test case "rpc_convert_values_generatetoaddress"; testing time: 19138us
+[0;39;49m[1;34;49m./test/rpc_tests.cpp(462): Entering test case "rpc_getblockstats_calculate_percentiles_by_weight"
+[0;39;49m[1;34;49m./test/rpc_tests.cpp(462): Leaving test case "rpc_getblockstats_calculate_percentiles_by_weight"; testing time: 19323us
+[0;39;49m[1;34;49m./test/rpc_tests.cpp(542): Entering test case "check_dup_param_names"
+[0;39;49m[1;34;49m./test/rpc_tests.cpp(542): Leaving test case "check_dup_param_names"; testing time: 18616us
+[0;39;49m[1;34;49m./test/rpc_tests.cpp(591): Entering test case "help_example"
+[0;39;49m[1;34;49m./test/rpc_tests.cpp(591): Leaving test case "help_example"; testing time: 18046us
+[0;39;49m[1;34;49m./test/rpc_tests.cpp(636): Entering test case "rpc_arg_helper"
+[0;39;49m[1;34;49m./test/rpc_tests.cpp(636): Leaving test case "rpc_arg_helper"; testing time: 18497us
+[0;39;49m[1;34;49m./test/rpc_tests.cpp(88): Leaving test suite "rpc_tests"; testing time: 286523us
+[0;39;49m[1;34;49m./test/sanity_tests.cpp(10): Entering test suite "sanity_tests"
+[0;39;49m[1;34;49m./test/sanity_tests.cpp(12): Entering test case "basic_sanity"
+[0;39;49m[1;34;49m./test/sanity_tests.cpp(12): Leaving test case "basic_sanity"; testing time: 1458us
+[0;39;49m[1;34;49m./test/sanity_tests.cpp(10): Leaving test suite "sanity_tests"; testing time: 1500us
+[0;39;49m[1;34;49m./test/scheduler_tests.cpp(16): Entering test suite "scheduler_tests"
+[0;39;49m[1;34;49m./test/scheduler_tests.cpp(31): Entering test case "manythreads"
+[0;39;49m[1;34;49m./test/scheduler_tests.cpp(31): Leaving test case "manythreads"; testing time: 3718us
+[0;39;49m[1;34;49m./test/scheduler_tests.cpp(109): Entering test case "wait_until_past"
+[0;39;49m[1;34;49m./test/scheduler_tests.cpp(109): Leaving test case "wait_until_past"; testing time: 236us
+[0;39;49m[1;34;49m./test/scheduler_tests.cpp(127): Entering test case "singlethreadedscheduler_ordered"
+[0;39;49m[1;34;49m./test/scheduler_tests.cpp(127): Leaving test case "singlethreadedscheduler_ordered"; testing time: 3248us
+[0;39;49m[1;34;49m./test/scheduler_tests.cpp(174): Entering test case "mockforward"
+[0;39;49m[1;34;49m./test/scheduler_tests.cpp(174): Leaving test case "mockforward"; testing time: 1376us
+[0;39;49m[1;34;49m./test/scheduler_tests.cpp(16): Leaving test suite "scheduler_tests"; testing time: 8763us
+[0;39;49m[1;34;49m./test/script_assets_tests.cpp(30): Entering test suite "script_assets_tests"
+[0;39;49m[1;34;49m./test/script_assets_tests.cpp(149): Entering test case "script_assets_test"
+[0;39;49m./test/script_assets_tests.cpp(156): [1;33;49mwarning: in "script_assets_tests/script_assets_test": Variable DIR_UNIT_TEST_DATA unset, skipping script_assets_test[0;39;49m
+[1;36;49mTest case script_assets_tests/script_assets_test did not check any assertions[0;39;49m
+[1;34;49m./test/script_assets_tests.cpp(149): Leaving test case "script_assets_test"; testing time: 1292us
+[0;39;49m[1;34;49m./test/script_assets_tests.cpp(30): Leaving test suite "script_assets_tests"; testing time: 1334us
+[0;39;49m[1;34;49m./test/script_p2sh_tests.cpp(58): Entering test suite "script_p2sh_tests"
+[0;39;49m[1;34;49m./test/script_p2sh_tests.cpp(60): Entering test case "sign"
+[0;39;49m[1;34;49m./test/script_p2sh_tests.cpp(60): Leaving test case "sign"; testing time: 6187us
+[0;39;49m[1;34;49m./test/script_p2sh_tests.cpp(134): Entering test case "norecurse"
+[0;39;49m[1;34;49m./test/script_p2sh_tests.cpp(134): Leaving test case "norecurse"; testing time: 1083us
+[0;39;49m[1;34;49m./test/script_p2sh_tests.cpp(161): Entering test case "set"
+[0;39;49m[1;34;49m./test/script_p2sh_tests.cpp(161): Leaving test case "set"; testing time: 3708us
+[0;39;49m[1;34;49m./test/script_p2sh_tests.cpp(218): Entering test case "is"
+[0;39;49m[1;34;49m./test/script_p2sh_tests.cpp(218): Leaving test case "is"; testing time: 1008us
+[0;39;49m[1;34;49m./test/script_p2sh_tests.cpp(258): Entering test case "switchover"
+[0;39;49m[1;34;49m./test/script_p2sh_tests.cpp(258): Leaving test case "switchover"; testing time: 965us
+[0;39;49m[1;34;49m./test/script_p2sh_tests.cpp(278): Entering test case "ValidateInputsStandardness"
+[0;39;49m[1;34;49m./test/script_p2sh_tests.cpp(278): Leaving test case "ValidateInputsStandardness"; testing time: 3846us
+[0;39;49m[1;34;49m./test/script_p2sh_tests.cpp(58): Leaving test suite "script_p2sh_tests"; testing time: 17053us
+[0;39;49m[1;34;49m./test/script_parse_tests.cpp(12): Entering test suite "script_parse_tests"
+[0;39;49m[1;34;49m./test/script_parse_tests.cpp(13): Entering test case "parse_script"
+[0;39;49m[1;34;49m./test/script_parse_tests.cpp(13): Leaving test case "parse_script"; testing time: 321us
+[0;39;49m[1;34;49m./test/script_parse_tests.cpp(12): Leaving test suite "script_parse_tests"; testing time: 352us
+[0;39;49m[1;34;49m./test/script_segwit_tests.cpp(10): Entering test suite "script_segwit_tests"
+[0;39;49m[1;34;49m./test/script_segwit_tests.cpp(12): Entering test case "IsPayToWitnessScriptHash_Valid"
+[0;39;49m[1;34;49m./test/script_segwit_tests.cpp(12): Leaving test case "IsPayToWitnessScriptHash_Valid"; testing time: 1057us
+[0;39;49m[1;34;49m./test/script_segwit_tests.cpp(24): Entering test case "IsPayToWitnessScriptHash_Invalid_NotOp0"
+[0;39;49m[1;34;49m./test/script_segwit_tests.cpp(24): Leaving test case "IsPayToWitnessScriptHash_Invalid_NotOp0"; testing time: 1014us
+[0;39;49m[1;34;49m./test/script_segwit_tests.cpp(32): Entering test case "IsPayToWitnessScriptHash_Invalid_Size"
+[0;39;49m[1;34;49m./test/script_segwit_tests.cpp(32): Leaving test case "IsPayToWitnessScriptHash_Invalid_Size"; testing time: 948us
+[0;39;49m[1;34;49m./test/script_segwit_tests.cpp(40): Entering test case "IsPayToWitnessScriptHash_Invalid_Nop"
+[0;39;49m[1;34;49m./test/script_segwit_tests.cpp(40): Leaving test case "IsPayToWitnessScriptHash_Invalid_Nop"; testing time: 1207us
+[0;39;49m[1;34;49m./test/script_segwit_tests.cpp(48): Entering test case "IsPayToWitnessScriptHash_Invalid_EmptyScript"
+[0;39;49m[1;34;49m./test/script_segwit_tests.cpp(48): Leaving test case "IsPayToWitnessScriptHash_Invalid_EmptyScript"; testing time: 1291us
+[0;39;49m[1;34;49m./test/script_segwit_tests.cpp(54): Entering test case "IsPayToWitnessScriptHash_Invalid_Pushdata"
+[0;39;49m[1;34;49m./test/script_segwit_tests.cpp(54): Leaving test case "IsPayToWitnessScriptHash_Invalid_Pushdata"; testing time: 1005us
+[0;39;49m[1;34;49m./test/script_segwit_tests.cpp(93): Entering test case "IsWitnessProgram_Valid"
+[0;39;49m[1;34;49m./test/script_segwit_tests.cpp(93): Leaving test case "IsWitnessProgram_Valid"; testing time: 1007us
+[0;39;49m[1;34;49m./test/script_segwit_tests.cpp(113): Entering test case "IsWitnessProgram_Invalid_Version"
+[0;39;49m[1;34;49m./test/script_segwit_tests.cpp(113): Leaving test case "IsWitnessProgram_Invalid_Version"; testing time: 981us
+[0;39;49m[1;34;49m./test/script_segwit_tests.cpp(121): Entering test case "IsWitnessProgram_Invalid_Size"
+[0;39;49m[1;34;49m./test/script_segwit_tests.cpp(121): Leaving test case "IsWitnessProgram_Invalid_Size"; testing time: 926us
+[0;39;49m[1;34;49m./test/script_segwit_tests.cpp(134): Entering test case "IsWitnessProgram_Invalid_Nop"
+[0;39;49m[1;34;49m./test/script_segwit_tests.cpp(134): Leaving test case "IsWitnessProgram_Invalid_Nop"; testing time: 939us
+[0;39;49m[1;34;49m./test/script_segwit_tests.cpp(142): Entering test case "IsWitnessProgram_Invalid_EmptyScript"
+[0;39;49m[1;34;49m./test/script_segwit_tests.cpp(142): Leaving test case "IsWitnessProgram_Invalid_EmptyScript"; testing time: 916us
+[0;39;49m[1;34;49m./test/script_segwit_tests.cpp(148): Entering test case "IsWitnessProgram_Invalid_Pushdata"
+[0;39;49m[1;34;49m./test/script_segwit_tests.cpp(148): Leaving test case "IsWitnessProgram_Invalid_Pushdata"; testing time: 975us
+[0;39;49m[1;34;49m./test/script_segwit_tests.cpp(10): Leaving test suite "script_segwit_tests"; testing time: 12804us
+[0;39;49m[1;34;49m./test/script_standard_tests.cpp(22): Entering test suite "script_standard_tests"
+[0;39;49m[1;34;49m./test/script_standard_tests.cpp(24): Entering test case "dest_default_is_no_dest"
+[0;39;49m[1;34;49m./test/script_standard_tests.cpp(24): Leaving test case "dest_default_is_no_dest"; testing time: 951us
+[0;39;49m[1;34;49m./test/script_standard_tests.cpp(30): Entering test case "script_standard_Solver_success"
+[0;39;49m[1;34;49m./test/script_standard_tests.cpp(30): Leaving test case "script_standard_Solver_success"; testing time: 1118us
+[0;39;49m[1;34;49m./test/script_standard_tests.cpp(152): Entering test case "script_standard_Solver_failure"
+[0;39;49m[1;34;49m./test/script_standard_tests.cpp(152): Leaving test case "script_standard_Solver_failure"; testing time: 988us
+[0;39;49m[1;34;49m./test/script_standard_tests.cpp(226): Entering test case "script_standard_ExtractDestination"
+[0;39;49m[1;34;49m./test/script_standard_tests.cpp(226): Leaving test case "script_standard_ExtractDestination"; testing time: 1008us
+[0;39;49m[1;34;49m./test/script_standard_tests.cpp(307): Entering test case "script_standard_GetScriptFor_"
+[0;39;49m[1;34;49m./test/script_standard_tests.cpp(307): Leaving test case "script_standard_GetScriptFor_"; testing time: 1049us
+[0;39;49m[1;34;49m./test/script_standard_tests.cpp(387): Entering test case "script_standard_taproot_builder"
+[0;39;49m./test/script_standard_tests.cpp(455): [1;31;49merror: in "script_standard_tests/script_standard_taproot_builder": check EncodeDestination(builder.GetOutput()) == "bc1pj6gaw944fy0xpmzzu45ugqde4rz7mqj5kj0tg8kmr5f0pjq8vnaqgynnge" has failed [tnsu1pj6gaw944fy0xpmzzu45ugqde4rz7mqj5kj0tg8kmr5f0pjq8vnaqj72lpx != bc1pj6gaw944fy0xpmzzu45ugqde4rz7mqj5kj0tg8kmr5f0pjq8vnaqgynnge][0;39;49m
+[1;34;49m./test/script_standard_tests.cpp(387): Leaving test case "script_standard_taproot_builder"; testing time: 1157us
+[0;39;49m[1;34;49m./test/script_standard_tests.cpp(458): Entering test case "bip341_spk_test_vectors"
+[0;39;49m./test/script_standard_tests.cpp(486): [1;31;49merror: in "script_standard_tests/bip341_spk_test_vectors": check EncodeDestination(spktest.GetOutput()) == vec["expected"]["bip350Address"].get_str() has failed [tnsu1p2wsldez5mud2yam29q22wgfh9439spgduvct83k3pm50fcxa5dpswlwett != bc1p2wsldez5mud2yam29q22wgfh9439spgduvct83k3pm50fcxa5dps59h4z5][0;39;49m
+./test/script_standard_tests.cpp(486): [1;31;49merror: in "script_standard_tests/bip341_spk_test_vectors": check EncodeDestination(spktest.GetOutput()) == vec["expected"]["bip350Address"].get_str() has failed [tnsu1pz37fc4cn9ah8anwm4xqqhvxygjf9rjf2resrw8h8w4tmvcs0863s8sqcw9 != bc1pz37fc4cn9ah8anwm4xqqhvxygjf9rjf2resrw8h8w4tmvcs0863sa2e586][0;39;49m
+./test/script_standard_tests.cpp(486): [1;31;49merror: in "script_standard_tests/bip341_spk_test_vectors": check EncodeDestination(spktest.GetOutput()) == vec["expected"]["bip350Address"].get_str() has failed [tnsu1punvppl2stp38f7kwv2u2spltjuvuaayuqsthe34hd2dyy5w4g58q6n93pt != bc1punvppl2stp38f7kwv2u2spltjuvuaayuqsthe34hd2dyy5w4g58qqfuag5][0;39;49m
+./test/script_standard_tests.cpp(486): [1;31;49merror: in "script_standard_tests/bip341_spk_test_vectors": check EncodeDestination(spktest.GetOutput()) == vec["expected"]["bip350Address"].get_str() has failed [tnsu1pwyjywgrd0ffr3tx8laflh6228dj98xkjj8rum0zfpd6h0e930h6s86l02y != bc1pwyjywgrd0ffr3tx8laflh6228dj98xkjj8rum0zfpd6h0e930h6saqxrrm][0;39;49m
+./test/script_standard_tests.cpp(486): [1;31;49merror: in "script_standard_tests/bip341_spk_test_vectors": check EncodeDestination(spktest.GetOutput()) == vec["expected"]["bip350Address"].get_str() has failed [tnsu1pwl3s54fzmk0cjnpl3w9af39je7pv5ldg504x5guk2hpecpg2kgsq86f8ml != bc1pwl3s54fzmk0cjnpl3w9af39je7pv5ldg504x5guk2hpecpg2kgsqaqstjq][0;39;49m
+./test/script_standard_tests.cpp(486): [1;31;49merror: in "script_standard_tests/bip341_spk_test_vectors": check EncodeDestination(spktest.GetOutput()) == vec["expected"]["bip350Address"].get_str() has failed [tnsu1pjxmy65eywgafs5tsunw95ruycpqcqnev6ynxp7jaasylcgtcxczsqfgarx != bc1pjxmy65eywgafs5tsunw95ruycpqcqnev6ynxp7jaasylcgtcxczs6n332e][0;39;49m
+./test/script_standard_tests.cpp(486): [1;31;49merror: in "script_standard_tests/bip341_spk_test_vectors": check EncodeDestination(spktest.GetOutput()) == vec["expected"]["bip350Address"].get_str() has failed [tnsu1pw5tf7sqp4f50zka7629jrr036znzew70zxyvvej3zrpf8jg8hqcs27948x != bc1pw5tf7sqp4f50zka7629jrr036znzew70zxyvvej3zrpf8jg8hqcssyuewe][0;39;49m
+[1;34;49m./test/script_standard_tests.cpp(458): Leaving test case "bip341_spk_test_vectors"; testing time: 2011us
+[0;39;49m[1;34;49m./test/script_standard_tests.cpp(22): Leaving test suite "script_standard_tests"; testing time: 8551us
+[0;39;49m[1;34;49m./test/script_tests.cpp(429): Entering test suite "script_tests"
+[0;39;49m[1;34;49m./test/script_tests.cpp(431): Entering test case "script_build"
+[0;39;49m[1;34;49m./test/script_tests.cpp(431): Leaving test case "script_build"; testing time: 1283160us
+[0;39;49m[1;34;49m./test/script_tests.cpp(908): Entering test case "script_json_test"
+[0;39;49m[1;34;49m./test/script_tests.cpp(908): Leaving test case "script_json_test"; testing time: 1782446us
+[0;39;49m[1;34;49m./test/script_tests.cpp(980): Entering test case "script_PushData"
+[0;39;49m[1;34;49m./test/script_tests.cpp(980): Leaving test case "script_PushData"; testing time: 1334us
+[0;39;49m[1;34;49m./test/script_tests.cpp(1022): Entering test case "script_cltv_truncated"
+[0;39;49m[1;34;49m./test/script_tests.cpp(1022): Leaving test case "script_cltv_truncated"; testing time: 1011us
+[0;39;49m[1;34;49m./test/script_tests.cpp(1064): Entering test case "script_CHECKMULTISIG12"
+[0;39;49m[1;34;49m./test/script_tests.cpp(1064): Leaving test case "script_CHECKMULTISIG12"; testing time: 2185us
+[0;39;49m[1;34;49m./test/script_tests.cpp(1093): Entering test case "script_CHECKMULTISIG23"
+[0;39;49m[1;34;49m./test/script_tests.cpp(1093): Leaving test case "script_CHECKMULTISIG23"; testing time: 5916us
+[0;39;49m[1;34;49m./test/script_tests.cpp(1182): Entering test case "script_size_and_capacity_test"
+[0;39;49m[1;34;49m./test/script_tests.cpp(1182): Leaving test case "script_size_and_capacity_test"; testing time: 1217us
+[0;39;49m[1;34;49m./test/script_tests.cpp(1272): Entering test case "script_combineSigs"
+[0;39;49m[1;34;49m./test/script_tests.cpp(1272): Leaving test case "script_combineSigs"; testing time: 5709us
+[0;39;49m[1;34;49m./test/script_tests.cpp(1393): Entering test case "sign_invalid_miniscript"
+[0;39;49m[1;34;49m./test/script_tests.cpp(1393): Leaving test case "sign_invalid_miniscript"; testing time: 1152us
+[0;39;49m[1;34;49m./test/script_tests.cpp(1414): Entering test case "sign_paytoanchor"
+[0;39;49m[1;34;49m./test/script_tests.cpp(1414): Leaving test case "sign_paytoanchor"; testing time: 1008us
+[0;39;49m[1;34;49m./test/script_tests.cpp(1426): Entering test case "script_standard_push"
+[0;39;49m[1;34;49m./test/script_tests.cpp(1426): Leaving test case "script_standard_push"; testing time: 80976us
+[0;39;49m[1;34;49m./test/script_tests.cpp(1447): Entering test case "script_IsPushOnly_on_invalid_scripts"
+[0;39;49m[1;34;49m./test/script_tests.cpp(1447): Leaving test case "script_IsPushOnly_on_invalid_scripts"; testing time: 1178us
+[0;39;49m[1;34;49m./test/script_tests.cpp(1458): Entering test case "script_CheckMinimalPush_boundary"
+[0;39;49m[1;34;49m./test/script_tests.cpp(1458): Leaving test case "script_CheckMinimalPush_boundary"; testing time: 988us
+[0;39;49m[1;34;49m./test/script_tests.cpp(1466): Entering test case "script_GetScriptAsm"
+[0;39;49m[1;34;49m./test/script_tests.cpp(1466): Leaving test case "script_GetScriptAsm"; testing time: 1165us
+[0;39;49m[1;34;49m./test/script_tests.cpp(1503): Entering test case "script_byte_array_u8_vector_equivalence"
+[0;39;49m[1;34;49m./test/script_tests.cpp(1503): Leaving test case "script_byte_array_u8_vector_equivalence"; testing time: 989us
+[0;39;49m[1;34;49m./test/script_tests.cpp(1510): Entering test case "script_FindAndDelete"
+[0;39;49m[1;34;49m./test/script_tests.cpp(1510): Leaving test case "script_FindAndDelete"; testing time: 977us
+[0;39;49m[1;34;49m./test/script_tests.cpp(1619): Entering test case "script_HasValidOps"
+[0;39;49m[1;34;49m./test/script_tests.cpp(1619): Leaving test case "script_HasValidOps"; testing time: 955us
+[0;39;49m[1;34;49m./test/script_tests.cpp(1633): Entering test case "bip341_keypath_test_vectors"
+[0;39;49m[1;34;49m./test/script_tests.cpp(1633): Leaving test case "bip341_keypath_test_vectors"; testing time: 3219us
+[0;39;49m[1;34;49m./test/script_tests.cpp(1706): Entering test case "compute_tapbranch"
+[0;39;49m[1;34;49m./test/script_tests.cpp(1706): Leaving test case "compute_tapbranch"; testing time: 1228us
+[0;39;49m[1;34;49m./test/script_tests.cpp(1714): Entering test case "compute_tapleaf"
+[0;39;49m[1;34;49m./test/script_tests.cpp(1714): Leaving test case "compute_tapleaf"; testing time: 1291us
+[0;39;49m[1;34;49m./test/script_tests.cpp(1724): Entering test case "formatscriptflags"
+[0;39;49m[1;34;49m./test/script_tests.cpp(1724): Leaving test case "formatscriptflags"; testing time: 1016us
+[0;39;49m[1;34;49m./test/script_tests.cpp(429): Leaving test suite "script_tests"; testing time: 3180193us
+[0;39;49m[1;33;49m./test/scriptnum_tests.cpp(13): Test suite "scriptnum_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/serfloat_tests.cpp(17): Test suite "serfloat_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/serialize_tests.cpp(18): Test suite "serialize_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/settings_tests.cpp(52): Test suite "settings_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/sighash_tests.cpp(120): Test suite "sighash_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/sigopcount_tests.cpp(29): Test suite "sigopcount_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/skiplist_tests.cpp(17): Test suite "skiplist_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/sock_tests.cpp(19): Test suite "sock_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/span_tests.cpp(43): Test suite "span_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/streams_tests.cpp(20): Test suite "streams_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/sync_tests.cpp(74): Test suite "sync_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/system_ram_tests.cpp(10): Test suite "system_ram_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/system_tests.cpp(57): Test suite "system_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/testnet4_miner_tests.cpp(34): Test suite "testnet4_miner_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/threadpool_tests.cpp(49): Test suite "threadpool_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/timeoffsets_tests.cpp(24): Test suite "timeoffsets_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/torcontrol_tests.cpp(17): Test suite "torcontrol_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/transaction_tests.cpp(161): Test suite "transaction_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/translation_tests.cpp(10): Test suite "translation_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/txdownload_tests.cpp(20): Test suite "txdownload_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/txgraph_tests.cpp(14): Test suite "txgraph_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/txindex_tests.cpp(39): Test suite "txindex_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/txospenderindex_tests.cpp(12): Test suite "txospenderindex_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/txpackage_tests.cpp(51): Test suite "txpackage_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/txreconciliation_tests.cpp(12): Test suite "txreconciliation_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/txrequest_tests.cpp(750): Test suite "txrequest_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/txvalidation_tests.cpp(22): Test suite "txvalidation_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/txvalidationcache_tests.cpp(29): Test suite "txvalidationcache_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/uint256_tests.cpp(19): Test suite "uint256_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/util_check_tests.cpp(10): Test suite "util_check_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/util_expected_tests.cpp(17): Test suite "util_expected_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/util_string_tests.cpp(15): Test suite "util_string_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/util_tests.cpp(73): Test suite "util_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/util_threadnames_tests.cpp(18): Test suite "util_threadnames_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/util_trace_tests.cpp(18): Test suite "util_trace_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/validation_block_tests.cpp(49): Test suite "validation_block_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/validation_chainstate_tests.cpp(34): Test suite "validation_chainstate_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/validation_chainstatemanager_tests.cpp(37): Test suite "validation_chainstatemanager_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/validation_flush_tests.cpp(14): Test suite "validation_flush_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/validation_tests.cpp(22): Test suite "validation_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/validationinterface_tests.cpp(16): Test suite "validationinterface_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/versionbits_tests.cpp(187): Test suite "versionbits_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/db_tests.cpp(61): Test suite "db_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/coinselector_tests.cpp(25): Test suite "coinselector_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/coinselection_tests.cpp(13): Test suite "coinselection_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/feebumper_tests.cpp(18): Test suite "feebumper_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/group_outputs_tests.cpp(15): Test suite "group_outputs_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/init_tests.cpp(14): Test suite "init_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/ismine_tests.cpp(21): Test suite "ismine_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/psbt_wallet_tests.cpp(17): Test suite "psbt_wallet_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/scriptpubkeyman_tests.cpp(17): Test suite "scriptpubkeyman_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/spend_tests.cpp(17): Test suite "spend_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/wallet_crypto_tests.cpp(17): Test suite "wallet_crypto_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/wallet_rpc_tests.cpp(23): Test suite "wallet_rpc_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/wallet_tests.cpp(46): Test suite "wallet_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/wallet_transaction_tests.cpp(16): Test suite "wallet_transaction_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/walletdb_tests.cpp(15): Test suite "walletdb_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/walletload_tests.cpp(15): Test suite "walletload_tests" is skipped because disabled
+[0;39;49m[1;34;49mLeaving test module "Bitcoin Core Test Suite"; testing time: 8739311us
+[0;39;49m
+Test module "Bitcoin Core Test Suite" has failed with:
+  92 test cases out of 827 passed
+  1 test case out of 827 passed with warnings
+  3 test cases out of 827 failed
+  731 test cases out of 827 skipped
+  1 test case out of 827 aborted
+  13213361 assertions out of 13213370 passed
+  9 assertions out of 13213370 failed
+  1 failed warning
+
+  Test suite "psbt_tests" has passed with:
+    9 test cases out of 9 passed
+    165 assertions out of 165 passed
+
+    Test case "psbt_tests/psbt2_timelock_test" has passed with:
+      51 assertions out of 51 passed
+
+    Test case "psbt_tests/psbt2_addinput" has passed with:
+      31 assertions out of 31 passed
+
+    Test case "psbt_tests/psbt2_addoutput" has passed with:
+      9 assertions out of 9 passed
+
+    Test case "psbt_tests/merge_proprietary_fields" has passed with:
+      10 assertions out of 10 passed
+
+    Test case "psbt_tests/update_psbt_output_keypaths" has passed with:
+      24 assertions out of 24 passed
+
+    Test case "psbt_tests/update_psbt_output_redeem_script" has passed with:
+      10 assertions out of 10 passed
+
+    Test case "psbt_tests/update_psbt_output_witness_script" has passed with:
+      10 assertions out of 10 passed
+
+    Test case "psbt_tests/update_psbt_output_miniscript_timelock" has passed with:
+      10 assertions out of 10 passed
+
+    Test case "psbt_tests/update_psbt_output_taproot" has passed with:
+      10 assertions out of 10 passed
+
+  Test suite "random_tests" has passed with:
+    8 test cases out of 8 passed
+    12705147 assertions out of 12705147 passed
+
+    Test case "random_tests/osrandom_tests" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "random_tests/fastrandom_tests_deterministic" has passed with:
+      32 assertions out of 32 passed
+
+    Test case "random_tests/fastrandom_tests_nondeterministic" has passed with:
+      15 assertions out of 15 passed
+
+    Test case "random_tests/fastrandom_randbits" has passed with:
+      126000 assertions out of 126000 passed
+
+    Test case "random_tests/randbits_test" has passed with:
+      12574643 assertions out of 12574643 passed
+
+    Test case "random_tests/stdrandom_test" has passed with:
+      1200 assertions out of 1200 passed
+
+    Test case "random_tests/shuffle_stat_test" has passed with:
+      3248 assertions out of 3248 passed
+
+    Test case "random_tests/xoroshiro128plusplus_reference_values" has passed with:
+      8 assertions out of 8 passed
+
+  Test suite "rbf_tests" has passed with:
+    5 test cases out of 5 passed
+    1200 assertions out of 1200 passed
+
+    Test case "rbf_tests/rbf_helper_functions" has passed with:
+      23 assertions out of 23 passed
+
+    Test case "rbf_tests/rbf_conflicts_calculator" has passed with:
+      1127 assertions out of 1127 passed
+
+    Test case "rbf_tests/improves_feerate" has passed with:
+      9 assertions out of 9 passed
+
+    Test case "rbf_tests/calc_feerate_diagram_rbf" has passed with:
+      21 assertions out of 21 passed
+
+    Test case "rbf_tests/feerate_chunks_utilities" has passed with:
+      20 assertions out of 20 passed
+
+  Test suite "rest_tests" has passed with:
+    1 test case out of 1 passed
+    12 assertions out of 12 passed
+
+    Test case "rest_tests/test_query_string" has passed with:
+      12 assertions out of 12 passed
+
+  Test suite "result_tests" has passed with:
+    2 test cases out of 2 passed
+    27 assertions out of 27 passed
+
+    Test case "result_tests/check_returned" has passed with:
+      21 assertions out of 21 passed
+
+    Test case "result_tests/check_value_or" has passed with:
+      6 assertions out of 6 passed
+
+  Test suite "reverselock_tests" has passed with:
+    3 test cases out of 3 passed
+    13 assertions out of 13 passed
+
+    Test case "reverselock_tests/reverselock_basics" has passed with:
+      3 assertions out of 3 passed
+
+    Test case "reverselock_tests/reverselock_multiple" has passed with:
+      4 assertions out of 4 passed
+
+    Test case "reverselock_tests/reverselock_errors" has passed with:
+      6 assertions out of 6 passed
+
+  Test suite "rpc_tests" has failed with:
+    14 test cases out of 15 passed
+    1 test case out of 15 failed
+    1 test case out of 15 aborted
+    241 assertions out of 242 passed
+    1 assertion out of 242 failed
+
+    Test case "rpc_tests/rpc_namedparams" has passed with:
+      17 assertions out of 17 passed
+
+    Test case "rpc_tests/rpc_namedonlyparams" has passed with:
+      12 assertions out of 12 passed
+
+    Test case "rpc_tests/rpc_remove_command_cleans_up_empty_entry" has passed with:
+      3 assertions out of 3 passed
+
+    Test case "rpc_tests/rpc_rawparams" has passed with:
+      23 assertions out of 23 passed
+
+    Test case "rpc_tests/rpc_togglenetwork" has passed with:
+      6 assertions out of 6 passed
+
+    Test case "rpc_tests/rpc_rawsign" was aborted with:
+      1 assertion out of 1 failed
+
+    Test case "rpc_tests/rpc_createraw_op_return" has passed with:
+      5 assertions out of 5 passed
+
+    Test case "rpc_tests/rpc_format_monetary_values" has passed with:
+      37 assertions out of 37 passed
+
+    Test case "rpc_tests/rpc_parse_monetary_values" has passed with:
+      29 assertions out of 29 passed
+
+    Test case "rpc_tests/rpc_ban" has passed with:
+      40 assertions out of 40 passed
+
+    Test case "rpc_tests/rpc_convert_values_generatetoaddress" has passed with:
+      14 assertions out of 14 passed
+
+    Test case "rpc_tests/rpc_getblockstats_calculate_percentiles_by_weight" has passed with:
+      20 assertions out of 20 passed
+
+    Test case "rpc_tests/check_dup_param_names" has passed with:
+      8 assertions out of 8 passed
+
+    Test case "rpc_tests/help_example" has passed with:
+      11 assertions out of 11 passed
+
+    Test case "rpc_tests/rpc_arg_helper" has passed with:
+      16 assertions out of 16 passed
+
+  Test suite "sanity_tests" has passed with:
+    1 test case out of 1 passed
+    1 assertion out of 1 passed
+
+    Test case "sanity_tests/basic_sanity" has passed with:
+      1 assertion out of 1 passed
+
+  Test suite "scheduler_tests" has passed with:
+    4 test cases out of 4 passed
+    28 assertions out of 28 passed
+
+    Test case "scheduler_tests/manythreads" has passed with:
+      15 assertions out of 15 passed
+
+    Test case "scheduler_tests/wait_until_past" has passed with:
+      6 assertions out of 6 passed
+
+    Test case "scheduler_tests/singlethreadedscheduler_ordered" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "scheduler_tests/mockforward" has passed with:
+      5 assertions out of 5 passed
+
+  Test suite "script_assets_tests" has passed with:
+    1 test case out of 1 passed with warnings
+    1 failed warning
+
+    Test case "script_assets_tests/script_assets_test" has passed with:
+      1 failed warning
+
+  Test suite "script_p2sh_tests" has passed with:
+    6 test cases out of 6 passed
+    158 assertions out of 158 passed
+
+    Test case "script_p2sh_tests/sign" has passed with:
+      81 assertions out of 81 passed
+
+    Test case "script_p2sh_tests/norecurse" has passed with:
+      4 assertions out of 4 passed
+
+    Test case "script_p2sh_tests/set" has passed with:
+      21 assertions out of 21 passed
+
+    Test case "script_p2sh_tests/is" has passed with:
+      9 assertions out of 9 passed
+
+    Test case "script_p2sh_tests/switchover" has passed with:
+      4 assertions out of 4 passed
+
+    Test case "script_p2sh_tests/ValidateInputsStandardness" has passed with:
+      39 assertions out of 39 passed
+
+  Test suite "script_parse_tests" has passed with:
+    1 test case out of 1 passed
+    28 assertions out of 28 passed
+
+    Test case "script_parse_tests/parse_script" has passed with:
+      28 assertions out of 28 passed
+
+  Test suite "script_segwit_tests" has passed with:
+    12 test cases out of 12 passed
+    26 assertions out of 26 passed
+
+    Test case "script_segwit_tests/IsPayToWitnessScriptHash_Valid" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "script_segwit_tests/IsPayToWitnessScriptHash_Invalid_NotOp0" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "script_segwit_tests/IsPayToWitnessScriptHash_Invalid_Size" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "script_segwit_tests/IsPayToWitnessScriptHash_Invalid_Nop" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "script_segwit_tests/IsPayToWitnessScriptHash_Invalid_EmptyScript" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "script_segwit_tests/IsPayToWitnessScriptHash_Invalid_Pushdata" has passed with:
+      3 assertions out of 3 passed
+
+    Test case "script_segwit_tests/IsWitnessProgram_Valid" has passed with:
+      9 assertions out of 9 passed
+
+    Test case "script_segwit_tests/IsWitnessProgram_Invalid_Version" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "script_segwit_tests/IsWitnessProgram_Invalid_Size" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "script_segwit_tests/IsWitnessProgram_Invalid_Nop" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "script_segwit_tests/IsWitnessProgram_Invalid_EmptyScript" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "script_segwit_tests/IsWitnessProgram_Invalid_Pushdata" has passed with:
+      3 assertions out of 3 passed
+
+  Test suite "script_standard_tests" has failed with:
+    5 test cases out of 7 passed
+    2 test cases out of 7 failed
+    181 assertions out of 189 passed
+    8 assertions out of 189 failed
+
+    Test case "script_standard_tests/dest_default_is_no_dest" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "script_standard_tests/script_standard_Solver_success" has passed with:
+      43 assertions out of 43 passed
+
+    Test case "script_standard_tests/script_standard_Solver_failure" has passed with:
+      15 assertions out of 15 passed
+
+    Test case "script_standard_tests/script_standard_ExtractDestination" has passed with:
+      20 assertions out of 20 passed
+
+    Test case "script_standard_tests/script_standard_GetScriptFor_" has passed with:
+      10 assertions out of 10 passed
+
+    Test case "script_standard_tests/script_standard_taproot_builder" has failed with:
+      53 assertions out of 54 passed
+      1 assertion out of 54 failed
+
+    Test case "script_standard_tests/bip341_spk_test_vectors" has failed with:
+      39 assertions out of 46 passed
+      7 assertions out of 46 failed
+
+  Test suite "script_tests" has passed with:
+    21 test cases out of 21 passed
+    506134 assertions out of 506134 passed
+
+    Test case "script_tests/script_build" has passed with:
+      27706 assertions out of 27706 passed
+
+    Test case "script_tests/script_json_test" has passed with:
+      275604 assertions out of 275604 passed
+
+    Test case "script_tests/script_PushData" has passed with:
+      17 assertions out of 17 passed
+
+    Test case "script_tests/script_cltv_truncated" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "script_tests/script_CHECKMULTISIG12" has passed with:
+      11 assertions out of 11 passed
+
+    Test case "script_tests/script_CHECKMULTISIG23" has passed with:
+      34 assertions out of 34 passed
+
+    Test case "script_tests/script_size_and_capacity_test" has passed with:
+      41 assertions out of 41 passed
+
+    Test case "script_tests/script_combineSigs" has passed with:
+      30 assertions out of 30 passed
+
+    Test case "script_tests/sign_invalid_miniscript" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "script_tests/sign_paytoanchor" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "script_tests/script_standard_push" has passed with:
+      202563 assertions out of 202563 passed
+
+    Test case "script_tests/script_IsPushOnly_on_invalid_scripts" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "script_tests/script_CheckMinimalPush_boundary" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "script_tests/script_GetScriptAsm" has passed with:
+      20 assertions out of 20 passed
+
+    Test case "script_tests/script_byte_array_u8_vector_equivalence" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "script_tests/script_FindAndDelete" has passed with:
+      32 assertions out of 32 passed
+
+    Test case "script_tests/script_HasValidOps" has passed with:
+      4 assertions out of 4 passed
+
+    Test case "script_tests/bip341_keypath_test_vectors" has passed with:
+      55 assertions out of 55 passed
+
+    Test case "script_tests/compute_tapbranch" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "script_tests/compute_tapleaf" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "script_tests/formatscriptflags" has passed with:
+      6 assertions out of 6 passed
+

@@ -1,0 +1,34 @@
+suite logging_tests exit=0
+suite mempool_tests exit=0
+suite mempool_fee_estimator_tests exit=0
+suite merkle_tests exit=0
+suite merkleblock_tests exit=0
+suite miner_tests exit=201
+    FAILS       1 miner_tests
+    ABORT ./test/miner_tests.cpp(921): fatal error: in "miner_tests/CreateNewBlock_validity": critical check mining->submitBlock(block, reason, debug) has failed
+suite miniminer_tests exit=0
+suite miniscript_tests exit=0
+suite minisketch_tests exit=0
+suite multisig_tests exit=0
+suite net_tests exit=0
+suite netbase_tests exit=0
+suite node_init_tests exit=0
+suite node_warnings_tests exit=0
+suite orphanage_tests exit=0
+suite pcp_tests exit=0
+suite peerman_tests exit=0
+suite pmt_tests exit=0
+suite pool_tests exit=0
+suite pow_tests exit=201
+    FAILS       4 pow_tests
+suite prevector_tests exit=0
+suite private_broadcast_tests exit=0
+suite spend_tests exit=0
+suite wallet_crypto_tests exit=0
+suite wallet_rpc_tests exit=0
+suite wallet_tests exit=0
+suite wallet_transaction_tests exit=0
+suite walletdb_tests exit=0
+suite walletload_tests exit=201
+    FAILS       1 walletload_tests
+MOPUP_DONE 2026-10-23T15:50:32+05:30

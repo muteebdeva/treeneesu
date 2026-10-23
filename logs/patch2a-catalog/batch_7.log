@@ -1,0 +1,756 @@
+Running 64 test cases...
+[1;34;49mEntering test module "Bitcoin Core Test Suite"
+[0;39;49m[1;33;49m./test/addrman_tests.cpp(53): Test suite "addrman_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/allocator_tests.cpp(18): Test suite "allocator_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/amount_tests.cpp(12): Test suite "amount_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/argsman_tests.cpp(25): Test suite "argsman_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/arith_uint256_tests.cpp(19): Test suite "arith_uint256_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/banman_tests.cpp(16): Test suite "banman_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/base32_tests.cpp(14): Test suite "base32_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/base58_tests.cpp(22): Test suite "base58_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/base64_tests.cpp(14): Test suite "base64_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/baseindex_tests.cpp(62): Test suite "baseindex_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/bech32_tests.cpp(13): Test suite "bech32_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/bip32_tests.cpp(161): Test suite "bip32_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/bip324_tests.cpp(164): Test suite "bip324_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/blockchain_tests.cpp(54): Test suite "blockchain_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/blockencodings_tests.cpp(20): Test suite "blockencodings_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/blockfilter_index_tests.cpp(37): Test suite "blockfilter_index_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/blockfilter_tests.cpp(19): Test suite "blockfilter_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/blockmanager_tests.cpp(28): Test suite "blockmanager_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/blockpolicyestimator_tests.cpp(17): Test suite "blockpolicyestimator_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/bloom_tests.cpp(34): Test suite "bloom_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/bswap_tests.cpp(9): Test suite "bswap_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/btcsignals_tests.cpp(35): Test suite "btcsignals_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/caches_tests.cpp(23): Test suite "caches_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/chain_tests.cpp(13): Test suite "chain_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/chainstate_write_tests.cpp(18): Test suite "chainstate_write_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/checkqueue_tests.cpp(180): Test suite "checkqueue_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/cluster_linearize_tests.cpp(15): Test suite "cluster_linearize_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/coins_tests.cpp(279): Test suite "coins_tests_base" is skipped because disabled
+[0;39;49m[1;33;49m./test/coins_tests.cpp(290): Test suite "coins_tests_dbbase" is skipped because disabled
+[0;39;49m[1;33;49m./test/coins_tests.cpp(300): Test suite "coins_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/coinscachepair_tests.cpp(11): Test suite "coinscachepair_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/coinstatsindex_tests.cpp(25): Test suite "coinstatsindex_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/coinsviewoverlay_tests.cpp(101): Test suite "coinsviewoverlay_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/coinsviewoverlay_tests.cpp(277): Test suite "coinsviewoverlay_tests_noworkers" is skipped because disabled
+[0;39;49m[1;33;49m./test/common_url_tests.cpp(12): Test suite "common_url_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/compress_tests.cpp(26): Test suite "compress_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/crypto_tests.cpp(377): Test suite "crypto_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/cuckoocache_tests.cpp(33): Test suite "cuckoocache_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/dbwrapper_tests.cpp(21): Test suite "dbwrapper_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/denialofservice_tests.cpp(36): Test suite "denialofservice_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/descriptor_tests.cpp(606): Test suite "descriptor_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/disconnected_transactions.cpp(10): Test suite "disconnected_transactions" is skipped because disabled
+[0;39;49m[1;33;49m./test/fees_util_tests.cpp(9): Test suite "fees_util_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/feefrac_tests.cpp(10): Test suite "feefrac_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/feerounder_tests.cpp(12): Test suite "feerounder_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/flatfile_tests.cpp(13): Test suite "flatfile_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/fs_tests.cpp(15): Test suite "fs_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/getarg_tests.cpp(22): Test suite "getarg_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/hash_tests.cpp(16): Test suite "hash_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/headers_sync_chainwork_tests.cpp(143): Test suite "headers_sync_chainwork_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/httpserver_tests.cpp(28): Test suite "httpserver_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/i2p_tests.cpp(46): Test suite "i2p_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/interfaces_tests.cpp(17): Test suite "interfaces_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/key_io_tests.cpp(21): Test suite "key_io_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/key_tests.cpp(39): Test suite "key_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/logging_tests.cpp(33): Test suite "logging_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/mempool_tests.cpp(17): Test suite "mempool_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/mempool_fee_estimator_tests.cpp(24): Test suite "mempool_fee_estimator_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/merkle_tests.cpp(12): Test suite "merkle_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/merkleblock_tests.cpp(15): Test suite "merkleblock_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/miner_tests.cpp(95): Test suite "miner_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/miniminer_tests.cpp(16): Test suite "miniminer_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/miniscript_tests.cpp(499): Test suite "miniscript_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/minisketch_tests.cpp(18): Test suite "minisketch_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/multisig_tests.cpp(21): Test suite "multisig_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/bip328_tests.cpp(25): Test suite "bip328_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/net_peer_connection_tests.cpp(37): Test suite "net_peer_connection_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/net_peer_eviction_tests.cpp(18): Test suite "net_peer_eviction_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/net_tests.cpp(42): Test suite "net_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/netbase_tests.cpp(26): Test suite "netbase_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/node_init_tests.cpp(32): Test suite "node_init_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/node_warnings_tests.cpp(13): Test suite "node_warnings_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/orphanage_tests.cpp(24): Test suite "orphanage_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/pcp_tests.cpp(254): Test suite "pcp_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/peerman_tests.cpp(25): Test suite "peerman_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/pmt_tests.cpp(32): Test suite "pmt_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/pool_tests.cpp(18): Test suite "pool_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/pow_tests.cpp(15): Test suite "pow_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/prevector_tests.cpp(16): Test suite "prevector_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/private_broadcast_tests.cpp(25): Test suite "private_broadcast_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/psbt_tests.cpp(21): Test suite "psbt_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/random_tests.cpp(16): Test suite "random_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/rbf_tests.cpp(17): Test suite "rbf_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/rest_tests.cpp(13): Test suite "rest_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/result_tests.cpp(19): Test suite "result_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/reverselock_tests.cpp(12): Test suite "reverselock_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/rpc_tests.cpp(88): Test suite "rpc_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/sanity_tests.cpp(10): Test suite "sanity_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/scheduler_tests.cpp(16): Test suite "scheduler_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/script_assets_tests.cpp(30): Test suite "script_assets_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/script_p2sh_tests.cpp(58): Test suite "script_p2sh_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/script_parse_tests.cpp(12): Test suite "script_parse_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/script_segwit_tests.cpp(10): Test suite "script_segwit_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/script_standard_tests.cpp(22): Test suite "script_standard_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/script_tests.cpp(429): Test suite "script_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/scriptnum_tests.cpp(13): Test suite "scriptnum_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/serfloat_tests.cpp(17): Test suite "serfloat_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/serialize_tests.cpp(18): Test suite "serialize_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/settings_tests.cpp(52): Test suite "settings_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/sighash_tests.cpp(120): Test suite "sighash_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/sigopcount_tests.cpp(29): Test suite "sigopcount_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/skiplist_tests.cpp(17): Test suite "skiplist_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/sock_tests.cpp(19): Test suite "sock_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/span_tests.cpp(43): Test suite "span_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/streams_tests.cpp(20): Test suite "streams_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/sync_tests.cpp(74): Test suite "sync_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/system_ram_tests.cpp(10): Test suite "system_ram_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/system_tests.cpp(57): Test suite "system_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/testnet4_miner_tests.cpp(34): Test suite "testnet4_miner_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/threadpool_tests.cpp(49): Test suite "threadpool_tests" is skipped because disabled
+[0;39;49m[1;34;49m./test/timeoffsets_tests.cpp(24): Entering test suite "timeoffsets_tests"
+[0;39;49m[1;34;49m./test/timeoffsets_tests.cpp(26): Entering test case "timeoffsets"
+[0;39;49m[1;34;49m./test/timeoffsets_tests.cpp(26): Leaving test case "timeoffsets"; testing time: 2351us
+[0;39;49m[1;34;49m./test/timeoffsets_tests.cpp(62): Entering test case "timeoffsets_warning"
+[0;39;49m[1;34;49m./test/timeoffsets_tests.cpp(62): Leaving test case "timeoffsets_warning"; testing time: 1960us
+[0;39;49m[1;34;49m./test/timeoffsets_tests.cpp(24): Leaving test suite "timeoffsets_tests"; testing time: 4461us
+[0;39;49m[1;34;49m./test/torcontrol_tests.cpp(17): Entering test suite "torcontrol_tests"
+[0;39;49m[1;34;49m./test/torcontrol_tests.cpp(26): Entering test case "util_SplitTorReplyLine"
+[0;39;49m[1;34;49m./test/torcontrol_tests.cpp(26): Leaving test case "util_SplitTorReplyLine"; testing time: 196us
+[0;39;49m[1;34;49m./test/torcontrol_tests.cpp(73): Entering test case "util_ParseTorReplyMapping"
+[0;39;49m[1;34;49m./test/torcontrol_tests.cpp(73): Leaving test case "util_ParseTorReplyMapping"; testing time: 271us
+[0;39;49m[1;34;49m./test/torcontrol_tests.cpp(17): Leaving test suite "torcontrol_tests"; testing time: 527us
+[0;39;49m[1;34;49m./test/transaction_tests.cpp(161): Entering test suite "transaction_tests"
+[0;39;49m[1;34;49m./test/transaction_tests.cpp(163): Entering test case "tx_valid"
+[0;39;49m[1;34;49m./test/transaction_tests.cpp(163): Leaving test case "tx_valid"; testing time: 310722us
+[0;39;49m[1;34;49m./test/transaction_tests.cpp(252): Entering test case "tx_invalid"
+[0;39;49m./test/transaction_tests.cpp(67): [1;31;49merror: in "transaction_tests/tx_invalid": Bad test: unknown verification flag 'BADTX'[0;39;49m
+./test/transaction_tests.cpp(111): [1;31;49merror: in "transaction_tests/tx_invalid": [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0x32afac281462b822adbec5094b8d4d337dd5bd6a EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006e493046022100e1eadba00d9296c743cb6ecc703fd9ddc9b3cd12906176a226ae4c18d6b00796022100a71aef7d2874deff681ba6080f1b278bac7bb99c61b08a85f4311970ffe7f63f012321030c0588dc44d92bdcbf8e72093466766fdc265ead8db64517b0c542275b70fffbacffffffff010140075af0750700015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(112): [1;31;49merror: in "transaction_tests/tx_invalid": No error[0;39;49m
+./test/transaction_tests.cpp(316): [1;31;49merror: in "transaction_tests/tx_invalid": Tx unexpectedly passed: [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0x32afac281462b822adbec5094b8d4d337dd5bd6a EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006e493046022100e1eadba00d9296c743cb6ecc703fd9ddc9b3cd12906176a226ae4c18d6b00796022100a71aef7d2874deff681ba6080f1b278bac7bb99c61b08a85f4311970ffe7f63f012321030c0588dc44d92bdcbf8e72093466766fdc265ead8db64517b0c542275b70fffbacffffffff010140075af0750700015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(111): [1;31;49merror: in "transaction_tests/tx_invalid": [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0x32afac281462b822adbec5094b8d4d337dd5bd6a EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006e493046022100e1eadba00d9296c743cb6ecc703fd9ddc9b3cd12906176a226ae4c18d6b00796022100a71aef7d2874deff681ba6080f1b278bac7bb99c61b08a85f4311970ffe7f63f012321030c0588dc44d92bdcbf8e72093466766fdc265ead8db64517b0c542275b70fffbacffffffff010140075af0750700015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(112): [1;31;49merror: in "transaction_tests/tx_invalid": No error[0;39;49m
+./test/transaction_tests.cpp(324): [1;31;49merror: in "transaction_tests/tx_invalid": Tx unexpectedly passed with flag CHECKLOCKTIMEVERIFY set: [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0x32afac281462b822adbec5094b8d4d337dd5bd6a EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006e493046022100e1eadba00d9296c743cb6ecc703fd9ddc9b3cd12906176a226ae4c18d6b00796022100a71aef7d2874deff681ba6080f1b278bac7bb99c61b08a85f4311970ffe7f63f012321030c0588dc44d92bdcbf8e72093466766fdc265ead8db64517b0c542275b70fffbacffffffff010140075af0750700015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(111): [1;31;49merror: in "transaction_tests/tx_invalid": [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0x32afac281462b822adbec5094b8d4d337dd5bd6a EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006e493046022100e1eadba00d9296c743cb6ecc703fd9ddc9b3cd12906176a226ae4c18d6b00796022100a71aef7d2874deff681ba6080f1b278bac7bb99c61b08a85f4311970ffe7f63f012321030c0588dc44d92bdcbf8e72093466766fdc265ead8db64517b0c542275b70fffbacffffffff010140075af0750700015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(112): [1;31;49merror: in "transaction_tests/tx_invalid": No error[0;39;49m
+./test/transaction_tests.cpp(324): [1;31;49merror: in "transaction_tests/tx_invalid": Tx unexpectedly passed with flag CHECKSEQUENCEVERIFY set: [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0x32afac281462b822adbec5094b8d4d337dd5bd6a EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006e493046022100e1eadba00d9296c743cb6ecc703fd9ddc9b3cd12906176a226ae4c18d6b00796022100a71aef7d2874deff681ba6080f1b278bac7bb99c61b08a85f4311970ffe7f63f012321030c0588dc44d92bdcbf8e72093466766fdc265ead8db64517b0c542275b70fffbacffffffff010140075af0750700015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(111): [1;31;49merror: in "transaction_tests/tx_invalid": [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0x32afac281462b822adbec5094b8d4d337dd5bd6a EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006e493046022100e1eadba00d9296c743cb6ecc703fd9ddc9b3cd12906176a226ae4c18d6b00796022100a71aef7d2874deff681ba6080f1b278bac7bb99c61b08a85f4311970ffe7f63f012321030c0588dc44d92bdcbf8e72093466766fdc265ead8db64517b0c542275b70fffbacffffffff010140075af0750700015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(112): [1;31;49merror: in "transaction_tests/tx_invalid": No error[0;39;49m
+./test/transaction_tests.cpp(329): [1;31;49merror: in "transaction_tests/tx_invalid": Tx unexpectedly passed with random flags CHECKSEQUENCEVERIFY: [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0x32afac281462b822adbec5094b8d4d337dd5bd6a EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006e493046022100e1eadba00d9296c743cb6ecc703fd9ddc9b3cd12906176a226ae4c18d6b00796022100a71aef7d2874deff681ba6080f1b278bac7bb99c61b08a85f4311970ffe7f63f012321030c0588dc44d92bdcbf8e72093466766fdc265ead8db64517b0c542275b70fffbacffffffff010140075af0750700015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(111): [1;31;49merror: in "transaction_tests/tx_invalid": [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0x32afac281462b822adbec5094b8d4d337dd5bd6a EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006e493046022100e1eadba00d9296c743cb6ecc703fd9ddc9b3cd12906176a226ae4c18d6b00796022100a71aef7d2874deff681ba6080f1b278bac7bb99c61b08a85f4311970ffe7f63f012321030c0588dc44d92bdcbf8e72093466766fdc265ead8db64517b0c542275b70fffbacffffffff010140075af0750700015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(112): [1;31;49merror: in "transaction_tests/tx_invalid": No error[0;39;49m
+./test/transaction_tests.cpp(324): [1;31;49merror: in "transaction_tests/tx_invalid": Tx unexpectedly passed with flag CONST_SCRIPTCODE set: [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0x32afac281462b822adbec5094b8d4d337dd5bd6a EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006e493046022100e1eadba00d9296c743cb6ecc703fd9ddc9b3cd12906176a226ae4c18d6b00796022100a71aef7d2874deff681ba6080f1b278bac7bb99c61b08a85f4311970ffe7f63f012321030c0588dc44d92bdcbf8e72093466766fdc265ead8db64517b0c542275b70fffbacffffffff010140075af0750700015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(111): [1;31;49merror: in "transaction_tests/tx_invalid": [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0x32afac281462b822adbec5094b8d4d337dd5bd6a EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006e493046022100e1eadba00d9296c743cb6ecc703fd9ddc9b3cd12906176a226ae4c18d6b00796022100a71aef7d2874deff681ba6080f1b278bac7bb99c61b08a85f4311970ffe7f63f012321030c0588dc44d92bdcbf8e72093466766fdc265ead8db64517b0c542275b70fffbacffffffff010140075af0750700015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(112): [1;31;49merror: in "transaction_tests/tx_invalid": No error[0;39;49m
+./test/transaction_tests.cpp(324): [1;31;49merror: in "transaction_tests/tx_invalid": Tx unexpectedly passed with flag DERSIG set: [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0x32afac281462b822adbec5094b8d4d337dd5bd6a EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006e493046022100e1eadba00d9296c743cb6ecc703fd9ddc9b3cd12906176a226ae4c18d6b00796022100a71aef7d2874deff681ba6080f1b278bac7bb99c61b08a85f4311970ffe7f63f012321030c0588dc44d92bdcbf8e72093466766fdc265ead8db64517b0c542275b70fffbacffffffff010140075af0750700015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(111): [1;31;49merror: in "transaction_tests/tx_invalid": [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0x32afac281462b822adbec5094b8d4d337dd5bd6a EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006e493046022100e1eadba00d9296c743cb6ecc703fd9ddc9b3cd12906176a226ae4c18d6b00796022100a71aef7d2874deff681ba6080f1b278bac7bb99c61b08a85f4311970ffe7f63f012321030c0588dc44d92bdcbf8e72093466766fdc265ead8db64517b0c542275b70fffbacffffffff010140075af0750700015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(112): [1;31;49merror: in "transaction_tests/tx_invalid": No error[0;39;49m
+./test/transaction_tests.cpp(324): [1;31;49merror: in "transaction_tests/tx_invalid": Tx unexpectedly passed with flag DISCOURAGE_OP_SUCCESS set: [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0x32afac281462b822adbec5094b8d4d337dd5bd6a EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006e493046022100e1eadba00d9296c743cb6ecc703fd9ddc9b3cd12906176a226ae4c18d6b00796022100a71aef7d2874deff681ba6080f1b278bac7bb99c61b08a85f4311970ffe7f63f012321030c0588dc44d92bdcbf8e72093466766fdc265ead8db64517b0c542275b70fffbacffffffff010140075af0750700015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(111): [1;31;49merror: in "transaction_tests/tx_invalid": [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0x32afac281462b822adbec5094b8d4d337dd5bd6a EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006e493046022100e1eadba00d9296c743cb6ecc703fd9ddc9b3cd12906176a226ae4c18d6b00796022100a71aef7d2874deff681ba6080f1b278bac7bb99c61b08a85f4311970ffe7f63f012321030c0588dc44d92bdcbf8e72093466766fdc265ead8db64517b0c542275b70fffbacffffffff010140075af0750700015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(112): [1;31;49merror: in "transaction_tests/tx_invalid": No error[0;39;49m
+./test/transaction_tests.cpp(324): [1;31;49merror: in "transaction_tests/tx_invalid": Tx unexpectedly passed with flag DISCOURAGE_UPGRADABLE_NOPS set: [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0x32afac281462b822adbec5094b8d4d337dd5bd6a EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006e493046022100e1eadba00d9296c743cb6ecc703fd9ddc9b3cd12906176a226ae4c18d6b00796022100a71aef7d2874deff681ba6080f1b278bac7bb99c61b08a85f4311970ffe7f63f012321030c0588dc44d92bdcbf8e72093466766fdc265ead8db64517b0c542275b70fffbacffffffff010140075af0750700015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(111): [1;31;49merror: in "transaction_tests/tx_invalid": [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0x32afac281462b822adbec5094b8d4d337dd5bd6a EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006e493046022100e1eadba00d9296c743cb6ecc703fd9ddc9b3cd12906176a226ae4c18d6b00796022100a71aef7d2874deff681ba6080f1b278bac7bb99c61b08a85f4311970ffe7f63f012321030c0588dc44d92bdcbf8e72093466766fdc265ead8db64517b0c542275b70fffbacffffffff010140075af0750700015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(112): [1;31;49merror: in "transaction_tests/tx_invalid": No error[0;39;49m
+./test/transaction_tests.cpp(324): [1;31;49merror: in "transaction_tests/tx_invalid": Tx unexpectedly passed with flag DISCOURAGE_UPGRADABLE_PUBKEYTYPE set: [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0x32afac281462b822adbec5094b8d4d337dd5bd6a EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006e493046022100e1eadba00d9296c743cb6ecc703fd9ddc9b3cd12906176a226ae4c18d6b00796022100a71aef7d2874deff681ba6080f1b278bac7bb99c61b08a85f4311970ffe7f63f012321030c0588dc44d92bdcbf8e72093466766fdc265ead8db64517b0c542275b70fffbacffffffff010140075af0750700015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(111): [1;31;49merror: in "transaction_tests/tx_invalid": [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0x32afac281462b822adbec5094b8d4d337dd5bd6a EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006e493046022100e1eadba00d9296c743cb6ecc703fd9ddc9b3cd12906176a226ae4c18d6b00796022100a71aef7d2874deff681ba6080f1b278bac7bb99c61b08a85f4311970ffe7f63f012321030c0588dc44d92bdcbf8e72093466766fdc265ead8db64517b0c542275b70fffbacffffffff010140075af0750700015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(112): [1;31;49merror: in "transaction_tests/tx_invalid": No error[0;39;49m
+./test/transaction_tests.cpp(324): [1;31;49merror: in "transaction_tests/tx_invalid": Tx unexpectedly passed with flag DISCOURAGE_UPGRADABLE_TAPROOT_VERSION set: [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0x32afac281462b822adbec5094b8d4d337dd5bd6a EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006e493046022100e1eadba00d9296c743cb6ecc703fd9ddc9b3cd12906176a226ae4c18d6b00796022100a71aef7d2874deff681ba6080f1b278bac7bb99c61b08a85f4311970ffe7f63f012321030c0588dc44d92bdcbf8e72093466766fdc265ead8db64517b0c542275b70fffbacffffffff010140075af0750700015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(111): [1;31;49merror: in "transaction_tests/tx_invalid": [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0x32afac281462b822adbec5094b8d4d337dd5bd6a EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006e493046022100e1eadba00d9296c743cb6ecc703fd9ddc9b3cd12906176a226ae4c18d6b00796022100a71aef7d2874deff681ba6080f1b278bac7bb99c61b08a85f4311970ffe7f63f012321030c0588dc44d92bdcbf8e72093466766fdc265ead8db64517b0c542275b70fffbacffffffff010140075af0750700015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(112): [1;31;49merror: in "transaction_tests/tx_invalid": No error[0;39;49m
+./test/transaction_tests.cpp(324): [1;31;49merror: in "transaction_tests/tx_invalid": Tx unexpectedly passed with flag DISCOURAGE_UPGRADABLE_WITNESS_PROGRAM set: [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0x32afac281462b822adbec5094b8d4d337dd5bd6a EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006e493046022100e1eadba00d9296c743cb6ecc703fd9ddc9b3cd12906176a226ae4c18d6b00796022100a71aef7d2874deff681ba6080f1b278bac7bb99c61b08a85f4311970ffe7f63f012321030c0588dc44d92bdcbf8e72093466766fdc265ead8db64517b0c542275b70fffbacffffffff010140075af0750700015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(111): [1;31;49merror: in "transaction_tests/tx_invalid": [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0x32afac281462b822adbec5094b8d4d337dd5bd6a EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006e493046022100e1eadba00d9296c743cb6ecc703fd9ddc9b3cd12906176a226ae4c18d6b00796022100a71aef7d2874deff681ba6080f1b278bac7bb99c61b08a85f4311970ffe7f63f012321030c0588dc44d92bdcbf8e72093466766fdc265ead8db64517b0c542275b70fffbacffffffff010140075af0750700015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(112): [1;31;49merror: in "transaction_tests/tx_invalid": No error[0;39;49m
+./test/transaction_tests.cpp(324): [1;31;49merror: in "transaction_tests/tx_invalid": Tx unexpectedly passed with flag LOW_S set: [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0x32afac281462b822adbec5094b8d4d337dd5bd6a EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006e493046022100e1eadba00d9296c743cb6ecc703fd9ddc9b3cd12906176a226ae4c18d6b00796022100a71aef7d2874deff681ba6080f1b278bac7bb99c61b08a85f4311970ffe7f63f012321030c0588dc44d92bdcbf8e72093466766fdc265ead8db64517b0c542275b70fffbacffffffff010140075af0750700015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(111): [1;31;49merror: in "transaction_tests/tx_invalid": [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0x32afac281462b822adbec5094b8d4d337dd5bd6a EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006e493046022100e1eadba00d9296c743cb6ecc703fd9ddc9b3cd12906176a226ae4c18d6b00796022100a71aef7d2874deff681ba6080f1b278bac7bb99c61b08a85f4311970ffe7f63f012321030c0588dc44d92bdcbf8e72093466766fdc265ead8db64517b0c542275b70fffbacffffffff010140075af0750700015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(112): [1;31;49merror: in "transaction_tests/tx_invalid": No error[0;39;49m
+./test/transaction_tests.cpp(324): [1;31;49merror: in "transaction_tests/tx_invalid": Tx unexpectedly passed with flag MINIMALDATA set: [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0x32afac281462b822adbec5094b8d4d337dd5bd6a EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006e493046022100e1eadba00d9296c743cb6ecc703fd9ddc9b3cd12906176a226ae4c18d6b00796022100a71aef7d2874deff681ba6080f1b278bac7bb99c61b08a85f4311970ffe7f63f012321030c0588dc44d92bdcbf8e72093466766fdc265ead8db64517b0c542275b70fffbacffffffff010140075af0750700015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(111): [1;31;49merror: in "transaction_tests/tx_invalid": [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0x32afac281462b822adbec5094b8d4d337dd5bd6a EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006e493046022100e1eadba00d9296c743cb6ecc703fd9ddc9b3cd12906176a226ae4c18d6b00796022100a71aef7d2874deff681ba6080f1b278bac7bb99c61b08a85f4311970ffe7f63f012321030c0588dc44d92bdcbf8e72093466766fdc265ead8db64517b0c542275b70fffbacffffffff010140075af0750700015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(112): [1;31;49merror: in "transaction_tests/tx_invalid": No error[0;39;49m
+./test/transaction_tests.cpp(324): [1;31;49merror: in "transaction_tests/tx_invalid": Tx unexpectedly passed with flag MINIMALIF set: [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0x32afac281462b822adbec5094b8d4d337dd5bd6a EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006e493046022100e1eadba00d9296c743cb6ecc703fd9ddc9b3cd12906176a226ae4c18d6b00796022100a71aef7d2874deff681ba6080f1b278bac7bb99c61b08a85f4311970ffe7f63f012321030c0588dc44d92bdcbf8e72093466766fdc265ead8db64517b0c542275b70fffbacffffffff010140075af0750700015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(111): [1;31;49merror: in "transaction_tests/tx_invalid": [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0x32afac281462b822adbec5094b8d4d337dd5bd6a EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006e493046022100e1eadba00d9296c743cb6ecc703fd9ddc9b3cd12906176a226ae4c18d6b00796022100a71aef7d2874deff681ba6080f1b278bac7bb99c61b08a85f4311970ffe7f63f012321030c0588dc44d92bdcbf8e72093466766fdc265ead8db64517b0c542275b70fffbacffffffff010140075af0750700015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(112): [1;31;49merror: in "transaction_tests/tx_invalid": No error[0;39;49m
+./test/transaction_tests.cpp(324): [1;31;49merror: in "transaction_tests/tx_invalid": Tx unexpectedly passed with flag NULLDUMMY set: [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0x32afac281462b822adbec5094b8d4d337dd5bd6a EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006e493046022100e1eadba00d9296c743cb6ecc703fd9ddc9b3cd12906176a226ae4c18d6b00796022100a71aef7d2874deff681ba6080f1b278bac7bb99c61b08a85f4311970ffe7f63f012321030c0588dc44d92bdcbf8e72093466766fdc265ead8db64517b0c542275b70fffbacffffffff010140075af0750700015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(111): [1;31;49merror: in "transaction_tests/tx_invalid": [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0x32afac281462b822adbec5094b8d4d337dd5bd6a EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006e493046022100e1eadba00d9296c743cb6ecc703fd9ddc9b3cd12906176a226ae4c18d6b00796022100a71aef7d2874deff681ba6080f1b278bac7bb99c61b08a85f4311970ffe7f63f012321030c0588dc44d92bdcbf8e72093466766fdc265ead8db64517b0c542275b70fffbacffffffff010140075af0750700015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(112): [1;31;49merror: in "transaction_tests/tx_invalid": No error[0;39;49m
+./test/transaction_tests.cpp(324): [1;31;49merror: in "transaction_tests/tx_invalid": Tx unexpectedly passed with flag NULLFAIL set: [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0x32afac281462b822adbec5094b8d4d337dd5bd6a EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006e493046022100e1eadba00d9296c743cb6ecc703fd9ddc9b3cd12906176a226ae4c18d6b00796022100a71aef7d2874deff681ba6080f1b278bac7bb99c61b08a85f4311970ffe7f63f012321030c0588dc44d92bdcbf8e72093466766fdc265ead8db64517b0c542275b70fffbacffffffff010140075af0750700015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(111): [1;31;49merror: in "transaction_tests/tx_invalid": [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0x32afac281462b822adbec5094b8d4d337dd5bd6a EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006e493046022100e1eadba00d9296c743cb6ecc703fd9ddc9b3cd12906176a226ae4c18d6b00796022100a71aef7d2874deff681ba6080f1b278bac7bb99c61b08a85f4311970ffe7f63f012321030c0588dc44d92bdcbf8e72093466766fdc265ead8db64517b0c542275b70fffbacffffffff010140075af0750700015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(112): [1;31;49merror: in "transaction_tests/tx_invalid": No error[0;39;49m
+./test/transaction_tests.cpp(324): [1;31;49merror: in "transaction_tests/tx_invalid": Tx unexpectedly passed with flag SIGPUSHONLY set: [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0x32afac281462b822adbec5094b8d4d337dd5bd6a EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006e493046022100e1eadba00d9296c743cb6ecc703fd9ddc9b3cd12906176a226ae4c18d6b00796022100a71aef7d2874deff681ba6080f1b278bac7bb99c61b08a85f4311970ffe7f63f012321030c0588dc44d92bdcbf8e72093466766fdc265ead8db64517b0c542275b70fffbacffffffff010140075af0750700015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(111): [1;31;49merror: in "transaction_tests/tx_invalid": [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0x32afac281462b822adbec5094b8d4d337dd5bd6a EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006e493046022100e1eadba00d9296c743cb6ecc703fd9ddc9b3cd12906176a226ae4c18d6b00796022100a71aef7d2874deff681ba6080f1b278bac7bb99c61b08a85f4311970ffe7f63f012321030c0588dc44d92bdcbf8e72093466766fdc265ead8db64517b0c542275b70fffbacffffffff010140075af0750700015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(112): [1;31;49merror: in "transaction_tests/tx_invalid": No error[0;39;49m
+./test/transaction_tests.cpp(324): [1;31;49merror: in "transaction_tests/tx_invalid": Tx unexpectedly passed with flag STRICTENC set: [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0x32afac281462b822adbec5094b8d4d337dd5bd6a EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006e493046022100e1eadba00d9296c743cb6ecc703fd9ddc9b3cd12906176a226ae4c18d6b00796022100a71aef7d2874deff681ba6080f1b278bac7bb99c61b08a85f4311970ffe7f63f012321030c0588dc44d92bdcbf8e72093466766fdc265ead8db64517b0c542275b70fffbacffffffff010140075af0750700015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(111): [1;31;49merror: in "transaction_tests/tx_invalid": [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0x32afac281462b822adbec5094b8d4d337dd5bd6a EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006e493046022100e1eadba00d9296c743cb6ecc703fd9ddc9b3cd12906176a226ae4c18d6b00796022100a71aef7d2874deff681ba6080f1b278bac7bb99c61b08a85f4311970ffe7f63f012321030c0588dc44d92bdcbf8e72093466766fdc265ead8db64517b0c542275b70fffbacffffffff010140075af0750700015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(112): [1;31;49merror: in "transaction_tests/tx_invalid": No error[0;39;49m
+./test/transaction_tests.cpp(324): [1;31;49merror: in "transaction_tests/tx_invalid": Tx unexpectedly passed with flag TAPROOT set: [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0x32afac281462b822adbec5094b8d4d337dd5bd6a EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006e493046022100e1eadba00d9296c743cb6ecc703fd9ddc9b3cd12906176a226ae4c18d6b00796022100a71aef7d2874deff681ba6080f1b278bac7bb99c61b08a85f4311970ffe7f63f012321030c0588dc44d92bdcbf8e72093466766fdc265ead8db64517b0c542275b70fffbacffffffff010140075af0750700015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(111): [1;31;49merror: in "transaction_tests/tx_invalid": [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0x32afac281462b822adbec5094b8d4d337dd5bd6a EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006e493046022100e1eadba00d9296c743cb6ecc703fd9ddc9b3cd12906176a226ae4c18d6b00796022100a71aef7d2874deff681ba6080f1b278bac7bb99c61b08a85f4311970ffe7f63f012321030c0588dc44d92bdcbf8e72093466766fdc265ead8db64517b0c542275b70fffbacffffffff010140075af0750700015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(112): [1;31;49merror: in "transaction_tests/tx_invalid": No error[0;39;49m
+./test/transaction_tests.cpp(324): [1;31;49merror: in "transaction_tests/tx_invalid": Tx unexpectedly passed with flag WITNESS_PUBKEYTYPE set: [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0x32afac281462b822adbec5094b8d4d337dd5bd6a EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006e493046022100e1eadba00d9296c743cb6ecc703fd9ddc9b3cd12906176a226ae4c18d6b00796022100a71aef7d2874deff681ba6080f1b278bac7bb99c61b08a85f4311970ffe7f63f012321030c0588dc44d92bdcbf8e72093466766fdc265ead8db64517b0c542275b70fffbacffffffff010140075af0750700015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(111): [1;31;49merror: in "transaction_tests/tx_invalid": [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0x32afac281462b822adbec5094b8d4d337dd5bd6a EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006e493046022100e1eadba00d9296c743cb6ecc703fd9ddc9b3cd12906176a226ae4c18d6b00796022100a71aef7d2874deff681ba6080f1b278bac7bb99c61b08a85f4311970ffe7f63f012321030c0588dc44d92bdcbf8e72093466766fdc265ead8db64517b0c542275b70fffbacffffffff010140075af0750700015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(112): [1;31;49merror: in "transaction_tests/tx_invalid": No error[0;39;49m
+./test/transaction_tests.cpp(329): [1;31;49merror: in "transaction_tests/tx_invalid": Tx unexpectedly passed with random flags WITNESS_PUBKEYTYPE: [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0x32afac281462b822adbec5094b8d4d337dd5bd6a EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006e493046022100e1eadba00d9296c743cb6ecc703fd9ddc9b3cd12906176a226ae4c18d6b00796022100a71aef7d2874deff681ba6080f1b278bac7bb99c61b08a85f4311970ffe7f63f012321030c0588dc44d92bdcbf8e72093466766fdc265ead8db64517b0c542275b70fffbacffffffff010140075af0750700015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(67): [1;31;49merror: in "transaction_tests/tx_invalid": Bad test: unknown verification flag 'BADTX'[0;39;49m
+./test/transaction_tests.cpp(111): [1;31;49merror: in "transaction_tests/tx_invalid": [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0xb558cbf4930954aa6a344363a15668d7477ae716 EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006d483045022027deccc14aa6668e78a8c9da3484fbcd4f9dcc9bb7d1b85146314b21b9ae4d86022100d0b43dece8cfb07348de0ca8bc5b86276fa88f7f2138381128b7c36ab2e42264012321029bb13463ddd5d2cc05da6e84e37536cb9525703cfd8f43afdb414988987a92f6acffffffff020040075af075070001510001000000000000015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(112): [1;31;49merror: in "transaction_tests/tx_invalid": No error[0;39;49m
+./test/transaction_tests.cpp(316): [1;31;49merror: in "transaction_tests/tx_invalid": Tx unexpectedly passed: [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0xb558cbf4930954aa6a344363a15668d7477ae716 EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006d483045022027deccc14aa6668e78a8c9da3484fbcd4f9dcc9bb7d1b85146314b21b9ae4d86022100d0b43dece8cfb07348de0ca8bc5b86276fa88f7f2138381128b7c36ab2e42264012321029bb13463ddd5d2cc05da6e84e37536cb9525703cfd8f43afdb414988987a92f6acffffffff020040075af075070001510001000000000000015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(111): [1;31;49merror: in "transaction_tests/tx_invalid": [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0xb558cbf4930954aa6a344363a15668d7477ae716 EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006d483045022027deccc14aa6668e78a8c9da3484fbcd4f9dcc9bb7d1b85146314b21b9ae4d86022100d0b43dece8cfb07348de0ca8bc5b86276fa88f7f2138381128b7c36ab2e42264012321029bb13463ddd5d2cc05da6e84e37536cb9525703cfd8f43afdb414988987a92f6acffffffff020040075af075070001510001000000000000015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(112): [1;31;49merror: in "transaction_tests/tx_invalid": No error[0;39;49m
+./test/transaction_tests.cpp(324): [1;31;49merror: in "transaction_tests/tx_invalid": Tx unexpectedly passed with flag CHECKLOCKTIMEVERIFY set: [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0xb558cbf4930954aa6a344363a15668d7477ae716 EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006d483045022027deccc14aa6668e78a8c9da3484fbcd4f9dcc9bb7d1b85146314b21b9ae4d86022100d0b43dece8cfb07348de0ca8bc5b86276fa88f7f2138381128b7c36ab2e42264012321029bb13463ddd5d2cc05da6e84e37536cb9525703cfd8f43afdb414988987a92f6acffffffff020040075af075070001510001000000000000015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(111): [1;31;49merror: in "transaction_tests/tx_invalid": [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0xb558cbf4930954aa6a344363a15668d7477ae716 EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006d483045022027deccc14aa6668e78a8c9da3484fbcd4f9dcc9bb7d1b85146314b21b9ae4d86022100d0b43dece8cfb07348de0ca8bc5b86276fa88f7f2138381128b7c36ab2e42264012321029bb13463ddd5d2cc05da6e84e37536cb9525703cfd8f43afdb414988987a92f6acffffffff020040075af075070001510001000000000000015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(112): [1;31;49merror: in "transaction_tests/tx_invalid": No error[0;39;49m
+./test/transaction_tests.cpp(324): [1;31;49merror: in "transaction_tests/tx_invalid": Tx unexpectedly passed with flag CHECKSEQUENCEVERIFY set: [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0xb558cbf4930954aa6a344363a15668d7477ae716 EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006d483045022027deccc14aa6668e78a8c9da3484fbcd4f9dcc9bb7d1b85146314b21b9ae4d86022100d0b43dece8cfb07348de0ca8bc5b86276fa88f7f2138381128b7c36ab2e42264012321029bb13463ddd5d2cc05da6e84e37536cb9525703cfd8f43afdb414988987a92f6acffffffff020040075af075070001510001000000000000015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(111): [1;31;49merror: in "transaction_tests/tx_invalid": [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0xb558cbf4930954aa6a344363a15668d7477ae716 EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006d483045022027deccc14aa6668e78a8c9da3484fbcd4f9dcc9bb7d1b85146314b21b9ae4d86022100d0b43dece8cfb07348de0ca8bc5b86276fa88f7f2138381128b7c36ab2e42264012321029bb13463ddd5d2cc05da6e84e37536cb9525703cfd8f43afdb414988987a92f6acffffffff020040075af075070001510001000000000000015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(112): [1;31;49merror: in "transaction_tests/tx_invalid": No error[0;39;49m
+./test/transaction_tests.cpp(324): [1;31;49merror: in "transaction_tests/tx_invalid": Tx unexpectedly passed with flag CONST_SCRIPTCODE set: [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0xb558cbf4930954aa6a344363a15668d7477ae716 EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006d483045022027deccc14aa6668e78a8c9da3484fbcd4f9dcc9bb7d1b85146314b21b9ae4d86022100d0b43dece8cfb07348de0ca8bc5b86276fa88f7f2138381128b7c36ab2e42264012321029bb13463ddd5d2cc05da6e84e37536cb9525703cfd8f43afdb414988987a92f6acffffffff020040075af075070001510001000000000000015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(111): [1;31;49merror: in "transaction_tests/tx_invalid": [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0xb558cbf4930954aa6a344363a15668d7477ae716 EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006d483045022027deccc14aa6668e78a8c9da3484fbcd4f9dcc9bb7d1b85146314b21b9ae4d86022100d0b43dece8cfb07348de0ca8bc5b86276fa88f7f2138381128b7c36ab2e42264012321029bb13463ddd5d2cc05da6e84e37536cb9525703cfd8f43afdb414988987a92f6acffffffff020040075af075070001510001000000000000015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(112): [1;31;49merror: in "transaction_tests/tx_invalid": No error[0;39;49m
+./test/transaction_tests.cpp(324): [1;31;49merror: in "transaction_tests/tx_invalid": Tx unexpectedly passed with flag DERSIG set: [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0xb558cbf4930954aa6a344363a15668d7477ae716 EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006d483045022027deccc14aa6668e78a8c9da3484fbcd4f9dcc9bb7d1b85146314b21b9ae4d86022100d0b43dece8cfb07348de0ca8bc5b86276fa88f7f2138381128b7c36ab2e42264012321029bb13463ddd5d2cc05da6e84e37536cb9525703cfd8f43afdb414988987a92f6acffffffff020040075af075070001510001000000000000015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(111): [1;31;49merror: in "transaction_tests/tx_invalid": [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0xb558cbf4930954aa6a344363a15668d7477ae716 EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006d483045022027deccc14aa6668e78a8c9da3484fbcd4f9dcc9bb7d1b85146314b21b9ae4d86022100d0b43dece8cfb07348de0ca8bc5b86276fa88f7f2138381128b7c36ab2e42264012321029bb13463ddd5d2cc05da6e84e37536cb9525703cfd8f43afdb414988987a92f6acffffffff020040075af075070001510001000000000000015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(112): [1;31;49merror: in "transaction_tests/tx_invalid": No error[0;39;49m
+./test/transaction_tests.cpp(324): [1;31;49merror: in "transaction_tests/tx_invalid": Tx unexpectedly passed with flag DISCOURAGE_OP_SUCCESS set: [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0xb558cbf4930954aa6a344363a15668d7477ae716 EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006d483045022027deccc14aa6668e78a8c9da3484fbcd4f9dcc9bb7d1b85146314b21b9ae4d86022100d0b43dece8cfb07348de0ca8bc5b86276fa88f7f2138381128b7c36ab2e42264012321029bb13463ddd5d2cc05da6e84e37536cb9525703cfd8f43afdb414988987a92f6acffffffff020040075af075070001510001000000000000015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(111): [1;31;49merror: in "transaction_tests/tx_invalid": [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0xb558cbf4930954aa6a344363a15668d7477ae716 EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006d483045022027deccc14aa6668e78a8c9da3484fbcd4f9dcc9bb7d1b85146314b21b9ae4d86022100d0b43dece8cfb07348de0ca8bc5b86276fa88f7f2138381128b7c36ab2e42264012321029bb13463ddd5d2cc05da6e84e37536cb9525703cfd8f43afdb414988987a92f6acffffffff020040075af075070001510001000000000000015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(112): [1;31;49merror: in "transaction_tests/tx_invalid": No error[0;39;49m
+./test/transaction_tests.cpp(324): [1;31;49merror: in "transaction_tests/tx_invalid": Tx unexpectedly passed with flag DISCOURAGE_UPGRADABLE_NOPS set: [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0xb558cbf4930954aa6a344363a15668d7477ae716 EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006d483045022027deccc14aa6668e78a8c9da3484fbcd4f9dcc9bb7d1b85146314b21b9ae4d86022100d0b43dece8cfb07348de0ca8bc5b86276fa88f7f2138381128b7c36ab2e42264012321029bb13463ddd5d2cc05da6e84e37536cb9525703cfd8f43afdb414988987a92f6acffffffff020040075af075070001510001000000000000015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(111): [1;31;49merror: in "transaction_tests/tx_invalid": [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0xb558cbf4930954aa6a344363a15668d7477ae716 EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006d483045022027deccc14aa6668e78a8c9da3484fbcd4f9dcc9bb7d1b85146314b21b9ae4d86022100d0b43dece8cfb07348de0ca8bc5b86276fa88f7f2138381128b7c36ab2e42264012321029bb13463ddd5d2cc05da6e84e37536cb9525703cfd8f43afdb414988987a92f6acffffffff020040075af075070001510001000000000000015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(112): [1;31;49merror: in "transaction_tests/tx_invalid": No error[0;39;49m
+./test/transaction_tests.cpp(324): [1;31;49merror: in "transaction_tests/tx_invalid": Tx unexpectedly passed with flag DISCOURAGE_UPGRADABLE_PUBKEYTYPE set: [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0xb558cbf4930954aa6a344363a15668d7477ae716 EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006d483045022027deccc14aa6668e78a8c9da3484fbcd4f9dcc9bb7d1b85146314b21b9ae4d86022100d0b43dece8cfb07348de0ca8bc5b86276fa88f7f2138381128b7c36ab2e42264012321029bb13463ddd5d2cc05da6e84e37536cb9525703cfd8f43afdb414988987a92f6acffffffff020040075af075070001510001000000000000015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(111): [1;31;49merror: in "transaction_tests/tx_invalid": [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0xb558cbf4930954aa6a344363a15668d7477ae716 EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006d483045022027deccc14aa6668e78a8c9da3484fbcd4f9dcc9bb7d1b85146314b21b9ae4d86022100d0b43dece8cfb07348de0ca8bc5b86276fa88f7f2138381128b7c36ab2e42264012321029bb13463ddd5d2cc05da6e84e37536cb9525703cfd8f43afdb414988987a92f6acffffffff020040075af075070001510001000000000000015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(112): [1;31;49merror: in "transaction_tests/tx_invalid": No error[0;39;49m
+./test/transaction_tests.cpp(324): [1;31;49merror: in "transaction_tests/tx_invalid": Tx unexpectedly passed with flag DISCOURAGE_UPGRADABLE_TAPROOT_VERSION set: [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0xb558cbf4930954aa6a344363a15668d7477ae716 EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006d483045022027deccc14aa6668e78a8c9da3484fbcd4f9dcc9bb7d1b85146314b21b9ae4d86022100d0b43dece8cfb07348de0ca8bc5b86276fa88f7f2138381128b7c36ab2e42264012321029bb13463ddd5d2cc05da6e84e37536cb9525703cfd8f43afdb414988987a92f6acffffffff020040075af075070001510001000000000000015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(111): [1;31;49merror: in "transaction_tests/tx_invalid": [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0xb558cbf4930954aa6a344363a15668d7477ae716 EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006d483045022027deccc14aa6668e78a8c9da3484fbcd4f9dcc9bb7d1b85146314b21b9ae4d86022100d0b43dece8cfb07348de0ca8bc5b86276fa88f7f2138381128b7c36ab2e42264012321029bb13463ddd5d2cc05da6e84e37536cb9525703cfd8f43afdb414988987a92f6acffffffff020040075af075070001510001000000000000015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(112): [1;31;49merror: in "transaction_tests/tx_invalid": No error[0;39;49m
+./test/transaction_tests.cpp(324): [1;31;49merror: in "transaction_tests/tx_invalid": Tx unexpectedly passed with flag DISCOURAGE_UPGRADABLE_WITNESS_PROGRAM set: [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0xb558cbf4930954aa6a344363a15668d7477ae716 EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006d483045022027deccc14aa6668e78a8c9da3484fbcd4f9dcc9bb7d1b85146314b21b9ae4d86022100d0b43dece8cfb07348de0ca8bc5b86276fa88f7f2138381128b7c36ab2e42264012321029bb13463ddd5d2cc05da6e84e37536cb9525703cfd8f43afdb414988987a92f6acffffffff020040075af075070001510001000000000000015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(111): [1;31;49merror: in "transaction_tests/tx_invalid": [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0xb558cbf4930954aa6a344363a15668d7477ae716 EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006d483045022027deccc14aa6668e78a8c9da3484fbcd4f9dcc9bb7d1b85146314b21b9ae4d86022100d0b43dece8cfb07348de0ca8bc5b86276fa88f7f2138381128b7c36ab2e42264012321029bb13463ddd5d2cc05da6e84e37536cb9525703cfd8f43afdb414988987a92f6acffffffff020040075af075070001510001000000000000015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(112): [1;31;49merror: in "transaction_tests/tx_invalid": No error[0;39;49m
+./test/transaction_tests.cpp(329): [1;31;49merror: in "transaction_tests/tx_invalid": Tx unexpectedly passed with random flags DISCOURAGE_UPGRADABLE_WITNESS_PROGRAM: [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0xb558cbf4930954aa6a344363a15668d7477ae716 EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006d483045022027deccc14aa6668e78a8c9da3484fbcd4f9dcc9bb7d1b85146314b21b9ae4d86022100d0b43dece8cfb07348de0ca8bc5b86276fa88f7f2138381128b7c36ab2e42264012321029bb13463ddd5d2cc05da6e84e37536cb9525703cfd8f43afdb414988987a92f6acffffffff020040075af075070001510001000000000000015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(111): [1;31;49merror: in "transaction_tests/tx_invalid": [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0xb558cbf4930954aa6a344363a15668d7477ae716 EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006d483045022027deccc14aa6668e78a8c9da3484fbcd4f9dcc9bb7d1b85146314b21b9ae4d86022100d0b43dece8cfb07348de0ca8bc5b86276fa88f7f2138381128b7c36ab2e42264012321029bb13463ddd5d2cc05da6e84e37536cb9525703cfd8f43afdb414988987a92f6acffffffff020040075af075070001510001000000000000015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(112): [1;31;49merror: in "transaction_tests/tx_invalid": No error[0;39;49m
+./test/transaction_tests.cpp(324): [1;31;49merror: in "transaction_tests/tx_invalid": Tx unexpectedly passed with flag LOW_S set: [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0xb558cbf4930954aa6a344363a15668d7477ae716 EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006d483045022027deccc14aa6668e78a8c9da3484fbcd4f9dcc9bb7d1b85146314b21b9ae4d86022100d0b43dece8cfb07348de0ca8bc5b86276fa88f7f2138381128b7c36ab2e42264012321029bb13463ddd5d2cc05da6e84e37536cb9525703cfd8f43afdb414988987a92f6acffffffff020040075af075070001510001000000000000015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(111): [1;31;49merror: in "transaction_tests/tx_invalid": [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0xb558cbf4930954aa6a344363a15668d7477ae716 EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006d483045022027deccc14aa6668e78a8c9da3484fbcd4f9dcc9bb7d1b85146314b21b9ae4d86022100d0b43dece8cfb07348de0ca8bc5b86276fa88f7f2138381128b7c36ab2e42264012321029bb13463ddd5d2cc05da6e84e37536cb9525703cfd8f43afdb414988987a92f6acffffffff020040075af075070001510001000000000000015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(112): [1;31;49merror: in "transaction_tests/tx_invalid": No error[0;39;49m
+./test/transaction_tests.cpp(324): [1;31;49merror: in "transaction_tests/tx_invalid": Tx unexpectedly passed with flag MINIMALDATA set: [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0xb558cbf4930954aa6a344363a15668d7477ae716 EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006d483045022027deccc14aa6668e78a8c9da3484fbcd4f9dcc9bb7d1b85146314b21b9ae4d86022100d0b43dece8cfb07348de0ca8bc5b86276fa88f7f2138381128b7c36ab2e42264012321029bb13463ddd5d2cc05da6e84e37536cb9525703cfd8f43afdb414988987a92f6acffffffff020040075af075070001510001000000000000015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(111): [1;31;49merror: in "transaction_tests/tx_invalid": [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0xb558cbf4930954aa6a344363a15668d7477ae716 EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006d483045022027deccc14aa6668e78a8c9da3484fbcd4f9dcc9bb7d1b85146314b21b9ae4d86022100d0b43dece8cfb07348de0ca8bc5b86276fa88f7f2138381128b7c36ab2e42264012321029bb13463ddd5d2cc05da6e84e37536cb9525703cfd8f43afdb414988987a92f6acffffffff020040075af075070001510001000000000000015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(112): [1;31;49merror: in "transaction_tests/tx_invalid": No error[0;39;49m
+./test/transaction_tests.cpp(329): [1;31;49merror: in "transaction_tests/tx_invalid": Tx unexpectedly passed with random flags MINIMALDATA: [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0xb558cbf4930954aa6a344363a15668d7477ae716 EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006d483045022027deccc14aa6668e78a8c9da3484fbcd4f9dcc9bb7d1b85146314b21b9ae4d86022100d0b43dece8cfb07348de0ca8bc5b86276fa88f7f2138381128b7c36ab2e42264012321029bb13463ddd5d2cc05da6e84e37536cb9525703cfd8f43afdb414988987a92f6acffffffff020040075af075070001510001000000000000015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(111): [1;31;49merror: in "transaction_tests/tx_invalid": [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0xb558cbf4930954aa6a344363a15668d7477ae716 EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006d483045022027deccc14aa6668e78a8c9da3484fbcd4f9dcc9bb7d1b85146314b21b9ae4d86022100d0b43dece8cfb07348de0ca8bc5b86276fa88f7f2138381128b7c36ab2e42264012321029bb13463ddd5d2cc05da6e84e37536cb9525703cfd8f43afdb414988987a92f6acffffffff020040075af075070001510001000000000000015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(112): [1;31;49merror: in "transaction_tests/tx_invalid": No error[0;39;49m
+./test/transaction_tests.cpp(324): [1;31;49merror: in "transaction_tests/tx_invalid": Tx unexpectedly passed with flag MINIMALIF set: [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0xb558cbf4930954aa6a344363a15668d7477ae716 EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006d483045022027deccc14aa6668e78a8c9da3484fbcd4f9dcc9bb7d1b85146314b21b9ae4d86022100d0b43dece8cfb07348de0ca8bc5b86276fa88f7f2138381128b7c36ab2e42264012321029bb13463ddd5d2cc05da6e84e37536cb9525703cfd8f43afdb414988987a92f6acffffffff020040075af075070001510001000000000000015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(111): [1;31;49merror: in "transaction_tests/tx_invalid": [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0xb558cbf4930954aa6a344363a15668d7477ae716 EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006d483045022027deccc14aa6668e78a8c9da3484fbcd4f9dcc9bb7d1b85146314b21b9ae4d86022100d0b43dece8cfb07348de0ca8bc5b86276fa88f7f2138381128b7c36ab2e42264012321029bb13463ddd5d2cc05da6e84e37536cb9525703cfd8f43afdb414988987a92f6acffffffff020040075af075070001510001000000000000015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(112): [1;31;49merror: in "transaction_tests/tx_invalid": No error[0;39;49m
+./test/transaction_tests.cpp(329): [1;31;49merror: in "transaction_tests/tx_invalid": Tx unexpectedly passed with random flags MINIMALIF: [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0xb558cbf4930954aa6a344363a15668d7477ae716 EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006d483045022027deccc14aa6668e78a8c9da3484fbcd4f9dcc9bb7d1b85146314b21b9ae4d86022100d0b43dece8cfb07348de0ca8bc5b86276fa88f7f2138381128b7c36ab2e42264012321029bb13463ddd5d2cc05da6e84e37536cb9525703cfd8f43afdb414988987a92f6acffffffff020040075af075070001510001000000000000015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(111): [1;31;49merror: in "transaction_tests/tx_invalid": [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0xb558cbf4930954aa6a344363a15668d7477ae716 EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006d483045022027deccc14aa6668e78a8c9da3484fbcd4f9dcc9bb7d1b85146314b21b9ae4d86022100d0b43dece8cfb07348de0ca8bc5b86276fa88f7f2138381128b7c36ab2e42264012321029bb13463ddd5d2cc05da6e84e37536cb9525703cfd8f43afdb414988987a92f6acffffffff020040075af075070001510001000000000000015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(112): [1;31;49merror: in "transaction_tests/tx_invalid": No error[0;39;49m
+./test/transaction_tests.cpp(324): [1;31;49merror: in "transaction_tests/tx_invalid": Tx unexpectedly passed with flag NULLDUMMY set: [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0xb558cbf4930954aa6a344363a15668d7477ae716 EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006d483045022027deccc14aa6668e78a8c9da3484fbcd4f9dcc9bb7d1b85146314b21b9ae4d86022100d0b43dece8cfb07348de0ca8bc5b86276fa88f7f2138381128b7c36ab2e42264012321029bb13463ddd5d2cc05da6e84e37536cb9525703cfd8f43afdb414988987a92f6acffffffff020040075af075070001510001000000000000015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(111): [1;31;49merror: in "transaction_tests/tx_invalid": [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0xb558cbf4930954aa6a344363a15668d7477ae716 EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006d483045022027deccc14aa6668e78a8c9da3484fbcd4f9dcc9bb7d1b85146314b21b9ae4d86022100d0b43dece8cfb07348de0ca8bc5b86276fa88f7f2138381128b7c36ab2e42264012321029bb13463ddd5d2cc05da6e84e37536cb9525703cfd8f43afdb414988987a92f6acffffffff020040075af075070001510001000000000000015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(112): [1;31;49merror: in "transaction_tests/tx_invalid": No error[0;39;49m
+./test/transaction_tests.cpp(324): [1;31;49merror: in "transaction_tests/tx_invalid": Tx unexpectedly passed with flag NULLFAIL set: [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0xb558cbf4930954aa6a344363a15668d7477ae716 EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006d483045022027deccc14aa6668e78a8c9da3484fbcd4f9dcc9bb7d1b85146314b21b9ae4d86022100d0b43dece8cfb07348de0ca8bc5b86276fa88f7f2138381128b7c36ab2e42264012321029bb13463ddd5d2cc05da6e84e37536cb9525703cfd8f43afdb414988987a92f6acffffffff020040075af075070001510001000000000000015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(111): [1;31;49merror: in "transaction_tests/tx_invalid": [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0xb558cbf4930954aa6a344363a15668d7477ae716 EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006d483045022027deccc14aa6668e78a8c9da3484fbcd4f9dcc9bb7d1b85146314b21b9ae4d86022100d0b43dece8cfb07348de0ca8bc5b86276fa88f7f2138381128b7c36ab2e42264012321029bb13463ddd5d2cc05da6e84e37536cb9525703cfd8f43afdb414988987a92f6acffffffff020040075af075070001510001000000000000015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(112): [1;31;49merror: in "transaction_tests/tx_invalid": No error[0;39;49m
+./test/transaction_tests.cpp(329): [1;31;49merror: in "transaction_tests/tx_invalid": Tx unexpectedly passed with random flags NULLFAIL: [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0xb558cbf4930954aa6a344363a15668d7477ae716 EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006d483045022027deccc14aa6668e78a8c9da3484fbcd4f9dcc9bb7d1b85146314b21b9ae4d86022100d0b43dece8cfb07348de0ca8bc5b86276fa88f7f2138381128b7c36ab2e42264012321029bb13463ddd5d2cc05da6e84e37536cb9525703cfd8f43afdb414988987a92f6acffffffff020040075af075070001510001000000000000015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(111): [1;31;49merror: in "transaction_tests/tx_invalid": [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0xb558cbf4930954aa6a344363a15668d7477ae716 EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006d483045022027deccc14aa6668e78a8c9da3484fbcd4f9dcc9bb7d1b85146314b21b9ae4d86022100d0b43dece8cfb07348de0ca8bc5b86276fa88f7f2138381128b7c36ab2e42264012321029bb13463ddd5d2cc05da6e84e37536cb9525703cfd8f43afdb414988987a92f6acffffffff020040075af075070001510001000000000000015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(112): [1;31;49merror: in "transaction_tests/tx_invalid": No error[0;39;49m
+./test/transaction_tests.cpp(329): [1;31;49merror: in "transaction_tests/tx_invalid": Tx unexpectedly passed with random flags P2SH: [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0xb558cbf4930954aa6a344363a15668d7477ae716 EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006d483045022027deccc14aa6668e78a8c9da3484fbcd4f9dcc9bb7d1b85146314b21b9ae4d86022100d0b43dece8cfb07348de0ca8bc5b86276fa88f7f2138381128b7c36ab2e42264012321029bb13463ddd5d2cc05da6e84e37536cb9525703cfd8f43afdb414988987a92f6acffffffff020040075af075070001510001000000000000015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(111): [1;31;49merror: in "transaction_tests/tx_invalid": [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0xb558cbf4930954aa6a344363a15668d7477ae716 EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006d483045022027deccc14aa6668e78a8c9da3484fbcd4f9dcc9bb7d1b85146314b21b9ae4d86022100d0b43dece8cfb07348de0ca8bc5b86276fa88f7f2138381128b7c36ab2e42264012321029bb13463ddd5d2cc05da6e84e37536cb9525703cfd8f43afdb414988987a92f6acffffffff020040075af075070001510001000000000000015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(112): [1;31;49merror: in "transaction_tests/tx_invalid": No error[0;39;49m
+./test/transaction_tests.cpp(324): [1;31;49merror: in "transaction_tests/tx_invalid": Tx unexpectedly passed with flag SIGPUSHONLY set: [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0xb558cbf4930954aa6a344363a15668d7477ae716 EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006d483045022027deccc14aa6668e78a8c9da3484fbcd4f9dcc9bb7d1b85146314b21b9ae4d86022100d0b43dece8cfb07348de0ca8bc5b86276fa88f7f2138381128b7c36ab2e42264012321029bb13463ddd5d2cc05da6e84e37536cb9525703cfd8f43afdb414988987a92f6acffffffff020040075af075070001510001000000000000015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(111): [1;31;49merror: in "transaction_tests/tx_invalid": [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0xb558cbf4930954aa6a344363a15668d7477ae716 EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006d483045022027deccc14aa6668e78a8c9da3484fbcd4f9dcc9bb7d1b85146314b21b9ae4d86022100d0b43dece8cfb07348de0ca8bc5b86276fa88f7f2138381128b7c36ab2e42264012321029bb13463ddd5d2cc05da6e84e37536cb9525703cfd8f43afdb414988987a92f6acffffffff020040075af075070001510001000000000000015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(112): [1;31;49merror: in "transaction_tests/tx_invalid": No error[0;39;49m
+./test/transaction_tests.cpp(329): [1;31;49merror: in "transaction_tests/tx_invalid": Tx unexpectedly passed with random flags SIGPUSHONLY: [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0xb558cbf4930954aa6a344363a15668d7477ae716 EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006d483045022027deccc14aa6668e78a8c9da3484fbcd4f9dcc9bb7d1b85146314b21b9ae4d86022100d0b43dece8cfb07348de0ca8bc5b86276fa88f7f2138381128b7c36ab2e42264012321029bb13463ddd5d2cc05da6e84e37536cb9525703cfd8f43afdb414988987a92f6acffffffff020040075af075070001510001000000000000015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(111): [1;31;49merror: in "transaction_tests/tx_invalid": [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0xb558cbf4930954aa6a344363a15668d7477ae716 EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006d483045022027deccc14aa6668e78a8c9da3484fbcd4f9dcc9bb7d1b85146314b21b9ae4d86022100d0b43dece8cfb07348de0ca8bc5b86276fa88f7f2138381128b7c36ab2e42264012321029bb13463ddd5d2cc05da6e84e37536cb9525703cfd8f43afdb414988987a92f6acffffffff020040075af075070001510001000000000000015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(112): [1;31;49merror: in "transaction_tests/tx_invalid": No error[0;39;49m
+./test/transaction_tests.cpp(324): [1;31;49merror: in "transaction_tests/tx_invalid": Tx unexpectedly passed with flag STRICTENC set: [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0xb558cbf4930954aa6a344363a15668d7477ae716 EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006d483045022027deccc14aa6668e78a8c9da3484fbcd4f9dcc9bb7d1b85146314b21b9ae4d86022100d0b43dece8cfb07348de0ca8bc5b86276fa88f7f2138381128b7c36ab2e42264012321029bb13463ddd5d2cc05da6e84e37536cb9525703cfd8f43afdb414988987a92f6acffffffff020040075af075070001510001000000000000015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(111): [1;31;49merror: in "transaction_tests/tx_invalid": [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0xb558cbf4930954aa6a344363a15668d7477ae716 EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006d483045022027deccc14aa6668e78a8c9da3484fbcd4f9dcc9bb7d1b85146314b21b9ae4d86022100d0b43dece8cfb07348de0ca8bc5b86276fa88f7f2138381128b7c36ab2e42264012321029bb13463ddd5d2cc05da6e84e37536cb9525703cfd8f43afdb414988987a92f6acffffffff020040075af075070001510001000000000000015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(112): [1;31;49merror: in "transaction_tests/tx_invalid": No error[0;39;49m
+./test/transaction_tests.cpp(324): [1;31;49merror: in "transaction_tests/tx_invalid": Tx unexpectedly passed with flag TAPROOT set: [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0xb558cbf4930954aa6a344363a15668d7477ae716 EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006d483045022027deccc14aa6668e78a8c9da3484fbcd4f9dcc9bb7d1b85146314b21b9ae4d86022100d0b43dece8cfb07348de0ca8bc5b86276fa88f7f2138381128b7c36ab2e42264012321029bb13463ddd5d2cc05da6e84e37536cb9525703cfd8f43afdb414988987a92f6acffffffff020040075af075070001510001000000000000015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(111): [1;31;49merror: in "transaction_tests/tx_invalid": [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0xb558cbf4930954aa6a344363a15668d7477ae716 EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006d483045022027deccc14aa6668e78a8c9da3484fbcd4f9dcc9bb7d1b85146314b21b9ae4d86022100d0b43dece8cfb07348de0ca8bc5b86276fa88f7f2138381128b7c36ab2e42264012321029bb13463ddd5d2cc05da6e84e37536cb9525703cfd8f43afdb414988987a92f6acffffffff020040075af075070001510001000000000000015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(112): [1;31;49merror: in "transaction_tests/tx_invalid": No error[0;39;49m
+./test/transaction_tests.cpp(329): [1;31;49merror: in "transaction_tests/tx_invalid": Tx unexpectedly passed with random flags TAPROOT: [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0xb558cbf4930954aa6a344363a15668d7477ae716 EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006d483045022027deccc14aa6668e78a8c9da3484fbcd4f9dcc9bb7d1b85146314b21b9ae4d86022100d0b43dece8cfb07348de0ca8bc5b86276fa88f7f2138381128b7c36ab2e42264012321029bb13463ddd5d2cc05da6e84e37536cb9525703cfd8f43afdb414988987a92f6acffffffff020040075af075070001510001000000000000015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(111): [1;31;49merror: in "transaction_tests/tx_invalid": [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0xb558cbf4930954aa6a344363a15668d7477ae716 EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006d483045022027deccc14aa6668e78a8c9da3484fbcd4f9dcc9bb7d1b85146314b21b9ae4d86022100d0b43dece8cfb07348de0ca8bc5b86276fa88f7f2138381128b7c36ab2e42264012321029bb13463ddd5d2cc05da6e84e37536cb9525703cfd8f43afdb414988987a92f6acffffffff020040075af075070001510001000000000000015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(112): [1;31;49merror: in "transaction_tests/tx_invalid": No error[0;39;49m
+./test/transaction_tests.cpp(329): [1;31;49merror: in "transaction_tests/tx_invalid": Tx unexpectedly passed with random flags WITNESS: [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0xb558cbf4930954aa6a344363a15668d7477ae716 EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006d483045022027deccc14aa6668e78a8c9da3484fbcd4f9dcc9bb7d1b85146314b21b9ae4d86022100d0b43dece8cfb07348de0ca8bc5b86276fa88f7f2138381128b7c36ab2e42264012321029bb13463ddd5d2cc05da6e84e37536cb9525703cfd8f43afdb414988987a92f6acffffffff020040075af075070001510001000000000000015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(111): [1;31;49merror: in "transaction_tests/tx_invalid": [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0xb558cbf4930954aa6a344363a15668d7477ae716 EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006d483045022027deccc14aa6668e78a8c9da3484fbcd4f9dcc9bb7d1b85146314b21b9ae4d86022100d0b43dece8cfb07348de0ca8bc5b86276fa88f7f2138381128b7c36ab2e42264012321029bb13463ddd5d2cc05da6e84e37536cb9525703cfd8f43afdb414988987a92f6acffffffff020040075af075070001510001000000000000015100000000","BADTX"][0;39;49m
+./test/transaction_tests.cpp(112): [1;31;49merror: in "transaction_tests/tx_invalid": No error[0;39;49m
+./test/transaction_tests.cpp(324): [1;31;49merror: in "transaction_tests/tx_invalid": Tx unexpectedly passed with flag WITNESS_PUBKEYTYPE set: [[["0000000000000000000000000000000000000000000000000000000000000100",0,"HASH160 0x14 0xb558cbf4930954aa6a344363a15668d7477ae716 EQUAL"]],"01000000010001000000000000000000000000000000000000000000000000000000000000000000006d483045022027deccc14aa6668e78a8c9da3484fbcd4f9dcc9bb7d1b85146314b21b9ae4d86022100d0b43dece8cfb07348de0ca8bc5b86276fa88f7f2138381128b7c36ab2e42264012321029bb13463ddd5d2cc05da6e84e37536cb9525703cfd8f43afdb414988987a92f6acffffffff020040075af075070001510001000000000000015100000000","BADTX"][0;39;49m
+[1;34;49m./test/transaction_tests.cpp(252): Leaving test case "tx_invalid"; testing time: 77994us
+[0;39;49m[1;34;49m./test/transaction_tests.cpp(343): Entering test case "tx_no_inputs"
+[0;39;49m[1;34;49m./test/transaction_tests.cpp(343): Leaving test case "tx_no_inputs"; testing time: 1632us
+[0;39;49m[1;34;49m./test/transaction_tests.cpp(352): Entering test case "tx_oversized"
+[0;39;49m[1;34;49m./test/transaction_tests.cpp(352): Leaving test case "tx_oversized"; testing time: 24076us
+[0;39;49m[1;34;49m./test/transaction_tests.cpp(378): Entering test case "basic_transaction_tests"
+[0;39;49m[1;34;49m./test/transaction_tests.cpp(378): Leaving test case "basic_transaction_tests"; testing time: 1423us
+[0;39;49m[1;34;49m./test/transaction_tests.cpp(394): Entering test case "test_Get"
+[0;39;49m[1;34;49m./test/transaction_tests.cpp(394): Leaving test case "test_Get"; testing time: 1394us
+[0;39;49m[1;34;49m./test/transaction_tests.cpp(492): Entering test case "test_big_witness_transaction"
+[0;39;49m[1;34;49m./test/transaction_tests.cpp(492): Leaving test case "test_big_witness_transaction"; testing time: 3463899us
+[0;39;49m[1;34;49m./test/transaction_tests.cpp(572): Entering test case "test_witness"
+[0;39;49m[1;34;49m./test/transaction_tests.cpp(572): Leaving test case "test_witness"; testing time: 12129us
+[0;39;49m[1;34;49m./test/transaction_tests.cpp(750): Entering test case "test_IsStandard"
+[0;39;49m[1;34;49m./test/transaction_tests.cpp(750): Leaving test case "test_IsStandard"; testing time: 2987us
+[0;39;49m[1;34;49m./test/transaction_tests.cpp(1023): Entering test case "max_standard_legacy_sigops"
+[0;39;49m[1;34;49m./test/transaction_tests.cpp(1023): Leaving test case "max_standard_legacy_sigops"; testing time: 2877us
+[0;39;49m[1;34;49m./test/transaction_tests.cpp(1132): Entering test case "getlegacysigopcount_inaccurate_test"
+[0;39;49m[1;34;49m./test/transaction_tests.cpp(1132): Leaving test case "getlegacysigopcount_inaccurate_test"; testing time: 1013us
+[0;39;49m[1;34;49m./test/transaction_tests.cpp(1148): Entering test case "checktxinputs_invalid_transactions_test"
+[0;39;49m[1;34;49m./test/transaction_tests.cpp(1148): Leaving test case "checktxinputs_invalid_transactions_test"; testing time: 5329us
+[0;39;49m[1;34;49m./test/transaction_tests.cpp(1187): Entering test case "isfinaltx_sequences_test"
+[0;39;49m[1;34;49m./test/transaction_tests.cpp(1187): Leaving test case "isfinaltx_sequences_test"; testing time: 1040us
+[0;39;49m[1;34;49m./test/transaction_tests.cpp(1210): Entering test case "calculatesequencelocks_tx_version_test"
+[0;39;49m[1;34;49m./test/transaction_tests.cpp(1210): Leaving test case "calculatesequencelocks_tx_version_test"; testing time: 955us
+[0;39;49m[1;34;49m./test/transaction_tests.cpp(1234): Entering test case "getvalueout_out_of_range_throws"
+[0;39;49m[1;34;49m./test/transaction_tests.cpp(1234): Leaving test case "getvalueout_out_of_range_throws"; testing time: 1088us
+[0;39;49m[1;34;49m./test/transaction_tests.cpp(1244): Entering test case "spends_witness_prog"
+[0;39;49m[1;34;49m./test/transaction_tests.cpp(1244): Leaving test case "spends_witness_prog"; testing time: 1155us
+[0;39;49m[1;34;49m./test/transaction_tests.cpp(161): Leaving test suite "transaction_tests"; testing time: 3910616us
+[0;39;49m[1;34;49m./test/translation_tests.cpp(10): Entering test suite "translation_tests"
+[0;39;49m[1;34;49m./test/translation_tests.cpp(21): Entering test case "translation_namedparams"
+[0;39;49m[1;34;49m./test/translation_tests.cpp(21): Leaving test case "translation_namedparams"; testing time: 202us
+[0;39;49m[1;34;49m./test/translation_tests.cpp(10): Leaving test suite "translation_tests"; testing time: 253us
+[0;39;49m[1;34;49m./test/txdownload_tests.cpp(20): Entering test suite "txdownload_tests"
+[0;39;49m[1;34;49m./test/txdownload_tests.cpp(114): Entering test case "tx_rejection_types"
+[0;39;49m[1;36;49mTesting behavior for 1 segwit [0;39;49m
+[1;36;49mTesting behavior for 2 segwit [0;39;49m
+[1;36;49mTesting behavior for 3 segwit [0;39;49m
+[1;36;49mTesting behavior for 4 segwit [0;39;49m
+[1;36;49mTesting behavior for 5 segwit [0;39;49m
+[1;36;49mTesting behavior for 6 segwit [0;39;49m
+[1;36;49mTesting behavior for 7 segwit [0;39;49m
+[1;36;49mTesting behavior for 8 segwit [0;39;49m
+[1;36;49mTesting behavior for 9 segwit [0;39;49m
+[1;36;49mTesting behavior for 10 segwit [0;39;49m
+[1;36;49mTesting behavior for 11 segwit [0;39;49m
+[1;36;49mTesting behavior for 12 segwit [0;39;49m
+[1;36;49mTesting behavior for 1 segwit [0;39;49m
+[1;36;49mTesting behavior for 2 segwit [0;39;49m
+[1;36;49mTesting behavior for 3 segwit [0;39;49m
+[1;36;49mTesting behavior for 4 segwit [0;39;49m
+[1;36;49mTesting behavior for 5 segwit [0;39;49m
+[1;36;49mTesting behavior for 6 segwit [0;39;49m
+[1;36;49mTesting behavior for 7 segwit [0;39;49m
+[1;36;49mTesting behavior for 8 segwit [0;39;49m
+[1;36;49mTesting behavior for 9 segwit [0;39;49m
+[1;36;49mTesting behavior for 10 segwit [0;39;49m
+[1;36;49mTesting behavior for 11 segwit [0;39;49m
+[1;36;49mTesting behavior for 12 segwit [0;39;49m
+[1;36;49mTesting behavior for 1 nonsegwit[0;39;49m
+[1;36;49mTesting behavior for 2 nonsegwit[0;39;49m
+[1;36;49mTesting behavior for 3 nonsegwit[0;39;49m
+[1;36;49mTesting behavior for 4 nonsegwit[0;39;49m
+[1;36;49mTesting behavior for 5 nonsegwit[0;39;49m
+[1;36;49mTesting behavior for 6 nonsegwit[0;39;49m
+[1;36;49mTesting behavior for 7 nonsegwit[0;39;49m
+[1;36;49mTesting behavior for 8 nonsegwit[0;39;49m
+[1;36;49mTesting behavior for 9 nonsegwit[0;39;49m
+[1;36;49mTesting behavior for 10 nonsegwit[0;39;49m
+[1;36;49mTesting behavior for 11 nonsegwit[0;39;49m
+[1;36;49mTesting behavior for 12 nonsegwit[0;39;49m
+[1;36;49mTesting behavior for 1 nonsegwit[0;39;49m
+[1;36;49mTesting behavior for 2 nonsegwit[0;39;49m
+[1;36;49mTesting behavior for 3 nonsegwit[0;39;49m
+[1;36;49mTesting behavior for 4 nonsegwit[0;39;49m
+[1;36;49mTesting behavior for 5 nonsegwit[0;39;49m
+[1;36;49mTesting behavior for 6 nonsegwit[0;39;49m
+[1;36;49mTesting behavior for 7 nonsegwit[0;39;49m
+[1;36;49mTesting behavior for 8 nonsegwit[0;39;49m
+[1;36;49mTesting behavior for 9 nonsegwit[0;39;49m
+[1;36;49mTesting behavior for 10 nonsegwit[0;39;49m
+[1;36;49mTesting behavior for 11 nonsegwit[0;39;49m
+[1;36;49mTesting behavior for 12 nonsegwit[0;39;49m
+[1;34;49m./test/txdownload_tests.cpp(114): Leaving test case "tx_rejection_types"; testing time: 124447us
+[0;39;49m[1;34;49m./test/txdownload_tests.cpp(171): Entering test case "handle_missing_inputs"
+[0;39;49m[1;34;49m./test/txdownload_tests.cpp(171): Leaving test case "handle_missing_inputs"; testing time: 154950us
+[0;39;49m[1;34;49m./test/txdownload_tests.cpp(20): Leaving test suite "txdownload_tests"; testing time: 279518us
+[0;39;49m[1;34;49m./test/txgraph_tests.cpp(14): Entering test suite "txgraph_tests"
+[0;39;49m[1;34;49m./test/txgraph_tests.cpp(29): Entering test case "txgraph_trim_zigzag"
+[0;39;49m[1;34;49m./test/txgraph_tests.cpp(29): Leaving test case "txgraph_trim_zigzag"; testing time: 720us
+[0;39;49m[1;34;49m./test/txgraph_tests.cpp(92): Entering test case "txgraph_trim_flower"
+[0;39;49m[1;34;49m./test/txgraph_tests.cpp(92): Leaving test case "txgraph_trim_flower"; testing time: 575us
+[0;39;49m[1;34;49m./test/txgraph_tests.cpp(151): Entering test case "txgraph_trim_huge"
+[0;39;49m[1;34;49m./test/txgraph_tests.cpp(151): Leaving test case "txgraph_trim_huge"; testing time: 540070us
+[0;39;49m[1;34;49m./test/txgraph_tests.cpp(265): Entering test case "txgraph_trim_big_singletons"
+[0;39;49m[1;34;49m./test/txgraph_tests.cpp(265): Leaving test case "txgraph_trim_big_singletons"; testing time: 545us
+[0;39;49m[1;34;49m./test/txgraph_tests.cpp(304): Entering test case "txgraph_chunk_chain"
+[0;39;49m[1;34;49m./test/txgraph_tests.cpp(304): Leaving test case "txgraph_chunk_chain"; testing time: 260us
+[0;39;49m[1;34;49m./test/txgraph_tests.cpp(381): Entering test case "txgraph_staging"
+[0;39;49m[1;34;49m./test/txgraph_tests.cpp(381): Leaving test case "txgraph_staging"; testing time: 184us
+[0;39;49m[1;34;49m./test/txgraph_tests.cpp(14): Leaving test suite "txgraph_tests"; testing time: 542629us
+[0;39;49m[1;34;49m./test/txindex_tests.cpp(39): Entering test suite "txindex_tests"
+[0;39;49m[1;34;49m./test/txindex_tests.cpp(102): Entering test case "txindex_position_encoding"
+[0;39;49m[1;34;49m./test/txindex_tests.cpp(102): Leaving test case "txindex_position_encoding"; testing time: 171us
+[0;39;49m[1;34;49m./test/txindex_tests.cpp(127): Entering test case "txindex_hash_prefix"
+[0;39;49m[1;34;49m./test/txindex_tests.cpp(127): Leaving test case "txindex_hash_prefix"; testing time: 157us
+[0;39;49m[1;34;49m./test/txindex_tests.cpp(136): Entering test case "txindex_initial_sync"
+[0;39;49m[1;34;49m./test/txindex_tests.cpp(136): Leaving test case "txindex_initial_sync"; testing time: 92613us
+[0;39;49m[1;34;49m./test/txindex_tests.cpp(177): Entering test case "txindex_collision_scan_path"
+[0;39;49m[1;34;49m./test/txindex_tests.cpp(177): Leaving test case "txindex_collision_scan_path"; testing time: 113677us
+[0;39;49m[1;34;49m./test/txindex_tests.cpp(229): Entering test case "txindex_legacy_fallback"
+[0;39;49m[1;34;49m./test/txindex_tests.cpp(229): Leaving test case "txindex_legacy_fallback"; testing time: 121843us
+[0;39;49m[1;34;49m./test/txindex_tests.cpp(259): Entering test case "txindex_locator_upgrade"
+[0;39;49m[1;34;49m./test/txindex_tests.cpp(259): Leaving test case "txindex_locator_upgrade"; testing time: 109573us
+[0;39;49m[1;34;49m./test/txindex_tests.cpp(281): Entering test case "txindex_reorg_keeps_stale_entries"
+[0;39;49m[1;34;49m./test/txindex_tests.cpp(281): Leaving test case "txindex_reorg_keeps_stale_entries"; testing time: 131604us
+[0;39;49m[1;34;49m./test/txindex_tests.cpp(39): Leaving test suite "txindex_tests"; testing time: 570055us
+[0;39;49m[1;34;49m./test/txospenderindex_tests.cpp(12): Entering test suite "txospenderindex_tests"
+[0;39;49m[1;34;49m./test/txospenderindex_tests.cpp(14): Entering test case "txospenderindex_initial_sync"
+[0;39;49m[1;34;49m./test/txospenderindex_tests.cpp(14): Leaving test case "txospenderindex_initial_sync"; testing time: 145257us
+[0;39;49m[1;34;49m./test/txospenderindex_tests.cpp(12): Leaving test suite "txospenderindex_tests"; testing time: 145356us
+[0;39;49m[1;34;49m./test/txpackage_tests.cpp(51): Entering test suite "txpackage_tests"
+[0;39;49m[1;34;49m./test/txpackage_tests.cpp(53): Entering test case "package_hash_tests"
+[0;39;49m[1;34;49m./test/txpackage_tests.cpp(53): Leaving test case "package_hash_tests"; testing time: 137042us
+[0;39;49m[1;34;49m./test/txpackage_tests.cpp(134): Entering test case "package_sanitization_tests"
+[0;39;49m[1;34;49m./test/txpackage_tests.cpp(134): Leaving test case "package_sanitization_tests"; testing time: 113898us
+[0;39;49m[1;34;49m./test/txpackage_tests.cpp(204): Entering test case "package_validation_tests"
+[0;39;49m[1;34;49m./test/txpackage_tests.cpp(204): Leaving test case "package_validation_tests"; testing time: 117256us
+[0;39;49m[1;34;49m./test/txpackage_tests.cpp(259): Entering test case "noncontextual_package_tests"
+[0;39;49m[1;34;49m./test/txpackage_tests.cpp(259): Leaving test case "noncontextual_package_tests"; testing time: 124312us
+[0;39;49m[1;34;49m./test/txpackage_tests.cpp(357): Entering test case "package_submission_tests"
+[0;39;49m[1;34;49m./test/txpackage_tests.cpp(357): Leaving test case "package_submission_tests"; testing time: 120417us
+[0;39;49m[1;34;49m./test/txpackage_tests.cpp(542): Entering test case "package_single_tx"
+[0;39;49m[1;34;49m./test/txpackage_tests.cpp(542): Leaving test case "package_single_tx"; testing time: 115585us
+[0;39;49m[1;34;49m./test/txpackage_tests.cpp(634): Entering test case "package_witness_swap_tests"
+[0;39;49m[1;34;49m./test/txpackage_tests.cpp(634): Leaving test case "package_witness_swap_tests"; testing time: 114187us
+[0;39;49m[1;34;49m./test/txpackage_tests.cpp(868): Entering test case "package_cpfp_tests"
+[0;39;49m[1;34;49m./test/txpackage_tests.cpp(868): Leaving test case "package_cpfp_tests"; testing time: 123860us
+[0;39;49m[1;34;49m./test/txpackage_tests.cpp(1079): Entering test case "package_rbf_tests"
+[0;39;49m[1;34;49m./test/txpackage_tests.cpp(1079): Leaving test case "package_rbf_tests"; testing time: 116471us
+[0;39;49m[1;34;49m./test/txpackage_tests.cpp(51): Leaving test suite "txpackage_tests"; testing time: 1083706us
+[0;39;49m[1;34;49m./test/txreconciliation_tests.cpp(12): Entering test suite "txreconciliation_tests"
+[0;39;49m[1;34;49m./test/txreconciliation_tests.cpp(14): Entering test case "RegisterPeerTest"
+[0;39;49m[1;34;49m./test/txreconciliation_tests.cpp(14): Leaving test case "RegisterPeerTest"; testing time: 1346us
+[0;39;49m[1;34;49m./test/txreconciliation_tests.cpp(50): Entering test case "ForgetPeerTest"
+[0;39;49m[1;34;49m./test/txreconciliation_tests.cpp(50): Leaving test case "ForgetPeerTest"; testing time: 1103us
+[0;39;49m[1;34;49m./test/txreconciliation_tests.cpp(69): Entering test case "IsPeerRegisteredTest"
+[0;39;49m[1;34;49m./test/txreconciliation_tests.cpp(69): Leaving test case "IsPeerRegisteredTest"; testing time: 1062us
+[0;39;49m[1;34;49m./test/txreconciliation_tests.cpp(12): Leaving test suite "txreconciliation_tests"; testing time: 3633us
+[0;39;49m[1;34;49m./test/txrequest_tests.cpp(750): Entering test suite "txrequest_tests"
+[0;39;49m[1;34;49m./test/txrequest_tests.cpp(752): Entering test case "TxRequestTest"
+[0;39;49m[1;34;49m./test/txrequest_tests.cpp(752): Leaving test case "TxRequestTest"; testing time: 1425304us
+[0;39;49m[1;34;49m./test/txrequest_tests.cpp(750): Leaving test suite "txrequest_tests"; testing time: 1425373us
+[0;39;49m[1;34;49m./test/txvalidation_tests.cpp(22): Entering test suite "txvalidation_tests"
+[0;39;49m[1;34;49m./test/txvalidation_tests.cpp(27): Entering test case "tx_mempool_reject_coinbase"
+[0;39;49m[1;34;49m./test/txvalidation_tests.cpp(27): Leaving test case "tx_mempool_reject_coinbase"; testing time: 107233us
+[0;39;49m[1;34;49m./test/txvalidation_tests.cpp(114): Entering test case "ephemeral_tests"
+[0;39;49m[1;34;49m./test/txvalidation_tests.cpp(114): Leaving test case "ephemeral_tests"; testing time: 62275us
+[0;39;49m[1;34;49m./test/txvalidation_tests.cpp(275): Entering test case "version3_tests"
+[0;39;49m[1;34;49m./test/txvalidation_tests.cpp(275): Leaving test case "version3_tests"; testing time: 62903us
+[0;39;49m[1;34;49m./test/txvalidation_tests.cpp(22): Leaving test suite "txvalidation_tests"; testing time: 232613us
+[0;39;49m[1;34;49m./test/txvalidationcache_tests.cpp(29): Entering test suite "txvalidationcache_tests"
+[0;39;49m[1;34;49m./test/txvalidationcache_tests.cpp(31): Entering test case "tx_mempool_block_doublespend"
+[0;39;49m[1;34;49m./test/txvalidationcache_tests.cpp(31): Leaving test case "tx_mempool_block_doublespend"; testing time: 120395us
+[0;39;49m[1;34;49m./test/txvalidationcache_tests.cpp(165): Entering test case "checkinputs_test"
+[0;39;49m[1;34;49m./test/txvalidationcache_tests.cpp(165): Leaving test case "checkinputs_test"; testing time: 1349686us
+[0;39;49m[1;34;49m./test/txvalidationcache_tests.cpp(29): Leaving test suite "txvalidationcache_tests"; testing time: 1470239us
+[0;39;49m[1;34;49m./test/uint256_tests.cpp(19): Entering test suite "uint256_tests"
+[0;39;49m[1;34;49m./test/uint256_tests.cpp(63): Entering test case "basics"
+[0;39;49m[1;34;49m./test/uint256_tests.cpp(63): Leaving test case "basics"; testing time: 312us
+[0;39;49m[1;34;49m./test/uint256_tests.cpp(108): Entering test case "comparison"
+[0;39;49m[1;34;49m./test/uint256_tests.cpp(108): Leaving test case "comparison"; testing time: 311us
+[0;39;49m[1;34;49m./test/uint256_tests.cpp(150): Entering test case "methods"
+[0;39;49m[1;34;49m./test/uint256_tests.cpp(150): Leaving test case "methods"; testing time: 189us
+[0;39;49m[1;34;49m./test/uint256_tests.cpp(289): Entering test case "from_hex"
+[0;39;49m[1;34;49m./test/uint256_tests.cpp(289): Leaving test case "from_hex"; testing time: 321us
+[0;39;49m[1;34;49m./test/uint256_tests.cpp(297): Entering test case "from_user_hex"
+[0;39;49m[1;34;49m./test/uint256_tests.cpp(297): Leaving test case "from_user_hex"; testing time: 232us
+[0;39;49m[1;34;49m./test/uint256_tests.cpp(326): Entering test case "check_ONE"
+[0;39;49m[1;34;49m./test/uint256_tests.cpp(326): Leaving test case "check_ONE"; testing time: 162us
+[0;39;49m[1;34;49m./test/uint256_tests.cpp(332): Entering test case "FromHex_vs_uint256"
+[0;39;49m[1;34;49m./test/uint256_tests.cpp(332): Leaving test case "FromHex_vs_uint256"; testing time: 159us
+[0;39;49m[1;34;49m./test/uint256_tests.cpp(19): Leaving test suite "uint256_tests"; testing time: 1908us
+[0;39;49m[1;34;49m./test/util_check_tests.cpp(10): Entering test suite "util_check_tests"
+[0;39;49m[1;34;49m./test/util_check_tests.cpp(12): Entering test case "check_pass"
+[0;39;49m[1;36;49mTest case util_check_tests/check_pass did not check any assertions[0;39;49m
+[1;34;49m./test/util_check_tests.cpp(12): Leaving test case "check_pass"; testing time: 170us
+[0;39;49m[1;34;49m./test/util_check_tests.cpp(19): Entering test case "check_fail"
+[0;39;49m[1;34;49m./test/util_check_tests.cpp(19): Leaving test case "check_fail"; testing time: 260us
+[0;39;49m[1;34;49m./test/util_check_tests.cpp(10): Leaving test suite "util_check_tests"; testing time: 504us
+[0;39;49m[1;33;49m./test/util_expected_tests.cpp(17): Test suite "util_expected_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/util_string_tests.cpp(15): Test suite "util_string_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/util_tests.cpp(73): Test suite "util_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/util_threadnames_tests.cpp(18): Test suite "util_threadnames_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/util_trace_tests.cpp(18): Test suite "util_trace_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/validation_block_tests.cpp(49): Test suite "validation_block_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/validation_chainstate_tests.cpp(34): Test suite "validation_chainstate_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/validation_chainstatemanager_tests.cpp(37): Test suite "validation_chainstatemanager_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/validation_flush_tests.cpp(14): Test suite "validation_flush_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/validation_tests.cpp(22): Test suite "validation_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/validationinterface_tests.cpp(16): Test suite "validationinterface_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/versionbits_tests.cpp(187): Test suite "versionbits_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/db_tests.cpp(61): Test suite "db_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/coinselector_tests.cpp(25): Test suite "coinselector_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/coinselection_tests.cpp(13): Test suite "coinselection_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/feebumper_tests.cpp(18): Test suite "feebumper_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/group_outputs_tests.cpp(15): Test suite "group_outputs_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/init_tests.cpp(14): Test suite "init_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/ismine_tests.cpp(21): Test suite "ismine_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/psbt_wallet_tests.cpp(17): Test suite "psbt_wallet_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/scriptpubkeyman_tests.cpp(17): Test suite "scriptpubkeyman_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/spend_tests.cpp(17): Test suite "spend_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/wallet_crypto_tests.cpp(17): Test suite "wallet_crypto_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/wallet_rpc_tests.cpp(23): Test suite "wallet_rpc_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/wallet_tests.cpp(46): Test suite "wallet_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/wallet_transaction_tests.cpp(16): Test suite "wallet_transaction_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/walletdb_tests.cpp(15): Test suite "walletdb_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/walletload_tests.cpp(15): Test suite "walletload_tests" is skipped because disabled
+[0;39;49m[1;34;49mLeaving test module "Bitcoin Core Test Suite"; testing time: 9674243us
+[0;39;49m
+Test module "Bitcoin Core Test Suite" has failed with:
+  63 test cases out of 827 passed
+  1 test case out of 827 failed
+  763 test cases out of 827 skipped
+  415002 assertions out of 415148 passed
+  146 assertions out of 415148 failed
+
+  Test suite "timeoffsets_tests" has passed with:
+    2 test cases out of 2 passed
+    10 assertions out of 10 passed
+
+    Test case "timeoffsets_tests/timeoffsets" has passed with:
+      6 assertions out of 6 passed
+
+    Test case "timeoffsets_tests/timeoffsets_warning" has passed with:
+      4 assertions out of 4 passed
+
+  Test suite "torcontrol_tests" has passed with:
+    2 test cases out of 2 passed
+    108 assertions out of 108 passed
+
+    Test case "torcontrol_tests/util_SplitTorReplyLine" has passed with:
+      20 assertions out of 20 passed
+
+    Test case "torcontrol_tests/util_ParseTorReplyMapping" has passed with:
+      88 assertions out of 88 passed
+
+  Test suite "transaction_tests" has failed with:
+    15 test cases out of 16 passed
+    1 test case out of 16 failed
+    23805 assertions out of 23951 passed
+    146 assertions out of 23951 failed
+
+    Test case "transaction_tests/tx_valid" has passed with:
+      15704 assertions out of 15704 passed
+
+    Test case "transaction_tests/tx_invalid" has failed with:
+      7621 assertions out of 7767 passed
+      146 assertions out of 7767 failed
+
+    Test case "transaction_tests/tx_no_inputs" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "transaction_tests/tx_oversized" has passed with:
+      3 assertions out of 3 passed
+
+    Test case "transaction_tests/basic_transaction_tests" has passed with:
+      3 assertions out of 3 passed
+
+    Test case "transaction_tests/test_Get" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "transaction_tests/test_big_witness_transaction" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "transaction_tests/test_witness" has passed with:
+      21 assertions out of 21 passed
+
+    Test case "transaction_tests/test_IsStandard" has passed with:
+      307 assertions out of 307 passed
+
+    Test case "transaction_tests/max_standard_legacy_sigops" has passed with:
+      15 assertions out of 15 passed
+
+    Test case "transaction_tests/getlegacysigopcount_inaccurate_test" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "transaction_tests/checktxinputs_invalid_transactions_test" has passed with:
+      12 assertions out of 12 passed
+
+    Test case "transaction_tests/isfinaltx_sequences_test" has passed with:
+      3 assertions out of 3 passed
+
+    Test case "transaction_tests/calculatesequencelocks_tx_version_test" has passed with:
+      4 assertions out of 4 passed
+
+    Test case "transaction_tests/getvalueout_out_of_range_throws" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "transaction_tests/spends_witness_prog" has passed with:
+      105 assertions out of 105 passed
+
+  Test suite "translation_tests" has passed with:
+    1 test case out of 1 passed
+    4 assertions out of 4 passed
+
+    Test case "translation_tests/translation_namedparams" has passed with:
+      4 assertions out of 4 passed
+
+  Test suite "txdownload_tests" has passed with:
+    2 test cases out of 2 passed
+    453 assertions out of 453 passed
+
+    Test case "txdownload_tests/tx_rejection_types" has passed with:
+      408 assertions out of 408 passed
+
+    Test case "txdownload_tests/handle_missing_inputs" has passed with:
+      45 assertions out of 45 passed
+
+  Test suite "txgraph_tests" has passed with:
+    6 test cases out of 6 passed
+    373 assertions out of 373 passed
+
+    Test case "txgraph_tests/txgraph_trim_zigzag" has passed with:
+      104 assertions out of 104 passed
+
+    Test case "txgraph_tests/txgraph_trim_flower" has passed with:
+      105 assertions out of 105 passed
+
+    Test case "txgraph_tests/txgraph_trim_huge" has passed with:
+      7 assertions out of 7 passed
+
+    Test case "txgraph_tests/txgraph_trim_big_singletons" has passed with:
+      103 assertions out of 103 passed
+
+    Test case "txgraph_tests/txgraph_chunk_chain" has passed with:
+      39 assertions out of 39 passed
+
+    Test case "txgraph_tests/txgraph_staging" has passed with:
+      15 assertions out of 15 passed
+
+  Test suite "txindex_tests" has passed with:
+    7 test cases out of 7 passed
+    399 assertions out of 399 passed
+
+    Test case "txindex_tests/txindex_position_encoding" has passed with:
+      15 assertions out of 15 passed
+
+    Test case "txindex_tests/txindex_hash_prefix" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "txindex_tests/txindex_initial_sync" has passed with:
+      333 assertions out of 333 passed
+
+    Test case "txindex_tests/txindex_collision_scan_path" has passed with:
+      11 assertions out of 11 passed
+
+    Test case "txindex_tests/txindex_legacy_fallback" has passed with:
+      6 assertions out of 6 passed
+
+    Test case "txindex_tests/txindex_locator_upgrade" has passed with:
+      4 assertions out of 4 passed
+
+    Test case "txindex_tests/txindex_reorg_keeps_stale_entries" has passed with:
+      29 assertions out of 29 passed
+
+  Test suite "txospenderindex_tests" has passed with:
+    1 test case out of 1 passed
+    65 assertions out of 65 passed
+
+    Test case "txospenderindex_tests/txospenderindex_initial_sync" has passed with:
+      65 assertions out of 65 passed
+
+  Test suite "txpackage_tests" has passed with:
+    9 test cases out of 9 passed
+    232 assertions out of 232 passed
+
+    Test case "txpackage_tests/package_hash_tests" has passed with:
+      23 assertions out of 23 passed
+
+    Test case "txpackage_tests/package_sanitization_tests" has passed with:
+      18 assertions out of 18 passed
+
+    Test case "txpackage_tests/package_validation_tests" has passed with:
+      11 assertions out of 11 passed
+
+    Test case "txpackage_tests/noncontextual_package_tests" has passed with:
+      26 assertions out of 26 passed
+
+    Test case "txpackage_tests/package_submission_tests" has passed with:
+      35 assertions out of 35 passed
+
+    Test case "txpackage_tests/package_single_tx" has passed with:
+      17 assertions out of 17 passed
+
+    Test case "txpackage_tests/package_witness_swap_tests" has passed with:
+      23 assertions out of 23 passed
+
+    Test case "txpackage_tests/package_cpfp_tests" has passed with:
+      51 assertions out of 51 passed
+
+    Test case "txpackage_tests/package_rbf_tests" has passed with:
+      28 assertions out of 28 passed
+
+  Test suite "txreconciliation_tests" has passed with:
+    3 test cases out of 3 passed
+    23 assertions out of 23 passed
+
+    Test case "txreconciliation_tests/RegisterPeerTest" has passed with:
+      13 assertions out of 13 passed
+
+    Test case "txreconciliation_tests/ForgetPeerTest" has passed with:
+      5 assertions out of 5 passed
+
+    Test case "txreconciliation_tests/IsPeerRegisteredTest" has passed with:
+      5 assertions out of 5 passed
+
+  Test suite "txrequest_tests" has passed with:
+    1 test case out of 1 passed
+    118478 assertions out of 118478 passed
+
+    Test case "txrequest_tests/TxRequestTest" has passed with:
+      118478 assertions out of 118478 passed
+
+  Test suite "txvalidation_tests" has passed with:
+    3 test cases out of 3 passed
+    118 assertions out of 118 passed
+
+    Test case "txvalidation_tests/tx_mempool_reject_coinbase" has passed with:
+      6 assertions out of 6 passed
+
+    Test case "txvalidation_tests/ephemeral_tests" has passed with:
+      66 assertions out of 66 passed
+
+    Test case "txvalidation_tests/version3_tests" has passed with:
+      46 assertions out of 46 passed
+
+  Test suite "txvalidationcache_tests" has passed with:
+    2 test cases out of 2 passed
+    270034 assertions out of 270034 passed
+
+    Test case "txvalidationcache_tests/tx_mempool_block_doublespend" has passed with:
+      14 assertions out of 14 passed
+
+    Test case "txvalidationcache_tests/checkinputs_test" has passed with:
+      270020 assertions out of 270020 passed
+
+  Test suite "uint256_tests" has passed with:
+    7 test cases out of 7 passed
+    897 assertions out of 897 passed
+
+    Test case "uint256_tests/basics" has passed with:
+      38 assertions out of 38 passed
+
+    Test case "uint256_tests/comparison" has passed with:
+      432 assertions out of 432 passed
+
+    Test case "uint256_tests/methods" has passed with:
+      62 assertions out of 62 passed
+
+    Test case "uint256_tests/from_hex" has passed with:
+      340 assertions out of 340 passed
+
+    Test case "uint256_tests/from_user_hex" has passed with:
+      23 assertions out of 23 passed
+
+    Test case "uint256_tests/check_ONE" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "uint256_tests/FromHex_vs_uint256" has passed with:
+      1 assertion out of 1 passed
+
+  Test suite "util_check_tests" has passed with:
+    2 test cases out of 2 passed
+    3 assertions out of 3 passed
+
+    Test case "util_check_tests/check_pass" has passed
+
+    Test case "util_check_tests/check_fail" has passed with:
+      3 assertions out of 3 passed
+

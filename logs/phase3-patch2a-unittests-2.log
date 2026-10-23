@@ -1,0 +1,575 @@
+TEST_START 2026-10-23T15:25:41+05:30
+Running 827 test cases...
+[1;34;49mEntering test module "Bitcoin Core Test Suite"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(53): Entering test suite "addrman_tests"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(55): Entering test case "addrman_simple"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(55): Leaving test case "addrman_simple"; testing time: 6352us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(100): Entering test case "addrman_terrible_many_failures"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(100): Leaving test case "addrman_terrible_many_failures"; testing time: 1173us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(134): Entering test case "addrman_penalty_self_announcement"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(134): Leaving test case "addrman_penalty_self_announcement"; testing time: 1056us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(173): Entering test case "addrman_ports"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(173): Leaving test case "addrman_ports"; testing time: 1670us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(201): Entering test case "addrman_select"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(201): Leaving test case "addrman_select"; testing time: 8707us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(260): Entering test case "addrman_select_by_network"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(260): Leaving test case "addrman_select_by_network"; testing time: 5970us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(328): Entering test case "addrman_select_special"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(328): Leaving test case "addrman_select_special"; testing time: 2350us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(351): Entering test case "addrman_new_collisions"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(351): Leaving test case "addrman_new_collisions"; testing time: 1503us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(380): Entering test case "addrman_new_multiplicity"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(380): Leaving test case "addrman_new_multiplicity"; testing time: 2992us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(412): Entering test case "addrman_tried_collisions"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(412): Leaving test case "addrman_tried_collisions"; testing time: 2701us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(443): Entering test case "addrman_getaddr"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(443): Leaving test case "addrman_getaddr"; testing time: 102975us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(502): Entering test case "getaddr_unfiltered"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(502): Leaving test case "getaddr_unfiltered"; testing time: 1264us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(538): Entering test case "caddrinfo_get_tried_bucket_legacy"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(538): Leaving test case "caddrinfo_get_tried_bucket_legacy"; testing time: 3186us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(589): Entering test case "caddrinfo_get_new_bucket_legacy"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(589): Leaving test case "caddrinfo_get_new_bucket_legacy"; testing time: 8093us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(663): Entering test case "caddrinfo_get_tried_bucket"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(663): Leaving test case "caddrinfo_get_tried_bucket"; testing time: 3569us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(716): Entering test case "caddrinfo_get_new_bucket"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(716): Leaving test case "caddrinfo_get_new_bucket"; testing time: 11516us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(793): Entering test case "addrman_serialization"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(793): Leaving test case "addrman_serialization"; testing time: 7455us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(857): Entering test case "remove_invalid"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(857): Leaving test case "remove_invalid"; testing time: 2005us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(898): Entering test case "addrman_selecttriedcollision"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(898): Leaving test case "addrman_selecttriedcollision"; testing time: 2230us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(931): Entering test case "addrman_noevict"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(931): Leaving test case "addrman_noevict"; testing time: 3423us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(983): Entering test case "addrman_evictionworks"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(983): Leaving test case "addrman_evictionworks"; testing time: 2752us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(1054): Entering test case "load_addrman"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(1054): Leaving test case "load_addrman"; testing time: 2354us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(1125): Entering test case "load_addrman_corrupted"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(1125): Leaving test case "load_addrman_corrupted"; testing time: 1236us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(1146): Entering test case "addrman_update_address"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(1146): Leaving test case "addrman_update_address"; testing time: 1053us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(1203): Entering test case "addrman_size"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(1203): Leaving test case "addrman_size"; testing time: 1022us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(53): Leaving test suite "addrman_tests"; testing time: 189767us
+[0;39;49m[1;34;49m./test/allocator_tests.cpp(18): Entering test suite "allocator_tests"
+[0;39;49m[1;34;49m./test/allocator_tests.cpp(20): Entering test case "arena_tests"
+[0;39;49m[1;34;49m./test/allocator_tests.cpp(20): Leaving test case "arena_tests"; testing time: 2664us
+[0;39;49m[1;34;49m./test/allocator_tests.cpp(163): Entering test case "lockedpool_tests_mock"
+[0;39;49m[1;34;49m./test/allocator_tests.cpp(163): Leaving test case "lockedpool_tests_mock"; testing time: 168us
+[0;39;49m[1;34;49m./test/allocator_tests.cpp(212): Entering test case "lockedpool_tests_live"
+[0;39;49m[1;34;49m./test/allocator_tests.cpp(212): Leaving test case "lockedpool_tests_live"; testing time: 144us
+[0;39;49m[1;34;49m./test/allocator_tests.cpp(18): Leaving test suite "allocator_tests"; testing time: 3102us
+[0;39;49m[1;34;49m./test/amount_tests.cpp(12): Entering test suite "amount_tests"
+[0;39;49m[1;34;49m./test/amount_tests.cpp(14): Entering test case "MoneyRangeTest"
+[0;39;49m[1;34;49m./test/amount_tests.cpp(14): Leaving test case "MoneyRangeTest"; testing time: 129us
+[0;39;49m[1;34;49m./test/amount_tests.cpp(23): Entering test case "GetFeeTest"
+[0;39;49m[1;34;49m./test/amount_tests.cpp(23): Leaving test case "GetFeeTest"; testing time: 145us
+[0;39;49m[1;34;49m./test/amount_tests.cpp(123): Entering test case "BinaryOperatorTest"
+[0;39;49m[1;34;49m./test/amount_tests.cpp(123): Leaving test case "BinaryOperatorTest"; testing time: 144us
+[0;39;49m[1;34;49m./test/amount_tests.cpp(140): Entering test case "ToStringTest"
+[0;39;49m[1;34;49m./test/amount_tests.cpp(140): Leaving test case "ToStringTest"; testing time: 175us
+[0;39;49m[1;34;49m./test/amount_tests.cpp(12): Leaving test suite "amount_tests"; testing time: 724us
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(25): Entering test suite "argsman_tests"
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(27): Entering test case "util_datadir"
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(27): Leaving test case "util_datadir"; testing time: 1038us
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(155): Entering test case "util_CheckValue"
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(155): Leaving test case "util_CheckValue"; testing time: 209688us
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(186): Entering test case "util_NoIncludeConf"
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(186): Leaving test case "util_NoIncludeConf"; testing time: 198us
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(193): Entering test case "util_ParseParameters"
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(193): Leaving test case "util_ParseParameters"; testing time: 1134us
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(244): Entering test case "util_ParseInvalidParameters"
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(244): Leaving test case "util_ParseInvalidParameters"; testing time: 961us
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(280): Entering test case "util_ArgParsing"
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(280): Leaving test case "util_ArgParsing"; testing time: 1057us
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(319): Entering test case "util_GetBoolArg"
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(319): Leaving test case "util_GetBoolArg"; testing time: 913us
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(361): Entering test case "util_GetBoolArgEdgeCases"
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(361): Leaving test case "util_GetBoolArgEdgeCases"; testing time: 940us
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(414): Entering test case "util_ReadConfigStream"
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(414): Leaving test case "util_ReadConfigStream"; testing time: 1061us
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(607): Entering test case "util_GetArg"
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(607): Leaving test case "util_GetArg"; testing time: 918us
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(647): Entering test case "util_AddCommand"
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(647): Leaving test case "util_AddCommand"; testing time: 978us
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(702): Entering test case "util_AddCommand_clearargs_replaces_command_options"
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(702): Leaving test case "util_AddCommand_clearargs_replaces_command_options"; testing time: 932us
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(723): Entering test case "util_GetChainTypeString"
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(723): Leaving test case "util_GetChainTypeString"; testing time: 1069us
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(886): Entering test case "util_ArgsMerge"
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(886): Leaving test case "util_ArgsMerge"; testing time: 451870us
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(1021): Entering test case "util_ChainMerge"
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(1021): Leaving test case "util_ChainMerge"; testing time: 8954us
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(1104): Entering test case "util_ReadWriteSettings"
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(1104): Leaving test case "util_ReadWriteSettings"; testing time: 1288us
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(25): Leaving test suite "argsman_tests"; testing time: 683787us
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(19): Entering test suite "arith_uint256_tests"
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(66): Entering test case "basics"
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(66): Leaving test case "basics"; testing time: 463us
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(154): Entering test case "shifts"
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(154): Leaving test case "shifts"; testing time: 1177us
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(197): Entering test case "unaryOperators"
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(197): Leaving test case "unaryOperators"; testing time: 218us
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(221): Entering test case "bitwiseOperators"
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(221): Leaving test case "bitwiseOperators"; testing time: 139us
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(265): Entering test case "comparison"
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(265): Leaving test case "comparison"; testing time: 1153us
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(288): Entering test case "plusMinus"
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(288): Leaving test case "plusMinus"; testing time: 1017us
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(332): Entering test case "multiply"
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(332): Leaving test case "multiply"; testing time: 135us
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(353): Entering test case "divide"
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(353): Leaving test case "divide"; testing time: 262us
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(377): Entering test case "methods"
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(377): Leaving test case "methods"; testing time: 307us
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(415): Entering test case "bignum_SetCompact"
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(415): Leaving test case "bignum_SetCompact"; testing time: 158us
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(544): Entering test case "getmaxcoverage"
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(544): Leaving test case "getmaxcoverage"; testing time: 132us
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(570): Entering test case "conversion"
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(570): Leaving test case "conversion"; testing time: 138us
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(587): Entering test case "operator_with_self"
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(587): Leaving test case "operator_with_self"; testing time: 141us
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(19): Leaving test suite "arith_uint256_tests"; testing time: 5895us
+[0;39;49m[1;34;49m./test/banman_tests.cpp(16): Entering test suite "banman_tests"
+[0;39;49m[1;34;49m./test/banman_tests.cpp(18): Entering test case "file"
+[0;39;49m[1;34;49m./test/banman_tests.cpp(18): Leaving test case "file"; testing time: 1222us
+[0;39;49m[1;34;49m./test/banman_tests.cpp(16): Leaving test suite "banman_tests"; testing time: 1262us
+[0;39;49m[1;34;49m./test/base32_tests.cpp(14): Entering test suite "base32_tests"
+[0;39;49m[1;34;49m./test/base32_tests.cpp(16): Entering test case "base32_testvectors"
+[0;39;49m[1;34;49m./test/base32_tests.cpp(16): Leaving test case "base32_testvectors"; testing time: 163us
+[0;39;49m[1;34;49m./test/base32_tests.cpp(40): Entering test case "base32_padding"
+[0;39;49m[1;34;49m./test/base32_tests.cpp(40): Leaving test case "base32_padding"; testing time: 131us
+[0;39;49m[1;34;49m./test/base32_tests.cpp(14): Leaving test suite "base32_tests"; testing time: 355us
+[0;39;49m[1;34;49m./test/base58_tests.cpp(22): Entering test suite "base58_tests"
+[0;39;49m[1;34;49m./test/base58_tests.cpp(25): Entering test case "base58_EncodeBase58"
+[0;39;49m[1;34;49m./test/base58_tests.cpp(25): Leaving test case "base58_EncodeBase58"; testing time: 1258us
+[0;39;49m[1;34;49m./test/base58_tests.cpp(45): Entering test case "base58_DecodeBase58"
+[0;39;49m[1;34;49m./test/base58_tests.cpp(45): Leaving test case "base58_DecodeBase58"; testing time: 1228us
+[0;39;49m[1;34;49m./test/base58_tests.cpp(22): Leaving test suite "base58_tests"; testing time: 2567us
+[0;39;49m[1;34;49m./test/base64_tests.cpp(14): Entering test suite "base64_tests"
+[0;39;49m[1;34;49m./test/base64_tests.cpp(16): Entering test case "base64_testvectors"
+[0;39;49m[1;34;49m./test/base64_tests.cpp(16): Leaving test case "base64_testvectors"; testing time: 158us
+[0;39;49m[1;34;49m./test/base64_tests.cpp(47): Entering test case "base64_padding"
+[0;39;49m[1;34;49m./test/base64_tests.cpp(47): Leaving test case "base64_padding"; testing time: 129us
+[0;39;49m[1;34;49m./test/base64_tests.cpp(14): Leaving test suite "base64_tests"; testing time: 346us
+[0;39;49m[1;34;49m./test/baseindex_tests.cpp(62): Entering test suite "baseindex_tests"
+[0;39;49m[1;34;49m./test/baseindex_tests.cpp(68): Entering test case "baseindex_no_commit_ahead_of_flush"
+[0;39;49m[1;34;49m./test/baseindex_tests.cpp(68): Leaving test case "baseindex_no_commit_ahead_of_flush"; testing time: 208643us
+[0;39;49m[1;34;49m./test/baseindex_tests.cpp(116): Entering test case "index_unclean_shutdown"
+[0;39;49m[1;34;49m./test/baseindex_tests.cpp(116): Leaving test case "index_unclean_shutdown"; testing time: 224982us
+[0;39;49m[1;34;49m./test/baseindex_tests.cpp(197): Entering test case "index_reorg_crash"
+[0;39;49m[1;34;49m./test/baseindex_tests.cpp(197): Leaving test case "index_reorg_crash"; testing time: 365414us
+[0;39;49m[1;34;49m./test/baseindex_tests.cpp(62): Leaving test suite "baseindex_tests"; testing time: 799283us
+[0;39;49m[1;34;49m./test/bech32_tests.cpp(13): Entering test suite "bech32_tests"
+[0;39;49m[1;34;49m./test/bech32_tests.cpp(15): Entering test case "bech32_testvectors_valid"
+[0;39;49m[1;34;49m./test/bech32_tests.cpp(15): Leaving test case "bech32_testvectors_valid"; testing time: 373us
+[0;39;49m[1;34;49m./test/bech32_tests.cpp(35): Entering test case "bech32m_testvectors_valid"
+[0;39;49m[1;34;49m./test/bech32_tests.cpp(35): Leaving test case "bech32m_testvectors_valid"; testing time: 153us
+[0;39;49m[1;34;49m./test/bech32_tests.cpp(55): Entering test case "bech32_testvectors_invalid"
+[0;39;49m[1;34;49m./test/bech32_tests.cpp(55): Leaving test case "bech32_testvectors_invalid"; testing time: 167us
+[0;39;49m[1;34;49m./test/bech32_tests.cpp(109): Entering test case "bech32m_testvectors_invalid"
+[0;39;49m[1;34;49m./test/bech32_tests.cpp(109): Leaving test case "bech32m_testvectors_invalid"; testing time: 183us
+[0;39;49m[1;34;49m./test/bech32_tests.cpp(13): Leaving test suite "bech32_tests"; testing time: 1004us
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(161): Entering test suite "bip32_tests"
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(163): Entering test case "bip32_test1"
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(163): Leaving test case "bip32_test1"; testing time: 3350us
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(167): Entering test case "bip32_test2"
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(167): Leaving test case "bip32_test2"; testing time: 2720us
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(171): Entering test case "bip32_test3"
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(171): Leaving test case "bip32_test3"; testing time: 1501us
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(175): Entering test case "bip32_test4"
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(175): Leaving test case "bip32_test4"; testing time: 2156us
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(179): Entering test case "bip32_test5"
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(179): Leaving test case "bip32_test5"; testing time: 1496us
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(188): Entering test case "bip32_derive_ext_key"
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(188): Leaving test case "bip32_derive_ext_key"; testing time: 22193us
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(216): Entering test case "bip32_has_hardened_derivation"
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(216): Leaving test case "bip32_has_hardened_derivation"; testing time: 1360us
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(228): Entering test case "bip32_max_depth"
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(228): Leaving test case "bip32_max_depth"; testing time: 83492us
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(247): Entering test case "parse_hd_keypath"
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(247): Leaving test case "parse_hd_keypath"; testing time: 4405us
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(161): Leaving test suite "bip32_tests"; testing time: 123151us
+[0;39;49m[1;34;49m./test/bip324_tests.cpp(164): Entering test suite "bip324_tests"
+[0;39;49m[1;34;49m./test/bip324_tests.cpp(166): Entering test case "packet_test_vectors"
+[0;39;49m./test/bip324_tests.cpp(67): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, cipher.GetSessionID()) has failed[0;39;49m
+./test/bip324_tests.cpp(68): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, cipher.GetSendGarbageTerminator()) has failed[0;39;49m
+./test/bip324_tests.cpp(69): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, cipher.GetReceiveGarbageTerminator()) has failed[0;39;49m
+./test/bip324_tests.cpp(91): [1;31;49merror: in "bip324_tests/packet_test_vectors": check out_ciphertext == ciphertext has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(67): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, cipher.GetSessionID()) has failed[0;39;49m
+./test/bip324_tests.cpp(68): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, cipher.GetSendGarbageTerminator()) has failed[0;39;49m
+./test/bip324_tests.cpp(69): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, cipher.GetReceiveGarbageTerminator()) has failed[0;39;49m
+./test/bip324_tests.cpp(91): [1;31;49merror: in "bip324_tests/packet_test_vectors": check out_ciphertext == ciphertext has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(67): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, cipher.GetSessionID()) has failed[0;39;49m
+./test/bip324_tests.cpp(68): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, cipher.GetSendGarbageTerminator()) has failed[0;39;49m
+./test/bip324_tests.cpp(69): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, cipher.GetReceiveGarbageTerminator()) has failed[0;39;49m
+./test/bip324_tests.cpp(91): [1;31;49merror: in "bip324_tests/packet_test_vectors": check out_ciphertext == ciphertext has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(67): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, cipher.GetSessionID()) has failed[0;39;49m
+./test/bip324_tests.cpp(68): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, cipher.GetSendGarbageTerminator()) has failed[0;39;49m
+./test/bip324_tests.cpp(69): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, cipher.GetReceiveGarbageTerminator()) has failed[0;39;49m
+./test/bip324_tests.cpp(94): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_ciphertext_endswith, std::span{ciphertext}.last(out_ciphertext_endswith.size())) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(67): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, cipher.GetSessionID()) has failed[0;39;49m
+./test/bip324_tests.cpp(68): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, cipher.GetSendGarbageTerminator()) has failed[0;39;49m
+./test/bip324_tests.cpp(69): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, cipher.GetReceiveGarbageTerminator()) has failed[0;39;49m
+./test/bip324_tests.cpp(94): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_ciphertext_endswith, std::span{ciphertext}.last(out_ciphertext_endswith.size())) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(67): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, cipher.GetSessionID()) has failed[0;39;49m
+./test/bip324_tests.cpp(68): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, cipher.GetSendGarbageTerminator()) has failed[0;39;49m
+./test/bip324_tests.cpp(69): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, cipher.GetReceiveGarbageTerminator()) has failed[0;39;49m
+./test/bip324_tests.cpp(94): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_ciphertext_endswith, std::span{ciphertext}.last(out_ciphertext_endswith.size())) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(67): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, cipher.GetSessionID()) has failed[0;39;49m
+./test/bip324_tests.cpp(68): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, cipher.GetSendGarbageTerminator()) has failed[0;39;49m
+./test/bip324_tests.cpp(69): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, cipher.GetReceiveGarbageTerminator()) has failed[0;39;49m
+./test/bip324_tests.cpp(94): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_ciphertext_endswith, std::span{ciphertext}.last(out_ciphertext_endswith.size())) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(114): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(out_session_id, dec_cipher.GetSessionID()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(115): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_send_garbage, dec_cipher.GetSendGarbageTerminator()) == (error != 1) has failed[0;39;49m
+./test/bip324_tests.cpp(116): [1;31;49merror: in "bip324_tests/packet_test_vectors": check std::ranges::equal(mid_recv_garbage, dec_cipher.GetReceiveGarbageTerminator()) == (error != 1) has failed[0;39;49m
+[1;34;49m./test/bip324_tests.cpp(166): Leaving test case "packet_test_vectors"; testing time: 1227557us
+[0;39;49m[1;34;49m./test/bip324_tests.cpp(164): Leaving test suite "bip324_tests"; testing time: 1227637us
+[0;39;49m[1;34;49m./test/blockchain_tests.cpp(54): Entering test suite "blockchain_tests"
+[0;39;49m[1;34;49m./test/blockchain_tests.cpp(56): Entering test case "get_difficulty_for_very_low_target"
+[0;39;49m[1;34;49m./test/blockchain_tests.cpp(56): Leaving test case "get_difficulty_for_very_low_target"; testing time: 1244us
+[0;39;49m[1;34;49m./test/blockchain_tests.cpp(61): Entering test case "get_difficulty_for_low_target"
+[0;39;49m[1;34;49m./test/blockchain_tests.cpp(61): Leaving test case "get_difficulty_for_low_target"; testing time: 983us
+[0;39;49m[1;34;49m./test/blockchain_tests.cpp(66): Entering test case "get_difficulty_for_mid_target"
+[0;39;49m[1;34;49m./test/blockchain_tests.cpp(66): Leaving test case "get_difficulty_for_mid_target"; testing time: 942us
+[0;39;49m[1;34;49m./test/blockchain_tests.cpp(71): Entering test case "get_difficulty_for_high_target"
+[0;39;49m[1;34;49m./test/blockchain_tests.cpp(71): Leaving test case "get_difficulty_for_high_target"; testing time: 910us
+[0;39;49m[1;34;49m./test/blockchain_tests.cpp(76): Entering test case "get_difficulty_for_very_high_target"
+[0;39;49m[1;34;49m./test/blockchain_tests.cpp(76): Leaving test case "get_difficulty_for_very_high_target"; testing time: 875us
+[0;39;49m[1;34;49m./test/blockchain_tests.cpp(98): Entering test case "get_prune_height"
+[0;39;49m[1;34;49m./test/blockchain_tests.cpp(98): Leaving test case "get_prune_height"; testing time: 114603us
+[0;39;49m[1;34;49m./test/blockchain_tests.cpp(113): Entering test case "num_chain_tx_max"
+[0;39;49m[1;34;49m./test/blockchain_tests.cpp(113): Leaving test case "num_chain_tx_max"; testing time: 1227us
+[0;39;49m[1;34;49m./test/blockchain_tests.cpp(120): Entering test case "invalidate_block"
+[0;39;49m[1;36;49mTest case blockchain_tests/invalidate_block did not check any assertions[0;39;49m
+[1;34;49m./test/blockchain_tests.cpp(120): Leaving test case "invalidate_block"; testing time: 70999us
+[0;39;49m[1;34;49m./test/blockchain_tests.cpp(54): Leaving test suite "blockchain_tests"; testing time: 192230us
+[0;39;49m[1;34;49m./test/blockencodings_tests.cpp(20): Entering test suite "blockencodings_tests"
+[0;39;49m[1;34;49m./test/blockencodings_tests.cpp(63): Entering test case "SimpleRoundTripTest"
+[0;39;49m[1;34;49m./test/blockencodings_tests.cpp(63): Leaving test case "SimpleRoundTripTest"; testing time: 18850us
+[0;39;49m[1;34;49m./test/blockencodings_tests.cpp(154): Entering test case "NonCoinbasePreforwardRTTest"
+[0;39;49m[1;34;49m./test/blockencodings_tests.cpp(154): Leaving test case "NonCoinbasePreforwardRTTest"; testing time: 18679us
+[0;39;49m[1;34;49m./test/blockencodings_tests.cpp(225): Entering test case "SufficientPreforwardRTTest"
+[0;39;49m[1;34;49m./test/blockencodings_tests.cpp(225): Leaving test case "SufficientPreforwardRTTest"; testing time: 18779us
+[0;39;49m[1;34;49m./test/blockencodings_tests.cpp(277): Entering test case "EmptyBlockRoundTripTest"
+[0;39;49m[1;34;49m./test/blockencodings_tests.cpp(277): Leaving test case "EmptyBlockRoundTripTest"; testing time: 18262us
+[0;39;49m[1;34;49m./test/blockencodings_tests.cpp(318): Entering test case "ReceiveWithExtraTransactions"
+[0;39;49m[1;34;49m./test/blockencodings_tests.cpp(318): Leaving test case "ReceiveWithExtraTransactions"; testing time: 18832us
+[0;39;49m[1;34;49m./test/blockencodings_tests.cpp(400): Entering test case "TransactionsRequestSerializationTest"
+[0;39;49m[1;34;49m./test/blockencodings_tests.cpp(400): Leaving test case "TransactionsRequestSerializationTest"; testing time: 20028us
+[0;39;49m[1;34;49m./test/blockencodings_tests.cpp(423): Entering test case "TransactionsRequestDeserializationMaxTest"
+[0;39;49m[1;34;49m./test/blockencodings_tests.cpp(423): Leaving test case "TransactionsRequestDeserializationMaxTest"; testing time: 20426us
+[0;39;49m[1;34;49m./test/blockencodings_tests.cpp(438): Entering test case "TransactionsRequestDeserializationOverflowTest"
+[0;39;49m[1;34;49m./test/blockencodings_tests.cpp(438): Leaving test case "TransactionsRequestDeserializationOverflowTest"; testing time: 25704us
+[0;39;49m[1;34;49m./test/blockencodings_tests.cpp(20): Leaving test suite "blockencodings_tests"; testing time: 160213us
+[0;39;49m[1;34;49m./test/blockfilter_index_tests.cpp(37): Entering test suite "blockfilter_index_tests"
+[0;39;49m[1;34;49m./test/blockfilter_index_tests.cpp(73): Entering test case "blockfilter_index_initial_sync"
+[0;39;49m[1;34;49m./test/blockfilter_index_tests.cpp(73): Leaving test case "blockfilter_index_initial_sync"; testing time: 127842us
+[0;39;49m[1;34;49m./test/blockfilter_index_tests.cpp(229): Entering test case "blockfilter_index_init_destroy"
+[0;39;49m[1;34;49m./test/blockfilter_index_tests.cpp(229): Leaving test case "blockfilter_index_init_destroy"; testing time: 1470us
+[0;39;49m[1;34;49m./test/blockfilter_index_tests.cpp(37): Leaving test suite "blockfilter_index_tests"; testing time: 129444us
+[0;39;49m[1;34;49m./test/blockfilter_tests.cpp(19): Entering test suite "blockfilter_tests"
+[0;39;49m[1;34;49m./test/blockfilter_tests.cpp(21): Entering test case "gcsfilter_test"
+[0;39;49m[1;34;49m./test/blockfilter_tests.cpp(21): Leaving test case "gcsfilter_test"; testing time: 1600us
+[0;39;49m[1;34;49m./test/blockfilter_tests.cpp(44): Entering test case "gcsfilter_default_constructor"
+[0;39;49m[1;34;49m./test/blockfilter_tests.cpp(44): Leaving test case "gcsfilter_default_constructor"; testing time: 141us
+[0;39;49m[1;34;49m./test/blockfilter_tests.cpp(57): Entering test case "blockfilter_basic_test"
+[0;39;49m[1;34;49m./test/blockfilter_tests.cpp(57): Leaving test case "blockfilter_basic_test"; testing time: 167us
+[0;39;49m[1;34;49m./test/blockfilter_tests.cpp(130): Entering test case "blockfilters_json_test"
+[0;39;49m[1;34;49m./test/blockfilter_tests.cpp(130): Leaving test case "blockfilters_json_test"; testing time: 644us
+[0;39;49m[1;34;49m./test/blockfilter_tests.cpp(179): Entering test case "blockfilter_type_names"
+[0;39;49m[1;34;49m./test/blockfilter_tests.cpp(179): Leaving test case "blockfilter_type_names"; testing time: 137us
+[0;39;49m[1;34;49m./test/blockfilter_tests.cpp(19): Leaving test suite "blockfilter_tests"; testing time: 2862us
+[0;39;49m[1;34;49m./test/blockmanager_tests.cpp(28): Entering test suite "blockmanager_tests"
+[0;39;49m[1;34;49m./test/blockmanager_tests.cpp(30): Entering test case "blockmanager_find_block_pos"
+[0;39;49m[1;34;49m./test/blockmanager_tests.cpp(30): Leaving test case "blockmanager_find_block_pos"; testing time: 14576us
+[0;39;49m[1;34;49m./test/blockmanager_tests.cpp(63): Entering test case "blockmanager_scan_unlink_already_pruned_files"
+[0;39;49m[1;34;49m./test/blockmanager_tests.cpp(63): Leaving test case "blockmanager_scan_unlink_already_pruned_files"; testing time: 104178us
+[0;39;49m[1;34;49m./test/blockmanager_tests.cpp(104): Entering test case "blockmanager_block_data_availability"
+[0;39;49m[1;34;49m./test/blockmanager_tests.cpp(104): Leaving test case "blockmanager_block_data_availability"; testing time: 104311us
+[0;39;49m[1;34;49m./test/blockmanager_tests.cpp(157): Entering test case "blockmanager_block_data_part"
+[0;39;49m[1;34;49m./test/blockmanager_tests.cpp(157): Leaving test case "blockmanager_block_data_part"; testing time: 80911us
+[0;39;49m[1;34;49m./test/blockmanager_tests.cpp(185): Entering test case "blockmanager_block_data_part_error"
+[0;39;49m[1;34;49m./test/blockmanager_tests.cpp(185): Leaving test case "blockmanager_block_data_part_error"; testing time: 76399us
+[0;39;49m[1;34;49m./test/blockmanager_tests.cpp(219): Entering test case "blockmanager_readblock_hash_mismatch"
+[0;39;49m[1;34;49m./test/blockmanager_tests.cpp(219): Leaving test case "blockmanager_readblock_hash_mismatch"; testing time: 18699us
+[0;39;49m[1;34;49m./test/blockmanager_tests.cpp(235): Entering test case "blockmanager_flush_block_file"
+[0;39;49m[1;34;49m./test/blockmanager_tests.cpp(235): Leaving test case "blockmanager_flush_block_file"; testing time: 14916us
+[0;39;49m[1;34;49m./test/blockmanager_tests.cpp(305): Entering test case "prune_lock_update_and_delete"
+[0;39;49m[1;34;49m./test/blockmanager_tests.cpp(305): Leaving test case "prune_lock_update_and_delete"; testing time: 18681us
+[0;39;49m[1;34;49m./test/blockmanager_tests.cpp(28): Leaving test suite "blockmanager_tests"; testing time: 433213us
+[0;39;49m[1;34;49m./test/blockpolicyestimator_tests.cpp(17): Entering test suite "blockpolicyestimator_tests"
+[0;39;49m[1;34;49m./test/blockpolicyestimator_tests.cpp(19): Entering test case "BlockPolicyEstimates"
+[0;39;49m[1;34;49m./test/blockpolicyestimator_tests.cpp(19): Leaving test case "BlockPolicyEstimates"; testing time: 123990us
+[0;39;49m[1;34;49m./test/blockpolicyestimator_tests.cpp(17): Leaving test suite "blockpolicyestimator_tests"; testing time: 124052us
+[0;39;49m[1;34;49m./test/bloom_tests.cpp(34): Entering test suite "bloom_tests"
+[0;39;49m[1;34;49m./test/bloom_tests.cpp(36): Entering test case "bloom_create_insert_serialize"
+[0;39;49m[1;34;49m./test/bloom_tests.cpp(36): Leaving test case "bloom_create_insert_serialize"; testing time: 1151us
+[0;39;49m[1;34;49m./test/bloom_tests.cpp(61): Entering test case "bloom_create_insert_serialize_with_tweak"
+[0;39;49m[1;34;49m./test/bloom_tests.cpp(61): Leaving test case "bloom_create_insert_serialize_with_tweak"; testing time: 979us
+[0;39;49m[1;34;49m./test/bloom_tests.cpp(84): Entering test case "bloom_create_insert_key"
+test_bitcoin: ./key.cpp:185: CPubKey CKey::GetPubKey() const: Assertion `keydata' failed.
+[0;39;49munknown location(0): [4;31;49mfatal error: in "bloom_tests/bloom_create_insert_key": signal: SIGABRT (application abort requested)[0;39;49m
+./test/bloom_tests.cpp(84): [1;36;49mlast checkpoint: "bloom_create_insert_key" test entry[0;39;49m
+[1;34;49m./test/bloom_tests.cpp(84): Leaving test case "bloom_create_insert_key"; testing time: 1072us
+[0;39;49m[1;34;49m./test/bloom_tests.cpp(103): Entering test case "bloom_match"
+./common/args.cpp:674 void ArgsManager::AddArg(const std::string&, const std::string&, unsigned int, const OptionsCategory&): Assertion `!arg_map.second.contains(arg_name)' failed.
+[0;39;49munknown location(0): [4;31;49mfatal error: in "bloom_tests/bloom_match": signal: SIGABRT (application abort requested)[0;39;49m
+./test/bloom_tests.cpp(103): [1;36;49mlast checkpoint: "bloom_match" fixture ctor[0;39;49m
+[1;34;49m./test/bloom_tests.cpp(103): Leaving test case "bloom_match"; testing time: 256us
+[0;39;49m[1;34;49m./test/bloom_tests.cpp(174): Entering test case "merkle_block_1"
+/bin/bash: line 1: 33857 Killed                  timeout -s KILL 600 ./build/bin/test_bitcoin --log_level=test_suite --report_level=detailed
+TEST_EXIT:137
+TEST_END 2026-10-23T15:35:41+05:30

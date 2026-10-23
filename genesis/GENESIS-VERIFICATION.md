@@ -34,3 +34,27 @@ originally exist in the database." Mechanism: `ChainstateManager::LoadGenesisBlo
 coinbase outputs never enter the UTXO set, so no later transaction can spend
 them. Treeneesu inherits this unchanged: **the 50 TNSU genesis reward is
 unspendable by construction**, exactly like Bitcoin's genesis reward.
+
+---
+
+## Amendment 2026-10-23 — powLimit fix (owner decision: Option A)
+
+The original powLimit (bits 0x1e0fffff, target ≈ 2^236) violated the
+retarget overflow invariant powLimit < 2^256 / (4 × nPowTargetTimespan)
+≈ 2^233.8 (found by pow_tests; see MISSION2-CHANGELOG.md). The owner chose
+Option A: bits **0x1e01ffff**. The genesis block was therefore re-ground
+with the identical coinbase (same message, timestamp, pubkey, reward —
+merkle root unchanged: 9b242aa5…96cf):
+
+- **nBits: 0x1e01ffff**, powLimit target hex:
+  000001ffff000000000000000000000000000000000000000000000000000000
+- **nNonce: 26434925** (26,434,926 tries)
+- **Genesis hash: 00000091bddca562e9b5a2c98b31e5e5c831ffc015c6fd8853ef18d6df22dfee**
+- PoW check: hash ≤ target ✅ (00000091… < 000001ff…)
+- Genesis work (GetBlockProof): **0x800040** → nMinimumChainWork updated.
+- Dependent updates in chainparams.cpp: powLimit, genesis call
+  (nonce/bits), hashGenesisBlock assert, BIP34Hash. The pre-change control
+  discipline was kept: the grinding program first re-verified Bitcoin's
+  genesis construction (known nonce 2083236893 → hash 000000000019d668…26f).
+- The superseded v1 genesis (hash 000008c9…015b6, nonce 535382) belongs to
+  the defective parameter set and must not be used.

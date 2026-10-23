@@ -27,8 +27,15 @@ ASan build underway (logs/asan-build.log); subset run + short two-node
 session under ASan still to be executed and recorded.
 
 ## B5. Commit / tag / push — OWNER APPROVAL REQUIRED (standing rule)
-All Mission 2 changes are uncommitted in the working tree. No commit, tag,
-or push happens without explicit approval, each separately.
+Status update 2026-10-23: on the owner's one-word instruction "Push", the
+source changes were committed locally (branch `treeneesu`, commit
+`eca8485`, on top of Patch 1 `5790ce2`) and the documentation package
+(26 files) was published to the private repo `muteebdeva/treeneesu` via the
+GitHub API. No tag, no release, and no source-tree push were made (the
+source repo's only remote is upstream bitcoin/bitcoin). Any further
+commit/push requires fresh explicit approval. Note: the BLOCKERS.md copy
+on GitHub predates this status update and still says "uncommitted" —
+refresh it on the next approved push.
 
 ## B6. Cosmetic rebrand remainder — optional, non-blocking
 Binary names (`bitcoind`, `bitcoin-cli`), the startup banner, and Qt GUI

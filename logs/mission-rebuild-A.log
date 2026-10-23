@@ -1,0 +1,47 @@
+[  0%] Generating bitcoin-build-info.h
+[  2%] Built target bitcoin_consensus
+[  2%] Built target generate_build_info
+[  3%] Built target univalue
+[  3%] Built target secp256k1_precomputed
+[  7%] Built target bitcoin_crypto
+[  8%] Built target crc32c
+[ 13%] Built target bitcoin_util
+[ 17%] Built target minisketch
+[ 23%] Built target leveldb
+[ 23%] Built target bitcoin_ipc
+[ 23%] Built target bitcoin_cli
+[ 33%] Built target unitester
+[ 33%] Built target object
+[ 33%] Built target noverify_tests
+[ 50%] Built target bitcoin_node
+[ 50%] Built target exhaustive_tests
+[ 50%] Built target tests
+[ 53%] Built target test_util
+[ 54%] Built target bitcoin_clientversion
+[ 59%] Built target bitcoin_wallet
+[ 60%] Built target secp256k1
+[ 68%] Built target bitcoin_common
+[ 68%] Built target bitcoin
+[ 69%] Built target bitcoin-wallet
+[ 70%] Built target bitcoind
+[ 70%] Built target bitcoin-cli
+[ 71%] Built target bitcoin-tx
+[ 71%] Built target bitcoin-util
+[ 71%] Generating data/bip341_wallet_vectors.json.h
+[ 71%] Generating data/key_io_valid.json.h
+[ 71%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/bloom_tests.cpp.o
+[ 71%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/descriptor_tests.cpp.o
+[ 72%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/key_io_tests.cpp.o
+[ 72%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/key_tests.cpp.o
+[ 73%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/bip328_tests.cpp.o
+[ 73%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/rpc_tests.cpp.o
+[ 73%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/script_standard_tests.cpp.o
+[ 73%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/script_tests.cpp.o
+[ 73%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/util_tests.cpp.o
+[ 73%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/__/wallet/test/psbt_wallet_tests.cpp.o
+[ 73%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/__/wallet/test/scriptpubkeyman_tests.cpp.o
+[ 74%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/__/wallet/test/walletload_tests.cpp.o
+[ 74%] Linking CXX executable ../../bin/test_bitcoin
+[100%] Built target test_bitcoin
+BUILD_EXIT:0
+BUILD_END 2026-10-23T15:55:39+05:30

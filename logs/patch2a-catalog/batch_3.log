@@ -1,0 +1,182 @@
+Running 65 test cases...
+[1;34;49mEntering test module "Bitcoin Core Test Suite"
+[0;39;49m[1;33;49m./test/addrman_tests.cpp(53): Test suite "addrman_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/allocator_tests.cpp(18): Test suite "allocator_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/amount_tests.cpp(12): Test suite "amount_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/argsman_tests.cpp(25): Test suite "argsman_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/arith_uint256_tests.cpp(19): Test suite "arith_uint256_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/banman_tests.cpp(16): Test suite "banman_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/base32_tests.cpp(14): Test suite "base32_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/base58_tests.cpp(22): Test suite "base58_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/base64_tests.cpp(14): Test suite "base64_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/baseindex_tests.cpp(62): Test suite "baseindex_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/bech32_tests.cpp(13): Test suite "bech32_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/bip32_tests.cpp(161): Test suite "bip32_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/bip324_tests.cpp(164): Test suite "bip324_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/blockchain_tests.cpp(54): Test suite "blockchain_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/blockencodings_tests.cpp(20): Test suite "blockencodings_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/blockfilter_index_tests.cpp(37): Test suite "blockfilter_index_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/blockfilter_tests.cpp(19): Test suite "blockfilter_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/blockmanager_tests.cpp(28): Test suite "blockmanager_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/blockpolicyestimator_tests.cpp(17): Test suite "blockpolicyestimator_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/bloom_tests.cpp(34): Test suite "bloom_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/bswap_tests.cpp(9): Test suite "bswap_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/btcsignals_tests.cpp(35): Test suite "btcsignals_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/caches_tests.cpp(23): Test suite "caches_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/chain_tests.cpp(13): Test suite "chain_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/chainstate_write_tests.cpp(18): Test suite "chainstate_write_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/checkqueue_tests.cpp(180): Test suite "checkqueue_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/cluster_linearize_tests.cpp(15): Test suite "cluster_linearize_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/coins_tests.cpp(279): Test suite "coins_tests_base" is skipped because disabled
+[0;39;49m[1;33;49m./test/coins_tests.cpp(290): Test suite "coins_tests_dbbase" is skipped because disabled
+[0;39;49m[1;33;49m./test/coins_tests.cpp(300): Test suite "coins_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/coinscachepair_tests.cpp(11): Test suite "coinscachepair_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/coinstatsindex_tests.cpp(25): Test suite "coinstatsindex_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/coinsviewoverlay_tests.cpp(101): Test suite "coinsviewoverlay_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/coinsviewoverlay_tests.cpp(277): Test suite "coinsviewoverlay_tests_noworkers" is skipped because disabled
+[0;39;49m[1;33;49m./test/common_url_tests.cpp(12): Test suite "common_url_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/compress_tests.cpp(26): Test suite "compress_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/crypto_tests.cpp(377): Test suite "crypto_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/cuckoocache_tests.cpp(33): Test suite "cuckoocache_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/dbwrapper_tests.cpp(21): Test suite "dbwrapper_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/denialofservice_tests.cpp(36): Test suite "denialofservice_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/descriptor_tests.cpp(606): Test suite "descriptor_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/disconnected_transactions.cpp(10): Test suite "disconnected_transactions" is skipped because disabled
+[0;39;49m[1;33;49m./test/fees_util_tests.cpp(9): Test suite "fees_util_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/feefrac_tests.cpp(10): Test suite "feefrac_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/feerounder_tests.cpp(12): Test suite "feerounder_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/flatfile_tests.cpp(13): Test suite "flatfile_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/fs_tests.cpp(15): Test suite "fs_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/getarg_tests.cpp(22): Test suite "getarg_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/hash_tests.cpp(16): Test suite "hash_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/headers_sync_chainwork_tests.cpp(143): Test suite "headers_sync_chainwork_tests" is skipped because disabled
+[0;39;49m[1;34;49m./test/httpserver_tests.cpp(28): Entering test suite "httpserver_tests"
+[0;39;49m[1;34;49m./test/httpserver_tests.cpp(30): Entering test case "test_query_parameters"
+[0;39;49m[1;34;49m./test/httpserver_tests.cpp(30): Leaving test case "test_query_parameters"; testing time: 2254us
+[0;39;49m[1;34;49m./test/httpserver_tests.cpp(76): Entering test case "http_headers_tests"
+[0;39;49m[1;34;49m./test/httpserver_tests.cpp(76): Leaving test case "http_headers_tests"; testing time: 1501us
+[0;39;49m[1;34;49m./test/httpserver_tests.cpp(175): Entering test case "http_response_tests"
+[0;39;49m[1;34;49m./test/httpserver_tests.cpp(175): Leaving test case "http_response_tests"; testing time: 993us
+[0;39;49m[1;34;49m./test/httpserver_tests.cpp(194): Entering test case "http_request_tests"
+[0;39;49m[1;34;49m./test/httpserver_tests.cpp(194): Leaving test case "http_request_tests"; testing time: 254323us
+[0;39;49m[1;34;49m./test/httpserver_tests.cpp(479): Entering test case "http_request_state_tests"
+[0;39;49m[1;34;49m./test/httpserver_tests.cpp(479): Leaving test case "http_request_state_tests"; testing time: 1851us
+[0;39;49m[1;34;49m./test/httpserver_tests.cpp(780): Entering test case "http_server_socket_tests"
+[0;39;49m[1;34;49m./test/httpserver_tests.cpp(780): Leaving test case "http_server_socket_tests"; testing time: 103406us
+[0;39;49m[1;34;49m./test/httpserver_tests.cpp(906): Entering test case "http_socket_error_tests"
+[0;39;49m[1;34;49m./test/httpserver_tests.cpp(906): Leaving test case "http_socket_error_tests"; testing time: 1073978us
+[0;39;49m[1;34;49m./test/httpserver_tests.cpp(1063): Entering test case "http_server_rejects_disallowed_client_before_read"
+[0;39;49m[1;34;49m./test/httpserver_tests.cpp(1063): Leaving test case "http_server_rejects_disallowed_client_before_read"; testing time: 52230us
+[0;39;49m[1;34;49m./test/httpserver_tests.cpp(28): Leaving test suite "httpserver_tests"; testing time: 1491008us
+[0;39;49m[1;34;49m./test/i2p_tests.cpp(46): Entering test suite "i2p_tests"
+[0;39;49m[1;34;49m./test/i2p_tests.cpp(48): Entering test case "unlimited_recv"
+[0;39;49m[1;34;49m./test/i2p_tests.cpp(48): Leaving test case "unlimited_recv"; testing time: 1508us
+[0;39;49m[1;34;49m./test/i2p_tests.cpp(69): Entering test case "listen_ok_accept_fail"
+[0;39;49m[1;34;49m./test/i2p_tests.cpp(69): Leaving test case "listen_ok_accept_fail"; testing time: 1630us
+[0;39;49m[1;34;49m./test/i2p_tests.cpp(134): Entering test case "damaged_private_key"
+[0;39;49m[1;34;49m./test/i2p_tests.cpp(134): Leaving test case "damaged_private_key"; testing time: 1485us
+[0;39;49m[1;34;49m./test/i2p_tests.cpp(46): Leaving test suite "i2p_tests"; testing time: 4764us
+[0;39;49m[1;34;49m./test/interfaces_tests.cpp(17): Entering test suite "interfaces_tests"
+[0;39;49m[1;34;49m./test/interfaces_tests.cpp(19): Entering test case "findBlock"
+[0;39;49m[1;34;49m./test/interfaces_tests.cpp(19): Leaving test case "findBlock"; testing time: 118459us
+[0;39;49m[1;34;49m./test/interfaces_tests.cpp(64): Entering test case "findFirstBlockWithTimeAndHeight"
+[0;39;49m[1;34;49m./test/interfaces_tests.cpp(64): Leaving test case "findFirstBlockWithTimeAndHeight"; testing time: 111375us
+[0;39;49m[1;34;49m./test/interfaces_tests.cpp(77): Entering test case "findAncestorByHeight"
+[0;39;49m[1;34;49m./test/interfaces_tests.cpp(77): Leaving test case "findAncestorByHeight"; testing time: 113232us
+[0;39;49m[1;34;49m./test/interfaces_tests.cpp(88): Entering test case "findAncestorByHash"
+[0;39;49m[1;34;49m./test/interfaces_tests.cpp(88): Leaving test case "findAncestorByHash"; testing time: 111706us
+[0;39;49m[1;34;49m./test/interfaces_tests.cpp(99): Entering test case "findCommonAncestor"
+[0;39;49m[1;34;49m./test/interfaces_tests.cpp(99): Leaving test case "findCommonAncestor"; testing time: 137185us
+[0;39;49m[1;34;49m./test/interfaces_tests.cpp(129): Entering test case "hasBlocks"
+[0;39;49m[1;34;49m./test/interfaces_tests.cpp(129): Leaving test case "hasBlocks"; testing time: 223105us
+[0;39;49m[1;34;49m./test/interfaces_tests.cpp(17): Leaving test suite "interfaces_tests"; testing time: 815641us
+[0;39;49m[1;34;49m./test/key_io_tests.cpp(21): Entering test suite "key_io_tests"
+[0;39;49m[1;34;49m./test/key_io_tests.cpp(24): Entering test case "key_io_valid_parse"
+[0;39;49m./test/key_io_tests.cpp(59): [1;31;49merror: in "key_io_tests/key_io_valid_parse": !IsValid:["1FsSia9rv4NeEwvJ2GvXrX7LyxYspbN2mo","76a914a31c06bd463e3923bc1aadbde48b16976c08071788ac",{"chain":"main","isPrivkey":false}][0;39;49m
+./test/key_io_tests.cpp(60): [1;31;49merror: in "key_io_tests/key_io_valid_parse": check HexStr(script) == HexStr(exp_payload) has failed [ != 76a914a31c06bd463e3923bc1aadbde48b16976c08071788ac][0;39;49m
+./test/key_io_tests.cpp(59): [1;31;49merror: in "key_io_tests/key_io_valid_parse": !IsValid:["36j4NfKv6Akva9amjWrLG6MuSQym1GuEmm","a914373b819a068f32b7a6b38b6b38729647cfde01c287",{"chain":"main","isPrivkey":false}][0;39;49m
+./test/key_io_tests.cpp(60): [1;31;49merror: in "key_io_tests/key_io_valid_parse": check HexStr(script) == HexStr(exp_payload) has failed [ != a914373b819a068f32b7a6b38b6b38729647cfde01c287][0;39;49m
+./test/key_io_tests.cpp(48): [1;31;49merror: in "key_io_tests/key_io_valid_parse": !IsValid:["5JuW2AMDYu4xVwRG9DZW18VbzQrGcd5RCgb99sS6ehJsNQXu5b9","8f8943bf956de595665c38ffff23827e17c10cdc1c27a028caae6c9810626198",{"chain":"main","isCompressed":false,"isPrivkey":true}][0;39;49m
+./test/key_io_tests.cpp(50): [1;31;49merror: in "key_io_tests/key_io_valid_parse": key mismatch:["5JuW2AMDYu4xVwRG9DZW18VbzQrGcd5RCgb99sS6ehJsNQXu5b9","8f8943bf956de595665c38ffff23827e17c10cdc1c27a028caae6c9810626198",{"chain":"main","isCompressed":false,"isPrivkey":true}][0;39;49m
+./test/key_io_tests.cpp(48): [1;31;49merror: in "key_io_tests/key_io_valid_parse": !IsValid:["L5nJeqKmpHp4P7F8ZYyjwc5a7P4d8EabuGAzfGJk7yC1BJyzNaEd","ff778740f88ddcf102aeb81daee289c044c4a4571c4b6f287400f4b8e0b843f8",{"chain":"main","isCompressed":true,"isPrivkey":true}][0;39;49m
+./test/key_io_tests.cpp(49): [1;31;49merror: in "key_io_tests/key_io_valid_parse": compressed mismatch:["L5nJeqKmpHp4P7F8ZYyjwc5a7P4d8EabuGAzfGJk7yC1BJyzNaEd","ff778740f88ddcf102aeb81daee289c044c4a4571c4b6f287400f4b8e0b843f8",{"chain":"main","isCompressed":true,"isPrivkey":true}][0;39;49m
+./test/key_io_tests.cpp(50): [1;31;49merror: in "key_io_tests/key_io_valid_parse": key mismatch:["L5nJeqKmpHp4P7F8ZYyjwc5a7P4d8EabuGAzfGJk7yC1BJyzNaEd","ff778740f88ddcf102aeb81daee289c044c4a4571c4b6f287400f4b8e0b843f8",{"chain":"main","isCompressed":true,"isPrivkey":true}][0;39;49m
+./test/key_io_tests.cpp(59): [1;31;49merror: in "key_io_tests/key_io_valid_parse": !IsValid:["bc1qvyq0cc6rahyvsazfdje0twl7ez82ndmuac2lhv","00146100fc6343edc8c874496cb2f5bbfec88ea9b77c",{"chain":"main","isPrivkey":false,"tryCaseFlip":true}][0;39;49m
+./test/key_io_tests.cpp(60): [1;31;49merror: in "key_io_tests/key_io_valid_parse": check HexStr(script) == HexStr(exp_payload) has failed [ != 00146100fc6343edc8c874496cb2f5bbfec88ea9b77c][0;39;49m
+./test/key_io_tests.cpp(71): [1;31;49merror: in "key_io_tests/key_io_valid_parse": !IsValid case flipped:["bc1qvyq0cc6rahyvsazfdje0twl7ez82ndmuac2lhv","00146100fc6343edc8c874496cb2f5bbfec88ea9b77c",{"chain":"main","isPrivkey":false,"tryCaseFlip":true}][0;39;49m
+./test/key_io_tests.cpp(59): [1;31;49merror: in "key_io_tests/key_io_valid_parse": !IsValid:["bc1qyucykdlhp62tezs0hagqury402qwhk589q80tqs5myh3rxq34nwqhkdhv7","002027304b37f70e94bc8a0fbf500e0c957a80ebda87280ef58214d92f119811acdc",{"chain":"main","isPrivkey":false,"tryCaseFlip":true}][0;39;49m
+./test/key_io_tests.cpp(60): [1;31;49merror: in "key_io_tests/key_io_valid_parse": check HexStr(script) == HexStr(exp_payload) has failed [ != 002027304b37f70e94bc8a0fbf500e0c957a80ebda87280ef58214d92f119811acdc][0;39;49m
+./test/key_io_tests.cpp(71): [1;31;49merror: in "key_io_tests/key_io_valid_parse": !IsValid case flipped:["bc1qyucykdlhp62tezs0hagqury402qwhk589q80tqs5myh3rxq34nwqhkdhv7","002027304b37f70e94bc8a0fbf500e0c957a80ebda87280ef58214d92f119811acdc",{"chain":"main","isPrivkey":false,"tryCaseFlip":true}][0;39;49m
+./test/key_io_tests.cpp(59): [1;31;49merror: in "key_io_tests/key_io_valid_parse": !IsValid:["bc1p83n3au0rjylefxq2nc2xh2y4jzz4pm6zxj4mw5pagdjjr2a9f36s6jjnnu","51203c671ef1e3913f94980a9e146ba895908550ef4234abb7503d436521aba54c75",{"chain":"main","isPrivkey":false,"tryCaseFlip":true}][0;39;49m
+./test/key_io_tests.cpp(60): [1;31;49merror: in "key_io_tests/key_io_valid_parse": check HexStr(script) == HexStr(exp_payload) has failed [ != 51203c671ef1e3913f94980a9e146ba895908550ef4234abb7503d436521aba54c75][0;39;49m
+./test/key_io_tests.cpp(71): [1;31;49merror: in "key_io_tests/key_io_valid_parse": !IsValid case flipped:["bc1p83n3au0rjylefxq2nc2xh2y4jzz4pm6zxj4mw5pagdjjr2a9f36s6jjnnu","51203c671ef1e3913f94980a9e146ba895908550ef4234abb7503d436521aba54c75",{"chain":"main","isPrivkey":false,"tryCaseFlip":true}][0;39;49m
+./test/key_io_tests.cpp(59): [1;31;49merror: in "key_io_tests/key_io_valid_parse": !IsValid:["bc1z2rksukkjr8","520250ed",{"chain":"main","isPrivkey":false,"tryCaseFlip":true}][0;39;49m
+./test/key_io_tests.cpp(60): [1;31;49merror: in "key_io_tests/key_io_valid_parse": check HexStr(script) == HexStr(exp_payload) has failed [ != 520250ed][0;39;49m
+./test/key_io_tests.cpp(71): [1;31;49merror: in "key_io_tests/key_io_valid_parse": !IsValid case flipped:["bc1z2rksukkjr8","520250ed",{"chain":"main","isPrivkey":false,"tryCaseFlip":true}][0;39;49m
+./test/key_io_tests.cpp(59): [1;31;49merror: in "key_io_tests/key_io_valid_parse": !IsValid:["1FjL87pn8ky6Vbavd1ZHeChRXtoxwRGCRd","76a914a19331b7b2627e663e25a7b001e4c0dcc5e21bc788ac",{"chain":"main","isPrivkey":false}][0;39;49m
+./test/key_io_tests.cpp(60): [1;31;49merror: in "key_io_tests/key_io_valid_parse": check HexStr(script) == HexStr(exp_payload) has failed [ != 76a914a19331b7b2627e663e25a7b001e4c0dcc5e21bc788ac][0;39;49m
+./test/key_io_tests.cpp(59): [1;31;49merror: in "key_io_tests/key_io_valid_parse": !IsValid:["3BZECeAH8gSKkjrTx8PwMrNQBLG18yHpvf","a9146c382dcdf5b284760c8e3fead91f7422cd76aa8787",{"chain":"main","isPrivkey":false}][0;39;49m
+./test/key_io_tests.cpp(60): [1;31;49merror: in "key_io_tests/key_io_valid_parse": check HexStr(script) == HexStr(exp_payload) has failed [ != a9146c382dcdf5b284760c8e3fead91f7422cd76aa8787][0;39;49m
+./test/key_io_tests.cpp(48): [1;31;49merror: in "key_io_tests/key_io_valid_parse": !IsValid:["5HsL2nZuEebU5nM3RxNVQD9GcAnvNMahqQskf4fkqHe54zwd14e","06e8649790a90615a46d22dd762e0c42615336745356c2e16147c0f3d46b40d5",{"chain":"main","isCompressed":false,"isPrivkey":true}][0;39;49m
+./test/key_io_tests.cpp(50): [1;31;49merror: in "key_io_tests/key_io_valid_parse": key mismatch:["5HsL2nZuEebU5nM3RxNVQD9GcAnvNMahqQskf4fkqHe54zwd14e","06e8649790a90615a46d22dd762e0c42615336745356c2e16147c0f3d46b40d5",{"chain":"main","isCompressed":false,"isPrivkey":true}][0;39;49m
+./test/key_io_tests.cpp(48): [1;31;49merror: in "key_io_tests/key_io_valid_parse": !IsValid:["KwuVvu6hsuEMHrfFWJQV64tRrWX3QzqHH18JuAHYqYV6dqBvNKxd","147804bf8a0dfff35939a611c7f5a60ac107f33f33d6059f273d2079ab1d90f2",{"chain":"main","isCompressed":true,"isPrivkey":true}][0;39;49m
+./test/key_io_tests.cpp(49): [1;31;49merror: in "key_io_tests/key_io_valid_parse": compressed mismatch:["KwuVvu6hsuEMHrfFWJQV64tRrWX3QzqHH18JuAHYqYV6dqBvNKxd","147804bf8a0dfff35939a611c7f5a60ac107f33f33d6059f273d2079ab1d90f2",{"chain":"main","isCompressed":true,"isPrivkey":true}][0;39;49m
+./test/key_io_tests.cpp(50): [1;31;49merror: in "key_io_tests/key_io_valid_parse": key mismatch:["KwuVvu6hsuEMHrfFWJQV64tRrWX3QzqHH18JuAHYqYV6dqBvNKxd","147804bf8a0dfff35939a611c7f5a60ac107f33f33d6059f273d2079ab1d90f2",{"chain":"main","isCompressed":true,"isPrivkey":true}][0;39;49m
+./test/key_io_tests.cpp(59): [1;31;49merror: in "key_io_tests/key_io_valid_parse": !IsValid:["bc1qhxt04s5xnpy0kxw4x99n5hpdf5pmtzpqs52es2","0014b996fac2869848fb19d5314b3a5c2d4d03b58820",{"chain":"main","isPrivkey":false,"tryCaseFlip":true}][0;39;49m
+./test/key_io_tests.cpp(60): [1;31;49merror: in "key_io_tests/key_io_valid_parse": check HexStr(script) == HexStr(exp_payload) has failed [ != 0014b996fac2869848fb19d5314b3a5c2d4d03b58820][0;39;49m
+./test/key_io_tests.cpp(71): [1;31;49merror: in "key_io_tests/key_io_valid_parse": !IsValid case flipped:["bc1qhxt04s5xnpy0kxw4x99n5hpdf5pmtzpqs52es2","0014b996fac2869848fb19d5314b3a5c2d4d03b58820",{"chain":"main","isPrivkey":false,"tryCaseFlip":true}][0;39;49m
+./test/key_io_tests.cpp(59): [1;31;49merror: in "key_io_tests/key_io_valid_parse": !IsValid:["bc1qgc9ljrvdf2e0zg9rmmq86xklqwfys7r6wptjlacdgrcdc7sa6ggqu4rrxf","0020460bf90d8d4ab2f120a3dec07d1adf039248787a70572ff70d40f0dc7a1dd210",{"chain":"main","isPrivkey":false,"tryCaseFlip":true}][0;39;49m
+./test/key_io_tests.cpp(60): [1;31;49merror: in "key_io_tests/key_io_valid_parse": check HexStr(script) == HexStr(exp_payload) has failed [ != 0020460bf90d8d4ab2f120a3dec07d1adf039248787a70572ff70d40f0dc7a1dd210][0;39;49m
+./test/key_io_tests.cpp(71): [1;31;49merror: in "key_io_tests/key_io_valid_parse": !IsValid case flipped:["bc1qgc9ljrvdf2e0zg9rmmq86xklqwfys7r6wptjlacdgrcdc7sa6ggqu4rrxf","0020460bf90d8d4ab2f120a3dec07d1adf039248787a70572ff70d40f0dc7a1dd210",{"chain":"main","isPrivkey":false,"tryCaseFlip":true}][0;39;49m
+./test/key_io_tests.cpp(59): [1;31;49merror: in "key_io_tests/key_io_valid_parse": !IsValid:["bc1pve739yap4uxjvfk0jrey69078u0gasm2nwvv483ec6zkzulgw9xqu4w9fd","5120667d1293a1af0d2626cf90f24d15fe3f1e8ec36a9b98ca9e39c6856173e8714c",{"chain":"main","isPrivkey":false,"tryCaseFlip":true}][0;39;49m
+./test/key_io_tests.cpp(60): [1;31;49merror: in "key_io_tests/key_io_valid_parse": check HexStr(script) == HexStr(exp_payload) has failed [ != 5120667d1293a1af0d2626cf90f24d15fe3f1e8ec36a9b98ca9e39c6856173e8714c][0;39;49m
+./test/key_io_tests.cpp(71): [1;31;49merror: in "key_io_tests/key_io_valid_parse": !IsValid case flipped:["bc1pve739yap4uxjvfk0jrey69078u0gasm2nwvv483ec6zkzulgw9xqu4w9fd","5120667d1293a1af0d2626cf90f24d15fe3f1e8ec36a9b98ca9e39c6856173e8714c",{"chain":"main","isPrivkey":false,"tryCaseFlip":true}][0;39;49m
+./test/key_io_tests.cpp(59): [1;31;49merror: in "key_io_tests/key_io_valid_parse": !IsValid:["bc1zmjtqxkzs89","5202dc96",{"chain":"main","isPrivkey":false,"tryCaseFlip":true}][0;39;49m
+./test/key_io_tests.cpp(60): [1;31;49merror: in "key_io_tests/key_io_valid_parse": check HexStr(script) == HexStr(exp_payload) has failed [ != 5202dc96][0;39;49m
+./test/key_io_tests.cpp(71): [1;31;49merror: in "key_io_tests/key_io_valid_parse": !IsValid case flipped:["bc1zmjtqxkzs89","5202dc96",{"chain":"main","isPrivkey":false,"tryCaseFlip":true}][0;39;49m
+./test/key_io_tests.cpp(59): [1;31;49merror: in "key_io_tests/key_io_valid_parse": !IsValid:["1G9A9j6W8TLuh6dEeVwWeyibK1Uc5MfVFV","76a914a614da54daacdb8861f451a0b7e3c27cdf8a099e88ac",{"chain":"main","isPrivkey":false}][0;39;49m
+./test/key_io_tests.cpp(60): [1;31;49merror: in "key_io_tests/key_io_valid_parse": check HexStr(script) == HexStr(exp_payload) has failed [ != 76a914a614da54daacdb8861f451a0b7e3c27cdf8a099e88ac][0;39;49m
+./test/key_io_tests.cpp(59): [1;31;49merror: in "key_io_tests/key_io_valid_parse": !IsValid:["33GA3ZXbw5o5HeUrBEaqkWXFYYZmdxGRRP","a914113ca1afeb49ff3abf176ffa19c2a2b4df19712a87",{"chain":"main","isPrivkey":false}][0;39;49m
+./test/key_io_tests.cpp(60): [1;31;49merror: in "key_io_tests/key_io_valid_parse": check HexStr(script) == HexStr(exp_payload) has failed [ != a914113ca1afeb49ff3abf176ffa19c2a2b4df19712a87][0;39;49m
+[1;34;49m./test/key_io_tests.cpp(24): Leaving test case "key_io_valid_parse"; testing time: 4490us
+[0;39;49m[1;34;49m./test/key_io_tests.cpp(85): Entering test case "key_io_valid_gen"
+[0;39;49m./test/key_io_tests.cpp(114): [1;31;49merror: in "key_io_tests/key_io_valid_gen": check address == exp_base58string has failed [TQqeidXb4nVbQ7yvcYaFNfoUtkJC3yBF1D != 1FsSia9rv4NeEwvJ2GvXrX7LyxYspbN2mo][0;39;49m
+./test/key_io_tests.cpp(114): [1;31;49merror: in "key_io_tests/key_io_valid_gen": check address == exp_base58string has failed [9wUK7WPpAEdpUWxF9eWkWDzH8zMo2GVF6u != 36j4NfKv6Akva9amjWrLG6MuSQym1GuEmm][0;39;49m
+./test/key_io_tests.cpp(107): [1;31;49merror: in "key_io_tests/key_io_valid_gen": result mismatch: ["5JuW2AMDYu4xVwRG9DZW18VbzQrGcd5RCgb99sS6ehJsNQXu5b9","8f8943bf956de595665c38ffff23827e17c10cdc1c27a028caae6c9810626198",{"chain":"main","isCompressed":false,"isPrivkey":true}][0;39;49m
+./test/key_io_tests.cpp(107): [1;31;49merror: in "key_io_tests/key_io_valid_gen": result mismatch: ["L5nJeqKmpHp4P7F8ZYyjwc5a7P4d8EabuGAzfGJk7yC1BJyzNaEd","ff778740f88ddcf102aeb81daee289c044c4a4571c4b6f287400f4b8e0b843f8",{"chain":"main","isCompressed":true,"isPrivkey":true}][0;39;49m
+./test/key_io_tests.cpp(114): [1;31;49merror: in "key_io_tests/key_io_valid_gen": check address == exp_base58string has failed [tnsu1qvyq0cc6rahyvsazfdje0twl7ez82ndmu73hsze != bc1qvyq0cc6rahyvsazfdje0twl7ez82ndmuac2lhv][0;39;49m
+./test/key_io_tests.cpp(114): [1;31;49merror: in "key_io_tests/key_io_valid_gen": check address == exp_base58string has failed [tnsu1qyucykdlhp62tezs0hagqury402qwhk589q80tqs5myh3rxq34nwqdv5m9p != bc1qyucykdlhp62tezs0hagqury402qwhk589q80tqs5myh3rxq34nwqhkdhv7][0;39;49m
+./test/key_io_tests.cpp(114): [1;31;49merror: in "key_io_tests/key_io_valid_gen": check address == exp_base58string has failed [tnsu1p83n3au0rjylefxq2nc2xh2y4jzz4pm6zxj4mw5pagdjjr2a9f36sqgtl6r != bc1p83n3au0rjylefxq2nc2xh2y4jzz4pm6zxj4mw5pagdjjr2a9f36s6jjnnu][0;39;49m
+./test/key_io_tests.cpp(114): [1;31;49merror: in "key_io_tests/key_io_valid_gen": check address == exp_base58string has failed [tnsu1z2rksuk0ah7 != bc1z2rksukkjr8][0;39;49m
+./test/key_io_tests.cpp(114): [1;31;49merror: in "key_io_tests/key_io_valid_gen": check address == exp_base58string has failed [TQhY8BCWHV63emeZDHD1AMPZSgZH6hNK1s != 1FjL87pn8ky6Vbavd1ZHeChRXtoxwRGCRd][0;39;49m
+./test/key_io_tests.cpp(114): [1;31;49merror: in "key_io_tests/key_io_valid_gen": check address == exp_base58string has failed [A2JUwVEBCkKDf7DwNG4Mbyzmsue3BvYyhQ != 3BZECeAH8gSKkjrTx8PwMrNQBLG18yHpvf][0;39;49m
+./test/key_io_tests.cpp(107): [1;31;49merror: in "key_io_tests/key_io_valid_gen": result mismatch: ["5HsL2nZuEebU5nM3RxNVQD9GcAnvNMahqQskf4fkqHe54zwd14e","06e8649790a90615a46d22dd762e0c42615336745356c2e16147c0f3d46b40d5",{"chain":"main","isCompressed":false,"isPrivkey":true}][0;39;49m
+./test/key_io_tests.cpp(107): [1;31;49merror: in "key_io_tests/key_io_valid_gen": result mismatch: ["KwuVvu6hsuEMHrfFWJQV64tRrWX3QzqHH18JuAHYqYV6dqBvNKxd","147804bf8a0dfff35939a611c7f5a60ac107f33f33d6059f273d2079ab1d90f2",{"chain":"main","isCompressed":true,"isPrivkey":true}][0;39;49m
+./test/key_io_tests.cpp(114): [1;31;49merror: in "key_io_tests/key_io_valid_gen": check address == exp_base58string has failed [tnsu1qhxt04s5xnpy0kxw4x99n5hpdf5pmtzpqnahk9l != bc1qhxt04s5xnpy0kxw4x99n5hpdf5pmtzpqs52es2][0;39;49m
+./test/key_io_tests.cpp(114): [1;31;49merror: in "key_io_tests/key_io_valid_gen": check address == exp_base58string has failed [tnsu1qgc9ljrvdf2e0zg9rmmq86xklqwfys7r6wptjlacdgrcdc7sa6ggqx0600k != bc1qgc9ljrvdf2e0zg9rmmq86xklqwfys7r6wptjlacdgrcdc7sa6ggqu4rrxf][0;39;49m
+./test/key_io_tests.cpp(114): [1;31;49merror: in "key_io_tests/key_io_valid_gen": check address == exp_base58string has failed [tnsu1pve739yap4uxjvfk0jrey69078u0gasm2nwvv483ec6zkzulgw9xqx0hfqj != bc1pve739yap4uxjvfk0jrey69078u0gasm2nwvv483ec6zkzulgw9xqu4w9fd][0;39;49m
+./test/key_io_tests.cpp(114): [1;31;49merror: in "key_io_tests/key_io_valid_gen": check address == exp_base58string has failed [tnsu1zmjtqxkmlnu != bc1zmjtqxkzs89][0;39;49m
+./test/key_io_tests.cpp(114): [1;31;49merror: in "key_io_tests/key_io_valid_gen": check address == exp_base58string has failed [TR7N9nUEHBTrrGgsEmbEB8QjDoDvJ4ysYa != 1G9A9j6W8TLuh6dEeVwWeyibK1Uc5MfVFV][0;39;49m
+./test/key_io_tests.cpp(114): [1;31;49merror: in "key_io_tests/key_io_valid_gen": check address == exp_base58string has failed [9t1QnQbW19fyC1rKbNFFze9dF7woemvakE != 33GA3ZXbw5o5HeUrBEaqkWXFYYZmdxGRRP][0;39;49m
+[1;34;49m./test/key_io_tests.cpp(85): Leaving test case "key_io_valid_gen"; testing time: 4543us
+[0;39;49m[1;34;49m./test/key_io_tests.cpp(123): Entering test case "key_io_invalid"
+[0;39;49m[1;34;49m./test/key_io_tests.cpp(123): Leaving test case "key_io_invalid"; testing time: 11888us
+[0;39;49m[1;34;49m./test/key_io_tests.cpp(21): Leaving test suite "key_io_tests"; testing time: 21043us
+[0;39;49m[1;34;49m./test/key_tests.cpp(39): Entering test suite "key_tests"
+[0;39;49m[1;34;49m./test/key_tests.cpp(41): Entering test case "key_test1"
+[0;39;49m./test/key_tests.cpp(44): [1;31;49merror: in "key_tests/key_test1": check key1.IsValid() has failed[0;39;49m
+./test/key_tests.cpp(47): [1;31;49merror: in "key_tests/key_test1": check key2.IsValid() has failed[0;39;49m
+./test/key_tests.cpp(50): [1;31;49merror: in "key_tests/key_test1": check key1C.IsValid() has failed[0;39;49m
+./test/key_tests.cpp(51): [1;31;49merror: in "key_tests/key_test1": check key1C.IsCompressed() has failed[0;39;49m
+./test/key_tests.cpp(53): [1;31;49merror: in "key_tests/key_test1": check key2C.IsValid() has failed[0;39;49m
+./test/key_tests.cpp(54): [1;31;49merror: in "key_tests/key_test1": check key2C.IsCompressed() has failed[0;39;49m
+test_bitcoin: ./key.cpp:185: CPubKey CKey::GetPubKey() const: Assertion `keydata' failed.
+unknown location(0): [4;31;49mfatal error: in "key_tests/key_test1": signal: SIGABRT (application abort requested)[0;39;49m
+./test/key_tests.cpp(56): [1;36;49mlast checkpoint[0;39;49m
+[1;34;49m./test/key_tests.cpp(41): Leaving test case "key_test1"; testing time: 5177us
+[0;39;49m[1;34;49m./test/key_tests.cpp(170): Entering test case "key_signature_tests"
+./common/args.cpp:674 void ArgsManager::AddArg(const std::string&, const std::string&, unsigned int, const OptionsCategory&): Assertion `!arg_map.second.contains(arg_name)' failed.
+[0;39;49munknown location(0): [4;31;49mfatal error: in "key_tests/key_signature_tests": signal: SIGABRT (application abort requested)[0;39;49m
+./test/key_tests.cpp(170): [1;36;49mlast checkpoint: "key_signature_tests" fixture ctor[0;39;49m
+[1;34;49m./test/key_tests.cpp(170): Leaving test case "key_signature_tests"; testing time: 3395us
+[0;39;49m[1;34;49m./test/key_tests.cpp(243): Entering test case "pubkey_unserialize"

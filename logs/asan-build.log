@@ -1,0 +1,1154 @@
+[  0%] Building CXX object src/CMakeFiles/crc32c.dir/crc32c/src/crc32c.cc.o
+[  0%] Building CXX object src/test/util/CMakeFiles/test_util.dir/blockfilter.cpp.o
+[  0%] Building CXX object src/CMakeFiles/crc32c.dir/crc32c/src/crc32c_portable.cc.o
+[  1%] Building CXX object src/CMakeFiles/crc32c.dir/crc32c/src/crc32c_sse42.cc.o
+[  1%] Linking CXX static library libcrc32c.a
+[  1%] Built target crc32c
+[  1%] Building CXX object src/test/util/CMakeFiles/test_util.dir/coins.cpp.o
+[  1%] Building CXX object src/test/util/CMakeFiles/test_util.dir/coverage.cpp.o
+[  1%] Building CXX object src/CMakeFiles/leveldb.dir/leveldb/db/builder.cc.o
+[  2%] Building CXX object src/CMakeFiles/leveldb.dir/leveldb/db/db_impl.cc.o
+[  3%] Building CXX object src/test/util/CMakeFiles/test_util.dir/json.cpp.o
+[  3%] Building CXX object src/test/util/CMakeFiles/test_util.dir/logging.cpp.o
+[  3%] Building CXX object src/CMakeFiles/leveldb.dir/leveldb/db/db_iter.cc.o
+[  3%] Building CXX object src/test/util/CMakeFiles/test_util.dir/mining.cpp.o
+[  3%] Building CXX object src/CMakeFiles/leveldb.dir/leveldb/db/dbformat.cc.o
+[  3%] Building CXX object src/CMakeFiles/leveldb.dir/leveldb/db/filename.cc.o
+[  3%] Building CXX object src/CMakeFiles/leveldb.dir/leveldb/db/log_reader.cc.o
+[  3%] Building CXX object src/CMakeFiles/leveldb.dir/leveldb/db/log_writer.cc.o
+[  4%] Building CXX object src/CMakeFiles/leveldb.dir/leveldb/db/memtable.cc.o
+[  4%] Building CXX object src/CMakeFiles/leveldb.dir/leveldb/db/repair.cc.o
+[  4%] Building CXX object src/test/util/CMakeFiles/test_util.dir/net.cpp.o
+[  4%] Building CXX object src/CMakeFiles/leveldb.dir/leveldb/db/table_cache.cc.o
+[  4%] Building CXX object src/CMakeFiles/leveldb.dir/leveldb/db/version_edit.cc.o
+[  4%] Building CXX object src/CMakeFiles/leveldb.dir/leveldb/db/version_set.cc.o
+[  4%] Building CXX object src/test/util/CMakeFiles/test_util.dir/random.cpp.o
+[  4%] Building CXX object src/CMakeFiles/leveldb.dir/leveldb/db/write_batch.cc.o
+[  4%] Building CXX object src/test/util/CMakeFiles/test_util.dir/script.cpp.o
+[  5%] Building CXX object src/CMakeFiles/leveldb.dir/leveldb/table/block.cc.o
+[  6%] Building CXX object src/test/util/CMakeFiles/test_util.dir/setup_common.cpp.o
+[  6%] Building CXX object src/CMakeFiles/leveldb.dir/leveldb/table/block_builder.cc.o
+[  6%] Building CXX object src/CMakeFiles/leveldb.dir/leveldb/table/filter_block.cc.o
+[  6%] Building CXX object src/CMakeFiles/leveldb.dir/leveldb/table/format.cc.o
+[  6%] Building CXX object src/CMakeFiles/leveldb.dir/leveldb/table/iterator.cc.o
+[  6%] Building CXX object src/CMakeFiles/leveldb.dir/leveldb/table/merger.cc.o
+[  8%] Building CXX object src/CMakeFiles/leveldb.dir/leveldb/table/table.cc.o
+[  8%] Building CXX object src/CMakeFiles/leveldb.dir/leveldb/table/table_builder.cc.o
+[  8%] Building CXX object src/CMakeFiles/leveldb.dir/leveldb/table/two_level_iterator.cc.o
+[  8%] Building CXX object src/CMakeFiles/leveldb.dir/leveldb/util/arena.cc.o
+[  8%] Building CXX object src/CMakeFiles/leveldb.dir/leveldb/util/bloom.cc.o
+[  8%] Building CXX object src/CMakeFiles/leveldb.dir/leveldb/util/cache.cc.o
+[  9%] Building CXX object src/CMakeFiles/leveldb.dir/leveldb/util/coding.cc.o
+[  9%] Building CXX object src/CMakeFiles/leveldb.dir/leveldb/util/comparator.cc.o
+[  9%] Building CXX object src/CMakeFiles/leveldb.dir/leveldb/util/crc32c.cc.o
+[  9%] Building CXX object src/CMakeFiles/leveldb.dir/leveldb/util/env.cc.o
+[  9%] Building CXX object src/CMakeFiles/leveldb.dir/leveldb/util/env_posix.cc.o
+[  9%] Building CXX object src/test/util/CMakeFiles/test_util.dir/time.cpp.o
+[  9%] Building CXX object src/test/util/CMakeFiles/test_util.dir/transaction_utils.cpp.o
+[  9%] Building CXX object src/CMakeFiles/leveldb.dir/leveldb/util/filter_policy.cc.o
+[ 10%] Building CXX object src/CMakeFiles/leveldb.dir/leveldb/util/hash.cc.o
+[ 10%] Building CXX object src/CMakeFiles/leveldb.dir/leveldb/util/logging.cc.o
+[ 10%] Building CXX object src/CMakeFiles/leveldb.dir/leveldb/util/options.cc.o
+[ 10%] Building CXX object src/CMakeFiles/leveldb.dir/leveldb/util/status.cc.o
+[ 10%] Building CXX object src/CMakeFiles/leveldb.dir/leveldb/helpers/memenv/memenv.cc.o
+[ 10%] Building CXX object src/test/util/CMakeFiles/test_util.dir/txmempool.cpp.o
+[ 10%] Linking CXX static library libleveldb.a
+[ 10%] Built target leveldb
+[ 11%] Building CXX object src/CMakeFiles/minisketch.dir/minisketch/src/minisketch.cpp.o
+[ 11%] Building CXX object src/CMakeFiles/minisketch.dir/minisketch/src/fields/generic_1byte.cpp.o
+[ 11%] Building CXX object src/CMakeFiles/minisketch.dir/minisketch/src/fields/generic_2bytes.cpp.o
+[ 11%] Building CXX object src/CMakeFiles/minisketch.dir/minisketch/src/fields/generic_3bytes.cpp.o
+[ 11%] Building CXX object src/CMakeFiles/minisketch.dir/minisketch/src/fields/generic_4bytes.cpp.o
+[ 11%] Building CXX object src/CMakeFiles/minisketch.dir/minisketch/src/fields/generic_5bytes.cpp.o
+[ 12%] Building CXX object src/CMakeFiles/minisketch.dir/minisketch/src/fields/generic_6bytes.cpp.o
+[ 12%] Building CXX object src/CMakeFiles/minisketch.dir/minisketch/src/fields/generic_7bytes.cpp.o
+[ 12%] Building CXX object src/CMakeFiles/minisketch.dir/minisketch/src/fields/generic_8bytes.cpp.o
+[ 12%] Building CXX object src/CMakeFiles/minisketch.dir/minisketch/src/fields/clmul_1byte.cpp.o
+[ 12%] Building CXX object src/CMakeFiles/minisketch.dir/minisketch/src/fields/clmul_2bytes.cpp.o
+[ 13%] Building CXX object src/CMakeFiles/minisketch.dir/minisketch/src/fields/clmul_3bytes.cpp.o
+[ 13%] Building CXX object src/CMakeFiles/minisketch.dir/minisketch/src/fields/clmul_4bytes.cpp.o
+[ 13%] Building CXX object src/CMakeFiles/minisketch.dir/minisketch/src/fields/clmul_5bytes.cpp.o
+[ 13%] Building CXX object src/CMakeFiles/minisketch.dir/minisketch/src/fields/clmul_6bytes.cpp.o
+[ 13%] Building CXX object src/CMakeFiles/minisketch.dir/minisketch/src/fields/clmul_7bytes.cpp.o
+[ 13%] Building CXX object src/CMakeFiles/minisketch.dir/minisketch/src/fields/clmul_8bytes.cpp.o
+[ 15%] Linking CXX static library libminisketch.a
+[ 15%] Built target minisketch
+[ 15%] Generating bitcoin-build-info.h
+[ 15%] Built target generate_build_info
+[ 16%] Building CXX object src/CMakeFiles/bitcoin_consensus.dir/arith_uint256.cpp.o
+[ 16%] Building CXX object src/test/util/CMakeFiles/test_util.dir/validation.cpp.o
+[ 16%] Building CXX object src/CMakeFiles/bitcoin_consensus.dir/consensus/merkle.cpp.o
+[ 16%] Building CXX object src/CMakeFiles/bitcoin_consensus.dir/consensus/tx_check.cpp.o
+[ 16%] Building CXX object src/CMakeFiles/bitcoin_consensus.dir/hash.cpp.o
+[ 17%] Building CXX object src/test/util/CMakeFiles/test_util.dir/__/__/wallet/test/util.cpp.o
+[ 17%] Building CXX object src/CMakeFiles/bitcoin_consensus.dir/primitives/block.cpp.o
+[ 17%] Building CXX object src/CMakeFiles/bitcoin_consensus.dir/primitives/transaction.cpp.o
+[ 18%] Building CXX object src/CMakeFiles/bitcoin_consensus.dir/pubkey.cpp.o
+[ 18%] Linking CXX static library ../../../lib/libtest_util.a
+[ 18%] Building CXX object src/CMakeFiles/bitcoin_consensus.dir/script/interpreter.cpp.o
+[ 18%] Built target test_util
+[ 18%] Building CXX object src/CMakeFiles/bitcoin_consensus.dir/script/script.cpp.o
+[ 18%] Building CXX object src/CMakeFiles/bitcoin_common.dir/addresstype.cpp.o
+[ 18%] Building CXX object src/CMakeFiles/bitcoin_common.dir/base58.cpp.o
+[ 18%] Building CXX object src/CMakeFiles/bitcoin_consensus.dir/script/script_error.cpp.o
+[ 18%] Building CXX object src/CMakeFiles/bitcoin_consensus.dir/uint256.cpp.o
+[ 18%] Building CXX object src/CMakeFiles/bitcoin_common.dir/bech32.cpp.o
+[ 18%] Linking CXX static library ../lib/libbitcoin_consensus.a
+[ 18%] Built target bitcoin_consensus
+[ 19%] Generating node/data/ip_asn.dat.h
+[ 19%] Building CXX object src/CMakeFiles/bitcoin_common.dir/chain.cpp.o
+[ 19%] Building CXX object src/CMakeFiles/bitcoin_node.dir/addrdb.cpp.o
+[ 19%] Building CXX object src/CMakeFiles/bitcoin_common.dir/chainparams.cpp.o
+[ 20%] Building CXX object src/CMakeFiles/bitcoin_common.dir/chainparamsbase.cpp.o
+[ 20%] Building CXX object src/CMakeFiles/bitcoin_node.dir/addrman.cpp.o
+[ 20%] Building CXX object src/CMakeFiles/bitcoin_common.dir/coins.cpp.o
+[ 20%] Building CXX object src/CMakeFiles/bitcoin_common.dir/common/args.cpp.o
+[ 20%] Building CXX object src/CMakeFiles/bitcoin_node.dir/banman.cpp.o
+[ 20%] Building CXX object src/CMakeFiles/bitcoin_node.dir/bip324.cpp.o
+[ 20%] Building CXX object src/CMakeFiles/bitcoin_common.dir/common/bloom.cpp.o
+[ 20%] Building CXX object src/CMakeFiles/bitcoin_node.dir/blockencodings.cpp.o
+[ 20%] Building CXX object src/CMakeFiles/bitcoin_common.dir/common/config.cpp.o
+[ 20%] Building CXX object src/CMakeFiles/bitcoin_common.dir/common/init.cpp.o
+[ 22%] Building CXX object src/CMakeFiles/bitcoin_node.dir/blockfilter.cpp.o
+[ 23%] Building CXX object src/CMakeFiles/bitcoin_common.dir/common/interfaces.cpp.o
+[ 23%] Building CXX object src/CMakeFiles/bitcoin_node.dir/consensus/tx_verify.cpp.o
+[ 23%] Building CXX object src/CMakeFiles/bitcoin_common.dir/common/license_info.cpp.o
+[ 23%] Building CXX object src/CMakeFiles/bitcoin_common.dir/common/messages.cpp.o
+[ 23%] Building CXX object src/CMakeFiles/bitcoin_node.dir/dbwrapper.cpp.o
+[ 23%] Building CXX object src/CMakeFiles/bitcoin_common.dir/common/netif.cpp.o
+[ 23%] Building CXX object src/CMakeFiles/bitcoin_common.dir/common/pcp.cpp.o
+[ 23%] Building CXX object src/CMakeFiles/bitcoin_node.dir/deploymentstatus.cpp.o
+[ 23%] Building CXX object src/CMakeFiles/bitcoin_node.dir/flatfile.cpp.o
+[ 23%] Building CXX object src/CMakeFiles/bitcoin_common.dir/common/run_command.cpp.o
+[ 23%] Building CXX object src/CMakeFiles/bitcoin_node.dir/headerssync.cpp.o
+[ 24%] Building CXX object src/CMakeFiles/bitcoin_common.dir/common/settings.cpp.o
+[ 24%] Building CXX object src/CMakeFiles/bitcoin_common.dir/common/signmessage.cpp.o
+[ 25%] Building CXX object src/CMakeFiles/bitcoin_node.dir/httprpc.cpp.o
+[ 25%] Building CXX object src/CMakeFiles/bitcoin_common.dir/common/system.cpp.o
+In file included from /home/hatch/workspace/treeneesu/bitcoin-core/src/rpc/request.h:9,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/rpc/server.h:9,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/httprpc.cpp:12:
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h: In member function 'Int UniValue::getInt() const [with Int = int]':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:152:12: warning: 'result' may be used uninitialized [-Wmaybe-uninitialized]
+  152 |     return result;
+      |            ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:147:9: note: 'result' was declared here
+  147 |     Int result;
+      |         ^~~~~~
+[ 25%] Building CXX object src/CMakeFiles/bitcoin_common.dir/common/url.cpp.o
+[ 25%] Building CXX object src/CMakeFiles/bitcoin_common.dir/compressor.cpp.o
+[ 25%] Building CXX object src/CMakeFiles/bitcoin_node.dir/httpserver.cpp.o
+[ 25%] Building CXX object src/CMakeFiles/bitcoin_common.dir/core_io.cpp.o
+[ 26%] Building CXX object src/CMakeFiles/bitcoin_common.dir/deploymentinfo.cpp.o
+[ 26%] Building CXX object src/CMakeFiles/bitcoin_node.dir/i2p.cpp.o
+[ 26%] Building CXX object src/CMakeFiles/bitcoin_common.dir/external_signer.cpp.o
+[ 26%] Building CXX object src/CMakeFiles/bitcoin_node.dir/index/base.cpp.o
+[ 26%] Building CXX object src/CMakeFiles/bitcoin_common.dir/init/common.cpp.o
+[ 26%] Building CXX object src/CMakeFiles/bitcoin_node.dir/index/blockfilterindex.cpp.o
+[ 26%] Building CXX object src/CMakeFiles/bitcoin_common.dir/kernel/chainparams.cpp.o
+[ 26%] Building CXX object src/CMakeFiles/bitcoin_node.dir/index/coinstatsindex.cpp.o
+[ 26%] Building CXX object src/CMakeFiles/bitcoin_common.dir/key.cpp.o
+[ 26%] Building CXX object src/CMakeFiles/bitcoin_common.dir/key_io.cpp.o
+[ 27%] Building CXX object src/CMakeFiles/bitcoin_node.dir/index/txindex.cpp.o
+[ 29%] Building CXX object src/CMakeFiles/bitcoin_common.dir/merkleblock.cpp.o
+[ 29%] Building CXX object src/CMakeFiles/bitcoin_common.dir/musig.cpp.o
+[ 29%] Building CXX object src/CMakeFiles/bitcoin_common.dir/net_permissions.cpp.o
+[ 29%] Building CXX object src/CMakeFiles/bitcoin_node.dir/index/txospenderindex.cpp.o
+[ 29%] Building CXX object src/CMakeFiles/bitcoin_common.dir/net_types.cpp.o
+In file included from /home/hatch/workspace/treeneesu/bitcoin-core/src/net_types.cpp:9:
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h: In member function 'Int UniValue::getInt() const [with Int = int]':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:152:12: warning: 'result' may be used uninitialized [-Wmaybe-uninitialized]
+  152 |     return result;
+      |            ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:147:9: note: 'result' was declared here
+  147 |     Int result;
+      |         ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h: In member function 'Int UniValue::getInt() const [with Int = long int]':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:152:12: warning: 'result' may be used uninitialized [-Wmaybe-uninitialized]
+  152 |     return result;
+      |            ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:147:9: note: 'result' was declared here
+  147 |     Int result;
+      |         ^~~~~~
+[ 29%] Building CXX object src/CMakeFiles/bitcoin_common.dir/netaddress.cpp.o
+[ 29%] Building CXX object src/CMakeFiles/bitcoin_node.dir/init.cpp.o
+[ 29%] Building CXX object src/CMakeFiles/bitcoin_common.dir/netbase.cpp.o
+[ 30%] Building CXX object src/CMakeFiles/bitcoin_common.dir/outputtype.cpp.o
+[ 30%] Building CXX object src/CMakeFiles/bitcoin_common.dir/policy/feerate.cpp.o
+[ 30%] Building CXX object src/CMakeFiles/bitcoin_common.dir/policy/policy.cpp.o
+[ 30%] Building CXX object src/CMakeFiles/bitcoin_common.dir/pow.cpp.o
+[ 30%] Building CXX object src/CMakeFiles/bitcoin_common.dir/protocol.cpp.o
+[ 30%] Building CXX object src/CMakeFiles/bitcoin_common.dir/psbt.cpp.o
+[ 30%] Building CXX object src/CMakeFiles/bitcoin_node.dir/kernel/chain.cpp.o
+[ 30%] Building CXX object src/CMakeFiles/bitcoin_node.dir/kernel/checks.cpp.o
+[ 30%] Building CXX object src/CMakeFiles/bitcoin_node.dir/kernel/coinstats.cpp.o
+[ 31%] Building CXX object src/CMakeFiles/bitcoin_common.dir/rpc/rawtransaction_util.cpp.o
+[ 32%] Building CXX object src/CMakeFiles/bitcoin_node.dir/kernel/context.cpp.o
+[ 32%] Building CXX object src/CMakeFiles/bitcoin_node.dir/kernel/cs_main.cpp.o
+[ 32%] Building CXX object src/CMakeFiles/bitcoin_node.dir/kernel/disconnected_transactions.cpp.o
+In file included from /home/hatch/workspace/treeneesu/bitcoin-core/src/rpc/request.h:9,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/rpc/util.h:13,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/rpc/rawtransaction_util.h:10,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/rpc/rawtransaction_util.cpp:6:
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h: In member function 'Int UniValue::getInt() const [with Int = int]':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:152:12: warning: 'result' may be used uninitialized [-Wmaybe-uninitialized]
+  152 |     return result;
+      |            ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:147:9: note: 'result' was declared here
+  147 |     Int result;
+      |         ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h: In member function 'Int UniValue::getInt() const [with Int = long int]':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:152:12: warning: 'result' may be used uninitialized [-Wmaybe-uninitialized]
+  152 |     return result;
+      |            ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:147:9: note: 'result' was declared here
+  147 |     Int result;
+      |         ^~~~~~
+[ 32%] Building CXX object src/CMakeFiles/bitcoin_node.dir/kernel/mempool_removal_reason.cpp.o
+[ 32%] Building CXX object src/CMakeFiles/bitcoin_node.dir/mapport.cpp.o
+[ 32%] Building CXX object src/CMakeFiles/bitcoin_common.dir/rpc/request.cpp.o
+In file included from /home/hatch/workspace/treeneesu/bitcoin-core/src/rpc/request.h:9,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/rpc/request.cpp:6:
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h: In member function 'Int UniValue::getInt() const [with Int = int]':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:152:12: warning: 'result' may be used uninitialized [-Wmaybe-uninitialized]
+  152 |     return result;
+      |            ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:147:9: note: 'result' was declared here
+  147 |     Int result;
+      |         ^~~~~~
+[ 33%] Building CXX object src/CMakeFiles/bitcoin_node.dir/net.cpp.o
+[ 33%] Building CXX object src/CMakeFiles/bitcoin_common.dir/rpc/util.cpp.o
+In file included from /home/hatch/workspace/treeneesu/bitcoin-core/src/rpc/request.h:9,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/rpc/util.h:13,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/rpc/util.cpp:5:
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h: In member function 'Int UniValue::getInt() const [with Int = int]':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:152:12: warning: 'result' may be used uninitialized [-Wmaybe-uninitialized]
+  152 |     return result;
+      |            ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:147:9: note: 'result' was declared here
+  147 |     Int result;
+      |         ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h: In member function 'Int UniValue::getInt() const [with Int = unsigned int]':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:152:12: warning: 'result' may be used uninitialized [-Wmaybe-uninitialized]
+  152 |     return result;
+      |            ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:147:9: note: 'result' was declared here
+  147 |     Int result;
+      |         ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h: In member function 'Int UniValue::getInt() const [with Int = long int]':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:152:12: warning: 'result' may be used uninitialized [-Wmaybe-uninitialized]
+  152 |     return result;
+      |            ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:147:9: note: 'result' was declared here
+  147 |     Int result;
+      |         ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h: In member function 'Int UniValue::getInt() const [with Int = long unsigned int]':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:152:12: warning: 'result' may be used uninitialized [-Wmaybe-uninitialized]
+  152 |     return result;
+      |            ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:147:9: note: 'result' was declared here
+  147 |     Int result;
+      |         ^~~~~~
+[ 33%] Building CXX object src/CMakeFiles/bitcoin_common.dir/scheduler.cpp.o
+[ 33%] Building CXX object src/CMakeFiles/bitcoin_common.dir/script/descriptor.cpp.o
+[ 33%] Building CXX object src/CMakeFiles/bitcoin_node.dir/net_processing.cpp.o
+[ 33%] Building CXX object src/CMakeFiles/bitcoin_common.dir/script/miniscript.cpp.o
+[ 34%] Building CXX object src/CMakeFiles/bitcoin_common.dir/script/parsing.cpp.o
+[ 34%] Building CXX object src/CMakeFiles/bitcoin_common.dir/script/sign.cpp.o
+[ 34%] Building CXX object src/CMakeFiles/bitcoin_node.dir/netgroup.cpp.o
+[ 34%] Building CXX object src/CMakeFiles/bitcoin_node.dir/node/abort.cpp.o
+[ 34%] Building CXX object src/CMakeFiles/bitcoin_node.dir/node/blockmanager_args.cpp.o
+[ 34%] Building CXX object src/CMakeFiles/bitcoin_node.dir/node/blockstorage.cpp.o
+[ 34%] Building CXX object src/CMakeFiles/bitcoin_common.dir/script/signingprovider.cpp.o
+In file included from /home/hatch/workspace/treeneesu/bitcoin-core/src/uint256.h:12,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/consensus/params.h:10,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/chain.h:10,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/node/blockstorage.h:9,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/node/blockstorage.cpp:5:
+/home/hatch/workspace/treeneesu/bitcoin-core/src/util/strencodings.h: In function 'T LocaleIndependentAtoi(std::string_view) [with T = int]':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/util/strencodings.h:142:12: warning: 'result' may be used uninitialized [-Wmaybe-uninitialized]
+  142 |     return result;
+      |            ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/util/strencodings.h:121:7: note: 'result' was declared here
+  121 |     T result;
+      |       ^~~~~~
+[ 34%] Building CXX object src/CMakeFiles/bitcoin_common.dir/script/solver.cpp.o
+[ 34%] Linking CXX static library ../lib/libbitcoin_common.a
+[ 34%] Built target bitcoin_common
+[ 36%] Building CXX object src/CMakeFiles/bitcoin_node.dir/node/caches.cpp.o
+[ 36%] Building CXX object src/CMakeFiles/bitcoin_cli.dir/compat/stdin.cpp.o
+[ 36%] Building CXX object src/CMakeFiles/bitcoin_cli.dir/rpc/client.cpp.o
+[ 36%] Building CXX object src/CMakeFiles/bitcoin_node.dir/node/chainstate.cpp.o
+[ 36%] Linking CXX static library ../lib/libbitcoin_cli.a
+[ 36%] Built target bitcoin_cli
+[ 36%] Building CXX object src/univalue/CMakeFiles/univalue.dir/lib/univalue.cpp.o
+[ 36%] Building CXX object src/univalue/CMakeFiles/univalue.dir/lib/univalue_get.cpp.o
+[ 36%] Building CXX object src/univalue/CMakeFiles/univalue.dir/lib/univalue_read.cpp.o
+[ 36%] Building CXX object src/CMakeFiles/bitcoin_node.dir/node/chainstatemanager_args.cpp.o
+[ 36%] Building CXX object src/univalue/CMakeFiles/univalue.dir/lib/univalue_write.cpp.o
+[ 37%] Linking CXX static library libunivalue.a
+[ 37%] Built target univalue
+[ 37%] Building C object src/secp256k1/src/CMakeFiles/secp256k1_precomputed.dir/precomputed_ecmult.c.o
+[ 37%] Building C object src/secp256k1/src/CMakeFiles/secp256k1_precomputed.dir/precomputed_ecmult_gen.c.o
+[ 37%] Built target secp256k1_precomputed
+[ 38%] Building CXX object src/crypto/CMakeFiles/bitcoin_crypto.dir/aes.cpp.o
+[ 38%] Building CXX object src/crypto/CMakeFiles/bitcoin_crypto.dir/chacha20.cpp.o
+[ 38%] Building CXX object src/crypto/CMakeFiles/bitcoin_crypto.dir/chacha20poly1305.cpp.o
+[ 38%] Building CXX object src/crypto/CMakeFiles/bitcoin_crypto.dir/hex_base.cpp.o
+[ 38%] Building CXX object src/CMakeFiles/bitcoin_node.dir/node/coin.cpp.o
+[ 38%] Building CXX object src/crypto/CMakeFiles/bitcoin_crypto.dir/hkdf_sha256_32.cpp.o
+[ 38%] Building CXX object src/crypto/CMakeFiles/bitcoin_crypto.dir/hmac_sha256.cpp.o
+[ 39%] Building CXX object src/crypto/CMakeFiles/bitcoin_crypto.dir/hmac_sha512.cpp.o
+[ 39%] Building CXX object src/crypto/CMakeFiles/bitcoin_crypto.dir/muhash.cpp.o
+[ 39%] Building CXX object src/crypto/CMakeFiles/bitcoin_crypto.dir/poly1305.cpp.o
+[ 39%] Building CXX object src/crypto/CMakeFiles/bitcoin_crypto.dir/ripemd160.cpp.o
+[ 39%] Building CXX object src/crypto/CMakeFiles/bitcoin_crypto.dir/sha1.cpp.o
+[ 39%] Building CXX object src/crypto/CMakeFiles/bitcoin_crypto.dir/sha256.cpp.o
+[ 40%] Building CXX object src/crypto/CMakeFiles/bitcoin_crypto.dir/sha256_sse4.cpp.o
+[ 40%] Building CXX object src/crypto/CMakeFiles/bitcoin_crypto.dir/sha3.cpp.o
+[ 40%] Building CXX object src/CMakeFiles/bitcoin_node.dir/node/coins_view_args.cpp.o
+[ 40%] Building CXX object src/crypto/CMakeFiles/bitcoin_crypto.dir/sha512.cpp.o
+[ 40%] Building CXX object src/crypto/CMakeFiles/bitcoin_crypto.dir/siphash.cpp.o
+[ 40%] Building CXX object src/crypto/CMakeFiles/bitcoin_crypto.dir/__/support/cleanse.cpp.o
+[ 40%] Building CXX object src/crypto/CMakeFiles/bitcoin_crypto.dir/__/support/lockedpool.cpp.o
+[ 40%] Building CXX object src/CMakeFiles/bitcoin_node.dir/node/connection_types.cpp.o
+[ 41%] Building CXX object src/CMakeFiles/bitcoin_node.dir/node/context.cpp.o
+[ 43%] Building CXX object src/crypto/CMakeFiles/bitcoin_crypto.dir/sha256_sse41.cpp.o
+[ 43%] Building CXX object src/crypto/CMakeFiles/bitcoin_crypto.dir/sha256_avx2.cpp.o
+[ 43%] Building CXX object src/crypto/CMakeFiles/bitcoin_crypto.dir/sha256_x86_shani.cpp.o
+[ 43%] Linking CXX static library ../../lib/libbitcoin_crypto.a
+[ 43%] Built target bitcoin_crypto
+[ 43%] Building CXX object src/util/CMakeFiles/bitcoin_util.dir/asmap.cpp.o
+[ 43%] Building CXX object src/CMakeFiles/bitcoin_node.dir/node/database_args.cpp.o
+[ 43%] Building CXX object src/util/CMakeFiles/bitcoin_util.dir/batchpriority.cpp.o
+[ 43%] Building CXX object src/CMakeFiles/bitcoin_node.dir/node/eviction.cpp.o
+[ 43%] Building CXX object src/util/CMakeFiles/bitcoin_util.dir/bip32.cpp.o
+[ 43%] Building CXX object src/util/CMakeFiles/bitcoin_util.dir/bytevectorhash.cpp.o
+[ 43%] Building CXX object src/CMakeFiles/bitcoin_node.dir/node/interface_ui.cpp.o
+[ 43%] Building CXX object src/util/CMakeFiles/bitcoin_util.dir/chaintype.cpp.o
+[ 44%] Building CXX object src/util/CMakeFiles/bitcoin_util.dir/check.cpp.o
+[ 44%] Building CXX object src/CMakeFiles/bitcoin_node.dir/node/interfaces.cpp.o
+[ 44%] Building CXX object src/util/CMakeFiles/bitcoin_util.dir/exec.cpp.o
+[ 44%] Building CXX object src/util/CMakeFiles/bitcoin_util.dir/exception.cpp.o
+[ 44%] Building CXX object src/util/CMakeFiles/bitcoin_util.dir/fees.cpp.o
+[ 44%] Building CXX object src/util/CMakeFiles/bitcoin_util.dir/feefrac.cpp.o
+[ 44%] Building CXX object src/util/CMakeFiles/bitcoin_util.dir/fs.cpp.o
+[ 45%] Building CXX object src/util/CMakeFiles/bitcoin_util.dir/fs_helpers.cpp.o
+[ 45%] Building CXX object src/util/CMakeFiles/bitcoin_util.dir/hasher.cpp.o
+In file included from /home/hatch/workspace/treeneesu/bitcoin-core/src/external_signer.h:9,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/node/interfaces.cpp:17:
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h: In member function 'Int UniValue::getInt() const [with Int = int]':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:152:12: warning: 'result' may be used uninitialized [-Wmaybe-uninitialized]
+  152 |     return result;
+      |            ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:147:9: note: 'result' was declared here
+  147 |     Int result;
+      |         ^~~~~~
+[ 45%] Building CXX object src/util/CMakeFiles/bitcoin_util.dir/moneystr.cpp.o
+In file included from /home/hatch/workspace/treeneesu/bitcoin-core/src/util/moneystr.cpp:10:
+/home/hatch/workspace/treeneesu/bitcoin-core/src/util/strencodings.h: In function 'T LocaleIndependentAtoi(std::string_view) [with T = long int]':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/util/strencodings.h:142:12: warning: 'result' may be used uninitialized [-Wmaybe-uninitialized]
+  142 |     return result;
+      |            ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/util/strencodings.h:121:7: note: 'result' was declared here
+  121 |     T result;
+      |       ^~~~~~
+[ 45%] Building CXX object src/util/CMakeFiles/bitcoin_util.dir/rbf.cpp.o
+[ 45%] Building CXX object src/CMakeFiles/bitcoin_node.dir/node/kernel_notifications.cpp.o
+[ 45%] Building CXX object src/util/CMakeFiles/bitcoin_util.dir/readwritefile.cpp.o
+[ 45%] Building CXX object src/util/CMakeFiles/bitcoin_util.dir/serfloat.cpp.o
+[ 46%] Building CXX object src/util/CMakeFiles/bitcoin_util.dir/signalinterrupt.cpp.o
+[ 46%] Building CXX object src/util/CMakeFiles/bitcoin_util.dir/sock.cpp.o
+[ 47%] Building CXX object src/CMakeFiles/bitcoin_node.dir/node/mempool_args.cpp.o
+[ 47%] Building CXX object src/util/CMakeFiles/bitcoin_util.dir/strencodings.cpp.o
+[ 47%] Building CXX object src/CMakeFiles/bitcoin_node.dir/node/mempool_persist.cpp.o
+[ 47%] Building CXX object src/util/CMakeFiles/bitcoin_util.dir/string.cpp.o
+[ 47%] Building CXX object src/util/CMakeFiles/bitcoin_util.dir/syserror.cpp.o
+[ 47%] Building CXX object src/util/CMakeFiles/bitcoin_util.dir/thread.cpp.o
+[ 48%] Building CXX object src/util/CMakeFiles/bitcoin_util.dir/threadinterrupt.cpp.o
+[ 48%] Building CXX object src/util/CMakeFiles/bitcoin_util.dir/threadnames.cpp.o
+[ 48%] Building CXX object src/util/CMakeFiles/bitcoin_util.dir/time.cpp.o
+[ 48%] Building CXX object src/CMakeFiles/bitcoin_node.dir/node/mempool_persist_args.cpp.o
+[ 48%] Building CXX object src/util/CMakeFiles/bitcoin_util.dir/tokenpipe.cpp.o
+[ 48%] Building CXX object src/util/CMakeFiles/bitcoin_util.dir/__/logging.cpp.o
+[ 48%] Building CXX object src/CMakeFiles/bitcoin_node.dir/node/miner.cpp.o
+[ 48%] Building CXX object src/util/CMakeFiles/bitcoin_util.dir/__/random.cpp.o
+[ 50%] Building CXX object src/util/CMakeFiles/bitcoin_util.dir/__/randomenv.cpp.o
+[ 50%] Building CXX object src/util/CMakeFiles/bitcoin_util.dir/__/streams.cpp.o
+[ 50%] Building CXX object src/CMakeFiles/bitcoin_node.dir/node/mining_args.cpp.o
+[ 50%] Building CXX object src/util/CMakeFiles/bitcoin_util.dir/__/sync.cpp.o
+[ 50%] Linking CXX static library ../../lib/libbitcoin_util.a
+[ 50%] Built target bitcoin_util
+[ 50%] Building CXX object src/wallet/CMakeFiles/bitcoin_wallet.dir/coincontrol.cpp.o
+[ 50%] Building CXX object src/CMakeFiles/bitcoin_node.dir/node/mini_miner.cpp.o
+[ 50%] Building CXX object src/wallet/CMakeFiles/bitcoin_wallet.dir/coinselection.cpp.o
+[ 51%] Building CXX object src/CMakeFiles/bitcoin_node.dir/node/minisketchwrapper.cpp.o
+[ 51%] Building CXX object src/CMakeFiles/bitcoin_node.dir/node/peerman_args.cpp.o
+[ 52%] Building CXX object src/wallet/CMakeFiles/bitcoin_wallet.dir/context.cpp.o
+[ 52%] Building CXX object src/wallet/CMakeFiles/bitcoin_wallet.dir/crypter.cpp.o
+[ 52%] Building CXX object src/wallet/CMakeFiles/bitcoin_wallet.dir/db.cpp.o
+[ 52%] Building CXX object src/CMakeFiles/bitcoin_node.dir/node/psbt.cpp.o
+[ 52%] Building CXX object src/wallet/CMakeFiles/bitcoin_wallet.dir/dump.cpp.o
+[ 52%] Building CXX object src/CMakeFiles/bitcoin_node.dir/node/timeoffsets.cpp.o
+[ 52%] Building CXX object src/CMakeFiles/bitcoin_node.dir/node/transaction.cpp.o
+[ 52%] Building CXX object src/wallet/CMakeFiles/bitcoin_wallet.dir/export.cpp.o
+[ 52%] Building CXX object src/CMakeFiles/bitcoin_node.dir/node/txdownloadman_impl.cpp.o
+In file included from /home/hatch/workspace/treeneesu/bitcoin-core/src/uint256.h:12,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/hash.h:17,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/pubkey.h:10,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/addresstype.h:9,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/wallet/wallet.h:9,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/wallet/export.h:10,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/wallet/export.cpp:5:
+/home/hatch/workspace/treeneesu/bitcoin-core/src/util/strencodings.h: In function 'T LocaleIndependentAtoi(std::string_view) [with T = long int]':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/util/strencodings.h:142:12: warning: 'result' may be used uninitialized [-Wmaybe-uninitialized]
+  142 |     return result;
+      |            ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/util/strencodings.h:121:7: note: 'result' was declared here
+  121 |     T result;
+      |       ^~~~~~
+[ 52%] Building CXX object src/wallet/CMakeFiles/bitcoin_wallet.dir/external_signer_scriptpubkeyman.cpp.o
+[ 53%] Building CXX object src/CMakeFiles/bitcoin_node.dir/node/txorphanage.cpp.o
+[ 54%] Building CXX object src/wallet/CMakeFiles/bitcoin_wallet.dir/feebumper.cpp.o
+[ 54%] Building CXX object src/CMakeFiles/bitcoin_node.dir/node/txreconciliation.cpp.o
+[ 54%] Building CXX object src/CMakeFiles/bitcoin_node.dir/node/utxo_snapshot.cpp.o
+[ 54%] Building CXX object src/wallet/CMakeFiles/bitcoin_wallet.dir/fees.cpp.o
+[ 54%] Building CXX object src/wallet/CMakeFiles/bitcoin_wallet.dir/interfaces.cpp.o
+[ 54%] Building CXX object src/CMakeFiles/bitcoin_node.dir/node/warnings.cpp.o
+[ 54%] Building CXX object src/CMakeFiles/bitcoin_node.dir/noui.cpp.o
+[ 54%] Building CXX object src/CMakeFiles/bitcoin_node.dir/policy/ephemeral_policy.cpp.o
+[ 54%] Building CXX object src/wallet/CMakeFiles/bitcoin_wallet.dir/load.cpp.o
+[ 55%] Building CXX object src/CMakeFiles/bitcoin_node.dir/policy/fees/block_policy_estimator.cpp.o
+[ 55%] Building CXX object src/wallet/CMakeFiles/bitcoin_wallet.dir/migrate.cpp.o
+[ 55%] Building CXX object src/CMakeFiles/bitcoin_node.dir/policy/fees/estimator_args.cpp.o
+[ 55%] Building CXX object src/CMakeFiles/bitcoin_node.dir/policy/fees/estimator_man.cpp.o
+[ 55%] Building CXX object src/wallet/CMakeFiles/bitcoin_wallet.dir/receive.cpp.o
+[ 55%] Building CXX object src/CMakeFiles/bitcoin_node.dir/policy/fees/mempool_estimator.cpp.o
+[ 56%] Building CXX object src/wallet/CMakeFiles/bitcoin_wallet.dir/rpc/addresses.cpp.o
+[ 56%] Building CXX object src/CMakeFiles/bitcoin_node.dir/policy/packages.cpp.o
+[ 56%] Building CXX object src/CMakeFiles/bitcoin_node.dir/policy/rbf.cpp.o
+In file included from /home/hatch/workspace/treeneesu/bitcoin-core/src/rpc/request.h:9,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/rpc/util.h:13,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/wallet/rpc/addresses.cpp:9:
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h: In member function 'Int UniValue::getInt() const [with Int = int]':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:152:12: warning: 'result' may be used uninitialized [-Wmaybe-uninitialized]
+  152 |     return result;
+      |            ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:147:9: note: 'result' was declared here
+  147 |     Int result;
+      |         ^~~~~~
+[ 56%] Building CXX object src/wallet/CMakeFiles/bitcoin_wallet.dir/rpc/backup.cpp.o
+[ 58%] Building CXX object src/CMakeFiles/bitcoin_node.dir/policy/settings.cpp.o
+[ 58%] Building CXX object src/CMakeFiles/bitcoin_node.dir/policy/truc_policy.cpp.o
+In file included from /home/hatch/workspace/treeneesu/bitcoin-core/src/rpc/request.h:9,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/rpc/util.h:13,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/wallet/rpc/backup.cpp:13:
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h: In member function 'Int UniValue::getInt() const [with Int = long int]':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:152:12: warning: 'result' may be used uninitialized [-Wmaybe-uninitialized]
+  152 |     return result;
+      |            ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:147:9: note: 'result' was declared here
+  147 |     Int result;
+      |         ^~~~~~
+[ 58%] Building CXX object src/CMakeFiles/bitcoin_node.dir/private_broadcast.cpp.o
+[ 58%] Building CXX object src/wallet/CMakeFiles/bitcoin_wallet.dir/rpc/coins.cpp.o
+[ 58%] Building CXX object src/CMakeFiles/bitcoin_node.dir/rest.cpp.o
+In file included from /home/hatch/workspace/treeneesu/bitcoin-core/src/rpc/request.h:9,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/rpc/util.h:13,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/wallet/rpc/coins.cpp:8:
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h: In member function 'Int UniValue::getInt() const [with Int = int]':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:152:12: warning: 'result' may be used uninitialized [-Wmaybe-uninitialized]
+  152 |     return result;
+      |            ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:147:9: note: 'result' was declared here
+  147 |     Int result;
+      |         ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h: In member function 'Int UniValue::getInt() const [with Int = long int]':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:152:12: warning: 'result' may be used uninitialized [-Wmaybe-uninitialized]
+  152 |     return result;
+      |            ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:147:9: note: 'result' was declared here
+  147 |     Int result;
+      |         ^~~~~~
+[ 58%] Building CXX object src/wallet/CMakeFiles/bitcoin_wallet.dir/rpc/encrypt.cpp.o
+In file included from /home/hatch/workspace/treeneesu/bitcoin-core/src/rpc/request.h:9,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/rpc/util.h:13,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/wallet/rpc/encrypt.cpp:5:
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h: In member function 'Int UniValue::getInt() const [with Int = long int]':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:152:12: warning: 'result' may be used uninitialized [-Wmaybe-uninitialized]
+  152 |     return result;
+      |            ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:147:9: note: 'result' was declared here
+  147 |     Int result;
+      |         ^~~~~~
+[ 58%] Building CXX object src/CMakeFiles/bitcoin_node.dir/rpc/blockchain.cpp.o
+[ 58%] Building CXX object src/wallet/CMakeFiles/bitcoin_wallet.dir/rpc/signmessage.cpp.o
+[ 58%] Building CXX object src/wallet/CMakeFiles/bitcoin_wallet.dir/rpc/spend.cpp.o
+In file included from /home/hatch/workspace/treeneesu/bitcoin-core/src/rpc/request.h:9,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/rpc/util.h:13,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/rpc/rawtransaction_util.h:10,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/rpc/blockchain.cpp:44:
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h: In member function 'Int UniValue::getInt() const [with Int = long int]':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:152:12: warning: 'result' may be used uninitialized [-Wmaybe-uninitialized]
+  152 |     return result;
+      |            ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:147:9: note: 'result' was declared here
+  147 |     Int result;
+      |         ^~~~~~
+In file included from /home/hatch/workspace/treeneesu/bitcoin-core/src/rpc/request.h:9,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/rpc/util.h:13,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/rpc/rawtransaction_util.h:10,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/wallet/rpc/spend.cpp:12:
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h: In member function 'Int UniValue::getInt() const [with Int = long int]':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:152:12: warning: 'result' may be used uninitialized [-Wmaybe-uninitialized]
+  152 |     return result;
+      |            ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:147:9: note: 'result' was declared here
+  147 |     Int result;
+      |         ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h: In member function 'Int UniValue::getInt() const [with Int = int]':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:152:12: warning: 'result' may be used uninitialized [-Wmaybe-uninitialized]
+  152 |     return result;
+      |            ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:147:9: note: 'result' was declared here
+  147 |     Int result;
+      |         ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h: In member function 'Int UniValue::getInt() const [with Int = unsigned int]':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:152:12: warning: 'result' may be used uninitialized [-Wmaybe-uninitialized]
+  152 |     return result;
+      |            ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:147:9: note: 'result' was declared here
+  147 |     Int result;
+      |         ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h: In member function 'Int UniValue::getInt() const [with Int = int]':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:152:12: warning: 'result' may be used uninitialized [-Wmaybe-uninitialized]
+  152 |     return result;
+      |            ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:147:9: note: 'result' was declared here
+  147 |     Int result;
+      |         ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h: In member function 'Int UniValue::getInt() const [with Int = unsigned int]':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:152:12: warning: 'result' may be used uninitialized [-Wmaybe-uninitialized]
+  152 |     return result;
+      |            ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:147:9: note: 'result' was declared here
+  147 |     Int result;
+      |         ^~~~~~
+[ 58%] Building CXX object src/CMakeFiles/bitcoin_node.dir/rpc/external_signer.cpp.o
+[ 59%] Building CXX object src/CMakeFiles/bitcoin_node.dir/rpc/fees.cpp.o
+[ 60%] Building CXX object src/wallet/CMakeFiles/bitcoin_wallet.dir/rpc/transactions.cpp.o
+[ 60%] Building CXX object src/CMakeFiles/bitcoin_node.dir/rpc/mempool.cpp.o
+In file included from /home/hatch/workspace/treeneesu/bitcoin-core/src/rpc/request.h:9,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/rpc/util.h:13,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/wallet/rpc/transactions.cpp:9:
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h: In member function 'Int UniValue::getInt() const [with Int = int]':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:152:12: warning: 'result' may be used uninitialized [-Wmaybe-uninitialized]
+  152 |     return result;
+      |            ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:147:9: note: 'result' was declared here
+  147 |     Int result;
+      |         ^~~~~~
+In file included from /home/hatch/workspace/treeneesu/bitcoin-core/src/rpc/request.h:9,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/rpc/mempool.cpp:29:
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h: In member function 'Int UniValue::getInt() const [with Int = int]':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:152:12: warning: 'result' may be used uninitialized [-Wmaybe-uninitialized]
+  152 |     return result;
+      |            ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:147:9: note: 'result' was declared here
+  147 |     Int result;
+      |         ^~~~~~
+[ 60%] Building CXX object src/wallet/CMakeFiles/bitcoin_wallet.dir/rpc/util.cpp.o
+[ 60%] Building CXX object src/CMakeFiles/bitcoin_node.dir/rpc/mining.cpp.o
+[ 60%] Building CXX object src/wallet/CMakeFiles/bitcoin_wallet.dir/rpc/wallet.cpp.o
+In file included from /home/hatch/workspace/treeneesu/bitcoin-core/src/rpc/request.h:9,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/rpc/mining.cpp:41:
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h: In member function 'Int UniValue::getInt() const [with Int = int]':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:152:12: warning: 'result' may be used uninitialized [-Wmaybe-uninitialized]
+  152 |     return result;
+      |            ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:147:9: note: 'result' was declared here
+  147 |     Int result;
+      |         ^~~~~~
+[ 60%] Building CXX object src/CMakeFiles/bitcoin_node.dir/rpc/net.cpp.o
+[ 60%] Building CXX object src/wallet/CMakeFiles/bitcoin_wallet.dir/scriptpubkeyman.cpp.o
+[ 60%] Building CXX object src/wallet/CMakeFiles/bitcoin_wallet.dir/spend.cpp.o
+In file included from /home/hatch/workspace/treeneesu/bitcoin-core/src/rpc/request.h:9,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/rpc/server.h:9,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/rpc/net.cpp:6:
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h: In member function 'Int UniValue::getInt() const [with Int = long int]':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:152:12: warning: 'result' may be used uninitialized [-Wmaybe-uninitialized]
+  152 |     return result;
+      |            ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:147:9: note: 'result' was declared here
+  147 |     Int result;
+      |         ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h: In member function 'Int UniValue::getInt() const [with Int = short unsigned int]':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:152:12: warning: 'result' may be used uninitialized [-Wmaybe-uninitialized]
+  152 |     return result;
+      |            ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:147:9: note: 'result' was declared here
+  147 |     Int result;
+      |         ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h: In member function 'Int UniValue::getInt() const [with Int = int]':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:152:12: warning: 'result' may be used uninitialized [-Wmaybe-uninitialized]
+  152 |     return result;
+      |            ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:147:9: note: 'result' was declared here
+  147 |     Int result;
+      |         ^~~~~~
+[ 60%] Building CXX object src/CMakeFiles/bitcoin_node.dir/rpc/node.cpp.o
+[ 61%] Building CXX object src/wallet/CMakeFiles/bitcoin_wallet.dir/sqlite.cpp.o
+In file included from /home/hatch/workspace/treeneesu/bitcoin-core/src/rpc/request.h:9,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/rpc/node.cpp:24:
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h: In member function 'Int UniValue::getInt() const [with Int = long int]':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:152:12: warning: 'result' may be used uninitialized [-Wmaybe-uninitialized]
+  152 |     return result;
+      |            ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:147:9: note: 'result' was declared here
+  147 |     Int result;
+      |         ^~~~~~
+[ 61%] Building CXX object src/CMakeFiles/bitcoin_node.dir/rpc/output_script.cpp.o
+[ 61%] Building CXX object src/wallet/CMakeFiles/bitcoin_wallet.dir/transaction.cpp.o
+In file included from /home/hatch/workspace/treeneesu/bitcoin-core/src/rpc/request.h:9,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/rpc/output_script.cpp:15:
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h: In member function 'Int UniValue::getInt() const [with Int = int]':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:152:12: warning: 'result' may be used uninitialized [-Wmaybe-uninitialized]
+  152 |     return result;
+      |            ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:147:9: note: 'result' was declared here
+  147 |     Int result;
+      |         ^~~~~~
+[ 62%] Building CXX object src/CMakeFiles/bitcoin_node.dir/rpc/rawtransaction.cpp.o
+[ 62%] Building CXX object src/wallet/CMakeFiles/bitcoin_wallet.dir/wallet.cpp.o
+In file included from /home/hatch/workspace/treeneesu/bitcoin-core/src/rpc/request.h:9,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/rpc/util.h:13,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/rpc/rawtransaction_util.h:10,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/rpc/rawtransaction.cpp:34:
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h: In member function 'Int UniValue::getInt() const [with Int = unsigned int]':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:152:12: warning: 'result' may be used uninitialized [-Wmaybe-uninitialized]
+  152 |     return result;
+      |            ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:147:9: note: 'result' was declared here
+  147 |     Int result;
+      |         ^~~~~~
+In file included from /home/hatch/workspace/treeneesu/bitcoin-core/src/uint256.h:12,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/hash.h:17,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/pubkey.h:10,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/addresstype.h:9,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/wallet/wallet.h:9,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/wallet/wallet.cpp:6:
+/home/hatch/workspace/treeneesu/bitcoin-core/src/util/strencodings.h: In function 'T LocaleIndependentAtoi(std::string_view) [with T = long int]':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/util/strencodings.h:142:12: warning: 'result' may be used uninitialized [-Wmaybe-uninitialized]
+  142 |     return result;
+      |            ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/util/strencodings.h:121:7: note: 'result' was declared here
+  121 |     T result;
+      |       ^~~~~~
+[ 62%] Building CXX object src/CMakeFiles/bitcoin_node.dir/rpc/server.cpp.o
+In file included from /home/hatch/workspace/treeneesu/bitcoin-core/src/rpc/request.h:9,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/rpc/server.h:9,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/rpc/server.cpp:8:
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h: In member function 'Int UniValue::getInt() const [with Int = int]':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:152:12: warning: 'result' may be used uninitialized [-Wmaybe-uninitialized]
+  152 |     return result;
+      |            ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:147:9: note: 'result' was declared here
+  147 |     Int result;
+      |         ^~~~~~
+[ 62%] Building CXX object src/wallet/CMakeFiles/bitcoin_wallet.dir/walletdb.cpp.o
+[ 62%] Building CXX object src/CMakeFiles/bitcoin_node.dir/rpc/server_util.cpp.o
+[ 62%] Building CXX object src/CMakeFiles/bitcoin_node.dir/rpc/signmessage.cpp.o
+In file included from /home/hatch/workspace/treeneesu/bitcoin-core/src/uint256.h:12,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/hash.h:17,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/pubkey.h:10,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/key.h:10,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/wallet/walletdb.h:9,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/wallet/walletdb.cpp:8:
+/home/hatch/workspace/treeneesu/bitcoin-core/src/util/strencodings.h: In function 'T LocaleIndependentAtoi(std::string_view) [with T = long int]':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/util/strencodings.h:142:12: warning: 'result' may be used uninitialized [-Wmaybe-uninitialized]
+  142 |     return result;
+      |            ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/util/strencodings.h:121:7: note: 'result' was declared here
+  121 |     T result;
+      |       ^~~~~~
+[ 62%] Building CXX object src/CMakeFiles/bitcoin_node.dir/rpc/txoutproof.cpp.o
+[ 62%] Building CXX object src/wallet/CMakeFiles/bitcoin_wallet.dir/walletutil.cpp.o
+[ 62%] Building CXX object src/CMakeFiles/bitcoin_node.dir/script/sigcache.cpp.o
+[ 62%] Linking CXX static library ../../lib/libbitcoin_wallet.a
+[ 62%] Built target bitcoin_wallet
+[ 62%] Building CXX object src/CMakeFiles/bitcoin_clientversion.dir/clientversion.cpp.o
+[ 63%] Linking CXX static library ../lib/libbitcoin_clientversion.a
+[ 63%] Built target bitcoin_clientversion
+[ 63%] Building C object src/secp256k1/src/CMakeFiles/secp256k1.dir/secp256k1.c.o
+[ 65%] Building CXX object src/CMakeFiles/bitcoin_node.dir/signet.cpp.o
+[ 65%] Building CXX object src/CMakeFiles/bitcoin_node.dir/torcontrol.cpp.o
+[ 65%] Building CXX object src/CMakeFiles/bitcoin_node.dir/txdb.cpp.o
+[ 66%] Linking C static library ../lib/libsecp256k1.a
+[ 66%] Built target secp256k1
+[ 66%] Building CXX object src/CMakeFiles/bitcoin_node.dir/txgraph.cpp.o
+[ 66%] Building CXX object src/CMakeFiles/bitcoin_node.dir/txmempool.cpp.o
+[ 67%] Building CXX object src/CMakeFiles/bitcoin_node.dir/txrequest.cpp.o
+[ 67%] Building CXX object src/CMakeFiles/bitcoin_node.dir/validation.cpp.o
+[ 67%] Building CXX object src/CMakeFiles/bitcoin_node.dir/validationinterface.cpp.o
+[ 67%] Building CXX object src/CMakeFiles/bitcoin_node.dir/versionbits.cpp.o
+[ 67%] Building CXX object src/CMakeFiles/bitcoin_node.dir/wallet/init.cpp.o
+[ 67%] Linking CXX static library ../lib/libbitcoin_node.a
+[ 67%] Built target bitcoin_node
+[ 67%] Generating data/asmap.raw.h
+[ 68%] Generating data/tx_valid.json.h
+[ 68%] Generating data/base58_encode_decode.json.h
+[ 68%] Generating data/blockfilters.json.h
+[ 68%] Generating data/bip341_wallet_vectors.json.h
+[ 69%] Generating data/key_io_invalid.json.h
+[ 69%] Generating data/key_io_valid.json.h
+[ 69%] Generating data/script_tests.json.h
+[ 69%] Generating data/sighash.json.h
+[ 69%] Generating data/siphash.json.h
+[ 69%] Generating data/tx_invalid.json.h
+[ 69%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/main.cpp.o
+[ 69%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/addrman_tests.cpp.o
+[ 69%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/allocator_tests.cpp.o
+[ 69%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/amount_tests.cpp.o
+[ 70%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/argsman_tests.cpp.o
+[ 70%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/arith_uint256_tests.cpp.o
+[ 70%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/banman_tests.cpp.o
+In file included from /usr/include/c++/13/vector:66,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/util/string.h:19,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/tinyformat.h:149,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/util/fs.h:8,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/common/settings.h:8,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/common/args.h:8,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp:5:
+In member function 'constexpr void std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data::_M_copy_data(const std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]',
+    inlined from 'constexpr void std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data::_M_swap_data(std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/bits/stl_vector.h:127:22,
+    inlined from 'constexpr void std::vector<_Tp, _Alloc>::_M_move_assign(std::vector<_Tp, _Alloc>&&, std::true_type) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/bits/stl_vector.h:1962:28,
+    inlined from 'constexpr std::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::vector<_Tp, _Alloc>&&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/bits/stl_vector.h:771:16,
+    inlined from 'constexpr std::enable_if_t<__and_v<std::__not_<std::is_same<std::optional<_Tp>, typename std::remove_cv<typename std::remove_reference<_Iter>::type>::type> >, std::__not_<std::__and_<std::is_scalar<_Tp>, std::is_same<_Tp, typename std::decay<_Up>::type> > >, std::is_constructible<_Tp, _Up>, std::is_assignable<_T1&, _U1> >, std::optional<_Tp>&> std::optional<_Tp>::operator=(_Up&&) [with _Up = std::vector<std::__cxx11::basic_string<char> >; _Tp = std::vector<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/optional:853:21,
+    inlined from 'argsman_tests::CheckValueTest::Expect& argsman_tests::CheckValueTest::Expect::List(std::vector<std::__cxx11::basic_string<char> >)' at /home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp:91:76,
+    inlined from 'void argsman_tests::util_CheckValue::test_method()' at /home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp:159:97:
+/usr/include/c++/13/bits/stl_vector.h:115:26: warning: '*(const std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_Vector_impl_data*)((char*)&<unnamed> + offsetof(argsman_tests::CheckValueTest::Expect, argsman_tests::CheckValueTest::Expect::list_value.std::optional<std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::<unnamed>.std::_Optional_base<std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, false, false>::<unnamed>)).std::_Vector_base<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >::_Vector_impl_data::_M_start' may be used uninitialized [-Wmaybe-uninitialized]
+  115 |           _M_start = __x._M_start;
+      |                      ~~~~^~~~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp: In member function 'void argsman_tests::util_CheckValue::test_method()':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp:159:48: note: '<anonymous>' declared here
+  159 |     CheckValue(M::ALLOW_ANY, nullptr, Expect{{}}.DefaultString().DefaultInt().DefaultBool().List({}));
+      |                                                ^
+In member function 'constexpr void std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data::_M_copy_data(const std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]',
+    inlined from 'constexpr void std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data::_M_swap_data(std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/bits/stl_vector.h:127:22,
+    inlined from 'constexpr void std::vector<_Tp, _Alloc>::_M_move_assign(std::vector<_Tp, _Alloc>&&, std::true_type) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/bits/stl_vector.h:1962:28,
+    inlined from 'constexpr std::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::vector<_Tp, _Alloc>&&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/bits/stl_vector.h:771:16,
+    inlined from 'constexpr std::enable_if_t<__and_v<std::__not_<std::is_same<std::optional<_Tp>, typename std::remove_cv<typename std::remove_reference<_Iter>::type>::type> >, std::__not_<std::__and_<std::is_scalar<_Tp>, std::is_same<_Tp, typename std::decay<_Up>::type> > >, std::is_constructible<_Tp, _Up>, std::is_assignable<_T1&, _U1> >, std::optional<_Tp>&> std::optional<_Tp>::operator=(_Up&&) [with _Up = std::vector<std::__cxx11::basic_string<char> >; _Tp = std::vector<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/optional:853:21,
+    inlined from 'argsman_tests::CheckValueTest::Expect& argsman_tests::CheckValueTest::Expect::List(std::vector<std::__cxx11::basic_string<char> >)' at /home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp:91:76,
+    inlined from 'void argsman_tests::util_CheckValue::test_method()' at /home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp:159:97:
+/usr/include/c++/13/bits/stl_vector.h:116:27: warning: '*(const std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_Vector_impl_data*)((char*)&<unnamed> + offsetof(argsman_tests::CheckValueTest::Expect, argsman_tests::CheckValueTest::Expect::list_value.std::optional<std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::<unnamed>.std::_Optional_base<std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, false, false>::<unnamed>)).std::_Vector_base<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >::_Vector_impl_data::_M_finish' may be used uninitialized [-Wmaybe-uninitialized]
+  116 |           _M_finish = __x._M_finish;
+      |                       ~~~~^~~~~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp: In member function 'void argsman_tests::util_CheckValue::test_method()':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp:159:48: note: '<anonymous>' declared here
+  159 |     CheckValue(M::ALLOW_ANY, nullptr, Expect{{}}.DefaultString().DefaultInt().DefaultBool().List({}));
+      |                                                ^
+In member function 'constexpr void std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data::_M_copy_data(const std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]',
+    inlined from 'constexpr void std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data::_M_swap_data(std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/bits/stl_vector.h:127:22,
+    inlined from 'constexpr void std::vector<_Tp, _Alloc>::_M_move_assign(std::vector<_Tp, _Alloc>&&, std::true_type) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/bits/stl_vector.h:1962:28,
+    inlined from 'constexpr std::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::vector<_Tp, _Alloc>&&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/bits/stl_vector.h:771:16,
+    inlined from 'constexpr std::enable_if_t<__and_v<std::__not_<std::is_same<std::optional<_Tp>, typename std::remove_cv<typename std::remove_reference<_Iter>::type>::type> >, std::__not_<std::__and_<std::is_scalar<_Tp>, std::is_same<_Tp, typename std::decay<_Up>::type> > >, std::is_constructible<_Tp, _Up>, std::is_assignable<_T1&, _U1> >, std::optional<_Tp>&> std::optional<_Tp>::operator=(_Up&&) [with _Up = std::vector<std::__cxx11::basic_string<char> >; _Tp = std::vector<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/optional:853:21,
+    inlined from 'argsman_tests::CheckValueTest::Expect& argsman_tests::CheckValueTest::Expect::List(std::vector<std::__cxx11::basic_string<char> >)' at /home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp:91:76,
+    inlined from 'void argsman_tests::util_CheckValue::test_method()' at /home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp:159:97:
+/usr/include/c++/13/bits/stl_vector.h:117:35: warning: '*(const std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_Vector_impl_data*)((char*)&<unnamed> + offsetof(argsman_tests::CheckValueTest::Expect, argsman_tests::CheckValueTest::Expect::list_value.std::optional<std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::<unnamed>.std::_Optional_base<std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, false, false>::<unnamed>)).std::_Vector_base<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >::_Vector_impl_data::_M_end_of_storage' may be used uninitialized [-Wmaybe-uninitialized]
+  117 |           _M_end_of_storage = __x._M_end_of_storage;
+      |                               ~~~~^~~~~~~~~~~~~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp: In member function 'void argsman_tests::util_CheckValue::test_method()':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp:159:48: note: '<anonymous>' declared here
+  159 |     CheckValue(M::ALLOW_ANY, nullptr, Expect{{}}.DefaultString().DefaultInt().DefaultBool().List({}));
+      |                                                ^
+In member function 'constexpr void std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data::_M_copy_data(const std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]',
+    inlined from 'constexpr void std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data::_M_swap_data(std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/bits/stl_vector.h:127:22,
+    inlined from 'constexpr void std::vector<_Tp, _Alloc>::_M_move_assign(std::vector<_Tp, _Alloc>&&, std::true_type) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/bits/stl_vector.h:1962:28,
+    inlined from 'constexpr std::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::vector<_Tp, _Alloc>&&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/bits/stl_vector.h:771:16,
+    inlined from 'constexpr std::enable_if_t<__and_v<std::__not_<std::is_same<std::optional<_Tp>, typename std::remove_cv<typename std::remove_reference<_Iter>::type>::type> >, std::__not_<std::__and_<std::is_scalar<_Tp>, std::is_same<_Tp, typename std::decay<_Up>::type> > >, std::is_constructible<_Tp, _Up>, std::is_assignable<_T1&, _U1> >, std::optional<_Tp>&> std::optional<_Tp>::operator=(_Up&&) [with _Up = std::vector<std::__cxx11::basic_string<char> >; _Tp = std::vector<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/optional:853:21,
+    inlined from 'argsman_tests::CheckValueTest::Expect& argsman_tests::CheckValueTest::Expect::List(std::vector<std::__cxx11::basic_string<char> >)' at /home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp:91:76,
+    inlined from 'void argsman_tests::util_CheckValue::test_method()' at /home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp:160:91:
+/usr/include/c++/13/bits/stl_vector.h:115:26: warning: '*(const std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_Vector_impl_data*)((char*)&<unnamed> + offsetof(argsman_tests::CheckValueTest::Expect, argsman_tests::CheckValueTest::Expect::list_value.std::optional<std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::<unnamed>.std::_Optional_base<std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, false, false>::<unnamed>)).std::_Vector_base<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >::_Vector_impl_data::_M_start' may be used uninitialized [-Wmaybe-uninitialized]
+  115 |           _M_start = __x._M_start;
+      |                      ~~~~^~~~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp: In member function 'void argsman_tests::util_CheckValue::test_method()':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp:160:54: note: '<anonymous>' declared here
+  160 |     CheckValue(M::ALLOW_ANY, "-novalue", Expect{false}.String("0").Int(0).Bool(false).List({}));
+      |                                                      ^
+In member function 'constexpr void std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data::_M_copy_data(const std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]',
+    inlined from 'constexpr void std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data::_M_swap_data(std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/bits/stl_vector.h:127:22,
+    inlined from 'constexpr void std::vector<_Tp, _Alloc>::_M_move_assign(std::vector<_Tp, _Alloc>&&, std::true_type) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/bits/stl_vector.h:1962:28,
+    inlined from 'constexpr std::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::vector<_Tp, _Alloc>&&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/bits/stl_vector.h:771:16,
+    inlined from 'constexpr std::enable_if_t<__and_v<std::__not_<std::is_same<std::optional<_Tp>, typename std::remove_cv<typename std::remove_reference<_Iter>::type>::type> >, std::__not_<std::__and_<std::is_scalar<_Tp>, std::is_same<_Tp, typename std::decay<_Up>::type> > >, std::is_constructible<_Tp, _Up>, std::is_assignable<_T1&, _U1> >, std::optional<_Tp>&> std::optional<_Tp>::operator=(_Up&&) [with _Up = std::vector<std::__cxx11::basic_string<char> >; _Tp = std::vector<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/optional:853:21,
+    inlined from 'argsman_tests::CheckValueTest::Expect& argsman_tests::CheckValueTest::Expect::List(std::vector<std::__cxx11::basic_string<char> >)' at /home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp:91:76,
+    inlined from 'void argsman_tests::util_CheckValue::test_method()' at /home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp:160:91:
+/usr/include/c++/13/bits/stl_vector.h:116:27: warning: '*(const std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_Vector_impl_data*)((char*)&<unnamed> + offsetof(argsman_tests::CheckValueTest::Expect, argsman_tests::CheckValueTest::Expect::list_value.std::optional<std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::<unnamed>.std::_Optional_base<std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, false, false>::<unnamed>)).std::_Vector_base<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >::_Vector_impl_data::_M_finish' may be used uninitialized [-Wmaybe-uninitialized]
+  116 |           _M_finish = __x._M_finish;
+      |                       ~~~~^~~~~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp: In member function 'void argsman_tests::util_CheckValue::test_method()':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp:160:54: note: '<anonymous>' declared here
+  160 |     CheckValue(M::ALLOW_ANY, "-novalue", Expect{false}.String("0").Int(0).Bool(false).List({}));
+      |                                                      ^
+In member function 'constexpr void std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data::_M_copy_data(const std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]',
+    inlined from 'constexpr void std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data::_M_swap_data(std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/bits/stl_vector.h:127:22,
+    inlined from 'constexpr void std::vector<_Tp, _Alloc>::_M_move_assign(std::vector<_Tp, _Alloc>&&, std::true_type) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/bits/stl_vector.h:1962:28,
+    inlined from 'constexpr std::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::vector<_Tp, _Alloc>&&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/bits/stl_vector.h:771:16,
+    inlined from 'constexpr std::enable_if_t<__and_v<std::__not_<std::is_same<std::optional<_Tp>, typename std::remove_cv<typename std::remove_reference<_Iter>::type>::type> >, std::__not_<std::__and_<std::is_scalar<_Tp>, std::is_same<_Tp, typename std::decay<_Up>::type> > >, std::is_constructible<_Tp, _Up>, std::is_assignable<_T1&, _U1> >, std::optional<_Tp>&> std::optional<_Tp>::operator=(_Up&&) [with _Up = std::vector<std::__cxx11::basic_string<char> >; _Tp = std::vector<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/optional:853:21,
+    inlined from 'argsman_tests::CheckValueTest::Expect& argsman_tests::CheckValueTest::Expect::List(std::vector<std::__cxx11::basic_string<char> >)' at /home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp:91:76,
+    inlined from 'void argsman_tests::util_CheckValue::test_method()' at /home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp:160:91:
+/usr/include/c++/13/bits/stl_vector.h:117:35: warning: '*(const std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_Vector_impl_data*)((char*)&<unnamed> + offsetof(argsman_tests::CheckValueTest::Expect, argsman_tests::CheckValueTest::Expect::list_value.std::optional<std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::<unnamed>.std::_Optional_base<std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, false, false>::<unnamed>)).std::_Vector_base<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >::_Vector_impl_data::_M_end_of_storage' may be used uninitialized [-Wmaybe-uninitialized]
+  117 |           _M_end_of_storage = __x._M_end_of_storage;
+      |                               ~~~~^~~~~~~~~~~~~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp: In member function 'void argsman_tests::util_CheckValue::test_method()':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp:160:54: note: '<anonymous>' declared here
+  160 |     CheckValue(M::ALLOW_ANY, "-novalue", Expect{false}.String("0").Int(0).Bool(false).List({}));
+      |                                                      ^
+In member function 'constexpr void std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data::_M_copy_data(const std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]',
+    inlined from 'constexpr void std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data::_M_swap_data(std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/bits/stl_vector.h:127:22,
+    inlined from 'constexpr void std::vector<_Tp, _Alloc>::_M_move_assign(std::vector<_Tp, _Alloc>&&, std::true_type) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/bits/stl_vector.h:1962:28,
+    inlined from 'constexpr std::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::vector<_Tp, _Alloc>&&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/bits/stl_vector.h:771:16,
+    inlined from 'constexpr std::enable_if_t<__and_v<std::__not_<std::is_same<std::optional<_Tp>, typename std::remove_cv<typename std::remove_reference<_Iter>::type>::type> >, std::__not_<std::__and_<std::is_scalar<_Tp>, std::is_same<_Tp, typename std::decay<_Up>::type> > >, std::is_constructible<_Tp, _Up>, std::is_assignable<_T1&, _U1> >, std::optional<_Tp>&> std::optional<_Tp>::operator=(_Up&&) [with _Up = std::vector<std::__cxx11::basic_string<char> >; _Tp = std::vector<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/optional:853:21,
+    inlined from 'argsman_tests::CheckValueTest::Expect& argsman_tests::CheckValueTest::Expect::List(std::vector<std::__cxx11::basic_string<char> >)' at /home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp:91:76,
+    inlined from 'void argsman_tests::util_CheckValue::test_method()' at /home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp:161:92:
+/usr/include/c++/13/bits/stl_vector.h:115:26: warning: '*(const std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_Vector_impl_data*)((char*)&<unnamed> + offsetof(argsman_tests::CheckValueTest::Expect, argsman_tests::CheckValueTest::Expect::list_value.std::optional<std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::<unnamed>.std::_Optional_base<std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, false, false>::<unnamed>)).std::_Vector_base<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >::_Vector_impl_data::_M_start' may be used uninitialized [-Wmaybe-uninitialized]
+  115 |           _M_start = __x._M_start;
+      |                      ~~~~^~~~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp: In member function 'void argsman_tests::util_CheckValue::test_method()':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp:161:55: note: '<anonymous>' declared here
+  161 |     CheckValue(M::ALLOW_ANY, "-novalue=", Expect{false}.String("0").Int(0).Bool(false).List({}));
+      |                                                       ^
+In member function 'constexpr void std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data::_M_copy_data(const std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]',
+    inlined from 'constexpr void std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data::_M_swap_data(std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/bits/stl_vector.h:127:22,
+    inlined from 'constexpr void std::vector<_Tp, _Alloc>::_M_move_assign(std::vector<_Tp, _Alloc>&&, std::true_type) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/bits/stl_vector.h:1962:28,
+    inlined from 'constexpr std::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::vector<_Tp, _Alloc>&&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/bits/stl_vector.h:771:16,
+    inlined from 'constexpr std::enable_if_t<__and_v<std::__not_<std::is_same<std::optional<_Tp>, typename std::remove_cv<typename std::remove_reference<_Iter>::type>::type> >, std::__not_<std::__and_<std::is_scalar<_Tp>, std::is_same<_Tp, typename std::decay<_Up>::type> > >, std::is_constructible<_Tp, _Up>, std::is_assignable<_T1&, _U1> >, std::optional<_Tp>&> std::optional<_Tp>::operator=(_Up&&) [with _Up = std::vector<std::__cxx11::basic_string<char> >; _Tp = std::vector<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/optional:853:21,
+    inlined from 'argsman_tests::CheckValueTest::Expect& argsman_tests::CheckValueTest::Expect::List(std::vector<std::__cxx11::basic_string<char> >)' at /home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp:91:76,
+    inlined from 'void argsman_tests::util_CheckValue::test_method()' at /home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp:161:92:
+/usr/include/c++/13/bits/stl_vector.h:116:27: warning: '*(const std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_Vector_impl_data*)((char*)&<unnamed> + offsetof(argsman_tests::CheckValueTest::Expect, argsman_tests::CheckValueTest::Expect::list_value.std::optional<std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::<unnamed>.std::_Optional_base<std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, false, false>::<unnamed>)).std::_Vector_base<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >::_Vector_impl_data::_M_finish' may be used uninitialized [-Wmaybe-uninitialized]
+  116 |           _M_finish = __x._M_finish;
+      |                       ~~~~^~~~~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp: In member function 'void argsman_tests::util_CheckValue::test_method()':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp:161:55: note: '<anonymous>' declared here
+  161 |     CheckValue(M::ALLOW_ANY, "-novalue=", Expect{false}.String("0").Int(0).Bool(false).List({}));
+      |                                                       ^
+In member function 'constexpr void std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data::_M_copy_data(const std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]',
+    inlined from 'constexpr void std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data::_M_swap_data(std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/bits/stl_vector.h:127:22,
+    inlined from 'constexpr void std::vector<_Tp, _Alloc>::_M_move_assign(std::vector<_Tp, _Alloc>&&, std::true_type) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/bits/stl_vector.h:1962:28,
+    inlined from 'constexpr std::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::vector<_Tp, _Alloc>&&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/bits/stl_vector.h:771:16,
+    inlined from 'constexpr std::enable_if_t<__and_v<std::__not_<std::is_same<std::optional<_Tp>, typename std::remove_cv<typename std::remove_reference<_Iter>::type>::type> >, std::__not_<std::__and_<std::is_scalar<_Tp>, std::is_same<_Tp, typename std::decay<_Up>::type> > >, std::is_constructible<_Tp, _Up>, std::is_assignable<_T1&, _U1> >, std::optional<_Tp>&> std::optional<_Tp>::operator=(_Up&&) [with _Up = std::vector<std::__cxx11::basic_string<char> >; _Tp = std::vector<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/optional:853:21,
+    inlined from 'argsman_tests::CheckValueTest::Expect& argsman_tests::CheckValueTest::Expect::List(std::vector<std::__cxx11::basic_string<char> >)' at /home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp:91:76,
+    inlined from 'void argsman_tests::util_CheckValue::test_method()' at /home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp:161:92:
+/usr/include/c++/13/bits/stl_vector.h:117:35: warning: '*(const std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_Vector_impl_data*)((char*)&<unnamed> + offsetof(argsman_tests::CheckValueTest::Expect, argsman_tests::CheckValueTest::Expect::list_value.std::optional<std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::<unnamed>.std::_Optional_base<std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, false, false>::<unnamed>)).std::_Vector_base<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >::_Vector_impl_data::_M_end_of_storage' may be used uninitialized [-Wmaybe-uninitialized]
+  117 |           _M_end_of_storage = __x._M_end_of_storage;
+      |                               ~~~~^~~~~~~~~~~~~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp: In member function 'void argsman_tests::util_CheckValue::test_method()':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp:161:55: note: '<anonymous>' declared here
+  161 |     CheckValue(M::ALLOW_ANY, "-novalue=", Expect{false}.String("0").Int(0).Bool(false).List({}));
+      |                                                       ^
+In member function 'constexpr void std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data::_M_copy_data(const std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]',
+    inlined from 'constexpr void std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data::_M_swap_data(std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/bits/stl_vector.h:127:22,
+    inlined from 'constexpr void std::vector<_Tp, _Alloc>::_M_move_assign(std::vector<_Tp, _Alloc>&&, std::true_type) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/bits/stl_vector.h:1962:28,
+    inlined from 'constexpr std::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::vector<_Tp, _Alloc>&&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/bits/stl_vector.h:771:16,
+    inlined from 'constexpr std::enable_if_t<__and_v<std::__not_<std::is_same<std::optional<_Tp>, typename std::remove_cv<typename std::remove_reference<_Iter>::type>::type> >, std::__not_<std::__and_<std::is_scalar<_Tp>, std::is_same<_Tp, typename std::decay<_Up>::type> > >, std::is_constructible<_Tp, _Up>, std::is_assignable<_T1&, _U1> >, std::optional<_Tp>&> std::optional<_Tp>::operator=(_Up&&) [with _Up = std::vector<std::__cxx11::basic_string<char> >; _Tp = std::vector<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/optional:853:21,
+    inlined from 'argsman_tests::CheckValueTest::Expect& argsman_tests::CheckValueTest::Expect::List(std::vector<std::__cxx11::basic_string<char> >)' at /home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp:91:76,
+    inlined from 'void argsman_tests::util_CheckValue::test_method()' at /home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp:163:93:
+/usr/include/c++/13/bits/stl_vector.h:115:26: warning: '*(const std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_Vector_impl_data*)((char*)&<unnamed> + offsetof(argsman_tests::CheckValueTest::Expect, argsman_tests::CheckValueTest::Expect::list_value.std::optional<std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::<unnamed>.std::_Optional_base<std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, false, false>::<unnamed>)).std::_Vector_base<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >::_Vector_impl_data::_M_start' may be used uninitialized [-Wmaybe-uninitialized]
+  115 |           _M_start = __x._M_start;
+      |                      ~~~~^~~~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp: In member function 'void argsman_tests::util_CheckValue::test_method()':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp:163:56: note: '<anonymous>' declared here
+  163 |     CheckValue(M::ALLOW_ANY, "-novalue=1", Expect{false}.String("0").Int(0).Bool(false).List({}));
+      |                                                        ^
+In member function 'constexpr void std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data::_M_copy_data(const std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]',
+    inlined from 'constexpr void std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data::_M_swap_data(std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/bits/stl_vector.h:127:22,
+    inlined from 'constexpr void std::vector<_Tp, _Alloc>::_M_move_assign(std::vector<_Tp, _Alloc>&&, std::true_type) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/bits/stl_vector.h:1962:28,
+    inlined from 'constexpr std::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::vector<_Tp, _Alloc>&&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/bits/stl_vector.h:771:16,
+    inlined from 'constexpr std::enable_if_t<__and_v<std::__not_<std::is_same<std::optional<_Tp>, typename std::remove_cv<typename std::remove_reference<_Iter>::type>::type> >, std::__not_<std::__and_<std::is_scalar<_Tp>, std::is_same<_Tp, typename std::decay<_Up>::type> > >, std::is_constructible<_Tp, _Up>, std::is_assignable<_T1&, _U1> >, std::optional<_Tp>&> std::optional<_Tp>::operator=(_Up&&) [with _Up = std::vector<std::__cxx11::basic_string<char> >; _Tp = std::vector<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/optional:853:21,
+    inlined from 'argsman_tests::CheckValueTest::Expect& argsman_tests::CheckValueTest::Expect::List(std::vector<std::__cxx11::basic_string<char> >)' at /home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp:91:76,
+    inlined from 'void argsman_tests::util_CheckValue::test_method()' at /home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp:163:93:
+/usr/include/c++/13/bits/stl_vector.h:116:27: warning: '*(const std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_Vector_impl_data*)((char*)&<unnamed> + offsetof(argsman_tests::CheckValueTest::Expect, argsman_tests::CheckValueTest::Expect::list_value.std::optional<std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::<unnamed>.std::_Optional_base<std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, false, false>::<unnamed>)).std::_Vector_base<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >::_Vector_impl_data::_M_finish' may be used uninitialized [-Wmaybe-uninitialized]
+  116 |           _M_finish = __x._M_finish;
+      |                       ~~~~^~~~~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp: In member function 'void argsman_tests::util_CheckValue::test_method()':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp:163:56: note: '<anonymous>' declared here
+  163 |     CheckValue(M::ALLOW_ANY, "-novalue=1", Expect{false}.String("0").Int(0).Bool(false).List({}));
+      |                                                        ^
+In member function 'constexpr void std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data::_M_copy_data(const std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]',
+    inlined from 'constexpr void std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data::_M_swap_data(std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/bits/stl_vector.h:127:22,
+    inlined from 'constexpr void std::vector<_Tp, _Alloc>::_M_move_assign(std::vector<_Tp, _Alloc>&&, std::true_type) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/bits/stl_vector.h:1962:28,
+    inlined from 'constexpr std::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::vector<_Tp, _Alloc>&&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/bits/stl_vector.h:771:16,
+    inlined from 'constexpr std::enable_if_t<__and_v<std::__not_<std::is_same<std::optional<_Tp>, typename std::remove_cv<typename std::remove_reference<_Iter>::type>::type> >, std::__not_<std::__and_<std::is_scalar<_Tp>, std::is_same<_Tp, typename std::decay<_Up>::type> > >, std::is_constructible<_Tp, _Up>, std::is_assignable<_T1&, _U1> >, std::optional<_Tp>&> std::optional<_Tp>::operator=(_Up&&) [with _Up = std::vector<std::__cxx11::basic_string<char> >; _Tp = std::vector<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/optional:853:21,
+    inlined from 'argsman_tests::CheckValueTest::Expect& argsman_tests::CheckValueTest::Expect::List(std::vector<std::__cxx11::basic_string<char> >)' at /home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp:91:76,
+    inlined from 'void argsman_tests::util_CheckValue::test_method()' at /home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp:163:93:
+/usr/include/c++/13/bits/stl_vector.h:117:35: warning: '*(const std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_Vector_impl_data*)((char*)&<unnamed> + offsetof(argsman_tests::CheckValueTest::Expect, argsman_tests::CheckValueTest::Expect::list_value.std::optional<std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::<unnamed>.std::_Optional_base<std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, false, false>::<unnamed>)).std::_Vector_base<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >::_Vector_impl_data::_M_end_of_storage' may be used uninitialized [-Wmaybe-uninitialized]
+  117 |           _M_end_of_storage = __x._M_end_of_storage;
+      |                               ~~~~^~~~~~~~~~~~~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp: In member function 'void argsman_tests::util_CheckValue::test_method()':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp:163:56: note: '<anonymous>' declared here
+  163 |     CheckValue(M::ALLOW_ANY, "-novalue=1", Expect{false}.String("0").Int(0).Bool(false).List({}));
+      |                                                        ^
+In member function 'constexpr void std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data::_M_copy_data(const std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]',
+    inlined from 'constexpr void std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data::_M_swap_data(std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/bits/stl_vector.h:127:22,
+    inlined from 'constexpr void std::vector<_Tp, _Alloc>::_M_move_assign(std::vector<_Tp, _Alloc>&&, std::true_type) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/bits/stl_vector.h:1962:28,
+    inlined from 'constexpr std::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::vector<_Tp, _Alloc>&&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/bits/stl_vector.h:771:16,
+    inlined from 'constexpr std::enable_if_t<__and_v<std::__not_<std::is_same<std::optional<_Tp>, typename std::remove_cv<typename std::remove_reference<_Iter>::type>::type> >, std::__not_<std::__and_<std::is_scalar<_Tp>, std::is_same<_Tp, typename std::decay<_Up>::type> > >, std::is_constructible<_Tp, _Up>, std::is_assignable<_T1&, _U1> >, std::optional<_Tp>&> std::optional<_Tp>::operator=(_Up&&) [with _Up = std::vector<std::__cxx11::basic_string<char> >; _Tp = std::vector<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/optional:853:21,
+    inlined from 'argsman_tests::CheckValueTest::Expect& argsman_tests::CheckValueTest::Expect::List(std::vector<std::__cxx11::basic_string<char> >)' at /home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp:91:76,
+    inlined from 'void argsman_tests::util_CheckValue::test_method()' at /home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp:164:93:
+/usr/include/c++/13/bits/stl_vector.h:115:26: warning: '*(const std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_Vector_impl_data*)((char*)&<unnamed> + offsetof(argsman_tests::CheckValueTest::Expect, argsman_tests::CheckValueTest::Expect::list_value.std::optional<std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::<unnamed>.std::_Optional_base<std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, false, false>::<unnamed>)).std::_Vector_base<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >::_Vector_impl_data::_M_start' may be used uninitialized [-Wmaybe-uninitialized]
+  115 |           _M_start = __x._M_start;
+      |                      ~~~~^~~~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp: In member function 'void argsman_tests::util_CheckValue::test_method()':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp:164:56: note: '<anonymous>' declared here
+  164 |     CheckValue(M::ALLOW_ANY, "-novalue=2", Expect{false}.String("0").Int(0).Bool(false).List({}));
+      |                                                        ^
+In member function 'constexpr void std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data::_M_copy_data(const std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]',
+    inlined from 'constexpr void std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data::_M_swap_data(std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/bits/stl_vector.h:127:22,
+    inlined from 'constexpr void std::vector<_Tp, _Alloc>::_M_move_assign(std::vector<_Tp, _Alloc>&&, std::true_type) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/bits/stl_vector.h:1962:28,
+    inlined from 'constexpr std::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::vector<_Tp, _Alloc>&&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/bits/stl_vector.h:771:16,
+    inlined from 'constexpr std::enable_if_t<__and_v<std::__not_<std::is_same<std::optional<_Tp>, typename std::remove_cv<typename std::remove_reference<_Iter>::type>::type> >, std::__not_<std::__and_<std::is_scalar<_Tp>, std::is_same<_Tp, typename std::decay<_Up>::type> > >, std::is_constructible<_Tp, _Up>, std::is_assignable<_T1&, _U1> >, std::optional<_Tp>&> std::optional<_Tp>::operator=(_Up&&) [with _Up = std::vector<std::__cxx11::basic_string<char> >; _Tp = std::vector<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/optional:853:21,
+    inlined from 'argsman_tests::CheckValueTest::Expect& argsman_tests::CheckValueTest::Expect::List(std::vector<std::__cxx11::basic_string<char> >)' at /home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp:91:76,
+    inlined from 'void argsman_tests::util_CheckValue::test_method()' at /home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp:164:93:
+/usr/include/c++/13/bits/stl_vector.h:116:27: warning: '*(const std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_Vector_impl_data*)((char*)&<unnamed> + offsetof(argsman_tests::CheckValueTest::Expect, argsman_tests::CheckValueTest::Expect::list_value.std::optional<std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::<unnamed>.std::_Optional_base<std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, false, false>::<unnamed>)).std::_Vector_base<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >::_Vector_impl_data::_M_finish' may be used uninitialized [-Wmaybe-uninitialized]
+  116 |           _M_finish = __x._M_finish;
+      |                       ~~~~^~~~~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp: In member function 'void argsman_tests::util_CheckValue::test_method()':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp:164:56: note: '<anonymous>' declared here
+  164 |     CheckValue(M::ALLOW_ANY, "-novalue=2", Expect{false}.String("0").Int(0).Bool(false).List({}));
+      |                                                        ^
+In member function 'constexpr void std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data::_M_copy_data(const std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]',
+    inlined from 'constexpr void std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data::_M_swap_data(std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/bits/stl_vector.h:127:22,
+    inlined from 'constexpr void std::vector<_Tp, _Alloc>::_M_move_assign(std::vector<_Tp, _Alloc>&&, std::true_type) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/bits/stl_vector.h:1962:28,
+    inlined from 'constexpr std::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::vector<_Tp, _Alloc>&&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/bits/stl_vector.h:771:16,
+    inlined from 'constexpr std::enable_if_t<__and_v<std::__not_<std::is_same<std::optional<_Tp>, typename std::remove_cv<typename std::remove_reference<_Iter>::type>::type> >, std::__not_<std::__and_<std::is_scalar<_Tp>, std::is_same<_Tp, typename std::decay<_Up>::type> > >, std::is_constructible<_Tp, _Up>, std::is_assignable<_T1&, _U1> >, std::optional<_Tp>&> std::optional<_Tp>::operator=(_Up&&) [with _Up = std::vector<std::__cxx11::basic_string<char> >; _Tp = std::vector<std::__cxx11::basic_string<char> >]' at /usr/include/c++/13/optional:853:21,
+    inlined from 'argsman_tests::CheckValueTest::Expect& argsman_tests::CheckValueTest::Expect::List(std::vector<std::__cxx11::basic_string<char> >)' at /home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp:91:76,
+    inlined from 'void argsman_tests::util_CheckValue::test_method()' at /home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp:164:93:
+/usr/include/c++/13/bits/stl_vector.h:117:35: warning: '*(const std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_Vector_impl_data*)((char*)&<unnamed> + offsetof(argsman_tests::CheckValueTest::Expect, argsman_tests::CheckValueTest::Expect::list_value.std::optional<std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::<unnamed>.std::_Optional_base<std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, false, false>::<unnamed>)).std::_Vector_base<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >::_Vector_impl_data::_M_end_of_storage' may be used uninitialized [-Wmaybe-uninitialized]
+  117 |           _M_end_of_storage = __x._M_end_of_storage;
+      |                               ~~~~^~~~~~~~~~~~~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp: In member function 'void argsman_tests::util_CheckValue::test_method()':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/test/argsman_tests.cpp:164:56: note: '<anonymous>' declared here
+  164 |     CheckValue(M::ALLOW_ANY, "-novalue=2", Expect{false}.String("0").Int(0).Bool(false).List({}));
+      |                                                        ^
+[ 70%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/base32_tests.cpp.o
+[ 70%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/base58_tests.cpp.o
+[ 70%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/base64_tests.cpp.o
+[ 72%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/baseindex_tests.cpp.o
+[ 72%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/bech32_tests.cpp.o
+[ 72%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/bip32_tests.cpp.o
+[ 72%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/bip324_tests.cpp.o
+[ 72%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/blockchain_tests.cpp.o
+[ 72%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/blockencodings_tests.cpp.o
+[ 73%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/blockfilter_index_tests.cpp.o
+[ 73%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/blockfilter_tests.cpp.o
+[ 73%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/blockmanager_tests.cpp.o
+In file included from /home/hatch/workspace/treeneesu/bitcoin-core/src/test/blockfilter_tests.cpp:14:
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h: In member function 'Int UniValue::getInt() const [with Int = int]':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:152:12: warning: 'result' may be used uninitialized [-Wmaybe-uninitialized]
+  152 |     return result;
+      |            ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:147:9: note: 'result' was declared here
+  147 |     Int result;
+      |         ^~~~~~
+[ 73%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/blockpolicyestimator_tests.cpp.o
+[ 73%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/bloom_tests.cpp.o
+[ 73%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/bswap_tests.cpp.o
+[ 74%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/btcsignals_tests.cpp.o
+[ 74%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/caches_tests.cpp.o
+[ 74%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/chain_tests.cpp.o
+[ 74%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/chainstate_write_tests.cpp.o
+[ 74%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/checkqueue_tests.cpp.o
+[ 74%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/cluster_linearize_tests.cpp.o
+[ 75%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/coins_tests.cpp.o
+[ 75%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/coinscachepair_tests.cpp.o
+[ 75%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/coinstatsindex_tests.cpp.o
+[ 75%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/coinsviewoverlay_tests.cpp.o
+[ 75%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/common_url_tests.cpp.o
+[ 75%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/compress_tests.cpp.o
+[ 76%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/crypto_tests.cpp.o
+[ 76%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/cuckoocache_tests.cpp.o
+[ 76%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/dbwrapper_tests.cpp.o
+[ 76%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/denialofservice_tests.cpp.o
+[ 76%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/descriptor_tests.cpp.o
+[ 77%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/disconnected_transactions.cpp.o
+[ 77%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/fees_util_tests.cpp.o
+[ 77%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/feefrac_tests.cpp.o
+[ 77%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/feerounder_tests.cpp.o
+[ 77%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/flatfile_tests.cpp.o
+[ 77%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/fs_tests.cpp.o
+[ 79%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/getarg_tests.cpp.o
+[ 79%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/hash_tests.cpp.o
+[ 79%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/headers_sync_chainwork_tests.cpp.o
+[ 79%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/httpserver_tests.cpp.o
+[ 79%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/i2p_tests.cpp.o
+[ 79%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/interfaces_tests.cpp.o
+[ 80%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/key_io_tests.cpp.o
+[ 80%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/key_tests.cpp.o
+[ 80%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/logging_tests.cpp.o
+[ 80%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/mempool_tests.cpp.o
+[ 80%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/mempool_fee_estimator_tests.cpp.o
+[ 80%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/merkle_tests.cpp.o
+[ 81%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/merkleblock_tests.cpp.o
+[ 81%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/miner_tests.cpp.o
+[ 81%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/miniminer_tests.cpp.o
+[ 81%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/miniscript_tests.cpp.o
+[ 81%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/minisketch_tests.cpp.o
+[ 81%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/multisig_tests.cpp.o
+[ 82%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/bip328_tests.cpp.o
+[ 82%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/net_peer_connection_tests.cpp.o
+[ 82%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/net_peer_eviction_tests.cpp.o
+[ 82%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/net_tests.cpp.o
+[ 82%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/netbase_tests.cpp.o
+[ 82%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/node_init_tests.cpp.o
+[ 83%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/node_warnings_tests.cpp.o
+[ 83%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/orphanage_tests.cpp.o
+[ 83%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/pcp_tests.cpp.o
+[ 83%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/peerman_tests.cpp.o
+[ 83%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/pmt_tests.cpp.o
+[ 83%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/pool_tests.cpp.o
+[ 84%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/pow_tests.cpp.o
+[ 84%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/prevector_tests.cpp.o
+[ 84%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/private_broadcast_tests.cpp.o
+[ 84%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/psbt_tests.cpp.o
+[ 84%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/random_tests.cpp.o
+[ 84%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/rbf_tests.cpp.o
+[ 86%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/rest_tests.cpp.o
+[ 86%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/result_tests.cpp.o
+[ 86%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/reverselock_tests.cpp.o
+[ 86%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/rpc_tests.cpp.o
+[ 86%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/sanity_tests.cpp.o
+[ 86%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/scheduler_tests.cpp.o
+In file included from /home/hatch/workspace/treeneesu/bitcoin-core/src/rpc/client.h:9,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/test/rpc_tests.cpp:9:
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h: In member function 'Int UniValue::getInt() const [with Int = int]':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:152:12: warning: 'result' may be used uninitialized [-Wmaybe-uninitialized]
+  152 |     return result;
+      |            ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:147:9: note: 'result' was declared here
+  147 |     Int result;
+      |         ^~~~~~
+[ 87%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/script_assets_tests.cpp.o
+In file included from /home/hatch/workspace/treeneesu/bitcoin-core/src/test/util/json.h:8,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/test/script_assets_tests.cpp:13:
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h: In member function 'Int UniValue::getInt() const [with Int = long int]':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:152:12: warning: 'result' may be used uninitialized [-Wmaybe-uninitialized]
+  152 |     return result;
+      |            ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:147:9: note: 'result' was declared here
+  147 |     Int result;
+      |         ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h: In member function 'Int UniValue::getInt() const [with Int = long int]':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:152:12: warning: 'result' may be used uninitialized [-Wmaybe-uninitialized]
+  152 |     return result;
+      |            ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:147:9: note: 'result' was declared here
+  147 |     Int result;
+      |         ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h: In member function 'Int UniValue::getInt() const [with Int = long unsigned int]':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:152:12: warning: 'result' may be used uninitialized [-Wmaybe-uninitialized]
+  152 |     return result;
+      |            ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:147:9: note: 'result' was declared here
+  147 |     Int result;
+      |         ^~~~~~
+[ 87%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/script_p2sh_tests.cpp.o
+[ 87%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/script_parse_tests.cpp.o
+[ 87%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/script_segwit_tests.cpp.o
+[ 87%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/script_standard_tests.cpp.o
+[ 87%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/script_tests.cpp.o
+In file included from /home/hatch/workspace/treeneesu/bitcoin-core/src/test/script_standard_tests.cpp:14:
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h: In member function 'Int UniValue::getInt() const [with Int = int]':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:152:12: warning: 'result' may be used uninitialized [-Wmaybe-uninitialized]
+  152 |     return result;
+      |            ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:147:9: note: 'result' was declared here
+  147 |     Int result;
+      |         ^~~~~~
+[ 88%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/scriptnum_tests.cpp.o
+In file included from /home/hatch/workspace/treeneesu/bitcoin-core/src/rpc/request.h:9,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/rpc/util.h:13,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/test/script_tests.cpp:9:
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h: In member function 'Int UniValue::getInt() const [with Int = int]':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:152:12: warning: 'result' may be used uninitialized [-Wmaybe-uninitialized]
+  152 |     return result;
+      |            ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:147:9: note: 'result' was declared here
+  147 |     Int result;
+      |         ^~~~~~
+[ 88%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/serfloat_tests.cpp.o
+[ 88%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/serialize_tests.cpp.o
+[ 88%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/settings_tests.cpp.o
+[ 88%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/sighash_tests.cpp.o
+[ 88%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/sigopcount_tests.cpp.o
+In file included from /home/hatch/workspace/treeneesu/bitcoin-core/src/test/util/json.h:8,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/test/sighash_tests.cpp:15:
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h: In member function 'Int UniValue::getInt() const [with Int = int]':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:152:12: warning: 'result' may be used uninitialized [-Wmaybe-uninitialized]
+  152 |     return result;
+      |            ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:147:9: note: 'result' was declared here
+  147 |     Int result;
+      |         ^~~~~~
+[ 89%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/skiplist_tests.cpp.o
+[ 89%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/sock_tests.cpp.o
+[ 89%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/span_tests.cpp.o
+[ 89%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/streams_tests.cpp.o
+[ 89%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/sync_tests.cpp.o
+[ 90%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/system_ram_tests.cpp.o
+[ 90%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/system_tests.cpp.o
+[ 90%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/testnet4_miner_tests.cpp.o
+[ 90%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/threadpool_tests.cpp.o
+[ 90%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/timeoffsets_tests.cpp.o
+[ 90%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/torcontrol_tests.cpp.o
+[ 91%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/transaction_tests.cpp.o
+[ 91%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/translation_tests.cpp.o
+[ 91%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/txdownload_tests.cpp.o
+In file included from /home/hatch/workspace/treeneesu/bitcoin-core/src/test/util/json.h:8,
+                 from /home/hatch/workspace/treeneesu/bitcoin-core/src/test/transaction_tests.cpp:31:
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h: In member function 'Int UniValue::getInt() const [with Int = int]':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:152:12: warning: 'result' may be used uninitialized [-Wmaybe-uninitialized]
+  152 |     return result;
+      |            ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:147:9: note: 'result' was declared here
+  147 |     Int result;
+      |         ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h: In member function 'Int UniValue::getInt() const [with Int = long int]':
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:152:12: warning: 'result' may be used uninitialized [-Wmaybe-uninitialized]
+  152 |     return result;
+      |            ^~~~~~
+/home/hatch/workspace/treeneesu/bitcoin-core/src/univalue/include/univalue.h:147:9: note: 'result' was declared here
+  147 |     Int result;
+      |         ^~~~~~
+[ 91%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/txgraph_tests.cpp.o
+[ 91%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/txindex_tests.cpp.o
+[ 91%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/txospenderindex_tests.cpp.o
+[ 93%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/txpackage_tests.cpp.o
+[ 93%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/txreconciliation_tests.cpp.o
+[ 93%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/txrequest_tests.cpp.o
+[ 93%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/txvalidation_tests.cpp.o
+[ 93%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/txvalidationcache_tests.cpp.o
+[ 93%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/uint256_tests.cpp.o
+[ 94%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/util_check_tests.cpp.o
+[ 94%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/util_expected_tests.cpp.o
+[ 94%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/util_string_tests.cpp.o
+[ 94%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/util_tests.cpp.o
+[ 94%] Building CXX object src/test/CMakeFiles/test_bitcoin.dir/util_threadnames_tests.cpp.o
+-- Checking for required C++ features
+-- Checking for required C++ features - done
+CMake Error at cmake/module/AddBoostIfNeeded.cmake:32 (find_package):
+  Could not find a package configuration file provided by "Boost" (requested
+  version 1.74.0) with any of the following names:
+
+    BoostConfig.cmake
+    boost-config.cmake
+
+  Add the installation prefix of "Boost" to CMAKE_PREFIX_PATH or set
+  "Boost_DIR" to a directory containing one of the above files.  If "Boost"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+Call Stack (most recent call first):
+  CMakeLists.txt:226 (add_boost_if_needed)
+
+
+-- Configuring incomplete, errors occurred!
+gmake: *** [Makefile:687: cmake_check_build_system] Error 1
+ASAN_BUILD_EXIT:2

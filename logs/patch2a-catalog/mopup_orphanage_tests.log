@@ -1,0 +1,207 @@
+Running 8 test cases...
+[1;34;49mEntering test module "Bitcoin Core Test Suite"
+[0;39;49m[1;33;49m./test/addrman_tests.cpp(53): Test suite "addrman_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/allocator_tests.cpp(18): Test suite "allocator_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/amount_tests.cpp(12): Test suite "amount_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/argsman_tests.cpp(25): Test suite "argsman_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/arith_uint256_tests.cpp(19): Test suite "arith_uint256_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/banman_tests.cpp(16): Test suite "banman_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/base32_tests.cpp(14): Test suite "base32_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/base58_tests.cpp(22): Test suite "base58_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/base64_tests.cpp(14): Test suite "base64_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/baseindex_tests.cpp(62): Test suite "baseindex_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/bech32_tests.cpp(13): Test suite "bech32_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/bip32_tests.cpp(161): Test suite "bip32_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/bip324_tests.cpp(164): Test suite "bip324_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/blockchain_tests.cpp(54): Test suite "blockchain_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/blockencodings_tests.cpp(20): Test suite "blockencodings_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/blockfilter_index_tests.cpp(37): Test suite "blockfilter_index_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/blockfilter_tests.cpp(19): Test suite "blockfilter_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/blockmanager_tests.cpp(28): Test suite "blockmanager_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/blockpolicyestimator_tests.cpp(17): Test suite "blockpolicyestimator_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/bloom_tests.cpp(34): Test suite "bloom_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/bswap_tests.cpp(9): Test suite "bswap_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/btcsignals_tests.cpp(35): Test suite "btcsignals_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/caches_tests.cpp(23): Test suite "caches_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/chain_tests.cpp(13): Test suite "chain_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/chainstate_write_tests.cpp(18): Test suite "chainstate_write_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/checkqueue_tests.cpp(180): Test suite "checkqueue_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/cluster_linearize_tests.cpp(15): Test suite "cluster_linearize_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/coins_tests.cpp(279): Test suite "coins_tests_base" is skipped because disabled
+[0;39;49m[1;33;49m./test/coins_tests.cpp(290): Test suite "coins_tests_dbbase" is skipped because disabled
+[0;39;49m[1;33;49m./test/coins_tests.cpp(300): Test suite "coins_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/coinscachepair_tests.cpp(11): Test suite "coinscachepair_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/coinstatsindex_tests.cpp(25): Test suite "coinstatsindex_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/coinsviewoverlay_tests.cpp(101): Test suite "coinsviewoverlay_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/coinsviewoverlay_tests.cpp(277): Test suite "coinsviewoverlay_tests_noworkers" is skipped because disabled
+[0;39;49m[1;33;49m./test/common_url_tests.cpp(12): Test suite "common_url_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/compress_tests.cpp(26): Test suite "compress_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/crypto_tests.cpp(377): Test suite "crypto_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/cuckoocache_tests.cpp(33): Test suite "cuckoocache_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/dbwrapper_tests.cpp(21): Test suite "dbwrapper_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/denialofservice_tests.cpp(36): Test suite "denialofservice_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/descriptor_tests.cpp(606): Test suite "descriptor_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/disconnected_transactions.cpp(10): Test suite "disconnected_transactions" is skipped because disabled
+[0;39;49m[1;33;49m./test/fees_util_tests.cpp(9): Test suite "fees_util_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/feefrac_tests.cpp(10): Test suite "feefrac_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/feerounder_tests.cpp(12): Test suite "feerounder_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/flatfile_tests.cpp(13): Test suite "flatfile_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/fs_tests.cpp(15): Test suite "fs_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/getarg_tests.cpp(22): Test suite "getarg_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/hash_tests.cpp(16): Test suite "hash_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/headers_sync_chainwork_tests.cpp(143): Test suite "headers_sync_chainwork_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/httpserver_tests.cpp(28): Test suite "httpserver_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/i2p_tests.cpp(46): Test suite "i2p_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/interfaces_tests.cpp(17): Test suite "interfaces_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/key_io_tests.cpp(21): Test suite "key_io_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/key_tests.cpp(39): Test suite "key_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/logging_tests.cpp(33): Test suite "logging_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/mempool_tests.cpp(17): Test suite "mempool_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/mempool_fee_estimator_tests.cpp(24): Test suite "mempool_fee_estimator_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/merkle_tests.cpp(12): Test suite "merkle_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/merkleblock_tests.cpp(15): Test suite "merkleblock_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/miner_tests.cpp(95): Test suite "miner_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/miniminer_tests.cpp(16): Test suite "miniminer_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/miniscript_tests.cpp(499): Test suite "miniscript_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/minisketch_tests.cpp(18): Test suite "minisketch_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/multisig_tests.cpp(21): Test suite "multisig_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/bip328_tests.cpp(25): Test suite "bip328_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/net_peer_connection_tests.cpp(37): Test suite "net_peer_connection_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/net_peer_eviction_tests.cpp(18): Test suite "net_peer_eviction_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/net_tests.cpp(42): Test suite "net_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/netbase_tests.cpp(26): Test suite "netbase_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/node_init_tests.cpp(32): Test suite "node_init_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/node_warnings_tests.cpp(13): Test suite "node_warnings_tests" is skipped because disabled
+[0;39;49m[1;34;49m./test/orphanage_tests.cpp(24): Entering test suite "orphanage_tests"
+[0;39;49m[1;34;49m./test/orphanage_tests.cpp(77): Entering test case "peer_dos_limits"
+[0;39;49m[1;34;49m./test/orphanage_tests.cpp(77): Leaving test case "peer_dos_limits"; testing time: 16047us
+[0;39;49m[1;34;49m./test/orphanage_tests.cpp(419): Entering test case "DoS_mapOrphans"
+[0;39;49m[1;34;49m./test/orphanage_tests.cpp(419): Leaving test case "DoS_mapOrphans"; testing time: 44285us
+[0;39;49m[1;34;49m./test/orphanage_tests.cpp(517): Entering test case "same_txid_diff_witness"
+[0;39;49m[1;34;49m./test/orphanage_tests.cpp(517): Leaving test case "same_txid_diff_witness"; testing time: 1420us
+[0;39;49m[1;34;49m./test/orphanage_tests.cpp(562): Entering test case "get_children"
+[0;39;49m[1;34;49m./test/orphanage_tests.cpp(562): Leaving test case "get_children"; testing time: 1571us
+[0;39;49m[1;34;49m./test/orphanage_tests.cpp(667): Entering test case "too_large_orphan_tx"
+[0;39;49m[1;34;49m./test/orphanage_tests.cpp(667): Leaving test case "too_large_orphan_tx"; testing time: 2320us
+[0;39;49m[1;34;49m./test/orphanage_tests.cpp(684): Entering test case "process_block"
+[0;39;49m[1;34;49m./test/orphanage_tests.cpp(684): Leaving test case "process_block"; testing time: 1634us
+[0;39;49m[1;34;49m./test/orphanage_tests.cpp(739): Entering test case "multiple_announcers"
+[0;39;49m[1;34;49m./test/orphanage_tests.cpp(739): Leaving test case "multiple_announcers"; testing time: 1204us
+[0;39;49m[1;34;49m./test/orphanage_tests.cpp(821): Entering test case "peer_worksets"
+[0;39;49m[1;34;49m./test/orphanage_tests.cpp(821): Leaving test case "peer_worksets"; testing time: 1157us
+[0;39;49m[1;34;49m./test/orphanage_tests.cpp(24): Leaving test suite "orphanage_tests"; testing time: 70044us
+[0;39;49m[1;33;49m./test/pcp_tests.cpp(254): Test suite "pcp_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/peerman_tests.cpp(25): Test suite "peerman_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/pmt_tests.cpp(32): Test suite "pmt_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/pool_tests.cpp(18): Test suite "pool_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/pow_tests.cpp(15): Test suite "pow_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/prevector_tests.cpp(16): Test suite "prevector_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/private_broadcast_tests.cpp(25): Test suite "private_broadcast_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/psbt_tests.cpp(21): Test suite "psbt_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/random_tests.cpp(16): Test suite "random_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/rbf_tests.cpp(17): Test suite "rbf_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/rest_tests.cpp(13): Test suite "rest_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/result_tests.cpp(19): Test suite "result_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/reverselock_tests.cpp(12): Test suite "reverselock_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/rpc_tests.cpp(88): Test suite "rpc_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/sanity_tests.cpp(10): Test suite "sanity_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/scheduler_tests.cpp(16): Test suite "scheduler_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/script_assets_tests.cpp(30): Test suite "script_assets_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/script_p2sh_tests.cpp(58): Test suite "script_p2sh_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/script_parse_tests.cpp(12): Test suite "script_parse_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/script_segwit_tests.cpp(10): Test suite "script_segwit_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/script_standard_tests.cpp(22): Test suite "script_standard_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/script_tests.cpp(429): Test suite "script_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/scriptnum_tests.cpp(13): Test suite "scriptnum_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/serfloat_tests.cpp(17): Test suite "serfloat_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/serialize_tests.cpp(18): Test suite "serialize_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/settings_tests.cpp(52): Test suite "settings_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/sighash_tests.cpp(120): Test suite "sighash_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/sigopcount_tests.cpp(29): Test suite "sigopcount_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/skiplist_tests.cpp(17): Test suite "skiplist_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/sock_tests.cpp(19): Test suite "sock_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/span_tests.cpp(43): Test suite "span_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/streams_tests.cpp(20): Test suite "streams_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/sync_tests.cpp(74): Test suite "sync_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/system_ram_tests.cpp(10): Test suite "system_ram_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/system_tests.cpp(57): Test suite "system_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/testnet4_miner_tests.cpp(34): Test suite "testnet4_miner_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/threadpool_tests.cpp(49): Test suite "threadpool_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/timeoffsets_tests.cpp(24): Test suite "timeoffsets_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/torcontrol_tests.cpp(17): Test suite "torcontrol_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/transaction_tests.cpp(161): Test suite "transaction_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/translation_tests.cpp(10): Test suite "translation_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/txdownload_tests.cpp(20): Test suite "txdownload_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/txgraph_tests.cpp(14): Test suite "txgraph_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/txindex_tests.cpp(39): Test suite "txindex_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/txospenderindex_tests.cpp(12): Test suite "txospenderindex_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/txpackage_tests.cpp(51): Test suite "txpackage_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/txreconciliation_tests.cpp(12): Test suite "txreconciliation_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/txrequest_tests.cpp(750): Test suite "txrequest_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/txvalidation_tests.cpp(22): Test suite "txvalidation_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/txvalidationcache_tests.cpp(29): Test suite "txvalidationcache_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/uint256_tests.cpp(19): Test suite "uint256_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/util_check_tests.cpp(10): Test suite "util_check_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/util_expected_tests.cpp(17): Test suite "util_expected_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/util_string_tests.cpp(15): Test suite "util_string_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/util_tests.cpp(73): Test suite "util_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/util_threadnames_tests.cpp(18): Test suite "util_threadnames_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/util_trace_tests.cpp(18): Test suite "util_trace_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/validation_block_tests.cpp(49): Test suite "validation_block_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/validation_chainstate_tests.cpp(34): Test suite "validation_chainstate_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/validation_chainstatemanager_tests.cpp(37): Test suite "validation_chainstatemanager_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/validation_flush_tests.cpp(14): Test suite "validation_flush_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/validation_tests.cpp(22): Test suite "validation_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/validationinterface_tests.cpp(16): Test suite "validationinterface_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/versionbits_tests.cpp(187): Test suite "versionbits_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/db_tests.cpp(61): Test suite "db_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/coinselector_tests.cpp(25): Test suite "coinselector_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/coinselection_tests.cpp(13): Test suite "coinselection_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/feebumper_tests.cpp(18): Test suite "feebumper_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/group_outputs_tests.cpp(15): Test suite "group_outputs_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/init_tests.cpp(14): Test suite "init_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/ismine_tests.cpp(21): Test suite "ismine_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/psbt_wallet_tests.cpp(17): Test suite "psbt_wallet_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/scriptpubkeyman_tests.cpp(17): Test suite "scriptpubkeyman_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/spend_tests.cpp(17): Test suite "spend_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/wallet_crypto_tests.cpp(17): Test suite "wallet_crypto_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/wallet_rpc_tests.cpp(23): Test suite "wallet_rpc_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/wallet_tests.cpp(46): Test suite "wallet_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/wallet_transaction_tests.cpp(16): Test suite "wallet_transaction_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/walletdb_tests.cpp(15): Test suite "walletdb_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/walletload_tests.cpp(15): Test suite "walletload_tests" is skipped because disabled
+[0;39;49m[1;34;49mLeaving test module "Bitcoin Core Test Suite"; testing time: 72715us
+[0;39;49m
+Test module "Bitcoin Core Test Suite" has passed with:
+  8 test cases out of 827 passed
+  819 test cases out of 827 skipped
+  504 assertions out of 504 passed
+
+  Test suite "orphanage_tests" has passed with:
+    8 test cases out of 8 passed
+    504 assertions out of 504 passed
+
+    Test case "orphanage_tests/peer_dos_limits" has passed with:
+      327 assertions out of 327 passed
+
+    Test case "orphanage_tests/DoS_mapOrphans" has passed with:
+      75 assertions out of 75 passed
+
+    Test case "orphanage_tests/same_txid_diff_witness" has passed with:
+      17 assertions out of 17 passed
+
+    Test case "orphanage_tests/get_children" has passed with:
+      27 assertions out of 27 passed
+
+    Test case "orphanage_tests/too_large_orphan_tx" has passed with:
+      4 assertions out of 4 passed
+
+    Test case "orphanage_tests/process_block" has passed with:
+      11 assertions out of 11 passed
+
+    Test case "orphanage_tests/multiple_announcers" has passed with:
+      26 assertions out of 26 passed
+
+    Test case "orphanage_tests/peer_worksets" has passed with:
+      17 assertions out of 17 passed
+

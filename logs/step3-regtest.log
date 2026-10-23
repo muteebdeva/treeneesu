@@ -1,0 +1,40 @@
+DEMO_START 2026-10-23T13:55:40+05:30
+== 1. Start regtest node (background daemon, local only) ==
+Bitcoin Core starting
+== 2. Chain info at start ==
+  "chain": "regtest",
+  "blocks": 0,
+  "headers": 0,
+== 3. Create wallet 'demo' and a receiving address ==
+{
+  "name": "demo"
+}
+miner address: bcrt1qn7xknjha86kwqr49jxp5d2fmstwhwllzrx3nqk
+== 4. Mine 101 blocks to that address (50 test BTC each, spendable after 100 confirmations) ==
+  "7791a5e2a3dd021764d3a5d2f9eef6f190928a76b7a7bbfc9285e6f3ad7c35ea"
+]
+  "blocks": 101,
+balance after mining:
+  "mine": {
+    "trusted": 50.00000000,
+    "untrusted_pending": 0.00000000,
+== 5. Send 10 test BTC to a fresh address in the same wallet ==
+recipient address: bcrt1qhfrm92tfx6g264s3ca5qnej7wmqra7j0jpxkgk
+txid: f8387fd7f2483b15a321922fdae8f127e07635c9b64e084e71d82622106f56b4
+confirmations before mining (expect 0):
+  "amount": 0.00000000,
+  "confirmations": 0,
+      "amount": -10.00000000,
+      "amount": 10.00000000,
+== 6. Mine 1 block to confirm it ==
+confirmations after mining (expect 1):
+  "amount": 0.00000000,
+  "confirmations": 1,
+      "amount": -10.00000000,
+      "amount": 10.00000000,
+  "blocks": 102,
+== 7. Stop node cleanly ==
+Bitcoin Core stopping
+DEMO_DONE
+DEMO_SCRIPT_EXIT:0
+DEMO_END 2026-10-23T13:55:44+05:30

@@ -1,0 +1,265 @@
+TEST_START 2026-10-23T14:47:44+05:30
+Running 827 test cases...
+[1;34;49mEntering test module "Bitcoin Core Test Suite"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(53): Entering test suite "addrman_tests"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(55): Entering test case "addrman_simple"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(55): Leaving test case "addrman_simple"; testing time: 3593us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(100): Entering test case "addrman_terrible_many_failures"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(100): Leaving test case "addrman_terrible_many_failures"; testing time: 1127us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(134): Entering test case "addrman_penalty_self_announcement"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(134): Leaving test case "addrman_penalty_self_announcement"; testing time: 1598us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(173): Entering test case "addrman_ports"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(173): Leaving test case "addrman_ports"; testing time: 1718us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(201): Entering test case "addrman_select"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(201): Leaving test case "addrman_select"; testing time: 9055us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(260): Entering test case "addrman_select_by_network"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(260): Leaving test case "addrman_select_by_network"; testing time: 5960us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(328): Entering test case "addrman_select_special"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(328): Leaving test case "addrman_select_special"; testing time: 1272us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(351): Entering test case "addrman_new_collisions"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(351): Leaving test case "addrman_new_collisions"; testing time: 1463us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(380): Entering test case "addrman_new_multiplicity"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(380): Leaving test case "addrman_new_multiplicity"; testing time: 2987us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(412): Entering test case "addrman_tried_collisions"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(412): Leaving test case "addrman_tried_collisions"; testing time: 2654us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(443): Entering test case "addrman_getaddr"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(443): Leaving test case "addrman_getaddr"; testing time: 101858us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(502): Entering test case "getaddr_unfiltered"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(502): Leaving test case "getaddr_unfiltered"; testing time: 1240us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(538): Entering test case "caddrinfo_get_tried_bucket_legacy"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(538): Leaving test case "caddrinfo_get_tried_bucket_legacy"; testing time: 3215us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(589): Entering test case "caddrinfo_get_new_bucket_legacy"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(589): Leaving test case "caddrinfo_get_new_bucket_legacy"; testing time: 8290us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(663): Entering test case "caddrinfo_get_tried_bucket"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(663): Leaving test case "caddrinfo_get_tried_bucket"; testing time: 3689us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(716): Entering test case "caddrinfo_get_new_bucket"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(716): Leaving test case "caddrinfo_get_new_bucket"; testing time: 11679us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(793): Entering test case "addrman_serialization"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(793): Leaving test case "addrman_serialization"; testing time: 4631us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(857): Entering test case "remove_invalid"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(857): Leaving test case "remove_invalid"; testing time: 2007us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(898): Entering test case "addrman_selecttriedcollision"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(898): Leaving test case "addrman_selecttriedcollision"; testing time: 2198us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(931): Entering test case "addrman_noevict"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(931): Leaving test case "addrman_noevict"; testing time: 3551us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(983): Entering test case "addrman_evictionworks"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(983): Leaving test case "addrman_evictionworks"; testing time: 2802us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(1054): Entering test case "load_addrman"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(1054): Leaving test case "load_addrman"; testing time: 2296us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(1125): Entering test case "load_addrman_corrupted"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(1125): Leaving test case "load_addrman_corrupted"; testing time: 1172us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(1146): Entering test case "addrman_update_address"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(1146): Leaving test case "addrman_update_address"; testing time: 1098us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(1203): Entering test case "addrman_size"
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(1203): Leaving test case "addrman_size"; testing time: 1026us
+[0;39;49m[1;34;49m./test/addrman_tests.cpp(53): Leaving test suite "addrman_tests"; testing time: 183547us
+[0;39;49m[1;34;49m./test/allocator_tests.cpp(18): Entering test suite "allocator_tests"
+[0;39;49m[1;34;49m./test/allocator_tests.cpp(20): Entering test case "arena_tests"
+[0;39;49m[1;34;49m./test/allocator_tests.cpp(20): Leaving test case "arena_tests"; testing time: 2699us
+[0;39;49m[1;34;49m./test/allocator_tests.cpp(163): Entering test case "lockedpool_tests_mock"
+[0;39;49m[1;34;49m./test/allocator_tests.cpp(163): Leaving test case "lockedpool_tests_mock"; testing time: 144us
+[0;39;49m[1;34;49m./test/allocator_tests.cpp(212): Entering test case "lockedpool_tests_live"
+[0;39;49m[1;34;49m./test/allocator_tests.cpp(212): Leaving test case "lockedpool_tests_live"; testing time: 114us
+[0;39;49m[1;34;49m./test/allocator_tests.cpp(18): Leaving test suite "allocator_tests"; testing time: 3057us
+[0;39;49m[1;34;49m./test/amount_tests.cpp(12): Entering test suite "amount_tests"
+[0;39;49m[1;34;49m./test/amount_tests.cpp(14): Entering test case "MoneyRangeTest"
+[0;39;49m[1;34;49m./test/amount_tests.cpp(14): Leaving test case "MoneyRangeTest"; testing time: 102us
+[0;39;49m[1;34;49m./test/amount_tests.cpp(23): Entering test case "GetFeeTest"
+[0;39;49m[1;34;49m./test/amount_tests.cpp(23): Leaving test case "GetFeeTest"; testing time: 116us
+[0;39;49m[1;34;49m./test/amount_tests.cpp(123): Entering test case "BinaryOperatorTest"
+[0;39;49m[1;34;49m./test/amount_tests.cpp(123): Leaving test case "BinaryOperatorTest"; testing time: 99us
+[0;39;49m[1;34;49m./test/amount_tests.cpp(140): Entering test case "ToStringTest"
+[0;39;49m[1;34;49m./test/amount_tests.cpp(140): Leaving test case "ToStringTest"; testing time: 115us
+[0;39;49m[1;34;49m./test/amount_tests.cpp(12): Leaving test suite "amount_tests"; testing time: 559us
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(25): Entering test suite "argsman_tests"
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(27): Entering test case "util_datadir"
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(27): Leaving test case "util_datadir"; testing time: 977us
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(155): Entering test case "util_CheckValue"
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(155): Leaving test case "util_CheckValue"; testing time: 121375us
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(186): Entering test case "util_NoIncludeConf"
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(186): Leaving test case "util_NoIncludeConf"; testing time: 166us
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(193): Entering test case "util_ParseParameters"
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(193): Leaving test case "util_ParseParameters"; testing time: 1082us
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(244): Entering test case "util_ParseInvalidParameters"
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(244): Leaving test case "util_ParseInvalidParameters"; testing time: 1001us
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(280): Entering test case "util_ArgParsing"
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(280): Leaving test case "util_ArgParsing"; testing time: 1059us
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(319): Entering test case "util_GetBoolArg"
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(319): Leaving test case "util_GetBoolArg"; testing time: 922us
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(361): Entering test case "util_GetBoolArgEdgeCases"
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(361): Leaving test case "util_GetBoolArgEdgeCases"; testing time: 956us
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(414): Entering test case "util_ReadConfigStream"
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(414): Leaving test case "util_ReadConfigStream"; testing time: 1082us
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(607): Entering test case "util_GetArg"
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(607): Leaving test case "util_GetArg"; testing time: 915us
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(647): Entering test case "util_AddCommand"
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(647): Leaving test case "util_AddCommand"; testing time: 995us
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(702): Entering test case "util_AddCommand_clearargs_replaces_command_options"
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(702): Leaving test case "util_AddCommand_clearargs_replaces_command_options"; testing time: 926us
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(723): Entering test case "util_GetChainTypeString"
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(723): Leaving test case "util_GetChainTypeString"; testing time: 1061us
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(886): Entering test case "util_ArgsMerge"
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(886): Leaving test case "util_ArgsMerge"; testing time: 484176us
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(1021): Entering test case "util_ChainMerge"
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(1021): Leaving test case "util_ChainMerge"; testing time: 9371us
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(1104): Entering test case "util_ReadWriteSettings"
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(1104): Leaving test case "util_ReadWriteSettings"; testing time: 1287us
+[0;39;49m[1;34;49m./test/argsman_tests.cpp(25): Leaving test suite "argsman_tests"; testing time: 628147us
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(19): Entering test suite "arith_uint256_tests"
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(66): Entering test case "basics"
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(66): Leaving test case "basics"; testing time: 473us
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(154): Entering test case "shifts"
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(154): Leaving test case "shifts"; testing time: 1171us
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(197): Entering test case "unaryOperators"
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(197): Leaving test case "unaryOperators"; testing time: 196us
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(221): Entering test case "bitwiseOperators"
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(221): Leaving test case "bitwiseOperators"; testing time: 230us
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(265): Entering test case "comparison"
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(265): Leaving test case "comparison"; testing time: 1782us
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(288): Entering test case "plusMinus"
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(288): Leaving test case "plusMinus"; testing time: 1085us
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(332): Entering test case "multiply"
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(332): Leaving test case "multiply"; testing time: 389us
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(353): Entering test case "divide"
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(353): Leaving test case "divide"; testing time: 299us
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(377): Entering test case "methods"
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(377): Leaving test case "methods"; testing time: 271us
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(415): Entering test case "bignum_SetCompact"
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(415): Leaving test case "bignum_SetCompact"; testing time: 132us
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(544): Entering test case "getmaxcoverage"
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(544): Leaving test case "getmaxcoverage"; testing time: 104us
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(570): Entering test case "conversion"
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(570): Leaving test case "conversion"; testing time: 109us
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(587): Entering test case "operator_with_self"
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(587): Leaving test case "operator_with_self"; testing time: 98us
+[0;39;49m[1;34;49m./test/arith_uint256_tests.cpp(19): Leaving test suite "arith_uint256_tests"; testing time: 6899us
+[0;39;49m[1;34;49m./test/banman_tests.cpp(16): Entering test suite "banman_tests"
+[0;39;49m[1;34;49m./test/banman_tests.cpp(18): Entering test case "file"
+[0;39;49m[1;34;49m./test/banman_tests.cpp(18): Leaving test case "file"; testing time: 1246us
+[0;39;49m[1;34;49m./test/banman_tests.cpp(16): Leaving test suite "banman_tests"; testing time: 1286us
+[0;39;49m[1;34;49m./test/base32_tests.cpp(14): Entering test suite "base32_tests"
+[0;39;49m[1;34;49m./test/base32_tests.cpp(16): Entering test case "base32_testvectors"
+[0;39;49m[1;34;49m./test/base32_tests.cpp(16): Leaving test case "base32_testvectors"; testing time: 142us
+[0;39;49m[1;34;49m./test/base32_tests.cpp(40): Entering test case "base32_padding"
+[0;39;49m[1;34;49m./test/base32_tests.cpp(40): Leaving test case "base32_padding"; testing time: 102us
+[0;39;49m[1;34;49m./test/base32_tests.cpp(14): Leaving test suite "base32_tests"; testing time: 306us
+[0;39;49m[1;34;49m./test/base58_tests.cpp(22): Entering test suite "base58_tests"
+[0;39;49m[1;34;49m./test/base58_tests.cpp(25): Entering test case "base58_EncodeBase58"
+[0;39;49m[1;34;49m./test/base58_tests.cpp(25): Leaving test case "base58_EncodeBase58"; testing time: 1286us
+[0;39;49m[1;34;49m./test/base58_tests.cpp(45): Entering test case "base58_DecodeBase58"
+[0;39;49m[1;34;49m./test/base58_tests.cpp(45): Leaving test case "base58_DecodeBase58"; testing time: 1276us
+[0;39;49m[1;34;49m./test/base58_tests.cpp(22): Leaving test suite "base58_tests"; testing time: 2647us
+[0;39;49m[1;34;49m./test/base64_tests.cpp(14): Entering test suite "base64_tests"
+[0;39;49m[1;34;49m./test/base64_tests.cpp(16): Entering test case "base64_testvectors"
+[0;39;49m[1;34;49m./test/base64_tests.cpp(16): Leaving test case "base64_testvectors"; testing time: 127us
+[0;39;49m[1;34;49m./test/base64_tests.cpp(47): Entering test case "base64_padding"
+[0;39;49m[1;34;49m./test/base64_tests.cpp(47): Leaving test case "base64_padding"; testing time: 100us
+[0;39;49m[1;34;49m./test/base64_tests.cpp(14): Leaving test suite "base64_tests"; testing time: 292us
+[0;39;49m[1;34;49m./test/baseindex_tests.cpp(62): Entering test suite "baseindex_tests"
+[0;39;49m[1;34;49m./test/baseindex_tests.cpp(68): Entering test case "baseindex_no_commit_ahead_of_flush"
+[0;39;49m[1;34;49m./test/baseindex_tests.cpp(68): Leaving test case "baseindex_no_commit_ahead_of_flush"; testing time: 237255us
+[0;39;49m[1;34;49m./test/baseindex_tests.cpp(116): Entering test case "index_unclean_shutdown"
+[0;39;49m[1;34;49m./test/baseindex_tests.cpp(116): Leaving test case "index_unclean_shutdown"; testing time: 175629us
+[0;39;49m[1;34;49m./test/baseindex_tests.cpp(197): Entering test case "index_reorg_crash"
+[0;39;49m[1;34;49m./test/baseindex_tests.cpp(197): Leaving test case "index_reorg_crash"; testing time: 324116us
+[0;39;49m[1;34;49m./test/baseindex_tests.cpp(62): Leaving test suite "baseindex_tests"; testing time: 737242us
+[0;39;49m[1;34;49m./test/bech32_tests.cpp(13): Entering test suite "bech32_tests"
+[0;39;49m[1;34;49m./test/bech32_tests.cpp(15): Entering test case "bech32_testvectors_valid"
+[0;39;49m[1;34;49m./test/bech32_tests.cpp(15): Leaving test case "bech32_testvectors_valid"; testing time: 187us
+[0;39;49m[1;34;49m./test/bech32_tests.cpp(35): Entering test case "bech32m_testvectors_valid"
+[0;39;49m[1;34;49m./test/bech32_tests.cpp(35): Leaving test case "bech32m_testvectors_valid"; testing time: 134us
+[0;39;49m[1;34;49m./test/bech32_tests.cpp(55): Entering test case "bech32_testvectors_invalid"
+[0;39;49m[1;34;49m./test/bech32_tests.cpp(55): Leaving test case "bech32_testvectors_invalid"; testing time: 133us
+[0;39;49m[1;34;49m./test/bech32_tests.cpp(109): Entering test case "bech32m_testvectors_invalid"
+[0;39;49m[1;34;49m./test/bech32_tests.cpp(109): Leaving test case "bech32m_testvectors_invalid"; testing time: 125us
+[0;39;49m[1;34;49m./test/bech32_tests.cpp(13): Leaving test suite "bech32_tests"; testing time: 698us
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(161): Entering test suite "bip32_tests"
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(163): Entering test case "bip32_test1"
+[0;39;49m./test/bip32_tests.cpp(137): [1;31;49merror: in "bip32_tests/bip32_test1": check EncodeExtKey(key) == derive.prv has failed[0;39;49m
+./test/bip32_tests.cpp(138): [1;31;49merror: in "bip32_tests/bip32_test1": check DecodeExtKey(derive.prv) == key has failed[0;39;49m
+./test/bip32_tests.cpp(141): [1;31;49merror: in "bip32_tests/bip32_test1": check EncodeExtPubKey(pubkey) == derive.pub has failed[0;39;49m
+./test/bip32_tests.cpp(142): [1;31;49merror: in "bip32_tests/bip32_test1": check DecodeExtPubKey(derive.pub) == pubkey has failed[0;39;49m
+./test/bip32_tests.cpp(137): [1;31;49merror: in "bip32_tests/bip32_test1": check EncodeExtKey(key) == derive.prv has failed[0;39;49m
+./test/bip32_tests.cpp(138): [1;31;49merror: in "bip32_tests/bip32_test1": check DecodeExtKey(derive.prv) == key has failed[0;39;49m
+./test/bip32_tests.cpp(141): [1;31;49merror: in "bip32_tests/bip32_test1": check EncodeExtPubKey(pubkey) == derive.pub has failed[0;39;49m
+./test/bip32_tests.cpp(142): [1;31;49merror: in "bip32_tests/bip32_test1": check DecodeExtPubKey(derive.pub) == pubkey has failed[0;39;49m
+./test/bip32_tests.cpp(137): [1;31;49merror: in "bip32_tests/bip32_test1": check EncodeExtKey(key) == derive.prv has failed[0;39;49m
+./test/bip32_tests.cpp(138): [1;31;49merror: in "bip32_tests/bip32_test1": check DecodeExtKey(derive.prv) == key has failed[0;39;49m
+./test/bip32_tests.cpp(141): [1;31;49merror: in "bip32_tests/bip32_test1": check EncodeExtPubKey(pubkey) == derive.pub has failed[0;39;49m
+./test/bip32_tests.cpp(142): [1;31;49merror: in "bip32_tests/bip32_test1": check DecodeExtPubKey(derive.pub) == pubkey has failed[0;39;49m
+./test/bip32_tests.cpp(137): [1;31;49merror: in "bip32_tests/bip32_test1": check EncodeExtKey(key) == derive.prv has failed[0;39;49m
+./test/bip32_tests.cpp(138): [1;31;49merror: in "bip32_tests/bip32_test1": check DecodeExtKey(derive.prv) == key has failed[0;39;49m
+./test/bip32_tests.cpp(141): [1;31;49merror: in "bip32_tests/bip32_test1": check EncodeExtPubKey(pubkey) == derive.pub has failed[0;39;49m
+./test/bip32_tests.cpp(142): [1;31;49merror: in "bip32_tests/bip32_test1": check DecodeExtPubKey(derive.pub) == pubkey has failed[0;39;49m
+./test/bip32_tests.cpp(137): [1;31;49merror: in "bip32_tests/bip32_test1": check EncodeExtKey(key) == derive.prv has failed[0;39;49m
+./test/bip32_tests.cpp(138): [1;31;49merror: in "bip32_tests/bip32_test1": check DecodeExtKey(derive.prv) == key has failed[0;39;49m
+./test/bip32_tests.cpp(141): [1;31;49merror: in "bip32_tests/bip32_test1": check EncodeExtPubKey(pubkey) == derive.pub has failed[0;39;49m
+./test/bip32_tests.cpp(142): [1;31;49merror: in "bip32_tests/bip32_test1": check DecodeExtPubKey(derive.pub) == pubkey has failed[0;39;49m
+./test/bip32_tests.cpp(137): [1;31;49merror: in "bip32_tests/bip32_test1": check EncodeExtKey(key) == derive.prv has failed[0;39;49m
+./test/bip32_tests.cpp(138): [1;31;49merror: in "bip32_tests/bip32_test1": check DecodeExtKey(derive.prv) == key has failed[0;39;49m
+./test/bip32_tests.cpp(141): [1;31;49merror: in "bip32_tests/bip32_test1": check EncodeExtPubKey(pubkey) == derive.pub has failed[0;39;49m
+./test/bip32_tests.cpp(142): [1;31;49merror: in "bip32_tests/bip32_test1": check DecodeExtPubKey(derive.pub) == pubkey has failed[0;39;49m
+[1;34;49m./test/bip32_tests.cpp(163): Leaving test case "bip32_test1"; testing time: 3063us
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(167): Entering test case "bip32_test2"
+[0;39;49m./test/bip32_tests.cpp(137): [1;31;49merror: in "bip32_tests/bip32_test2": check EncodeExtKey(key) == derive.prv has failed[0;39;49m
+./test/bip32_tests.cpp(138): [1;31;49merror: in "bip32_tests/bip32_test2": check DecodeExtKey(derive.prv) == key has failed[0;39;49m
+./test/bip32_tests.cpp(141): [1;31;49merror: in "bip32_tests/bip32_test2": check EncodeExtPubKey(pubkey) == derive.pub has failed[0;39;49m
+./test/bip32_tests.cpp(142): [1;31;49merror: in "bip32_tests/bip32_test2": check DecodeExtPubKey(derive.pub) == pubkey has failed[0;39;49m
+./test/bip32_tests.cpp(137): [1;31;49merror: in "bip32_tests/bip32_test2": check EncodeExtKey(key) == derive.prv has failed[0;39;49m
+./test/bip32_tests.cpp(138): [1;31;49merror: in "bip32_tests/bip32_test2": check DecodeExtKey(derive.prv) == key has failed[0;39;49m
+./test/bip32_tests.cpp(141): [1;31;49merror: in "bip32_tests/bip32_test2": check EncodeExtPubKey(pubkey) == derive.pub has failed[0;39;49m
+./test/bip32_tests.cpp(142): [1;31;49merror: in "bip32_tests/bip32_test2": check DecodeExtPubKey(derive.pub) == pubkey has failed[0;39;49m
+./test/bip32_tests.cpp(137): [1;31;49merror: in "bip32_tests/bip32_test2": check EncodeExtKey(key) == derive.prv has failed[0;39;49m
+./test/bip32_tests.cpp(138): [1;31;49merror: in "bip32_tests/bip32_test2": check DecodeExtKey(derive.prv) == key has failed[0;39;49m
+./test/bip32_tests.cpp(141): [1;31;49merror: in "bip32_tests/bip32_test2": check EncodeExtPubKey(pubkey) == derive.pub has failed[0;39;49m
+./test/bip32_tests.cpp(142): [1;31;49merror: in "bip32_tests/bip32_test2": check DecodeExtPubKey(derive.pub) == pubkey has failed[0;39;49m
+./test/bip32_tests.cpp(137): [1;31;49merror: in "bip32_tests/bip32_test2": check EncodeExtKey(key) == derive.prv has failed[0;39;49m
+./test/bip32_tests.cpp(138): [1;31;49merror: in "bip32_tests/bip32_test2": check DecodeExtKey(derive.prv) == key has failed[0;39;49m
+./test/bip32_tests.cpp(141): [1;31;49merror: in "bip32_tests/bip32_test2": check EncodeExtPubKey(pubkey) == derive.pub has failed[0;39;49m
+./test/bip32_tests.cpp(142): [1;31;49merror: in "bip32_tests/bip32_test2": check DecodeExtPubKey(derive.pub) == pubkey has failed[0;39;49m
+./test/bip32_tests.cpp(137): [1;31;49merror: in "bip32_tests/bip32_test2": check EncodeExtKey(key) == derive.prv has failed[0;39;49m
+./test/bip32_tests.cpp(138): [1;31;49merror: in "bip32_tests/bip32_test2": check DecodeExtKey(derive.prv) == key has failed[0;39;49m
+./test/bip32_tests.cpp(141): [1;31;49merror: in "bip32_tests/bip32_test2": check EncodeExtPubKey(pubkey) == derive.pub has failed[0;39;49m
+./test/bip32_tests.cpp(142): [1;31;49merror: in "bip32_tests/bip32_test2": check DecodeExtPubKey(derive.pub) == pubkey has failed[0;39;49m
+./test/bip32_tests.cpp(137): [1;31;49merror: in "bip32_tests/bip32_test2": check EncodeExtKey(key) == derive.prv has failed[0;39;49m
+./test/bip32_tests.cpp(138): [1;31;49merror: in "bip32_tests/bip32_test2": check DecodeExtKey(derive.prv) == key has failed[0;39;49m
+./test/bip32_tests.cpp(141): [1;31;49merror: in "bip32_tests/bip32_test2": check EncodeExtPubKey(pubkey) == derive.pub has failed[0;39;49m
+./test/bip32_tests.cpp(142): [1;31;49merror: in "bip32_tests/bip32_test2": check DecodeExtPubKey(derive.pub) == pubkey has failed[0;39;49m
+[1;34;49m./test/bip32_tests.cpp(167): Leaving test case "bip32_test2"; testing time: 2648us
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(171): Entering test case "bip32_test3"
+[0;39;49m./test/bip32_tests.cpp(137): [1;31;49merror: in "bip32_tests/bip32_test3": check EncodeExtKey(key) == derive.prv has failed[0;39;49m
+./test/bip32_tests.cpp(138): [1;31;49merror: in "bip32_tests/bip32_test3": check DecodeExtKey(derive.prv) == key has failed[0;39;49m
+./test/bip32_tests.cpp(141): [1;31;49merror: in "bip32_tests/bip32_test3": check EncodeExtPubKey(pubkey) == derive.pub has failed[0;39;49m
+./test/bip32_tests.cpp(142): [1;31;49merror: in "bip32_tests/bip32_test3": check DecodeExtPubKey(derive.pub) == pubkey has failed[0;39;49m
+./test/bip32_tests.cpp(137): [1;31;49merror: in "bip32_tests/bip32_test3": check EncodeExtKey(key) == derive.prv has failed[0;39;49m
+./test/bip32_tests.cpp(138): [1;31;49merror: in "bip32_tests/bip32_test3": check DecodeExtKey(derive.prv) == key has failed[0;39;49m
+./test/bip32_tests.cpp(141): [1;31;49merror: in "bip32_tests/bip32_test3": check EncodeExtPubKey(pubkey) == derive.pub has failed[0;39;49m
+./test/bip32_tests.cpp(142): [1;31;49merror: in "bip32_tests/bip32_test3": check DecodeExtPubKey(derive.pub) == pubkey has failed[0;39;49m
+[1;34;49m./test/bip32_tests.cpp(171): Leaving test case "bip32_test3"; testing time: 1483us
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(175): Entering test case "bip32_test4"
+[0;39;49m./test/bip32_tests.cpp(137): [1;31;49merror: in "bip32_tests/bip32_test4": check EncodeExtKey(key) == derive.prv has failed[0;39;49m
+./test/bip32_tests.cpp(138): [1;31;49merror: in "bip32_tests/bip32_test4": check DecodeExtKey(derive.prv) == key has failed[0;39;49m
+./test/bip32_tests.cpp(141): [1;31;49merror: in "bip32_tests/bip32_test4": check EncodeExtPubKey(pubkey) == derive.pub has failed[0;39;49m
+./test/bip32_tests.cpp(142): [1;31;49merror: in "bip32_tests/bip32_test4": check DecodeExtPubKey(derive.pub) == pubkey has failed[0;39;49m
+./test/bip32_tests.cpp(137): [1;31;49merror: in "bip32_tests/bip32_test4": check EncodeExtKey(key) == derive.prv has failed[0;39;49m
+./test/bip32_tests.cpp(138): [1;31;49merror: in "bip32_tests/bip32_test4": check DecodeExtKey(derive.prv) == key has failed[0;39;49m
+./test/bip32_tests.cpp(141): [1;31;49merror: in "bip32_tests/bip32_test4": check EncodeExtPubKey(pubkey) == derive.pub has failed[0;39;49m
+./test/bip32_tests.cpp(142): [1;31;49merror: in "bip32_tests/bip32_test4": check DecodeExtPubKey(derive.pub) == pubkey has failed[0;39;49m
+./test/bip32_tests.cpp(137): [1;31;49merror: in "bip32_tests/bip32_test4": check EncodeExtKey(key) == derive.prv has failed[0;39;49m
+./test/bip32_tests.cpp(138): [1;31;49merror: in "bip32_tests/bip32_test4": check DecodeExtKey(derive.prv) == key has failed[0;39;49m
+./test/bip32_tests.cpp(141): [1;31;49merror: in "bip32_tests/bip32_test4": check EncodeExtPubKey(pubkey) == derive.pub has failed[0;39;49m
+./test/bip32_tests.cpp(142): [1;31;49merror: in "bip32_tests/bip32_test4": check DecodeExtPubKey(derive.pub) == pubkey has failed[0;39;49m
+[1;34;49m./test/bip32_tests.cpp(175): Leaving test case "bip32_test4"; testing time: 1645us
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(179): Entering test case "bip32_test5"
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(179): Leaving test case "bip32_test5"; testing time: 1428us
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(188): Entering test case "bip32_derive_ext_key"
+test_bitcoin: ./key.cpp:185: CPubKey CKey::GetPubKey() const: Assertion `keydata' failed.
+[0;39;49munknown location(0): [4;31;49mfatal error: in "bip32_tests/bip32_derive_ext_key": signal: SIGABRT (application abort requested)[0;39;49m
+./test/bip32_tests.cpp(188): [1;36;49mlast checkpoint: "bip32_derive_ext_key" test entry[0;39;49m
+[1;34;49m./test/bip32_tests.cpp(188): Leaving test case "bip32_derive_ext_key"; testing time: 1038us
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(216): Entering test case "bip32_has_hardened_derivation"
+./common/args.cpp:674 void ArgsManager::AddArg(const std::string&, const std::string&, unsigned int, const OptionsCategory&): Assertion `!arg_map.second.contains(arg_name)' failed.
+[0;39;49munknown location(0): [4;31;49mfatal error: in "bip32_tests/bip32_has_hardened_derivation": signal: SIGABRT (application abort requested)[0;39;49m
+./test/bip32_tests.cpp(216): [1;36;49mlast checkpoint: "bip32_has_hardened_derivation" fixture ctor[0;39;49m
+[1;34;49m./test/bip32_tests.cpp(216): Leaving test case "bip32_has_hardened_derivation"; testing time: 214us
+[0;39;49m[1;34;49m./test/bip32_tests.cpp(228): Entering test case "bip32_max_depth"

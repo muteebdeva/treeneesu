@@ -3,9 +3,9 @@
 # Node1 mines; node2 connects only to node1; verifies sync, tx propagation,
 # balances, genesis identity, and restart/recovery.
 set -u
-BIN=~/workspace/treeneesu/bitcoin-core/build/bin
+BIN=${TNSU_BIN:-~/workspace/treeneesu/bitcoin-core/build-final/bin}
 D1=/tmp/tnsu-node1; D2=/tmp/tnsu-node2
-GENESIS=000008c949ab6dfa087901003f3f05804bd550bb9a094fc57ecec54994c015b6
+GENESIS=00000091bddca562e9b5a2c98b31e5e5c831ffc015c6fd8853ef18d6df22dfee
 rm -rf $D1 $D2; mkdir -p $D1 $D2
 C1="$BIN/bitcoin-cli -datadir=$D1 -rpcport=29332"
 C2="$BIN/bitcoin-cli -datadir=$D2 -rpcport=29432"
@@ -30,7 +30,7 @@ A1=$($C1 getnewaddress); A2=$($C2 getnewaddress)
 echo "node1 addr: $A1"; echo "node2 addr: $A2"
 case "$A1" in tnsub1*|tnsu1*|T*) ;; *) echo "(legacy/segwit address form: $A1)";; esac
 
-echo "== mine 3 blocks on node1 (real PoW, target bits 0x1e0fffff) =="
+echo "== mine 3 blocks on node1 (real PoW, target bits 0x1e01ffff) =="
 t0=$(date +%s)
 $C1 generatetoaddress 3 "$A1" 2000000000 >/dev/null || fail "generatetoaddress"
 t1=$(date +%s); echo "mined in $((t1-t0))s"
@@ -58,6 +58,18 @@ CONF=$($C2 gettransaction $TXID | python3 -c "import json,sys; print(json.load(s
 BAL2=$($C2 getbalance)
 echo "node2 confirmations: $CONF, node2 balance: $BAL2"
 [ "$CONF" -ge 1 ] || fail "tx not confirmed on node2"
+
+echo "== rejection tests: overspend tx and invalid-PoW block =="
+if $C1 sendtoaddress "$A2" 999999 >/dev/null 2>&1; then fail "overspend tx was accepted"; fi
+echo "overspend tx (999999 TNSU) rejected by node1 wallet/mempool as expected"
+TIP=$($C1 getbestblockhash); BHEX=$($C1 getblock "$TIP" 0)
+NONCE0=${BHEX:152:1}; [ "$NONCE0" = "0" ] && REPL=1 || REPL=0
+BADHEX="${BHEX:0:152}${REPL}${BHEX:153}"
+REJ=$($C2 submitblock "$BADHEX" 2>&1)
+echo "submitblock (nonce-mutated) on node2 -> $REJ"
+[ -n "$REJ" ] && [ "$REJ" != "null" ] || fail "invalid block was not rejected"
+T2=$($C2 getbestblockhash); [ "$T2" = "$TIP" ] || fail "node2 tip moved after invalid block"
+echo "node2 tip unchanged after invalid block: $T2"
 
 echo "== restart node2: recovery check =="
 $C2 stop; sleep 3

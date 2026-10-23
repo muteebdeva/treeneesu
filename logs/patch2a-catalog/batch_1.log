@@ -1,0 +1,532 @@
+Running 59 test cases...
+[1;34;49mEntering test module "Bitcoin Core Test Suite"
+[0;39;49m[1;33;49m./test/addrman_tests.cpp(53): Test suite "addrman_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/allocator_tests.cpp(18): Test suite "allocator_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/amount_tests.cpp(12): Test suite "amount_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/argsman_tests.cpp(25): Test suite "argsman_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/arith_uint256_tests.cpp(19): Test suite "arith_uint256_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/banman_tests.cpp(16): Test suite "banman_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/base32_tests.cpp(14): Test suite "base32_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/base58_tests.cpp(22): Test suite "base58_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/base64_tests.cpp(14): Test suite "base64_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/baseindex_tests.cpp(62): Test suite "baseindex_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/bech32_tests.cpp(13): Test suite "bech32_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/bip32_tests.cpp(161): Test suite "bip32_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/bip324_tests.cpp(164): Test suite "bip324_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/blockchain_tests.cpp(54): Test suite "blockchain_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/blockencodings_tests.cpp(20): Test suite "blockencodings_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/blockfilter_index_tests.cpp(37): Test suite "blockfilter_index_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/blockfilter_tests.cpp(19): Test suite "blockfilter_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/blockmanager_tests.cpp(28): Test suite "blockmanager_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/blockpolicyestimator_tests.cpp(17): Test suite "blockpolicyestimator_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/bloom_tests.cpp(34): Test suite "bloom_tests" is skipped because disabled
+[0;39;49m[1;34;49m./test/bswap_tests.cpp(9): Entering test suite "bswap_tests"
+[0;39;49m[1;34;49m./test/bswap_tests.cpp(11): Entering test case "bswap_tests"
+[0;39;49m[1;34;49m./test/bswap_tests.cpp(11): Leaving test case "bswap_tests"; testing time: 1722us
+[0;39;49m[1;34;49m./test/bswap_tests.cpp(9): Leaving test suite "bswap_tests"; testing time: 1759us
+[0;39;49m[1;34;49m./test/btcsignals_tests.cpp(35): Entering test suite "btcsignals_tests"
+[0;39;49m[1;34;49m./test/btcsignals_tests.cpp(39): Entering test case "callback_order"
+[0;39;49m[1;34;49m./test/btcsignals_tests.cpp(39): Leaving test case "callback_order"; testing time: 1757us
+[0;39;49m[1;34;49m./test/btcsignals_tests.cpp(50): Entering test case "disconnects"
+[0;39;49m[1;34;49m./test/btcsignals_tests.cpp(50): Leaving test case "disconnects"; testing time: 1034us
+[0;39;49m[1;34;49m./test/btcsignals_tests.cpp(84): Entering test case "any_of_combiner"
+[0;39;49m[1;34;49m./test/btcsignals_tests.cpp(84): Leaving test case "any_of_combiner"; testing time: 1078us
+[0;39;49m[1;34;49m./test/btcsignals_tests.cpp(120): Entering test case "thread_safety"
+[0;39;49m[1;34;49m./test/btcsignals_tests.cpp(120): Leaving test case "thread_safety"; testing time: 14440us
+[0;39;49m[1;34;49m./test/btcsignals_tests.cpp(172): Entering test case "recursion_safety"
+[0;39;49m[1;34;49m./test/btcsignals_tests.cpp(172): Leaving test case "recursion_safety"; testing time: 1109us
+[0;39;49m[1;34;49m./test/btcsignals_tests.cpp(232): Entering test case "disconnect_thread_safety"
+[0;39;49m[1;34;49m./test/btcsignals_tests.cpp(232): Leaving test case "disconnect_thread_safety"; testing time: 1101us
+[0;39;49m[1;34;49m./test/btcsignals_tests.cpp(35): Leaving test suite "btcsignals_tests"; testing time: 20787us
+[0;39;49m[1;34;49m./test/caches_tests.cpp(23): Entering test suite "caches_tests"
+[0;39;49m[1;34;49m./test/caches_tests.cpp(25): Entering test case "oversized_dbcache_warning"
+[0;39;49m[1;34;49m./test/caches_tests.cpp(25): Leaving test case "oversized_dbcache_warning"; testing time: 181us
+[0;39;49m[1;34;49m./test/caches_tests.cpp(23): Leaving test suite "caches_tests"; testing time: 245us
+[0;39;49m[1;34;49m./test/chain_tests.cpp(13): Entering test suite "chain_tests"
+[0;39;49m[1;34;49m./test/chain_tests.cpp(45): Entering test case "basic_tests"
+[0;39;49m[1;34;49m./test/chain_tests.cpp(45): Leaving test case "basic_tests"; testing time: 973us
+[0;39;49m[1;34;49m./test/chain_tests.cpp(87): Entering test case "findfork_tests"
+[0;39;49m[1;34;49m./test/chain_tests.cpp(87): Leaving test case "findfork_tests"; testing time: 945us
+[0;39;49m[1;34;49m./test/chain_tests.cpp(145): Entering test case "chain_test"
+[0;39;49m[1;34;49m./test/chain_tests.cpp(145): Leaving test case "chain_test"; testing time: 2062656us
+[0;39;49m[1;34;49m./test/chain_tests.cpp(13): Leaving test suite "chain_tests"; testing time: 2064724us
+[0;39;49m[1;34;49m./test/chainstate_write_tests.cpp(18): Entering test suite "chainstate_write_tests"
+[0;39;49m[1;34;49m./test/chainstate_write_tests.cpp(20): Entering test case "chainstate_write_interval"
+[0;39;49m[1;34;49m./test/chainstate_write_tests.cpp(20): Leaving test case "chainstate_write_interval"; testing time: 98660us
+[0;39;49m[1;34;49m./test/chainstate_write_tests.cpp(56): Entering test case "write_during_multiblock_activation"
+[0;39;49m[1;34;49m./test/chainstate_write_tests.cpp(56): Leaving test case "write_during_multiblock_activation"; testing time: 129169us
+[0;39;49m[1;34;49m./test/chainstate_write_tests.cpp(18): Leaving test suite "chainstate_write_tests"; testing time: 227980us
+[0;39;49m[1;34;49m./test/checkqueue_tests.cpp(180): Entering test suite "checkqueue_tests"
+[0;39;49m[1;34;49m./test/checkqueue_tests.cpp(184): Entering test case "test_CheckQueue_Correct_Zero"
+[0;39;49m[1;34;49m./test/checkqueue_tests.cpp(184): Leaving test case "test_CheckQueue_Correct_Zero"; testing time: 1750us
+[0;39;49m[1;34;49m./test/checkqueue_tests.cpp(192): Entering test case "test_CheckQueue_Correct_One"
+[0;39;49m[1;34;49m./test/checkqueue_tests.cpp(192): Leaving test case "test_CheckQueue_Correct_One"; testing time: 1364us
+[0;39;49m[1;34;49m./test/checkqueue_tests.cpp(200): Entering test case "test_CheckQueue_Correct_Max"
+[0;39;49m[1;34;49m./test/checkqueue_tests.cpp(200): Leaving test case "test_CheckQueue_Correct_Max"; testing time: 48433us
+[0;39;49m[1;34;49m./test/checkqueue_tests.cpp(208): Entering test case "test_CheckQueue_Correct_Random"
+[0;39;49m[1;34;49m./test/checkqueue_tests.cpp(208): Leaving test case "test_CheckQueue_Correct_Random"; testing time: 2686152us
+[0;39;49m[1;34;49m./test/checkqueue_tests.cpp(219): Entering test case "test_CheckQueue_Catches_Failure"
+[0;39;49m[1;34;49m./test/checkqueue_tests.cpp(219): Leaving test case "test_CheckQueue_Catches_Failure"; testing time: 109618us
+[0;39;49m[1;34;49m./test/checkqueue_tests.cpp(245): Entering test case "test_CheckQueue_Recovers_From_Failure"
+[0;39;49m[1;34;49m./test/checkqueue_tests.cpp(245): Leaving test case "test_CheckQueue_Recovers_From_Failure"; testing time: 1889us
+[0;39;49m[1;34;49m./test/checkqueue_tests.cpp(266): Entering test case "test_CheckQueue_UniqueCheck"
+[0;39;49m[1;34;49m./test/checkqueue_tests.cpp(266): Leaving test case "test_CheckQueue_UniqueCheck"; testing time: 21624us
+[0;39;49m[1;34;49m./test/checkqueue_tests.cpp(298): Entering test case "test_CheckQueue_Memory"
+[0;39;49m[1;34;49m./test/checkqueue_tests.cpp(298): Leaving test case "test_CheckQueue_Memory"; testing time: 334786us
+[0;39;49m[1;34;49m./test/checkqueue_tests.cpp(323): Entering test case "test_CheckQueue_FrozenCleanup"
+[0;39;49m[1;34;49m./test/checkqueue_tests.cpp(323): Leaving test case "test_CheckQueue_FrozenCleanup"; testing time: 1733us
+[0;39;49m[1;34;49m./test/checkqueue_tests.cpp(357): Entering test case "test_CheckQueueControl_Locks"
+[0;39;49m[1;34;49m./test/checkqueue_tests.cpp(357): Leaving test case "test_CheckQueueControl_Locks"; testing time: 32223us
+[0;39;49m[1;34;49m./test/checkqueue_tests.cpp(180): Leaving test suite "checkqueue_tests"; testing time: 3240183us
+[0;39;49m[1;34;49m./test/cluster_linearize_tests.cpp(15): Entering test suite "cluster_linearize_tests"
+[0;39;49m[1;34;49m./test/cluster_linearize_tests.cpp(125): Entering test case "depgraph_ser_tests"
+[0;39;49m[1;34;49m./test/cluster_linearize_tests.cpp(125): Leaving test case "depgraph_ser_tests"; testing time: 1375us
+[0;39;49m[1;34;49m./test/cluster_linearize_tests.cpp(245): Entering test case "depgraph_optimal_tests"
+[0;39;49m[1;34;49m./test/cluster_linearize_tests.cpp(245): Leaving test case "depgraph_optimal_tests"; testing time: 5448663us
+[0;39;49m[1;34;49m./test/cluster_linearize_tests.cpp(15): Leaving test suite "cluster_linearize_tests"; testing time: 5450177us
+[0;39;49m[1;34;49m./test/coins_tests.cpp(279): Entering test suite "coins_tests_base"
+[0;39;49m[1;34;49m./test/coins_tests.cpp(282): Entering test case "coins_cache_base_simulation_test"
+[0;39;49m[1;34;49m./test/coins_tests.cpp(282): Leaving test case "coins_cache_base_simulation_test"; testing time: 2387071us
+[0;39;49m[1;34;49m./test/coins_tests.cpp(279): Leaving test suite "coins_tests_base"; testing time: 2387142us
+[0;39;49m[1;34;49m./test/coins_tests.cpp(290): Entering test suite "coins_tests_dbbase"
+[0;39;49m[1;34;49m./test/coins_tests.cpp(292): Entering test case "coins_cache_dbbase_simulation_test"
+[0;39;49m[1;34;49m./test/coins_tests.cpp(292): Leaving test case "coins_cache_dbbase_simulation_test"; testing time: 5983469us
+[0;39;49m[1;34;49m./test/coins_tests.cpp(290): Leaving test suite "coins_tests_dbbase"; testing time: 5983551us
+[0;39;49m[1;34;49m./test/coins_tests.cpp(300): Entering test suite "coins_tests"
+[0;39;49m[1;34;49m./test/coins_tests.cpp(325): Entering test case "updatecoins_simulation_test"
+[0;39;49m[1;34;49m./test/coins_tests.cpp(325): Leaving test case "updatecoins_simulation_test"; testing time: 1587697us
+[0;39;49m[1;34;49m./test/coins_tests.cpp(517): Entering test case "ccoins_serialization"
+[0;39;49m[1;34;49m./test/coins_tests.cpp(517): Leaving test case "ccoins_serialization"; testing time: 1267us
+[0;39;49m[1;34;49m./test/coins_tests.cpp(678): Entering test case "ccoins_access"
+[0;39;49m[1;34;49m./test/coins_tests.cpp(678): Leaving test case "ccoins_access"; testing time: 1352us
+[0;39;49m[1;34;49m./test/coins_tests.cpp(708): Entering test case "ccoins_spend"
+[0;39;49m[1;34;49m./test/coins_tests.cpp(708): Leaving test case "ccoins_spend"; testing time: 1227us
+[0;39;49m[1;34;49m./test/coins_tests.cpp(744): Entering test case "ccoins_add"
+[0;39;49m[1;34;49m./test/coins_tests.cpp(744): Leaving test case "ccoins_add"; testing time: 1547us
+[0;39;49m[1;34;49m./test/coins_tests.cpp(789): Entering test case "ccoins_write"
+[0;39;49m[1;34;49m./test/coins_tests.cpp(789): Leaving test case "ccoins_write"; testing time: 2191us
+[0;39;49m[1;34;49m./test/coins_tests.cpp(1033): Entering test case "ccoins_flush_behavior"
+[0;39;49m[1;34;49m./test/coins_tests.cpp(1033): Leaving test case "ccoins_flush_behavior"; testing time: 2258us
+[0;39;49m[1;34;49m./test/coins_tests.cpp(1047): Entering test case "coins_db_leveldb_layout"
+[0;39;49m[1;34;49m./test/coins_tests.cpp(1047): Leaving test case "coins_db_leveldb_layout"; testing time: 2804us
+[0;39;49m[1;34;49m./test/coins_tests.cpp(1071): Entering test case "coins_resource_is_used"
+[0;39;49m[1;34;49m./test/coins_tests.cpp(1071): Leaving test case "coins_resource_is_used"; testing time: 1325us
+[0;39;49m[1;34;49m./test/coins_tests.cpp(1096): Entering test case "ccoins_addcoin_exception_keeps_usage_balanced"
+[0;39;49m[1;34;49m./test/coins_tests.cpp(1096): Leaving test case "ccoins_addcoin_exception_keeps_usage_balanced"; testing time: 1118us
+[0;39;49m[1;34;49m./test/coins_tests.cpp(1113): Entering test case "ccoins_emplace_duplicate_keeps_usage_balanced"
+[0;39;49m[1;34;49m./test/coins_tests.cpp(1113): Leaving test case "ccoins_emplace_duplicate_keeps_usage_balanced"; testing time: 968us
+[0;39;49m[1;34;49m./test/coins_tests.cpp(1130): Entering test case "ccoins_reset_guard"
+[0;39;49m[1;34;49m./test/coins_tests.cpp(1130): Leaving test case "ccoins_reset_guard"; testing time: 1187us
+[0;39;49m[1;34;49m./test/coins_tests.cpp(1181): Entering test case "ccoins_peekcoin"
+[0;39;49m[1;34;49m./test/coins_tests.cpp(1181): Leaving test case "ccoins_peekcoin"; testing time: 1030us
+[0;39;49m[1;34;49m./test/coins_tests.cpp(300): Leaving test suite "coins_tests"; testing time: 1606587us
+[0;39;49m[1;34;49m./test/coinscachepair_tests.cpp(11): Entering test suite "coinscachepair_tests"
+[0;39;49m[1;34;49m./test/coinscachepair_tests.cpp(37): Entering test case "linked_list_iteration"
+[0;39;49m[1;34;49m./test/coinscachepair_tests.cpp(37): Leaving test case "linked_list_iteration"; testing time: 205us
+[0;39;49m[1;34;49m./test/coinscachepair_tests.cpp(72): Entering test case "linked_list_iterate_erase"
+[0;39;49m[1;34;49m./test/coinscachepair_tests.cpp(72): Leaving test case "linked_list_iterate_erase"; testing time: 171us
+[0;39;49m[1;34;49m./test/coinscachepair_tests.cpp(93): Entering test case "linked_list_random_deletion"
+[0;39;49m[1;34;49m./test/coinscachepair_tests.cpp(93): Leaving test case "linked_list_random_deletion"; testing time: 207us
+[0;39;49m[1;34;49m./test/coinscachepair_tests.cpp(148): Entering test case "linked_list_set_state"
+[0;39;49m[1;34;49m./test/coinscachepair_tests.cpp(148): Leaving test case "linked_list_set_state"; testing time: 184us
+[0;39;49m[1;34;49m./test/coinscachepair_tests.cpp(11): Leaving test suite "coinscachepair_tests"; testing time: 885us
+[0;39;49m[1;34;49m./test/coinstatsindex_tests.cpp(25): Entering test suite "coinstatsindex_tests"
+[0;39;49m[1;34;49m./test/coinstatsindex_tests.cpp(27): Entering test case "coinstatsindex_initial_sync"
+[0;39;49m[1;34;49m./test/coinstatsindex_tests.cpp(27): Leaving test case "coinstatsindex_initial_sync"; testing time: 198770us
+[0;39;49m[1;34;49m./test/coinstatsindex_tests.cpp(25): Leaving test suite "coinstatsindex_tests"; testing time: 198831us
+[0;39;49m[1;34;49m./test/coinsviewoverlay_tests.cpp(101): Entering test suite "coinsviewoverlay_tests"
+[0;39;49m[1;34;49m./test/coinsviewoverlay_tests.cpp(103): Entering test case "fetch_inputs_from_db"
+[0;39;49m[1;34;49m./test/coinsviewoverlay_tests.cpp(103): Leaving test case "fetch_inputs_from_db"; testing time: 1738us
+[0;39;49m[1;34;49m./test/coinsviewoverlay_tests.cpp(131): Entering test case "fetch_inputs_from_cache"
+[0;39;49m[1;34;49m./test/coinsviewoverlay_tests.cpp(131): Leaving test case "fetch_inputs_from_cache"; testing time: 1517us
+[0;39;49m[1;34;49m./test/coinsviewoverlay_tests.cpp(150): Entering test case "fetch_no_double_spend"
+[0;39;49m[1;34;49m./test/coinsviewoverlay_tests.cpp(150): Leaving test case "fetch_no_double_spend"; testing time: 1348us
+[0;39;49m[1;34;49m./test/coinsviewoverlay_tests.cpp(172): Entering test case "fetch_no_inputs"
+[0;39;49m[1;34;49m./test/coinsviewoverlay_tests.cpp(172): Leaving test case "fetch_no_inputs"; testing time: 1338us
+[0;39;49m[1;34;49m./test/coinsviewoverlay_tests.cpp(191): Entering test case "access_non_input_coins"
+[0;39;49m[1;34;49m./test/coinsviewoverlay_tests.cpp(191): Leaving test case "access_non_input_coins"; testing time: 892us
+[0;39;49m[1;34;49m./test/coinsviewoverlay_tests.cpp(221): Entering test case "fetch_out_of_order_input_uses_normal_lookup"
+[0;39;49m[1;34;49m./test/coinsviewoverlay_tests.cpp(221): Leaving test case "fetch_out_of_order_input_uses_normal_lookup"; testing time: 1367us
+[0;39;49m[1;34;49m./test/coinsviewoverlay_tests.cpp(253): Entering test case "fetch_state_is_reusable_after_teardown"
+[0;39;49m[1;34;49m./test/coinsviewoverlay_tests.cpp(253): Leaving test case "fetch_state_is_reusable_after_teardown"; testing time: 1704us
+[0;39;49m[1;34;49m./test/coinsviewoverlay_tests.cpp(101): Leaving test suite "coinsviewoverlay_tests"; testing time: 10365us
+[0;39;49m[1;34;49m./test/coinsviewoverlay_tests.cpp(277): Entering test suite "coinsviewoverlay_tests_noworkers"
+[0;39;49m[1;34;49m./test/coinsviewoverlay_tests.cpp(280): Entering test case "fetch_unstarted_thread_pool"
+[0;39;49m[1;34;49m./test/coinsviewoverlay_tests.cpp(280): Leaving test case "fetch_unstarted_thread_pool"; testing time: 610us
+[0;39;49m[1;34;49m./test/coinsviewoverlay_tests.cpp(293): Entering test case "fetch_interrupted_thread_pool_uses_normal_lookup"
+[0;39;49m[1;34;49m./test/coinsviewoverlay_tests.cpp(293): Leaving test case "fetch_interrupted_thread_pool_uses_normal_lookup"; testing time: 1201us
+[0;39;49m[1;34;49m./test/coinsviewoverlay_tests.cpp(277): Leaving test suite "coinsviewoverlay_tests_noworkers"; testing time: 1910us
+[0;39;49m[1;34;49m./test/common_url_tests.cpp(12): Entering test suite "common_url_tests"
+[0;39;49m[1;34;49m./test/common_url_tests.cpp(17): Entering test case "encode_decode_test"
+[0;39;49m[1;34;49m./test/common_url_tests.cpp(17): Leaving test case "encode_decode_test"; testing time: 263us
+[0;39;49m[1;34;49m./test/common_url_tests.cpp(31): Entering test case "decode_malformed_test"
+[0;39;49m[1;34;49m./test/common_url_tests.cpp(31): Leaving test case "decode_malformed_test"; testing time: 230us
+[0;39;49m[1;34;49m./test/common_url_tests.cpp(65): Entering test case "decode_lowercase_hex_test"
+[0;39;49m[1;34;49m./test/common_url_tests.cpp(65): Leaving test case "decode_lowercase_hex_test"; testing time: 169us
+[0;39;49m[1;34;49m./test/common_url_tests.cpp(69): Entering test case "decode_internal_nulls_test"
+[0;39;49m[1;34;49m./test/common_url_tests.cpp(69): Leaving test case "decode_internal_nulls_test"; testing time: 155us
+[0;39;49m[1;34;49m./test/common_url_tests.cpp(76): Entering test case "url_encode"
+[0;39;49m[1;34;49m./test/common_url_tests.cpp(76): Leaving test case "url_encode"; testing time: 5506us
+[0;39;49m[1;34;49m./test/common_url_tests.cpp(12): Leaving test suite "common_url_tests"; testing time: 6508us
+[0;39;49m[1;33;49m./test/compress_tests.cpp(26): Test suite "compress_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/crypto_tests.cpp(377): Test suite "crypto_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/cuckoocache_tests.cpp(33): Test suite "cuckoocache_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/dbwrapper_tests.cpp(21): Test suite "dbwrapper_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/denialofservice_tests.cpp(36): Test suite "denialofservice_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/descriptor_tests.cpp(606): Test suite "descriptor_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/disconnected_transactions.cpp(10): Test suite "disconnected_transactions" is skipped because disabled
+[0;39;49m[1;33;49m./test/fees_util_tests.cpp(9): Test suite "fees_util_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/feefrac_tests.cpp(10): Test suite "feefrac_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/feerounder_tests.cpp(12): Test suite "feerounder_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/flatfile_tests.cpp(13): Test suite "flatfile_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/fs_tests.cpp(15): Test suite "fs_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/getarg_tests.cpp(22): Test suite "getarg_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/hash_tests.cpp(16): Test suite "hash_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/headers_sync_chainwork_tests.cpp(143): Test suite "headers_sync_chainwork_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/httpserver_tests.cpp(28): Test suite "httpserver_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/i2p_tests.cpp(46): Test suite "i2p_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/interfaces_tests.cpp(17): Test suite "interfaces_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/key_io_tests.cpp(21): Test suite "key_io_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/key_tests.cpp(39): Test suite "key_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/logging_tests.cpp(33): Test suite "logging_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/mempool_tests.cpp(17): Test suite "mempool_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/mempool_fee_estimator_tests.cpp(24): Test suite "mempool_fee_estimator_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/merkle_tests.cpp(12): Test suite "merkle_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/merkleblock_tests.cpp(15): Test suite "merkleblock_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/miner_tests.cpp(95): Test suite "miner_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/miniminer_tests.cpp(16): Test suite "miniminer_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/miniscript_tests.cpp(499): Test suite "miniscript_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/minisketch_tests.cpp(18): Test suite "minisketch_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/multisig_tests.cpp(21): Test suite "multisig_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/bip328_tests.cpp(25): Test suite "bip328_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/net_peer_connection_tests.cpp(37): Test suite "net_peer_connection_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/net_peer_eviction_tests.cpp(18): Test suite "net_peer_eviction_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/net_tests.cpp(42): Test suite "net_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/netbase_tests.cpp(26): Test suite "netbase_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/node_init_tests.cpp(32): Test suite "node_init_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/node_warnings_tests.cpp(13): Test suite "node_warnings_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/orphanage_tests.cpp(24): Test suite "orphanage_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/pcp_tests.cpp(254): Test suite "pcp_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/peerman_tests.cpp(25): Test suite "peerman_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/pmt_tests.cpp(32): Test suite "pmt_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/pool_tests.cpp(18): Test suite "pool_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/pow_tests.cpp(15): Test suite "pow_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/prevector_tests.cpp(16): Test suite "prevector_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/private_broadcast_tests.cpp(25): Test suite "private_broadcast_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/psbt_tests.cpp(21): Test suite "psbt_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/random_tests.cpp(16): Test suite "random_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/rbf_tests.cpp(17): Test suite "rbf_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/rest_tests.cpp(13): Test suite "rest_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/result_tests.cpp(19): Test suite "result_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/reverselock_tests.cpp(12): Test suite "reverselock_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/rpc_tests.cpp(88): Test suite "rpc_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/sanity_tests.cpp(10): Test suite "sanity_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/scheduler_tests.cpp(16): Test suite "scheduler_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/script_assets_tests.cpp(30): Test suite "script_assets_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/script_p2sh_tests.cpp(58): Test suite "script_p2sh_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/script_parse_tests.cpp(12): Test suite "script_parse_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/script_segwit_tests.cpp(10): Test suite "script_segwit_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/script_standard_tests.cpp(22): Test suite "script_standard_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/script_tests.cpp(429): Test suite "script_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/scriptnum_tests.cpp(13): Test suite "scriptnum_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/serfloat_tests.cpp(17): Test suite "serfloat_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/serialize_tests.cpp(18): Test suite "serialize_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/settings_tests.cpp(52): Test suite "settings_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/sighash_tests.cpp(120): Test suite "sighash_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/sigopcount_tests.cpp(29): Test suite "sigopcount_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/skiplist_tests.cpp(17): Test suite "skiplist_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/sock_tests.cpp(19): Test suite "sock_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/span_tests.cpp(43): Test suite "span_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/streams_tests.cpp(20): Test suite "streams_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/sync_tests.cpp(74): Test suite "sync_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/system_ram_tests.cpp(10): Test suite "system_ram_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/system_tests.cpp(57): Test suite "system_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/testnet4_miner_tests.cpp(34): Test suite "testnet4_miner_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/threadpool_tests.cpp(49): Test suite "threadpool_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/timeoffsets_tests.cpp(24): Test suite "timeoffsets_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/torcontrol_tests.cpp(17): Test suite "torcontrol_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/transaction_tests.cpp(161): Test suite "transaction_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/translation_tests.cpp(10): Test suite "translation_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/txdownload_tests.cpp(20): Test suite "txdownload_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/txgraph_tests.cpp(14): Test suite "txgraph_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/txindex_tests.cpp(39): Test suite "txindex_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/txospenderindex_tests.cpp(12): Test suite "txospenderindex_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/txpackage_tests.cpp(51): Test suite "txpackage_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/txreconciliation_tests.cpp(12): Test suite "txreconciliation_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/txrequest_tests.cpp(750): Test suite "txrequest_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/txvalidation_tests.cpp(22): Test suite "txvalidation_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/txvalidationcache_tests.cpp(29): Test suite "txvalidationcache_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/uint256_tests.cpp(19): Test suite "uint256_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/util_check_tests.cpp(10): Test suite "util_check_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/util_expected_tests.cpp(17): Test suite "util_expected_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/util_string_tests.cpp(15): Test suite "util_string_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/util_tests.cpp(73): Test suite "util_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/util_threadnames_tests.cpp(18): Test suite "util_threadnames_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/util_trace_tests.cpp(18): Test suite "util_trace_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/validation_block_tests.cpp(49): Test suite "validation_block_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/validation_chainstate_tests.cpp(34): Test suite "validation_chainstate_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/validation_chainstatemanager_tests.cpp(37): Test suite "validation_chainstatemanager_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/validation_flush_tests.cpp(14): Test suite "validation_flush_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/validation_tests.cpp(22): Test suite "validation_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/validationinterface_tests.cpp(16): Test suite "validationinterface_tests" is skipped because disabled
+[0;39;49m[1;33;49m./test/versionbits_tests.cpp(187): Test suite "versionbits_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/db_tests.cpp(61): Test suite "db_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/coinselector_tests.cpp(25): Test suite "coinselector_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/coinselection_tests.cpp(13): Test suite "coinselection_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/feebumper_tests.cpp(18): Test suite "feebumper_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/group_outputs_tests.cpp(15): Test suite "group_outputs_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/init_tests.cpp(14): Test suite "init_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/ismine_tests.cpp(21): Test suite "ismine_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/psbt_wallet_tests.cpp(17): Test suite "psbt_wallet_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/scriptpubkeyman_tests.cpp(17): Test suite "scriptpubkeyman_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/spend_tests.cpp(17): Test suite "spend_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/wallet_crypto_tests.cpp(17): Test suite "wallet_crypto_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/wallet_rpc_tests.cpp(23): Test suite "wallet_rpc_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/wallet_tests.cpp(46): Test suite "wallet_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/wallet_transaction_tests.cpp(16): Test suite "wallet_transaction_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/walletdb_tests.cpp(15): Test suite "walletdb_tests" is skipped because disabled
+[0;39;49m[1;33;49m./wallet/test/walletload_tests.cpp(15): Test suite "walletload_tests" is skipped because disabled
+[0;39;49m[1;34;49mLeaving test module "Bitcoin Core Test Suite"; testing time: 21204638us
+[0;39;49m
+Test module "Bitcoin Core Test Suite" has passed with:
+  59 test cases out of 827 passed
+  768 test cases out of 827 skipped
+  9237498 assertions out of 9237498 passed
+
+  Test suite "bswap_tests" has passed with:
+    1 test case out of 1 passed
+    3 assertions out of 3 passed
+
+    Test case "bswap_tests/bswap_tests" has passed with:
+      3 assertions out of 3 passed
+
+  Test suite "btcsignals_tests" has passed with:
+    6 test cases out of 6 passed
+    2051 assertions out of 2051 passed
+
+    Test case "btcsignals_tests/callback_order" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "btcsignals_tests/disconnects" has passed with:
+      11 assertions out of 11 passed
+
+    Test case "btcsignals_tests/any_of_combiner" has passed with:
+      6 assertions out of 6 passed
+
+    Test case "btcsignals_tests/thread_safety" has passed with:
+      2003 assertions out of 2003 passed
+
+    Test case "btcsignals_tests/recursion_safety" has passed with:
+      28 assertions out of 28 passed
+
+    Test case "btcsignals_tests/disconnect_thread_safety" has passed with:
+      1 assertion out of 1 passed
+
+  Test suite "caches_tests" has passed with:
+    1 test case out of 1 passed
+    13 assertions out of 13 passed
+
+    Test case "caches_tests/oversized_dbcache_warning" has passed with:
+      13 assertions out of 13 passed
+
+  Test suite "chain_tests" has passed with:
+    3 test cases out of 3 passed
+    6307866 assertions out of 6307866 passed
+
+    Test case "chain_tests/basic_tests" has passed with:
+      16 assertions out of 16 passed
+
+    Test case "chain_tests/findfork_tests" has passed with:
+      53 assertions out of 53 passed
+
+    Test case "chain_tests/chain_test" has passed with:
+      6307797 assertions out of 6307797 passed
+
+  Test suite "chainstate_write_tests" has passed with:
+    2 test cases out of 2 passed
+    8 assertions out of 8 passed
+
+    Test case "chainstate_write_tests/chainstate_write_interval" has passed with:
+      3 assertions out of 3 passed
+
+    Test case "chainstate_write_tests/write_during_multiblock_activation" has passed with:
+      5 assertions out of 5 passed
+
+  Test suite "checkqueue_tests" has passed with:
+    10 test cases out of 10 passed
+    3444 assertions out of 3444 passed
+
+    Test case "checkqueue_tests/test_CheckQueue_Correct_Zero" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "checkqueue_tests/test_CheckQueue_Correct_One" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "checkqueue_tests/test_CheckQueue_Correct_Max" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "checkqueue_tests/test_CheckQueue_Correct_Random" has passed with:
+      412 assertions out of 412 passed
+
+    Test case "checkqueue_tests/test_CheckQueue_Catches_Failure" has passed with:
+      2001 assertions out of 2001 passed
+
+    Test case "checkqueue_tests/test_CheckQueue_Recovers_From_Failure" has passed with:
+      20 assertions out of 20 passed
+
+    Test case "checkqueue_tests/test_CheckQueue_UniqueCheck" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "checkqueue_tests/test_CheckQueue_Memory" has passed with:
+      1000 assertions out of 1000 passed
+
+    Test case "checkqueue_tests/test_CheckQueue_FrozenCleanup" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "checkqueue_tests/test_CheckQueueControl_Locks" has passed with:
+      2 assertions out of 2 passed
+
+  Test suite "cluster_linearize_tests" has passed with:
+    2 test cases out of 2 passed
+    558614 assertions out of 558614 passed
+
+    Test case "cluster_linearize_tests/depgraph_ser_tests" has passed with:
+      14 assertions out of 14 passed
+
+    Test case "cluster_linearize_tests/depgraph_optimal_tests" has passed with:
+      558600 assertions out of 558600 passed
+
+  Test suite "coins_tests_base" has passed with:
+    1 test case out of 1 passed
+    631303 assertions out of 631303 passed
+
+    Test case "coins_tests_base/coins_cache_base_simulation_test" has passed with:
+      631303 assertions out of 631303 passed
+
+  Test suite "coins_tests_dbbase" has passed with:
+    1 test case out of 1 passed
+    514347 assertions out of 514347 passed
+
+    Test case "coins_tests_dbbase/coins_cache_dbbase_simulation_test" has passed with:
+      514347 assertions out of 514347 passed
+
+  Test suite "coins_tests" has passed with:
+    13 test cases out of 13 passed
+    1217334 assertions out of 1217334 passed
+
+    Test case "coins_tests/updatecoins_simulation_test" has passed with:
+      1216264 assertions out of 1216264 passed
+
+    Test case "coins_tests/ccoins_serialization" has passed with:
+      15 assertions out of 15 passed
+
+    Test case "coins_tests/ccoins_access" has passed with:
+      135 assertions out of 135 passed
+
+    Test case "coins_tests/ccoins_spend" has passed with:
+      108 assertions out of 108 passed
+
+    Test case "coins_tests/ccoins_add" has passed with:
+      192 assertions out of 192 passed
+
+    Test case "coins_tests/ccoins_write" has passed with:
+      426 assertions out of 426 passed
+
+    Test case "coins_tests/ccoins_flush_behavior" has passed with:
+      156 assertions out of 156 passed
+
+    Test case "coins_tests/coins_db_leveldb_layout" has passed with:
+      4 assertions out of 4 passed
+
+    Test case "coins_tests/coins_resource_is_used" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "coins_tests/ccoins_addcoin_exception_keeps_usage_balanced" has passed with:
+      6 assertions out of 6 passed
+
+    Test case "coins_tests/ccoins_emplace_duplicate_keeps_usage_balanced" has passed with:
+      5 assertions out of 5 passed
+
+    Test case "coins_tests/ccoins_reset_guard" has passed with:
+      18 assertions out of 18 passed
+
+    Test case "coins_tests/ccoins_peekcoin" has passed with:
+      3 assertions out of 3 passed
+
+  Test suite "coinscachepair_tests" has passed with:
+    4 test cases out of 4 passed
+    148 assertions out of 148 passed
+
+    Test case "coinscachepair_tests/linked_list_iteration" has passed with:
+      42 assertions out of 42 passed
+
+    Test case "coinscachepair_tests/linked_list_iterate_erase" has passed with:
+      29 assertions out of 29 passed
+
+    Test case "coinscachepair_tests/linked_list_random_deletion" has passed with:
+      41 assertions out of 41 passed
+
+    Test case "coinscachepair_tests/linked_list_set_state" has passed with:
+      36 assertions out of 36 passed
+
+  Test suite "coinstatsindex_tests" has passed with:
+    1 test case out of 1 passed
+    8 assertions out of 8 passed
+
+    Test case "coinstatsindex_tests/coinstatsindex_initial_sync" has passed with:
+      8 assertions out of 8 passed
+
+  Test suite "coinsviewoverlay_tests" has passed with:
+    7 test cases out of 7 passed
+    1922 assertions out of 1922 passed
+
+    Test case "coinsviewoverlay_tests/fetch_inputs_from_db" has passed with:
+      305 assertions out of 305 passed
+
+    Test case "coinsviewoverlay_tests/fetch_inputs_from_cache" has passed with:
+      202 assertions out of 202 passed
+
+    Test case "coinsviewoverlay_tests/fetch_no_double_spend" has passed with:
+      301 assertions out of 301 passed
+
+    Test case "coinsviewoverlay_tests/fetch_no_inputs" has passed with:
+      301 assertions out of 301 passed
+
+    Test case "coinsviewoverlay_tests/access_non_input_coins" has passed with:
+      3 assertions out of 3 passed
+
+    Test case "coinsviewoverlay_tests/fetch_out_of_order_input_uses_normal_lookup" has passed with:
+      204 assertions out of 204 passed
+
+    Test case "coinsviewoverlay_tests/fetch_state_is_reusable_after_teardown" has passed with:
+      606 assertions out of 606 passed
+
+  Test suite "coinsviewoverlay_tests_noworkers" has passed with:
+    2 test cases out of 2 passed
+    400 assertions out of 400 passed
+
+    Test case "coinsviewoverlay_tests_noworkers/fetch_unstarted_thread_pool" has passed with:
+      200 assertions out of 200 passed
+
+    Test case "coinsviewoverlay_tests_noworkers/fetch_interrupted_thread_pool_uses_normal_lookup" has passed with:
+      200 assertions out of 200 passed
+
+  Test suite "common_url_tests" has passed with:
+    5 test cases out of 5 passed
+    37 assertions out of 37 passed
+
+    Test case "common_url_tests/encode_decode_test" has passed with:
+      9 assertions out of 9 passed
+
+    Test case "common_url_tests/decode_malformed_test" has passed with:
+      23 assertions out of 23 passed
+
+    Test case "common_url_tests/decode_lowercase_hex_test" has passed with:
+      1 assertion out of 1 passed
+
+    Test case "common_url_tests/decode_internal_nulls_test" has passed with:
+      2 assertions out of 2 passed
+
+    Test case "common_url_tests/url_encode" has passed with:
+      2 assertions out of 2 passed
+

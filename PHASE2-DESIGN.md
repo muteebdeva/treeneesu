@@ -260,3 +260,24 @@ by approving the parameters above; each patch gets its diff shown first.
 - **D6** Magic bytes + ports 29333/29332, regtest 29444/29443 — §6
 - **D7** Address set: prefix 65 (`T…`), HRP `tnsu` — §7
 - **D8** Activations from height 1/0 (all modern rules on from genesis) — §8.2
+
+---
+
+## Amendment 2026-10-23 — D4 powLimit corrected (owner decision: Option A)
+
+The provisional powLimit above (bits `0x1e0fffff`, target ≈ 2^236) proved
+**defective**: pow_tests' sanity check enforces powLimit <
+2^256/(4·nPowTargetTimespan) ≈ 2^233.8, because CalculateNextWorkRequired
+multiplies the target by the (clamped) actual timespan in 256-bit
+arithmetic; 2^236 × up-to-2^22.2 overflows at the first retarget (block
+8064). The owner selected Option A on 2026-10-23:
+
+- **powLimit bits: `0x1e01ffff`** (target `000001ffff00…`, ≈ 2^233, margin
+  ≈ 0.79 bits under the exact bound — sufficient because the 4× timespan
+  clamp makes the bound a hard maximum, not an estimate).
+- Expected work per block ≈ 2^23 ≈ 8.4M hashes.
+- Genesis re-ground (identical coinbase): nonce 26434925, hash
+  00000091bddca562e9b5a2c98b31e5e5c831ffc015c6fd8853ef18d6df22dfee.
+  See genesis/GENESIS-VERIFICATION.md, Amendment section.
+- Rejected alternatives: B (0x1d3fffff, more margin, ~8× slower mining —
+  unnecessary given the clamp argument) and C (keep defective value).

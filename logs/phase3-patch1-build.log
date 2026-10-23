@@ -1,0 +1,44 @@
+REBUILD_START 2026-10-23T14:06:41+05:30
+[  0%] Generating bitcoin-build-info.h
+[  0%] Built target generate_build_info
+[  2%] Built target bitcoin_consensus
+[  3%] Built target univalue
+[  3%] Built target secp256k1_precomputed
+[  7%] Built target bitcoin_crypto
+[  8%] Built target crc32c
+[ 13%] Built target bitcoin_util
+[ 17%] Built target minisketch
+[ 23%] Built target leveldb
+[ 23%] Built target bitcoin_ipc
+[ 23%] Built target bitcoin_cli
+[ 33%] Built target unitester
+[ 33%] Built target object
+[ 33%] Built target noverify_tests
+[ 33%] Built target tests
+[ 33%] Built target exhaustive_tests
+[ 36%] Built target test_util
+[ 36%] Building CXX object src/CMakeFiles/bitcoin_clientversion.dir/clientversion.cpp.o
+[ 53%] Built target bitcoin_node
+[ 58%] Built target bitcoin_wallet
+[ 58%] Building CXX object src/CMakeFiles/bitcoin_common.dir/common/args.cpp.o
+[ 59%] Linking CXX static library ../lib/libbitcoin_clientversion.a
+[ 59%] Built target bitcoin_clientversion
+[ 60%] Built target secp256k1
+[ 60%] Linking CXX static library ../lib/libbitcoin_common.a
+[ 68%] Built target bitcoin_common
+[ 68%] Linking CXX executable ../bin/bitcoin
+[ 68%] Linking CXX executable ../bin/bitcoin-wallet
+[ 68%] Built target bitcoin
+[ 68%] Linking CXX executable ../bin/bitcoind
+[ 69%] Built target bitcoin-wallet
+[ 69%] Linking CXX executable ../bin/bitcoin-cli
+[ 69%] Built target bitcoin-cli
+[ 69%] Linking CXX executable ../bin/bitcoin-tx
+[ 70%] Built target bitcoin-tx
+[ 70%] Linking CXX executable ../bin/bitcoin-util
+[ 71%] Built target bitcoind
+[ 71%] Built target bitcoin-util
+[ 71%] Linking CXX executable ../../bin/test_bitcoin
+[100%] Built target test_bitcoin
+REBUILD_EXIT:0
+REBUILD_END 2026-10-23T14:07:04+05:30

@@ -1,0 +1,37 @@
+remaining suites: 133
+batch 1 exit=0 suites=bswap_tests btcsignals_tests caches_tests chain_tests chainstate_write_tests checkqueue_tests cluster_linearize_tests coins_tests_base coins_tests_dbbase coins_tests coinscachepair_tests coinstatsindex_tests coinsviewoverlay_tests coinsviewoverlay_tests_noworkers common_url_tests
+batch 2 exit=201 suites=compress_tests crypto_tests cuckoocache_tests dbwrapper_tests denialofservice_tests descriptor_tests disconnected_transactions fees_util_tests feefrac_tests feerounder_tests flatfile_tests fs_tests getarg_tests hash_tests headers_sync_chainwork_tests
+    FAILS       4 descriptor_tests
+    FAILS       1 denialofservice_tests
+    ABORT unknown location(0): fatal error: in "descriptor_tests/descriptor_test": std::out_of_range: vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+    ABORT unknown location(0): fatal error: in "descriptor_tests/unused_descriptor_test": std::out_of_range: vector::_M_range_check: __n (which is 0) >= this->size() (which is 0)
+batch 3 exit=137 suites=httpserver_tests i2p_tests interfaces_tests key_io_tests key_tests logging_tests mempool_tests mempool_fee_estimator_tests merkle_tests merkleblock_tests miner_tests miniminer_tests miniscript_tests minisketch_tests multisig_tests
+    FAILS      64 key_io_tests
+    FAILS       8 key_tests
+    ABORT unknown location(0): fatal error: in "key_tests/key_test1": signal: SIGABRT (application abort requested)
+    ABORT unknown location(0): fatal error: in "key_tests/key_signature_tests": signal: SIGABRT (application abort requested)
+    INCOMPLETE_SUITE key_tests
+batch 4 exit=137 suites=bip328_tests net_peer_connection_tests net_peer_eviction_tests net_tests netbase_tests node_init_tests node_warnings_tests orphanage_tests pcp_tests peerman_tests pmt_tests pool_tests pow_tests prevector_tests private_broadcast_tests
+    FAILS       3 bip328_tests
+    FAILS       1 net_peer_eviction_tests
+    FAILS       1 net_peer_connection_tests
+    ABORT unknown location(0): fatal error: in "net_peer_connection_tests/test_addnode_getaddednodeinfo_and_connection_detection": signal: SIGABRT (application abort requested)
+    ABORT unknown location(0): fatal error: in "net_peer_eviction_tests/peer_protection_test": signal: SIGABRT (application abort requested)
+    INCOMPLETE_SUITE net_peer_eviction_tests
+batch 5 exit=201 suites=psbt_tests random_tests rbf_tests rest_tests result_tests reverselock_tests rpc_tests sanity_tests scheduler_tests script_assets_tests script_p2sh_tests script_parse_tests script_segwit_tests script_standard_tests script_tests
+    FAILS       8 script_standard_tests
+    FAILS       1 rpc_tests
+    ABORT unknown location(0): fatal error: in "rpc_tests/rpc_rawsign": std::runtime_error: Invalid Bitcoin address: 3HqAe9LtNBjnsfM4CyYaWTnvCaUYT7v4oZ
+batch 6 exit=0 suites=scriptnum_tests serfloat_tests serialize_tests settings_tests sighash_tests sigopcount_tests skiplist_tests sock_tests span_tests streams_tests sync_tests system_ram_tests system_tests testnet4_miner_tests threadpool_tests
+batch 7 exit=201 suites=timeoffsets_tests torcontrol_tests transaction_tests translation_tests txdownload_tests txgraph_tests txindex_tests txospenderindex_tests txpackage_tests txreconciliation_tests txrequest_tests txvalidation_tests txvalidationcache_tests uint256_tests util_check_tests
+    FAILS     146 transaction_tests
+batch 8 exit=201 suites=util_expected_tests util_string_tests util_tests util_threadnames_tests util_trace_tests validation_block_tests validation_chainstate_tests validation_chainstatemanager_tests validation_flush_tests validation_tests validationinterface_tests versionbits_tests db_tests coinselector_tests coinselection_tests
+    FAILS       6 util_tests
+    FAILS       1 validation_tests
+batch 9 exit=137 suites=feebumper_tests group_outputs_tests init_tests ismine_tests psbt_wallet_tests scriptpubkeyman_tests spend_tests wallet_crypto_tests wallet_rpc_tests wallet_tests wallet_transaction_tests walletdb_tests walletload_tests
+    FAILS       1 scriptpubkeyman_tests
+    FAILS       1 psbt_wallet_tests
+    ABORT unknown location(0): fatal error: in "psbt_wallet_tests/psbt_updater_test": signal: SIGABRT (application abort requested)
+    ABORT unknown location(0): fatal error: in "scriptpubkeyman_tests/DescriptorScriptPubKeyManTests": signal: SIGABRT (application abort requested)
+    INCOMPLETE_SUITE scriptpubkeyman_tests
+CATALOG_DONE 2026-10-23T15:49:55+05:30
