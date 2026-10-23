@@ -16,11 +16,13 @@ into the release notes. It changes nothing itself.
 """
 import argparse, json, subprocess, sys
 
-def rpc(cli, method, *params):
+def rpc(cli, method, *params, raw=False):
     out = subprocess.run(cli.split() + [method, *map(str, params)],
                          capture_output=True, text=True)
     if out.returncode != 0:
         sys.exit(f"RPC {method} failed: {out.stderr.strip()}")
+    if raw:  # e.g. getblockhash returns a bare hash, not JSON
+        return out.stdout.strip().strip('"')
     return json.loads(out.stdout)
 
 def main():
@@ -35,7 +37,7 @@ def main():
     if tip_h < a.safety_blocks:
         sys.exit(f"chain too short: tip {tip_h} < safety margin {a.safety_blocks}")
     anchor_h = tip_h - a.safety_blocks
-    anchor_hash = rpc(a.cli, "getblockhash", anchor_h)
+    anchor_hash = rpc(a.cli, "getblockhash", anchor_h, raw=True)
     hdr = rpc(a.cli, "getblockheader", anchor_hash)
     value = hdr["chainwork"]  # cumulative work up to and including anchor block
 

@@ -1,0 +1,8 @@
+nMinimumChainWork derivation (copy into the release notes):
+  node tip:            height 117  000001bdb5bf5ad161f1e7de118f494cac790c0af0e3c44c65f2ea95dfc7aebc
+  node tip chainwork:  0x000000000000000000000000000000000000000000000000000000003b001d80
+  safety margin:       100 blocks
+  anchor block:        height 17  0000013c331e1e0de4a479e32b5572d80ace333addfec6499f2d2518c440428a
+  VALUE (chainwork at anchor): uint256{"0x0000000000000000000000000000000000000000000000000000000009000480"}
+  rule: THREAT-MODEL.md section 6 — value is read from the real
+        designated chain; never invent or reuse across chains.
