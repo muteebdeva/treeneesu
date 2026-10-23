@@ -49,8 +49,12 @@
    "scope": "12 repaired/key suites: pow_tests, miner_tests, bip32_tests, bip324_tests, descriptor_tests, key_tests, key_io_tests, transaction_tests, validation_tests, denialofservice_tests, bloom_tests, coins_tests"
   },
   "undefined_behavior_sanitizer": {
-   "reason": "Two full builds plus the ASan build saturated the 2-core VM for the whole session; a third sanitizer build was deferred rather than faked. Recorded as an open item in BLOCKERS.md.",
-   "status": "NOT RUN"
+   "build": "bitcoin-core/build-ubsan (cmake -DSANITIZERS=undefined -O1, workspace sysroot), exit 0. The build was interrupted once by a VM replacement at ~75% and completed incrementally from surviving objects after relaunch.",
+   "log": "logs/ubsan-subset.log (build: logs/ubsan-build.log)",
+   "note": "UBSAN_OPTIONS=halt_on_error=false:print_stacktrace=1, so any UB report would be printed with a stack trace without aborting the suite; none occurred.",
+   "result": "all 12 suites exit 0; zero UBSan runtime errors",
+   "scope": "same 12 repaired/key suites as the ASan run: pow_tests, miner_tests, bip32_tests, bip324_tests, descriptor_tests, key_tests, key_io_tests, transaction_tests, validation_tests, denialofservice_tests, bloom_tests, coins_tests",
+   "status": "RUN (2026-10-23, completion phase)"
   }
  },
  "treeneesu_commits": [
@@ -83,5 +87,11 @@
   "verdict": "Test module has passed: 826/827 test cases passed, 1 passed with warnings",
   "warnings_case": "script_assets_tests self-skips with a warning because DIR_UNIT_TEST_DATA is unset (upstream optional data test; same behavior on stock Bitcoin Core)"
  },
- "version": "v0.1.0-rc1 (final parameters)"
+ "version": "v0.1.0-rc1 (final parameters)",
+ "completion_phase_2026_10_23": {
+  "ubsan": "DONE — see sanitizers.undefined_behavior_sanitizer (12/12 suites exit 0, zero runtime errors)",
+  "supply_rules": "VERIFIED — subsidy/halving/MAX_MONEY read from source and reproduced by an independent Python model: boundary subsidies 50 -> 25 -> 12.5 TNSU, last nonzero era 32 (1 sat), total issuance 4199999995380000 sats == validation_tests constant (AUDIT-REPORT.md addendum 2)",
+  "retarget_soak": "IN PROGRESS at the time of this update — independent grinder (retarget-test/grind_chain.cpp, cross-validated against the Python model and the daemon) building an 8,070-block chain, checkpointed in retarget-test/blocks.txt; assertion script retarget-test/submit_and_assert.sh checks bits 0x1e01ffff at 8063 and the model-predicted 0x1d7fffc0 at 8064 and 8070 on two fresh nodes. NOT yet a pass — no result is claimed until the run lands.",
+  "private_testnet": "IN PROGRESS at the time of this update — testnet-run.sh (3 nodes on loopback IPs, mesh + sync + 10 TNSU transfer + wallet backup/restore + restart persistence) re-running after a VM replacement wiped its /tmp datadirs mid-run; operator guide written (TESTNET-GUIDE.md). Network namespaces are unavailable on this VM (setns: Operation not permitted), documented in the guide. NOT yet a pass — see logs/testnet-run.log for the landed result."
+ }
 }

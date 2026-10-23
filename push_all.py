@@ -19,7 +19,7 @@ ROOT = os.path.expanduser("~/workspace/treeneesu")
 CACHE = os.path.expanduser("~/.cache/tnsu-push/blobs.json")
 REPO = "muteebdeva/treeneesu"
 BASE = "https://api.github.com"
-EXCLUDE_DIRS = {".git", "__pycache__", "build", "build-asan", "build-final"}
+EXCLUDE_DIRS = {".git", "__pycache__", "build", "build-asan", "build-final", "build-ubsan"}
 EXCLUDE_FILES = {"bitcoin-core/test/config.ini"}
 
 def api(method, path, body=None, timeout=180):

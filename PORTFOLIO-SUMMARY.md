@@ -22,10 +22,18 @@ entirely on a 2-core VM at zero budget.
   implementation that reproduced Bitcoin's vectors byte-for-byte before
   generating Treeneesu's, 110 re-ground miner nonces, and two surgical
   fixture corrections (miner activation heights; a fake-clock interval).
-  Result: 151/152 suites pass in one process.
+  Result: **152/152 suites pass** (826/827 cases; the one warning case is
+  an upstream optional-data self-skip), re-verified on a clean rebuild
+  from committed source.
 - Found and characterized a genuine consensus-design defect (powLimit
   overflow at first retarget) and escalated it as a decision instead of
-  silently changing consensus.
+  silently changing consensus. The owner chose the fix (Option A: bits
+  0x1e01ffff); the genesis was re-ground and verified three ways (source
+  == independent Python == compiled daemon), and the pow_tests/miner_tests
+  expectations were recomputed with an independent Python difficulty
+  model that first reproduced all upstream values.
+- Ran both sanitizers on the repaired/key 12-suite subset: ASan clean,
+  UBSan clean (zero reports, all exit 0).
 - Proved the chain works live: two nodes, no seeds, real proof-of-work,
   109 blocks, cross-node sync, a confirmed payment with satoshi-exact
   balances, restart recovery (scripted, re-runnable: `twonode-demo.sh`).
@@ -35,9 +43,15 @@ entirely on a 2-core VM at zero budget.
 
 **What I cannot claim.**
 - Not a security audit; the "review" is a self-review with disclosed limits.
-- Not production software: one blocking consensus parameter defect awaits
-  an owner decision; developer chains (regtest/testnet) are not yet
-  replaced; difficulty is intentionally trivial, so the chain has no
-  meaningful attack resistance; the coins have no value.
-- Nothing is published: all post-Patch-1 work is uncommitted in a local
-  working tree, awaiting the owner's review.
+- Not production software: developer chains (regtest/testnet classes) are
+  not yet replaced and still carry upstream parameters; difficulty is
+  intentionally trivial, so the chain has no meaningful attack
+  resistance; the coins have no value. Sanitizer coverage is a 12-suite
+  subset, not the full suite; the live retarget soak past block 8064 was
+  still running when this summary was updated (2026-10-23).
+- Published only to a **private** GitHub repository
+  (muteebdeva/treeneesu) with the owner's authorization: local commits
+  5790ce2, eca8485, 35f49eb, 03727d8; remote main import 32451353… and
+  completion commit bee94064…, plus later completion-phase updates.
+  No tag, no GitHub Release, no public network — those remain separate
+  owner decisions.

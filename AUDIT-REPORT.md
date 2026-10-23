@@ -45,3 +45,18 @@ Note on method: chainparams.cpp contains three 130-hex pubkey-like strings
 and signet material). An extraction that grabs the wrong one produces a wrong
 merkle root — the audit used the key the CMainParams constructor actually
 passes, and the merkle assert confirms the choice.
+
+## Addendum 2 — monetary-supply verification (2026-10-23, completion phase 2)
+
+Source facts: `MAX_MONEY = 42,000,000 × COIN` (src/consensus/amount.h);
+`nSubsidyHalvingInterval = 420000` (chainparams main); GetBlockSubsidy is
+upstream logic (50 × COIN >> halvings, forced 0 at ≥64 halvings;
+src/validation.cpp:1833 — its inline comment still says "210,000", an
+upstream comment in an unmodified function; the code uses the parameter).
+
+Independent Python model of the same schedule:
+- subsidy(419999) = 50 TNSU; subsidy(420000) = 25; subsidy(840000) = 12.5
+- last nonzero era: halving 32 pays 1 satoshi/block; halving 33 pays 0
+- **total issuance = 4,199,999,995,380,000 sats = 41,999,999.9538 TNSU**,
+  exactly the constant validation_tests asserts against the C++ code
+  (that test passes in the 152/152 run), and strictly below MAX_MONEY.

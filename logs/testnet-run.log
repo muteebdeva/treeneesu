@@ -1,0 +1,9 @@
+Bitcoin Core starting
+Bitcoin Core starting
+Bitcoin Core starting
+== genesis agreement (3 nodes) ==
+all three nodes on Treeneesu genesis 00000091bddca562e9b5a2c98b31e5e5c831ffc015c6fd8853ef18d6df22dfee
+peer counts: A=2 B=1 C=1
+A addr: tnsu1q7g0l24c97wphu3uxxpdkxqqcna98dmc9tysu0z
+B addr: tnsu1qjjcwgwk5n748fmt9848568r7lv589z43ad5vly
+== mine 105 on A, all sync ==

@@ -1,0 +1,37 @@
+=== SUITE pow_tests ===
+EXIT:0 pow_tests
+RUNTIME_ERRORS:pow_tests:0
+=== SUITE miner_tests ===
+EXIT:0 miner_tests
+RUNTIME_ERRORS:miner_tests:0
+=== SUITE bip32_tests ===
+EXIT:0 bip32_tests
+RUNTIME_ERRORS:bip32_tests:0
+=== SUITE bip324_tests ===
+EXIT:0 bip324_tests
+RUNTIME_ERRORS:bip324_tests:0
+=== SUITE descriptor_tests ===
+EXIT:0 descriptor_tests
+RUNTIME_ERRORS:descriptor_tests:0
+=== SUITE key_tests ===
+EXIT:0 key_tests
+RUNTIME_ERRORS:key_tests:0
+=== SUITE key_io_tests ===
+EXIT:0 key_io_tests
+RUNTIME_ERRORS:key_io_tests:0
+=== SUITE transaction_tests ===
+EXIT:0 transaction_tests
+RUNTIME_ERRORS:transaction_tests:0
+=== SUITE validation_tests ===
+EXIT:0 validation_tests
+RUNTIME_ERRORS:validation_tests:0
+=== SUITE denialofservice_tests ===
+EXIT:0 denialofservice_tests
+RUNTIME_ERRORS:denialofservice_tests:0
+=== SUITE bloom_tests ===
+EXIT:0 bloom_tests
+RUNTIME_ERRORS:bloom_tests:0
+=== SUITE coins_tests ===
+EXIT:0 coins_tests
+RUNTIME_ERRORS:coins_tests:0
+UBSAN_SUBSET_DONE

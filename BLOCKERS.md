@@ -24,11 +24,17 @@ Note: "clean checkout" here means a fresh build directory on this
 machine; the build needs Boost + SQLite3 headers (see README for the
 sysroot note).
 
-## B4. Sanitizers — ✅ ASan CLOSED; UBSan OPEN (disclosed, not run)
+## B4. Sanitizers — ✅ CLOSED (ASan + UBSan, 2026-10-23)
 ASan build exit 0; 12-suite repaired/key subset all exit 0 with zero
-sanitizer reports (logs/asan-subset.log). UBSan was NOT run: three full
-builds saturated the 2-core VM all session. Recommended before any
-public-network step.
+sanitizer reports (logs/asan-subset.log). UBSan completed in the
+completion phase: build-ubsan (SANITIZERS=undefined, -O1) exit 0 — the
+build survived one VM replacement at ~75% and finished incrementally —
+and the same 12-suite subset ran with
+UBSAN_OPTIONS=halt_on_error=false:print_stacktrace=1: all 12 suites
+exit 0, zero UBSan runtime errors (logs/ubsan-subset.log,
+logs/ubsan-build.log). Scope note: sanitizers were run on the 12-suite
+subset, not the full 152 suites; that scope is disclosed wherever the
+result is cited.
 
 ## B5. Commit / push — ✅ CLOSED for this mission (2026-10-23)
 Owner authorized the push ("do fast and push all in github", "whenever
