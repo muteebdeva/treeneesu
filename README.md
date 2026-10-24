@@ -94,8 +94,8 @@ against the public Bitcoin repository.
 | Multi-node synchronisation (3 nodes, local) | ✅ Working | `logs/testnet-run.log` — all checks passed |
 | Invalid-block rejection | ✅ Working | demo log (nonce-mutated block rejected `high-hash`) |
 | Full unit test suite | ✅ 152/152 suites | `logs/final-fullrun/full2.log`, [TEST-SUMMARY.json](TEST-SUMMARY.json) |
-| Sanitizer runs (ASan / UBSan) | ✅ 12-suite subsets clean; full-suite runs in progress | `logs/asan-subset.log`, `logs/ubsan-subset.log` |
-| Difficulty-retarget soak (8,070 blocks, two validating nodes) | ⏳ In progress | `retarget-test/`, [TEST-SUMMARY.json](TEST-SUMMARY.json) |
+| Sanitizer runs (ASan / UBSan) | ✅ Full suite on the final tree: ASan zero errors; UBSan exit 0, one triaged upstream report | `logs/asan-full-f05.log`, `logs/ubsan-full-f05.log` |
+| Difficulty-retarget soak (8,070 blocks, two validating nodes) | ✅ Passed 2026-10-24 | `logs/retarget-assert-v2.log` — bits moved exactly as the independent model predicted |
 | Auxiliary-chain network isolation (audit F-05) | ✅ Done | source commit `2ecd619`, [BLOCKERS.md](BLOCKERS.md) B2 |
 | Public testnet / seed infrastructure | ❌ Not deployed (needs owner-provisioned server + DNS) | `deploy/README.md` |
 
@@ -288,8 +288,11 @@ verdict **B — public source-code release only**. Open items, honestly:
   History rewrite is trivial; no confirmation count fixes this
   ([THREAT-MODEL.md](THREAT-MODEL.md) §5). A value-bearing chain would
   have to be a *successor* chain with real, committed hashpower.
-- **Retarget soak in progress.** The 8,070-block live-consensus test is
-  still running; its assertions close audit Gate B when they complete.
+- **Retarget soak: passed (2026-10-24).** The 8,070-block live-consensus
+  test completed with every assertion matching the independent model
+  (`logs/retarget-assert-v2.log`); audit Gate B is met. Its first attempt
+  failed at block 1 — a bug in the test grinder, caught by the node's own
+  validation — and that history is preserved in the repository.
 - **No public network.** Nothing is deployed; seed infrastructure is
   owner-gated (`deploy/` contains the prepared, unprovisioned package).
 - **Auxiliary chain classes are legacy.** `-chain=test` etc. carry
@@ -314,11 +317,14 @@ verdict **B — public source-code release only**. Open items, honestly:
 - ASan/UBSan subsets clean; production-readiness audit (verdict B)
 - Threat model; F-05 network isolation; F-04 deployment package;
   F-06 prefix decision; min-chain-work tool (live-tested)
+- 8,070-block retarget soak passed with two-node assertions (Gate B met)
+- Full-suite ASan (zero errors) and UBSan (exit 0, one triaged upstream
+  report) runs on the final tree
 - This documentation pass
 
 **In progress**
-- 8,070-block retarget soak and its two-node assertions (Gate B)
-- Full-suite ASan and UBSan runs on the final tree
+- Nothing engineering-side; the remaining items are owner decisions
+  (below)
 
 **Planned / owner decisions**
 - Public experimental testnet — requires the owner to provision a seed

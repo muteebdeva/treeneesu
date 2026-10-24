@@ -406,3 +406,52 @@ relative to upstream.
 and no others; it is not a guarantee that the code is free of defects —
 it is a statement of what the available evidence does and does not
 establish.*
+
+---
+
+## ADDENDUM — Readiness-phase results (2026-10-24)
+
+Added after the production-readiness engineering phase executed the
+plan this audit informed. The original verdict is **unchanged**.
+
+**Gate A (source release): met** (unchanged).
+
+**Gate B (consensus soak): MET.** The F-02 retarget soak completed
+(logs/retarget-assert-v2.log, exit 0): 8,070 offline-ground blocks were
+submitted to a fresh node and fully accepted; bits at 8063/8064/8070
+were 1e01ffff / 1d7fffc0 / 1d7fffc0 — exactly the independent model's
+prediction (timespan clamped to ¼); a second node synced the identical
+tip; the tip persisted a restart. The process caught a real defect on
+the way: the first chain was rejected at block 1 (bad-cb-height)
+because the *test grinder* encoded BIP34 heights 1–16 as data pushes
+instead of OP_1..OP_16. Node validation was correct; the grinder was
+fixed, proven on a 20-block chain, and the chain re-ground. The invalid
+v1 chain is preserved (retarget-test/blocks-v1-bip34bug.txt) and the
+episode is mapped in DEFECT-REGRESSION-MAP.md terms: live validation
+is the guard.
+
+**Sanitizer scope (F-08): closed.** Full-suite runs on the final
+(F-05) tree: UBSan exit 0 (one report — src/streams.cpp:99, untouched
+upstream code, empty-span fwrite, triaged benign in TEST-SUMMARY.json);
+ASan exit 0, zero errors. Fuzzing remains unexecuted locally (no
+clang/libFuzzer in the environment) and is noted as a CI-coverage item,
+not a result.
+
+**Other findings:** F-01 dispositioned as a permanent design property
+(F01-POW-ANALYSIS.md; successor-chain preconditions defined — raising
+difficulty in place was analysed and rejected). F-03 closed (tool
+written, live-tested, one tool bug found and fixed). F-04 package
+prepared; infrastructure remains owner-gated. F-05 closed (network
+isolation, source commit 2ecd619). F-06 dispositioned (keep prefixes;
+owner registers).
+
+**Gate C (public testnet): NOT MET — blocked on owner infrastructure**
+(seed host + DNS; deploy/ package is ready, nothing provisioned).
+**Gate D (independent review): NOT MET** — all review remains
+single-author. **Gates E/F: not reachable and not sought** for this
+chain.
+
+**Final decision: the audited verdict stands — B, READY FOR PUBLIC
+SOURCE-CODE RELEASE ONLY.** This addendum strengthens the engineering
+evidence behind that verdict; it does not raise it. The personal
+answer also stands: this commit must not secure real funds.

@@ -1,0 +1,22 @@
+files: 3225  bytes: 58.4 MB
+  largest: 2.9 MB  retarget-test/blocks-v1-bip34bug.txt
+  largest: 2.4 MB  bitcoin-core/src/secp256k1/src/precomputed_ecmult.c
+  largest: 1.6 MB  bitcoin-core/src/node/data/ip_asn.dat
+branch main: base commit c77d887f3f9f tree 92477038f83a
+  blobs 250/3225 (249 cached)
+  blobs 500/3225 (499 cached)
+  blobs 750/3225 (749 cached)
+  blobs 1000/3225 (999 cached)
+  blobs 1250/3225 (1249 cached)
+  blobs 1500/3225 (1499 cached)
+  blobs 1750/3225 (1749 cached)
+  blobs 2000/3225 (1999 cached)
+  blobs 2250/3225 (2249 cached)
+  blobs 2500/3225 (2499 cached)
+  blobs 2750/3225 (2749 cached)
+  blobs 3000/3225 (2999 cached)
+blobs done: 3225 (3213 from cache)
+tree: 619b80000382 (built from 237 directory trees)
+commit: 5992144d2885
+ref updated -> https://github.com/muteebdeva/treeneesu/tree/main
+PUSH_EXIT:0

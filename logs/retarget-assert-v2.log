@@ -1,0 +1,24 @@
+Bitcoin Core starting
+Bitcoin Core starting
+== submitting ground chain ==
+  submitted 1000
+  submitted 2000
+  submitted 3000
+  submitted 4000
+  submitted 5000
+  submitted 6000
+  submitted 7000
+  submitted 8000
+submitted 8070 blocks; node1 height: 8070
+bits @8063: 1e01ffff | @8064: 1d7fffc0 | @8070: 1d7fffc0
+RETARGET ASSERTION PASSED: 0x1e01ffff -> 0x1d7fffc0 at block 8064, stable beyond
+== node2 sync ==
+node2 synced to 8070 with identical tip and retarget bits
+== restart node1 ==
+Bitcoin Core stopping
+Bitcoin Core starting
+height 8070 persisted after restart
+Bitcoin Core stopping
+Bitcoin Core stopping
+RETARGET TEST RESULT: ALL CHECKS PASSED
+RETARGET_EXIT:0

@@ -67,3 +67,21 @@ clean on the key subset — but remains OPEN on the retarget soak (in
 progress) and full-suite sanitizer scope. Gates 2–5 unstarted; Gate 6
 (human approval) untouched.**
 Recommendation on present evidence: keep Treeneesu a local/test network.
+
+**Update (2026-10-24, readiness phase): Gate 1 is now MET on its stated
+technical criteria.** The retarget soak completed and passed
+(logs/retarget-assert-v2.log): an 8,070-block chain built offline was
+submitted to fresh nodes and fully accepted; bits moved exactly as the
+independent model predicted — 1e01ffff at block 8063, 1d7fffc0 at 8064
+and 8070; a second node synced the identical tip; the tip persisted a
+restart. (The first ground chain was rejected at block 1 —
+bad-cb-height, a BIP34-encoding bug in the test grinder for heights
+1–16, not in node code; corrected, re-proven on 20 blocks, re-ground,
+and only then asserted.) Sanitizer scope is now full-suite on the
+final tree: UBSan exit 0 with one triaged upstream report
+(streams.cpp:99, benign empty-span fwrite; TEST-SUMMARY.json), ASan
+exit 0 with zero errors. Gates 2–5 remain unstarted (Gate C public
+testnet is owner-infrastructure-gated); Gate 6 untouched. The
+production-readiness verdict is unchanged: B — public source-code
+release only. Gate 1 closing changes nothing about the chain's fitness
+for value, which THREAT-MODEL.md rules out by design.

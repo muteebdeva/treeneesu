@@ -100,16 +100,21 @@ the report above was written:
   The first attempt was killed mid-run by a VM replacement (its /tmp
   datadirs were wiped) and re-run from scratch; that history is kept,
   not hidden.
-- **Retarget soak: in progress.** An independent grinder
-  (retarget-test/grind_chain.cpp, cross-validated three ways) is
-  building an 8,070-block chain across the first retarget boundary;
-  blocks are checkpointed in retarget-test/blocks.txt and survive VM
-  replacements (the grinder resumes from its own output — it already
-  has, twice). submit_and_assert.sh will verify bits at heights
-  8063/8064/8070 (predicted 0x1e01ffff → 0x1d7fffc0) on two fresh
-  nodes. **No result is claimed until that run lands**; when it does,
-  this addendum and MAINNET-READINESS-GATES.md Gate 1 will be updated
-  and pushed.
+- **Retarget soak: PASSED (2026-10-24).** The result has landed:
+  logs/retarget-assert-v2.log records all 8,070 blocks accepted by a
+  fresh node, bits 1e01ffff @8063 → 1d7fffc0 @8064 and @8070 exactly as
+  the independent model predicted, a second node synced to the
+  identical tip, and the tip persisted a restart (RETARGET_EXIT:0).
+  The road there is part of the record: the first ground chain was
+  rejected at block 1 (bad-cb-height — the grinder encoded the BIP34
+  height wrongly for heights 1–16; node validation was correct), the
+  grinder was fixed and proven on a 20-block chain, and the full chain
+  was re-ground under a self-healing supervisor across repeated VM
+  replacements. MAINNET-READINESS-GATES.md Gate 1 is updated to MET.
+  Full-suite sanitizer runs on the final tree also completed in this
+  phase (UBSan exit 0, one triaged upstream report; ASan exit 0, zero
+  errors). The overall readiness verdict does not change: B — public
+  source-code release only.
 - **Pushes.** This phase's work was pushed to the private repo in commit
   033e16ada192766977d8d46a4e6ab5b374fd3445 (on top of completion commit
   bee9406417e4…), remote-verified blob by blob.
