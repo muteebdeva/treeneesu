@@ -16,8 +16,24 @@
 > An independent audit of this codebase concluded: *ready for public
 > source-code release only* — see [AUDIT-PRODUCTION-READINESS.md](AUDIT-PRODUCTION-READINESS.md).
 
+## Watch: Treeneesu in 87 seconds
+
+An explainer video: why running Bitcoin locally demands massive server farms
+and financial risk, how Treeneesu lowers proof-of-work difficulty and isolates
+its network (own genesis block, network magic, no Bitcoin seed nodes), and how
+a local peer network lets a developer mine blocks and watch consensus unfold
+with zero financial risk.
+
+<video controls preload="metadata" width="100%" src="docs/assets/treeneesu-explainer.mp4">
+  Your browser does not support embedded video.
+  <a href="docs/assets/treeneesu-explainer.mp4">Watch the Treeneesu explainer video (MP4, 17 MB, 87 seconds)</a>.
+</video>
+
+[Watch the Treeneesu explainer video](docs/assets/treeneesu-explainer.mp4) (MP4, 17 MB, 87 seconds).
+
 ## Contents
 
+- [Watch: Treeneesu in 87 seconds](#watch-treeneesu-in-87-seconds)
 - [What is Treeneesu?](#what-is-treeneesu)
 - [What Treeneesu demonstrates](#what-treeneesu-demonstrates)
 - [What Treeneesu does not guarantee](#what-treeneesu-does-not-guarantee)
