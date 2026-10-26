@@ -24,12 +24,9 @@ its network (own genesis block, network magic, no Bitcoin seed nodes), and how
 a local peer network lets a developer mine blocks and watch consensus unfold
 with zero financial risk.
 
-<video controls preload="metadata" width="100%" src="docs/assets/treeneesu-explainer.mp4">
-  Your browser does not support embedded video.
-  <a href="docs/assets/treeneesu-explainer.mp4">Watch the Treeneesu explainer video (MP4, 17 MB, 87 seconds)</a>.
-</video>
+![Treeneesu explainer video](https://github.com/user-attachments/assets/043ec11c-5f65-43b8-bb32-1107c322e517)
 
-[Watch the Treeneesu explainer video](docs/assets/treeneesu-explainer.mp4) (MP4, 17 MB, 87 seconds).
+[Watch the Treeneesu explainer video](https://github.com/user-attachments/assets/043ec11c-5f65-43b8-bb32-1107c322e517) (87 seconds). The original file is also in this repo at [docs/assets/treeneesu-explainer.mp4](docs/assets/treeneesu-explainer.mp4).
 
 ## Contents
 
